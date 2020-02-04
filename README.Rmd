@@ -18,14 +18,18 @@ knitr::opts_chunk$set(
 
 Public facing website for CEID's 2019 Novel Coronavirus rapid response.
 
-Objective:  
+Contact: Eric Marty (emarty@uga.edu)
+
+Contributors: Ben Taylor (bzt@uga.edu)
+
+## Objective:  
 A Single public facing web dashboard showing the results of all CEID 2019 nCoV projects
 
-Rationale:  
+## Rationale:  
 Results need to be presented in one centralized place, with internal details insulated from view. Pulling pre-rendered HTML of static image outputs from the various projects into a purpose-built repository allows this.
 
-Strategy:  
-Website will be built in R using RMarkdown, without shiny.  HTML outputs from the various research  projects will be embedded. Each project will have its own tab, and will display figures, a link to any public repositories, and link to any preprints.  Built in Rmarkdown without Shiny for rapid deployment. Hosting will be on GitHub Pages initially.
+## Strategy:  
+Website will be built in R using RMarkdown, without shiny.  HTML outputs from the various research  projects will be embedded. Each project will have its own tab, and will display figures, a link to any public repositories, and link to any preprints.  Built in Rmarkdown without Shiny for rapid deployment. Hosting will be on GitHub Pages with a custom domain.
 
 
 ## Source projects / website structure :
