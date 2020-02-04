@@ -9,9 +9,9 @@
 
 Public facing website for CEID’s 2019 Novel Coronavirus rapid response.
 
-Contact: Eric Marty (<emarty@uga.edu>)
+THIS REPOSITORY WILL BE MADE PUBLIC.
 
-Contributors: Ben Taylor (<bzt@uga.edu>)
+Eric Marty <emarty@uga.edu>, Ben Taylor <bzt@uga.edu>
 
 ## Objective:
 
@@ -34,10 +34,48 @@ repositories, and link to any preprints. Built in Rmarkdown without
 Shiny for rapid deployment. Hosting will be on GitHub Pages with a
 custom domain.
 
+### Resources for site construction:
+
+Authoring:  
+<https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html>
+
+Github Pages publishing:  
+<https://resources.github.com/whitepapers/github-and-rstudio/>
+
+Styling:  
+<http://jekyllthemes.org/>  
+<https://design.online.uga.edu>
+
 ## Source projects / website structure :
 
 Each project will have its own tab, with figures, link to repository and
 link to preprint(s).
+
+### Data Summary
+
+Graphical and statistical summaries of key data sources for CEID
+2019-nCoV projects
+
+<https://github.com/CEIDatUGA/ncov-data-summary>
+
+### Context
+
+Comparative risk: nCoV versus other
+outbreaks
+
+<https://docs.google.com/spreadsheets/d/18rhrw1d9uDtm8ffLaFmFXjcY8zFCcYqesEoso2EICE0/edit#gid=1601846768>
+
+### Parameters
+
+Estimates of rates, etc.
+
+<https://github.com/DrakeLab/ceid-ncov-recoveryrates>
+
+### Stochastic Model
+
+A stochastic model for the transmission of a novel coronavirus in Wuhan
+
+<https://github.com/jdrakephd/wuhan-stochastic-model/>
 
 ### Nowcast
 
@@ -49,21 +87,13 @@ Nowcasting the 2019 Wuhan novel coronavirus outbreak
 
 <https://github.com/CEIDatUGA/CoronavirusSpatial>
 
+### Spatial Risk model (Gravity Model) for US/World
+
+<https://github.com/CEIDatUGA/CoronavirusSpatial>
+
 ### Import risk model (US, possibly global)
 
 To be created with airport data, flight volume data from CDC and other
 sources, with inputs from Nowcast, Gravity model, and other data.
 
 <https://github.com/CEIDatUGA/ncov-global-risk>
-
-### Statistical Model (Epi Model)
-
-A stochastic model for the transmission of a novel coronavirus in Wuhan
-
-<https://github.com/jdrakephd/wuhan-stochastic-model/>
-
-### Parameters
-
-Estimates of rates, etc.
-
-<https://github.com/DrakeLab/ceid-ncov-recoveryrates>
