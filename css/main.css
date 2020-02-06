@@ -78,7 +78,9 @@
 
 .navbar-default{
   background-color:rgba(0,0,0,.90);
-  border-color:#BA0C2F;
+  border-width: 0 0 4px;
+  border-style: solid;
+  border-color: #BA0C2F;
   padding-bottom:5px;
 }
 
@@ -150,8 +152,15 @@ pre.r{
 /* footer styles */
 
 #pageFooter{
-  border-top: 1px solid #BA0C2F;
-  padding: 15px 0 0 0;;
+  border-width: 4px 0 0;
+  border-style: solid;
+  border-color: #BA0C2F;
+  padding: 15px 0 0 0;
   margin-top:20px;
 }
+
+@media (min-width: 768px) {
+.col-md-4 {
+          border-left: 1px rgba(0, 0, 0, 0.3) solid;
+ }  }
 
