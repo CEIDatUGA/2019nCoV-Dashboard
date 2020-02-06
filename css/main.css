@@ -8,6 +8,16 @@
 @import url("//fonts.googleapis.com/css?family=Merriweather+Sans:300|Merriweather:300|Oswald:400,500&display=swap");
 
 
+
+/*edit the jumbotron to edit homepage image*/
+.jumbotron {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Glaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_05-07_PAN.jpg/2048px-Glaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_05-07_PAN.jpg");
+  background-size: cover;
+}
+
+
+
+
 /*clearing the nav bar */
 #header::before{
   content: "";
@@ -19,7 +29,7 @@
   clear: both;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1200px){
   #header::before{
     height: 120px;
     display: block;
@@ -29,7 +39,7 @@
 }
 }
 
-@media screen and (max-width: 968px){
+@media screen and (max-width: 990px){
 #header::before{
     height: 140px;
     display: block;
@@ -41,7 +51,7 @@
 
 @media screen and (max-width: 768px){
 #header::before{
-    height: 40px;
+    height: 30px;
     display: block;
     padding: 0px;
     margin: 0px 0px 0px 10px;
@@ -59,19 +69,49 @@
 }
 }
 
+
+
+
 /*end clearing the nav bar */
+
+/* navbar styling */
+
 .navbar-default{
   background-color:rgba(0,0,0,.90);
   border-color:#BA0C2F;
+  padding-bottom:5px;
 }
 
-/* change the background color */
+
+/*navbar selected item color*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+  color:#000;
+  background-color: #fff;
+}
+
+/*navbar hover effect*/
+
+.navbar-nav{
+  transition: all 0.2s ease;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color:#000;
+    background-color: #fff;
+    transition: all 0.2s ease;
+}
+
+
+/* change the navbar color */
 .navbar {
     background-color: #000;
 }
 
+/*section padding*/
 .level3{
   padding-top:2.0em;
+  padding-bottom:1.2em;
+  margin-bottom:10px;
 }
 
 h1,h2,h3,h4,h5,h6,a, a:active{
@@ -97,8 +137,8 @@ div {
     /*padding:10px 0 10px 0;*/
 }
 
-p{
-  padding:10px 0 10px 0;
+p,.navbar-nav>li>a{
+  padding:10px 14.5px 10px 14.5px;
 }
 
 /* code formatting */ 
