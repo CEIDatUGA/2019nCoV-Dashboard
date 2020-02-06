@@ -1,1 +1,87 @@
-li{font-size:3em;}
+@import url("//fonts.googleapis.com/css?family=Merriweather+Sans:300|Merriweather:300|Oswald:400,500&display=swap");
+
+
+/*clearing the nav bar */
+#header::before{
+  content: "";
+  height: 91px;
+  display: block;
+  width: 20px;
+  padding: 0px;
+  margin: 0px 0px 0px 10px;
+  clear: both;
+}
+
+@media screen and (max-width: 1023px){
+  #header::before{
+    height: 120px;
+    display: block;
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+    clear: both;
+}
+}
+
+@media screen and (max-width: 968px){
+#header::before{
+    height: 140px;
+    display: block;
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+    clear: both;
+}
+}
+
+@media screen and (max-width: 768px){
+#header::before{
+    height: 40px;
+    display: block;
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+    clear: both;
+}
+}
+
+@media screen and (max-width: 500px){
+  #header::before{
+    height: 10px; /* height of footer */
+    display: block;
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+    clear: both;
+}
+}
+
+/*end clearing the nav bar */
+.navbar-default{
+  background-color:rgba(0,0,0,.90);
+  border-color:#BA0C2F;
+}
+
+
+h1,h2,h3,h4,h5,h6,a, a:active{
+    font-family:'Oswald','Roboto',Arial,sans-serif;
+}
+
+.r, p, span, li, ol, ul,body, div, span{
+  font-family:'Merriweather Sans', Arial, sans-serif;
+  font-weight:300;
+}
+
+div {
+    display: block;
+    /*padding:10px 0 10px 0;*/
+}
+
+#pageFooter{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;}
+  
+p{
+  padding:10px 0 10px 0;
+}
+  
+  
