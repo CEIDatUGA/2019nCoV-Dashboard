@@ -3,12 +3,6 @@
 
 ### China
 
-code chunk
-
-### World 
-
-code chunk
-
 
 ```{r echo=FALSE}
 knitr::include_url("nCov-Mapping-China.html")
