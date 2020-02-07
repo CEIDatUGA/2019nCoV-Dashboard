@@ -12,6 +12,13 @@ title: "2019 nCoV (Wuhan Coronavirus)"
   </p>
 </div>
 
+## SIDEBAR or in footer: Links to other resources
+
+## SIDEBAR: News items / posts
+
+network
+risk map admin2, proba path plot at admin1
+
 #### Novel coronavirus outbreak in Wuhan, China (2019-nCov)
 
 On January 21, 2020, CDC activated its emergency response system due to the widespread circulation of a novel coronavirus (known as 2019-nCov) which first emerged in Wuhan, China, and has now spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. 

@@ -1,7 +1,7 @@
 output_dir: '_site'
 name: "CEID 2019 nCoV"
 navbar:
-  title: "CEID 2019 nCoV (Wuhan Coronavirus)"
+  title: "CEID 2019 Novel Coronavirus Tracker"
   left:
     - text: "About"
       href: index.html
@@ -9,8 +9,8 @@ navbar:
       href: data.html
     - text: "Context"
       href: context.html
-    - text: "Parameters"
-      href: web-summary.html
+    - text: "Epidemic Characteristics"
+      href: parameters.html
     - text: "Stochastic Model"
       href: epimodel.html
     - text: "Nowcasting"
