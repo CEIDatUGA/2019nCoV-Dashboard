@@ -1,4 +1,4 @@
-output_dir: '*'
+output_dir: '.'
 name: "CEID 2019 nCoV"
 navbar:
   title: "CEID 2019 Novel Coronavirus Tracker"
