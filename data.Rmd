@@ -1,0 +1,27 @@
+
+## Data Summary {.tabset .tabset-fade}
+
+### China
+
+```{r echo=FALSE}
+knitr::include_url("nCov-Mapping-China.html")
+```
+
+### World
+
+```{r echo=FALSE}
+knitr::include_url("nCov-Mapping-World.html")
+```
+
+## Supplemental Information
+
+<!-- Supplemental information: [html]() -->
+
+<!-- Preprint: [download]() -->
+
+<p>
+  <a href="https://github.com/CEIDatUGA/ncov-data-summary">
+    <img src="images/GitHub-Mark-32px.png" alt="GitHub repository"/>
+    GitHub repository (private)
+  </a>
+</p>

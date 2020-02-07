@@ -1,6 +1,6 @@
 
 ```{r echo=FALSE}
-knitr::include_url("parameters-web-summary.html")
+knitr::include_url("stochastic-web-summary.html")
 ```
 
 <!-- Supplemental information: [html]() -->
