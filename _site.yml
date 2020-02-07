@@ -10,7 +10,7 @@ navbar:
     - text: "Context"
       href: context.html
     - text: "Parameters"
-      href: parameters.html
+      href: web-summary.html
     - text: "Stochastic Model"
       href: epimodel.html
     - text: "Nowcasting"
