@@ -8,14 +8,7 @@ The CDC maintains general health and safety information concerning the coronavir
 
 Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the **Center for the Ecology of Infectious Diseases (CEID)** at the University of Georgia formed the **Coronavirus Working Group**, a group of over 15 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling. 
 
-The Working Group's **2019 Coronalvirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **2019-nCov**. 
-
-```{r exampleplot}
-plot(1:100)
-```
-
-
-The **2019 Coronalvirus Tracker** provides:
+The Working Group's **2019 Coronalvirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **2019-nCov**. Projects include:
 
 * Models for the spatial spread of 2019-nCov within China and abroad
 * A model for understanding the early stages of transmission and extrapolation to future events

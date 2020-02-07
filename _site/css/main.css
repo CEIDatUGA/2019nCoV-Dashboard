@@ -9,6 +9,15 @@
 
 
 
+/*edit the jumbotron to edit homepage image*/
+.jumbotron {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Glaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_05-07_PAN.jpg/2048px-Glaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_05-07_PAN.jpg");
+  background-size: cover;
+}
+
+
+
+
 /*clearing the nav bar */
 #header::before{
   content: "";
@@ -20,7 +29,7 @@
   clear: both;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1200px){
   #header::before{
     height: 120px;
     display: block;
@@ -30,7 +39,7 @@
 }
 }
 
-@media screen and (max-width: 968px){
+@media screen and (max-width: 990px){
 #header::before{
     height: 140px;
     display: block;
@@ -42,7 +51,7 @@
 
 @media screen and (max-width: 768px){
 #header::before{
-    height: 40px;
+    height: 30px;
     display: block;
     padding: 0px;
     margin: 0px 0px 0px 10px;
@@ -60,36 +69,98 @@
 }
 }
 
+
+
+
 /*end clearing the nav bar */
+
+/* navbar styling */
+
 .navbar-default{
   background-color:rgba(0,0,0,.90);
-  border-color:#BA0C2F;
+  border-width: 0 0 4px;
+  border-style: solid;
+  border-color: #BA0C2F;
+  padding-bottom:5px;
 }
 
+
+/*navbar selected item color*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+  color:#000;
+  background-color: #fff;
+}
+
+/*navbar hover effect*/
+
+.navbar-nav{
+  transition: all 0.2s ease;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color:#000;
+    background-color: #fff;
+    transition: all 0.2s ease;
+}
+
+
+/* change the navbar color */
+.navbar {
+    background-color: #000;
+}
+
+/*section padding*/
+.level3{
+  padding-top:2.0em;
+  padding-bottom:1.2em;
+  margin-bottom:10px;
+}
 
 h1,h2,h3,h4,h5,h6,a, a:active{
     font-family:'Oswald','Roboto',Arial,sans-serif;
 }
 
-.r, p, span, li, ol, ul,body, div, span{
+
+.r, p, span, li, ol, ul,body, div, span, code{
   font-family:'Merriweather Sans', Arial, sans-serif;
   font-weight:300;
+  line-height: 150%;
 }
+
+
+/*link styles */
+a,a:active, a:hover, a:focus{
+  color:#BA0C2F;
+}
+
 
 div {
     display: block;
-    padding:10px 0 10px 0;
+    /*padding:10px 0 10px 0;*/
 }
 
-#pageFooter{
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;}
-  
-p{
-  padding:10px 0 10px 0;
+p,.navbar-nav>li>a{
+  padding:10px 14.5px 10px 14.5px;
 }
-  
-  
+
+/* code formatting */ 
+pre.r{
+  margin-top:10px;
+} 
+
+
+/* footer styles */
+
+#pageFooter{
+  border-width: 4px 0 0;
+  border-style: solid;
+  border-color: #BA0C2F;
+  padding: 15px 0 0 0;
+  margin-top:20px;
+}
+
+@media (min-width: 768px) {
+.col-md-4 {
+          border-left: 1px rgba(0, 0, 0, 0.3) solid;
+ }  }
+
