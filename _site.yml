@@ -11,13 +11,13 @@ navbar:
       href: context.html
     - text: "Parameters"
       href: parameters.html
-    - text: "Wuhan Stochastic Model"
+    - text: "Stochastic Model"
       href: epimodel.html
-    - text: "China Nowcast"
+    - text: "Nowcasting"
       href: nowcast.html
-    - text: "China Spatial Risk"
+    - text: "China Spatial Model"
       href: spatial-china.html
-    - text: "US Spatial Risk"
+    - text: "US Spatial Model"
       href: spatial-US.html
     - text: "World Import Risk"
       href: spatial-world.html
