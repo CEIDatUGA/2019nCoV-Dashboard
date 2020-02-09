@@ -1,5 +1,5 @@
 #### Novel coronavirus outbreak in Wuhan, China (2019-nCov)
-
+A
 On January 21, 2020, CDC activated its emergency response system due to the widespread circulation of a novel coronavirus (known as 2019-nCov) which first emerged in Wuhan, China, and has now spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. 
 
 The CDC maintains general health and safety information concerning the coronavirus here:   <https://www.cdc.gov/coronavirus/2019-nCoV/summary.html>
