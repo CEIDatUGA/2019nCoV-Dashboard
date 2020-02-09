@@ -23,7 +23,7 @@ On December 31, 2019, the World Health Organization was notified about the emerg
 
 #### 2019 Coronavirus Tracker
 
-Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the **Center for the Ecology of Infectious Diseases (CEID)** at the University of Georgia formed the **Coronavirus Working Group**, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.
+Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the [The Center for the Ecology of Infectious Diseases (CEID)](ceid.uga.edu) at the University of Georgia formed the **Coronavirus Working Group**, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.
 
 The Working Group's **2019 Coronalvirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **2019-nCov**. Activities include:
 
@@ -35,6 +35,6 @@ The Working Group's **2019 Coronalvirus Tracker** provides data-driven, informat
  
 #### CEID
 
-The Center for the Ecology of Infectious Diseases (CEID) is a research unit housed in the Odum School of Ecology. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.
+[The Center for the Ecology of Infectious Diseases (CEID)](ceid.uga.edu) is a research unit housed in the Odum School of Ecology. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.
 
 
