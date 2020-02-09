@@ -19,24 +19,22 @@ title: "2019 nCoV (Wuhan Coronavirus)"
 
 #### Novel coronavirus outbreak in Wuhan, China (2019-nCov)
 
-On January 21, 2020, CDC activated its emergency response system due to the widespread circulation of a novel coronavirus (known as 2019-nCov) which first emerged in Wuhan, China, and has now spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. 
-
-The CDC maintains general health and safety information concerning the coronavirus here:   <https://www.cdc.gov/coronavirus/2019-nCoV/summary.html>
+On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (known as 2019-nCov) in Wuhan, China. In the first weeks of January 2020, 2019-nCov spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On January 21, 2020, the CDC activated its emergency response system.
 
 #### 2019 Coronavirus Tracker
 
-Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the **Center for the Ecology of Infectious Diseases (CEID)** at the University of Georgia formed the **Coronavirus Working Group**, a group of over 15 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling. 
+Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the **Center for the Ecology of Infectious Diseases (CEID)** at the University of Georgia formed the **Coronavirus Working Group**, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.
 
-The Working Group's **2019 Coronalvirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **2019-nCov**. Projects include:
+The Working Group's **2019 Coronalvirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **2019-nCov**. Activities include:
 
-* Models for the spatial spread of 2019-nCov within China and abroad
-* A model for understanding the early stages of transmission and extrapolation to future events
-* A nowcasting system to estimate the size of the "hidden epidemic" (i.e. number of unidentified cases)
-* A compilation of clinical and epidemiologic information to aid in the interpretation of model outputs and understanding of events as they are observed
-* Assessment of the effectiveness of public dissemination of information and public health interventions on containment
+* Mapping the spatial spread of 2019-nCov within China and abroad
+* Developing models for understanding the early stages of transmission and extrapolation to future events
+* Estimating key parameters related to transmission
+* Compiling clinical and epidemiologic information to aid in the interpretation of model outputs and understanding of events as they are observed
+* Assessing the effectiveness of public health interventions on containment
  
 #### CEID
 
-The Center for the Ecology of Infectious Diseases (CEID) is a research unit housed in the Odum School of Ecology. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis. Our community values scientific curiosity, seeks rigorous solutions to the ecological problems of disease transmission and evolution, and prepares a rising generation of scientists with the technical skills needed to advance scientific inquiry and translational practice.
+The Center for the Ecology of Infectious Diseases (CEID) is a research unit housed in the Odum School of Ecology. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.
 
 

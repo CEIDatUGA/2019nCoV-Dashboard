@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -70,7 +70,9 @@ h6 {
 
 <link rel="stylesheet" href="css/main.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -84,6 +86,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -93,9 +96,6 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
-}
-summary {
-  display: list-item;
 }
 </style>
 
@@ -111,6 +111,7 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
+
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -130,43 +131,6 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -188,74 +152,19 @@ $(document).ready(function () {
 });
 </script>
 
+
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
 
 <!-- code folding -->
 
 
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
 
 
 
@@ -316,24 +225,23 @@ $(document).ready(function () {
 <!-- end sidebard -->
 <div id="novel-coronavirus-outbreak-in-wuhan-china-2019-ncov" class="section level4">
 <h4>Novel coronavirus outbreak in Wuhan, China (2019-nCov)</h4>
-<p>On January 21, 2020, CDC activated its emergency response system due to the widespread circulation of a novel coronavirus (known as 2019-nCov) which first emerged in Wuhan, China, and has now spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days.</p>
-<p>The CDC maintains general health and safety information concerning the coronavirus here: <a href="https://www.cdc.gov/coronavirus/2019-nCoV/summary.html" class="uri">https://www.cdc.gov/coronavirus/2019-nCoV/summary.html</a></p>
+<p>On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (known as 2019-nCov) in Wuhan, China. In the first weeks of January 2020, 2019-nCov spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On January 21, 2020, the CDC activated its emergency response system.</p>
 </div>
 <div id="coronavirus-tracker" class="section level4">
 <h4>2019 Coronavirus Tracker</h4>
-<p>Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the <strong>Center for the Ecology of Infectious Diseases (CEID)</strong> at the University of Georgia formed the <strong>Coronavirus Working Group</strong>, a group of over 15 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.</p>
-<p>The Working Group’s <strong>2019 Coronalvirus Tracker</strong> provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of <strong>2019-nCov</strong>. Projects include:</p>
+<p>Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the <strong>Center for the Ecology of Infectious Diseases (CEID)</strong> at the University of Georgia formed the <strong>Coronavirus Working Group</strong>, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.</p>
+<p>The Working Group’s <strong>2019 Coronalvirus Tracker</strong> provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of <strong>2019-nCov</strong>. Activities include:</p>
 <ul>
-<li>Models for the spatial spread of 2019-nCov within China and abroad</li>
-<li>A model for understanding the early stages of transmission and extrapolation to future events</li>
-<li>A nowcasting system to estimate the size of the “hidden epidemic” (i.e. number of unidentified cases)</li>
-<li>A compilation of clinical and epidemiologic information to aid in the interpretation of model outputs and understanding of events as they are observed</li>
-<li>Assessment of the effectiveness of public dissemination of information and public health interventions on containment</li>
+<li>Mapping the spatial spread of 2019-nCov within China and abroad</li>
+<li>Developing models for understanding the early stages of transmission and extrapolation to future events</li>
+<li>Estimating key parameters related to transmission</li>
+<li>Compiling clinical and epidemiologic information to aid in the interpretation of model outputs and understanding of events as they are observed</li>
+<li>Assessing the effectiveness of public health interventions on containment</li>
 </ul>
 </div>
 <div id="ceid" class="section level4">
 <h4>CEID</h4>
-<p>The Center for the Ecology of Infectious Diseases (CEID) is a research unit housed in the Odum School of Ecology. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis. Our community values scientific curiosity, seeks rigorous solutions to the ecological problems of disease transmission and evolution, and prepares a rising generation of scientists with the technical skills needed to advance scientific inquiry and translational practice.</p>
+<p>The Center for the Ecology of Infectious Diseases (CEID) is a research unit housed in the Odum School of Ecology. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.</p>
 </div>
 
 <!-- TO EDIT FOOTER, EDIT THE FILE "incldue_footer.html" -->
@@ -400,23 +308,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 
 </body>
