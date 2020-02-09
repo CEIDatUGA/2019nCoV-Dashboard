@@ -6,6 +6,8 @@ utils::download.file(
   destfile="nCov-Mapping-China.html"
 )
 
+# https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China.html?token=ADVPF4F5YXAKG7L3L7D6RL26JC6V2
+
 # Data Summary - World
 utils::download.file(
   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World.html?token=ADVPF4FIRBQXUOEWTROHZKC6I3MM4",

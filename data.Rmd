@@ -1,14 +1,24 @@
 
 ## Data Summary {.tabset .tabset-fade}
 
-### China
+### Data Sources 
+
+These are the primary data resources being used by the CEID Coronavirus Working Group
+
+[Timeline of key events and case notifications by country](https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit#gid=0)  
+[Case notifications in China by province](https://docs.google.com/spreadsheets/d/1gTj4zFMfXRk92CCQAOwa04ZBhqJ4oSmQFm_nb8-YXbw/edit)  
+[Case notifications in China by prefecture](https://docs.google.com/spreadsheets/d/1LrPK0My-RTPS1t11pptHcv4x_UBFZczrVRCJFz5Ezgc/edit#gid=0)  
+[Interventions in China by prefecture](https://docs.google.com/spreadsheets/d/1aK9Es7x6KReabBRkWiBbiSGsxSC37kPKD-qiPcD50hg/edit#gid=0)  
+[Travel advisories](https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1525027375)
+
+### Epidemic Map - China
 
 
 ```{r echo=FALSE}
 knitr::include_url("nCov-Mapping-China.html")
 ```
 
-### World
+### Epidemic Map - World
 
 ```{r echo=FALSE}
 knitr::include_url("nCov-Mapping-World.html")

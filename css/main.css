@@ -15,7 +15,30 @@
   background-size: cover;
 }
 
+/* iframe - height needs to match height of content, be responsive */
 
+iframe {
+  border: 0;
+  width: 100%;
+}
+
+/* iframe container by ID - padding-top would have to be sniffed from file
+
+iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#epidemic-map---china {
+  overflow: hidden;
+  padding-top: 500.00%;
+  position: relative;
+}
+*/
 
 
 /*clearing the nav bar */
