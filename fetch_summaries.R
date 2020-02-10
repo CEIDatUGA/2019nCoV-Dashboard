@@ -51,6 +51,12 @@ utils::download.file(
   destfile="china-spatial-web-summary.html"
 )
 
+# China Spatial Model - links map
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/f8b0d4b6f1d721809d17fe2a85919b2e7f11d7f5/maps/link-weights-chloropleth-highest-ten-pct-2020-02-09.html?token=ADVPF4FW2UNUFT522DXAMGC6JKSOA",
+  destfile="china-spatial-link-weights.html"
+)
+
 # # World Spatial Model
 # utils::download.file(
 #   url="",

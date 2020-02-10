@@ -1,4 +1,14 @@
 
+## Spatial Spread of 2019 novel coronavirus in China {.tabset .tabset-fade}
+
+### Map 
+
+```{r echo=FALSE}
+knitr::include_url("china-spatial-link-weights.html")
+```
+
+### Gravity Model
+
 ```{r echo=FALSE}
 knitr::include_url("china-spatial-web-summary.html")
 ```
