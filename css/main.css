@@ -226,7 +226,7 @@ pre.r{
     max-width: 200px;
     height: 170px;
     background-color: transparent;
-    background-image: url("../images/Screen-CEID-H-FC.png");
+    background-image: url("images/Screen-CEID-H-FC.png");
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -240,7 +240,7 @@ pre.r{
         margin: 0;
         max-width: 300px;
         height: 80px;
-        background-image: url("../images/Screen-CEID-H-FC.png");
+        background-image: url("images/Screen-CEID-H-FC.png");
         background-position: left top; } }
   .ceidfooter__links-list {
     display: -webkit-box;
