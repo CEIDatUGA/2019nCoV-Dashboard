@@ -28,14 +28,13 @@ iframe {
 /*clearing the nav bar */
 #header::before{
   content: "";
-  height: 40px;
+  height: 10px;
   display: block;
   width: 0px;
   padding: 0px;
   margin: 0px 0px 0px 10px;
   clear: both;
 }
-
 
 
 /* navbar styling */
@@ -54,6 +53,13 @@ iframe {
   color:#000;
   background-color: #fff;
 }
+
+#navbar {
+
+  padding-top:5px;
+}
+
+
 
 /*navbar hover effect*/
 
@@ -82,13 +88,17 @@ iframe {
 
 h1,h2,h3,h4,h5,h6,a, a:active{
     font-family:'Oswald','Roboto',Arial,sans-serif;
+    font-weight:400;
 }
 
-
+.ceidfooter{
+  margin-top:10px;
+}
 .r, p, span, li, ol, ul,body, div, span, code{
   font-family:'Merriweather Sans', Arial, sans-serif;
   font-weight:300;
-  line-height: 150%;
+  line-height: 1.5em;
+  
 }
 
 
