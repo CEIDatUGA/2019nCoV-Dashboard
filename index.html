@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -70,9 +70,7 @@ h6 {
 
 <link rel="stylesheet" href="css/main.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -86,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -96,6 +93,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -111,7 +111,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -131,6 +130,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -152,19 +188,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -188,10 +279,16 @@ $(document).ready(function () {
   <a href="data.html">Data</a>
 </li>
 <li>
+  <a href="context.html">Context</a>
+</li>
+<li>
   <a href="parameters.html">Epidemic Characteristics</a>
 </li>
 <li>
   <a href="stochastic.html">Stochastic Model</a>
+</li>
+<li>
+  <a href="spatial-china.html">China Spatial Model</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -221,16 +318,13 @@ $(document).ready(function () {
   </p>
 </div>
 -->
-<!-- SIDEBAR: News items / posts -->
-<!-- end sidebard -->
-<div id="novel-coronavirus-outbreak-in-wuhan-china-2019-ncov" class="section level4">
-<h4>Novel coronavirus outbreak in Wuhan, China (2019-nCov)</h4>
+<div class="row">
+<div class="col-sm-8">
+<h4 id="novel-coronavirus-outbreak-in-wuhan-china-2019-ncov">Novel coronavirus outbreak in Wuhan, China (2019-nCov)</h4>
 <p>On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (known as 2019-nCov) in Wuhan, China. In the first weeks of January 2020, 2019-nCov spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On January 21, 2020, the CDC activated its emergency response system.</p>
-</div>
-<div id="coronavirus-tracker" class="section level4">
-<h4>2019 Coronavirus Tracker</h4>
+<h4 id="coronavirus-tracker">2019 Coronavirus Tracker</h4>
 <p>Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the <a href="ceid.uga.edu">The Center for the Ecology of Infectious Diseases (CEID)</a> at the University of Georgia formed the <strong>Coronavirus Working Group</strong>, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.</p>
-<p>The Working Group’s <strong>2019 Coronalvirus Tracker</strong> provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of <strong>2019-nCov</strong>. Activities include:</p>
+<p>The Working Group’s <strong>2019 Coronavirus Tracker</strong> provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of <strong>2019-nCov</strong>. Activities include:</p>
 <ul>
 <li>Mapping the spatial spread of 2019-nCov within China and abroad</li>
 <li>Developing models for understanding the early stages of transmission and extrapolation to future events</li>
@@ -238,59 +332,106 @@ $(document).ready(function () {
 <li>Compiling clinical and epidemiologic information to aid in the interpretation of model outputs and understanding of events as they are observed</li>
 <li>Assessing the effectiveness of public health interventions on containment</li>
 </ul>
-</div>
-<div id="ceid" class="section level4">
-<h4>CEID</h4>
+<h4 id="ceid">CEID</h4>
 <p><a href="ceid.uga.edu">The Center for the Ecology of Infectious Diseases (CEID)</a> is a research unit housed in the Odum School of Ecology. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.</p>
 </div>
+<div class="col-sm-4">
+<h4 id="latest-news">Latest News</h4>
+<div class="news-item">
+<p><img src="https://www.cdc.gov/coronavirus/mers/images/MERS-infected-vero-cells.jpg" /></p>
+<h5 id="announcing-the-coronavirus-tracker">Announcing the Coronavirus Tracker</h5>
+<div class="news-item-date">
+February 10, 2020
+</div>
+<div class="news-item-description">
+The <a href="ceid.uga.edu">Center for the Ecology of Infectious Diseases (CEID)</a> launches its new <a href="http://2019-coronavirus-tracker.com">Coronavirus Tracker</a> today. The tracker is the work of CEID’s Cornavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 nCoV outbreak.
+</div>
+<a href="http://ceid.uga.edu">READ MORE &gt;</a>
+</div>
+</div>
+</div>
 
-<!-- TO EDIT FOOTER, EDIT THE FILE "incldue_footer.html" -->
-<footer class="container-fluid" id = "pageFooter">
-			<div class="row">
-				<div class='col-md-4'>
-					<p><strong>Acknowledgements:</strong><br>
-            Lewis Bartlett, John Drake, Yang Ge, Andreas Handel, Drew Kraemer, Culzean Kennedy, Brian McKay, Eric Marty, Rachel Mercaldo, Paige Miller, Tierney O'Sullivan, Robbie Richards, Trippe Ross, Kate Sabey, Liliana Salvador, Cecilia Sanchez, JP Schmidt, Patrick Stephens, David Vasquez, Anna Willoughby</p>
-          <p><strong>Questions:</strong><br>
-					  John M. Drake (jdrake@uga.edu)</p>
-					<p><small>
-						<script language="javascript">
-							document.write("Last updated "+document.lastModified);
-						</script>
-					</small></p>
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>CEID Global Footer</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="robots" contet="noindex, nofollow">
+
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<footer class="ceidfooter">
+			<div class="ceidfooter__container">
+				<div class="ceidfooter__row ceidfooter__row--primary">
+					<div class="ceidfooter__logo">
+					   <a class="ceidfooter__logo-link" href="https://ceid.uga.edu/">Center for the Ecology of Infectious Diseases</a>
+					</div>
+					<nav class="ceidfooter__links">
+						<ul class="ceidfooter__links-list">
+							<li class="ceidfooter__links-list-item">
+								  External Resources:
+      					  
+      					        					  <!-- LINKS TO EXTERNAL RESOURCES HERE -->
+
+          				<br><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">World Health Organization</a>
+          				<br><a href="https://www.cdc.gov/coronavirus/2019-ncov/">CDC</a>
+          				<br><a href="https://www.mobs-lab.org/2019ncov.html">Northeastern University</a>
+          				<br><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">Johns Hopkins University</a>
+          				<br><a href="https://nextstrain.org/ncov">Nextstrain</a>
+
+      					  
+      					  
+							</li>
+							<li class="ceidfooter__links-list-item">
+								<a class="ceidfooter__links-list-link" id="no-links"><b>Acknowledgements:</b></a><a class="ceidfooter__links-list-link" id="no-links">
+Lewis Bartlett, John Drake, Yang Ge, Andreas Handel, Drew Kraemer, Culzean Kennedy, Brian McKay, Eric Marty, Rachel Mercaldo, Paige Miller, Tierney O'Sullivan, Robbie Richards, Trippe Ross, Kate Sabey, Liliana Salvador, Cecilia Sanchez, JP Schmidt, Patrick Stephens, David Vasquez, Anna Willoughby</a>
+            </li>
+            <li class="ceidfooter__links-list-item">
+								<a class="ceidfooter__links-list-link" id="no-links"> <b>Questions:</b></a>
+      					  <a class="ceidfooter__links-list-link" href="mailto:jdrake@uga.edu">John M. Drake (jdrake@uga.edu)</a>
+							</li>
+							<li class="ceidfooter__links-list-item">
+            <a class="ceidfooter__links-list-linkk" aria-label="creativecommons"  rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+      					 <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+               </li>
+               <li class="ceidfooter__links-list-item">
+                 <a href="http://opendefinition.org/">
+                   <img src="http://opendefinition.org/assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="This material is Open Content"/></a>
+                 </li>
+                 <li class="ceidfooter__links-list-item">Content and data on this site are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+                 </li>
+						</ul>
+					</nav>
 				</div>
-				<div class='col-md-4'>
-					<p><a href='https://ceid.uga.edu/' target='_blank'>
-					<img src="images/Screen-CEID-XH-FC.png" alt="Center for the Ecology of Infectious Diseases, University of Georgia"</a></p>
-				<!--<p><a href="http://ecology.uga.edu/" target="_blank">
-					<img src="images/Screen-ODUM-H-FC.png" alt="Odum School of Ecology, University of Georgia" style="width:100%"></a></p>-->
-					<p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-  					  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
-  					<a href="http://opendefinition.org/">
-  					  <img src="http://opendefinition.org/assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="This material is Open Content"/></a>
-  					<a href="http://opendefinition.org/">
-  					  <img src="http://opendefinition.org/assets.okfn.org/images/ok_buttons/od_80x15_blue.png" alt="This material is Open Data"/></a>
-  					<br>Content and data on this site are licensed under a 
-  					  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
-  					<p><a href="https://eits.uga.edu/access_and_security/infosec/pols_regs/policies/privacy/">Privacy Policy</a></p>
-					<p><a href="https://github.com/CEIDatUGA/2019nCoV">
-					    <img src="images/GitHub-Mark-32px.png" alt="GitHub repository"/> Website code (GitHub)</a></p>
+				<div class="ceidfooter__row ceidfooter__row--secondary">
+					<nav class="ceidfooter__social">
+					  					  		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE" crossorigin="anonymous">
+
+						<span class="ceidfooter__social-label">Website code:</span>
+						<a class="ceidfooter__social-link" aria-label="ceid on github" href="https://github.com/CEIDatUGA/2019nCoV">
+							<i class="fab fa-fw fa-github" title="Github" aria-hidden></i>
+						</a>
+						<a class="ceidfooter__social-link" aria-label="ceid on Twitter" href="https://twitter.com/ceid_uga">
+							<i class="fab fa-fw fa-twitter" title="Twitter" aria-hidden></i>
+            </a>
+            <script language="javascript">
+                     document.write("Last updated "+document.lastModified);
+                   </script>
+					</nav>
+					<div class="ceidfooter__address">
+						203 D. W. Brooks Drive, Athens, GA 30602<br>
+						706&#8209;542&#8209;1930
+					</div>
 				</div>
-				<div class='col-sm-6 col-md-4'>
-				<p><strong>External Resources:</strong><br>
-				<!-- LINKS TO EXTERNAL RESOURCES HERE -->
-
-				<br><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">World Health Organization</a>
-				<br><a href="https://www.cdc.gov/coronavirus/2019-ncov/">CDC</a>
-				<br><a href="https://www.mobs-lab.org/2019ncov.html">Northeastern University</a>
-				<br><a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">Johns Hopkins University</a>
-				<br><a href="https://nextstrain.org/ncov">Nextstrain</a>
-				</p>
-
-				
-				
 			</div>
-			</div>
-</footer>
+		</footer>
+	</body>
+</html>
 
 
 
@@ -308,6 +449,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 
 </body>

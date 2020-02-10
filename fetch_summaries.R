@@ -2,23 +2,30 @@
 
 # Data Summary - China
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China.html?token=ADVPF4EKBDF7LNNBEZF2AJS6I3MH6",
-  destfile="nCov-Mapping-China.html"
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China-Web-Summary.html?token=ADVPF4EYUYFETO23VJCM43S6JIAYS",
+  destfile="nCov-Mapping-China-Web-Summary.html"
 )
 
 # https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China.html?token=ADVPF4F5YXAKG7L3L7D6RL26JC6V2
 
 # Data Summary - World
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World.html?token=ADVPF4FIRBQXUOEWTROHZKC6I3MM4",
-  destfile="nCov-Mapping-World.html"
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4DRFYKFGN4WLZXHP7C6JIBBC",
+  destfile="nCov-Mapping-World-Web-Summary.html"
 )
 
-# # Context
-# utils::download.file(
-#   url="",
-#   destfile="context-web-summary.html"
-# )
+# Data Summary - Epidemic Curves
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4AWYSELJNNQHOSKXZ26JIL7G",
+  destfile="epidemic-curves-web-summary.html"
+)
+
+
+# Context
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4C3BLB3ZMF6EFYITQC6JICJY",
+  destfile="context-web-summary.html"
+)
 
 # Epidemic Characteristics
 utils::download.file(
@@ -38,11 +45,11 @@ utils::download.file(
 #   destfile="nowcast-web-summary.html"
 # )
 
-# # China Spatial Model
-# utils::download.file(
-#   url="",
-#   destfile="china-spatial-web-summary.html"
-# )
+# China Spatial Model
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4A7TNXO27D2IP6EG6C6JIC6W",
+  destfile="china-spatial-web-summary.html"
+)
 
 # # World Spatial Model
 # utils::download.file(

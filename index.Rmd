@@ -24,7 +24,7 @@ On December 31, 2019, the World Health Organization was notified about the emerg
 
 Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the [The Center for the Ecology of Infectious Diseases (CEID)](ceid.uga.edu) at the University of Georgia formed the **Coronavirus Working Group**, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.
 
-The Working Group's **2019 Coronalvirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **2019-nCov**. Activities include:
+The Working Group's **2019 Coronavirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **2019-nCov**. Activities include:
 
 * Mapping the spatial spread of 2019-nCov within China and abroad
 * Developing models for understanding the early stages of transmission and extrapolation to future events
@@ -40,10 +40,11 @@ The Working Group's **2019 Coronalvirus Tracker** provides data-driven, informat
 <div class="col-sm-4">
 #### Latest News
 <div class="news-item">
-![Human serum antibodies react with MERS-CoV-infected Vero cells, indicating the patient has been infected with MERS-CoV.Source: Jennifer L. Harcourt](https://www.cdc.gov/coronavirus/mers/images/MERS-infected-vero-cells.jpg)
-##### The title
-<div class="news-item-date">Date</div><div class="news-item-description">
-faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse</div>[READ MORE >](ceid.uga.edu)</div>
+![](https://www.cdc.gov/coronavirus/mers/images/MERS-infected-vero-cells.jpg)
+
+##### Announcing the Coronavirus Tracker
+<div class="news-item-date">February 10, 2020</div><div class="news-item-description">
+The [Center for the Ecology of Infectious Diseases (CEID)](ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Cornavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 nCoV outbreak. </div>[READ MORE >](http://ceid.uga.edu)</div>
 </div>
 </div>
 

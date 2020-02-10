@@ -7,16 +7,16 @@ navbar:
       href: index.html
     - text: "Data"
       href: data.html
-#    - text: "Context"
-#      href: context.html
+    - text: "Context"
+      href: context.html
     - text: "Epidemic Characteristics"
       href: parameters.html
     - text: "Stochastic Model"
       href: stochastic.html
 #    - text: "Nowcasting"
 #      href: nowcast.html
-#    - text: "China Spatial Model"
-#      href: spatial-china.html
+    - text: "China Spatial Model"
+      href: spatial-china.html
 #    - text: "US Spatial Model"
 #      href: spatial-US.html
 #    - text: "World Import Risk"
