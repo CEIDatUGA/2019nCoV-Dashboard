@@ -14,9 +14,8 @@ title: "2019 nCoV (Wuhan Coronavirus)"
 </div>
 -->
 
-<!-- SIDEBAR: News items / posts -->
-<!-- end sidebard -->
-
+<div class="row">
+  <div class="col-sm-8">
 #### Novel coronavirus outbreak in Wuhan, China (2019-nCov)
 
 On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (known as 2019-nCov) in Wuhan, China. In the first weeks of January 2020, 2019-nCov spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On January 21, 2020, the CDC activated its emergency response system.
@@ -37,4 +36,14 @@ The Working Group's **2019 Coronalvirus Tracker** provides data-driven, informat
 
 [The Center for the Ecology of Infectious Diseases (CEID)](ceid.uga.edu) is a research unit housed in the Odum School of Ecology. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.
 
+</div>
+<div class="col-sm-4">
+#### Latest News
+<div class="news-item">
+![Human serum antibodies react with MERS-CoV-infected Vero cells, indicating the patient has been infected with MERS-CoV.Source: Jennifer L. Harcourt](https://www.cdc.gov/coronavirus/mers/images/MERS-infected-vero-cells.jpg)
+##### The title
+<div class="news-item-date">Date</div><div class="news-item-description">
+faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse</div>[READ MORE >](ceid.uga.edu)</div>
+</div>
+</div>
 
