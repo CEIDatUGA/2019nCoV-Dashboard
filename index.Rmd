@@ -29,7 +29,7 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 * Mapping the spatial spread of 2019-nCov within China and abroad
 * Developing models for understanding the early stages of transmission and extrapolation to future events
 * Estimating key parameters related to transmission
-* Compiling clinical and epidemiologic information to aid in the interpretation of model outputs and understanding of events as they are observed
+* Compiling clinical and epidemiological information to aid in the development and  interpretation of model outputs as well as understanding of events as they are observed
 * Assessing the effectiveness of public health interventions on containment
  
 #### CEID
@@ -40,7 +40,7 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 <div class="col-sm-4">
 #### Latest News
 <div class="news-item">
-![](https://www.cdc.gov/coronavirus/mers/images/MERS-infected-vero-cells.jpg)
+![<small><em>Illustration of 2019 nCov<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
 
 ##### Announcing the Coronavirus Tracker
 <div class="news-item-date">February 10, 2020</div><div class="news-item-description">
