@@ -7,6 +7,108 @@
 
 @import url("//fonts.googleapis.com/css?family=Merriweather+Sans:300|Merriweather:300|Oswald:300,400,500&display=swap");
 
+main-container {
+    height: 100%;
+}
+/*page sizing world-epidemic-map-tab on data-page*/
+.china-spatial-link,.china-epidemic-map{
+  height:600px;
+    width:100%;
+}
+@media (min-width: 576px) {
+      .china-spatial-link,.china-epidemic-map{
+  height:600px;
+    width:100%;
+} }
+    @media (min-width: 768px) {
+      .china-spatial-link,.china-epidemic-map{
+  height:600px;
+    width:100%;
+}}
+    @media (min-width: 992px) {
+         .china-spatial-link,.china-epidemic-map{
+  height:600px;
+    width:100%;
+}}
+    @media (min-width: 1200px) {
+         .china-spatial-link,.china-epidemic-map{
+  height:600px;
+  width:100%;
+}}
+
+/*page sizing world-epidemic-map-tab on data-page*/
+.world-epidemic-map{
+  height:600px;
+  width:100%;
+}
+@media (min-width: 576px) {
+      .world-epidemic-map{
+  height:600px;
+} }
+    @media (min-width: 768px) {
+      .world-epidemic-map{
+  height:600px;
+}}
+    @media (min-width: 992px) {
+         .world-epidemic-map{
+  height:600px;
+}}
+    @media (min-width: 1200px) {
+         .world-epidemic-map{
+  height:600px;
+  width:100%;
+}}
+
+/*page sizing epidemic-curves-tab on data-page*/
+
+.epidemic-curves{
+  height:1000px;
+}
+
+@media (min-width: 576px) {
+      .epidemic-curves{
+  height:800px;
+} }
+    @media (min-width: 768px) {
+      .epidemic-curves{
+  height:800px;
+}}
+    @media (min-width: 992px) {
+         .epidemic-curves{
+  height:800px;
+}}
+    @media (min-width: 1200px) {
+         .epidemic-curves{
+  height:800px;
+}}
+
+/*page sizing stochastic-page*/
+
+.context-web-sum-page,.stochastic-page,.parameters-page{
+  height:800px;
+}
+    @media (min-width: 576px) {
+      .context-web-sum-page,.stochastic-page,.parameters-page{
+  height:600px;
+} }
+    @media (min-width: 768px) {
+      .context-web-sum-page,.stochastic-page,.parameters-page{
+  height:600px;
+}}
+    @media (min-width: 992px) {
+         .context-web-sum-page,.stochastic-page,.parameters-page{
+  height:800px;
+}}
+    @media (min-width: 1200px) {
+         .context-web-sum-page,.stochastic-page,.parameters-page{
+  height:800px;
+}}
+        
+        
+.gravity-model{
+  height:800px;
+}        
+
 
 iframe {
    border: 0;
@@ -15,7 +117,7 @@ iframe {
    position: absolute;
    margin-bottom:2.5em;
    width: 100%;
-   z-index:2;
+   clear: both;
 }
 
 
@@ -26,17 +128,52 @@ iframe {
 }
 
 /*clearing the nav bar */
+
 #header::before{
   content: "";
-  height: 10px;
+  height: 15px;
   display: block;
-  width: 0px;
-  padding: 0px;
-  margin: 0px 0px 0px 10px;
+  width: 0;
+  padding: 0;
+  margin: 0 0 0 10px;
   clear: both;
 }
 
+@media (max-width: 992px) {
+  #header::before{
+  content: "";
+  height: 30px;
+  display: block;
+  width: 0;
+  padding: 0;
+  margin: 0 0 0 10px;
+  clear: both;
+}
+}
 
+@media (max-width: 768) {
+  #header::before{
+  content: "";
+  height: 40px;
+  display: block;
+  width: 0;
+  padding: 0;
+  margin: 0 0 0 10px;
+  clear: both;
+}
+}
+
+@media (min-width: 600) {
+  #header::before{
+  content: "";
+  height: 40px;
+  display: block;
+  width: 0;
+  padding: 0;
+  margin: 0 0 0 10px;
+  clear: both;
+}
+}
 /* navbar styling */
 
 .navbar-default{
@@ -55,7 +192,6 @@ iframe {
 }
 
 #navbar {
-
   padding-top:5px;
 }
 
@@ -226,7 +362,7 @@ pre.r{
     max-width: 200px;
     height: 170px;
     background-color: transparent;
-    background-image: url("images/Screen-CEID-H-FC.png");
+    background-image: url("../images/Screen-CEID-H-FC.png");
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -240,7 +376,7 @@ pre.r{
         margin: 0;
         max-width: 300px;
         height: 80px;
-        background-image: url("images/Screen-CEID-H-FC.png");
+        background-image: url("../images/Screen-CEID-H-FC.png");
         background-position: left top; } }
   .ceidfooter__links-list {
     display: -webkit-box;
@@ -329,7 +465,7 @@ pre.r{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin-bottom: 1em;
-    color: #000000;
+    color: #808080;
     text-align: center;
     font-weight: 300;
     font-size: 1.5em; }
@@ -347,7 +483,7 @@ pre.r{
         .ceidfooter__social-label {
           display: inline; } }
     .ceidfooter__social-link {
-      color: #000000;
+      color: #A9A9A9;
       text-decoration: none;
       -webkit-transition: color 100ms ease-in;
       transition: color 100ms ease-in; }
@@ -355,5 +491,21 @@ pre.r{
         color: #BA0C2F;
         text-decoration: none; }
         
-#no-links:hover{color: #000000;}
+        
+#no-links-names:hover,#no-links:hover{
+  color: #000000;
+  
+}
+
+.news-item-date{
+  font-size:13px;
+}
+
+#no-links{
+  font-weight:400;
+}
+
+#no-links-names{
+  font-weight:300;
+}
 /*end of footer sytles*/

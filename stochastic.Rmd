@@ -1,3 +1,4 @@
+<div class="stochastic-page">
 
 ```{r echo=FALSE}
 knitr::include_url("stochastic-web-summary.html")
@@ -13,3 +14,4 @@ knitr::include_url("stochastic-web-summary.html")
     GitHub repository
   </a>
 </p>
+</div>

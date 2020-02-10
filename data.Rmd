@@ -13,23 +13,23 @@ These are the primary data resources being used by the CEID Coronavirus Working 
 
 ### Epidemic Map - China
 
-
+<div class="china-epidemic-map">
 ```{r echo=FALSE}
 knitr::include_url("nCov-Mapping-China-Web-Summary.html")
 ```
-
+</div>
 ### Epidemic Map - World
-
+<div class="world-epidemic-map">
 ```{r echo=FALSE}
 knitr::include_url("nCov-Mapping-World-Web-Summary.html")
 ```
-
+</div>
 ### Epidemic Curves
-
+<div class="epidemic-curves">
 ```{r echo=FALSE}
 knitr::include_url("epidemic-curves-web-summary.html")
 ```
-
+</div>
 
 ## Supplemental Information
 

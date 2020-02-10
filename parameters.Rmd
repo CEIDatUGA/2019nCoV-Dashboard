@@ -1,8 +1,8 @@
-
+<div class="parameters-page">
 ```{r echo=FALSE}
 knitr::include_url("parameters-web-summary.html")
 ```
-
+</div>
 <!-- Supplemental information: [html]() -->
 
 <!-- Preprint: [download]() -->
