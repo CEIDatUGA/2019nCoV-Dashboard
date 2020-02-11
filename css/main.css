@@ -388,6 +388,12 @@ iframe {
 .jumbotron h1 {
   font-size: 2.5em;
 }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #00A3ADdd !important;
+}
+
+
 /*clearing the nav bar */
 
 .ceidfooter::before{
