@@ -388,9 +388,18 @@ iframe {
 
 /*edit the jumbotron to edit homepage image*/
 .jumbotron {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Glaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_05-07_PAN.jpg/2048px-Glaciar_Lamplugh%2C_Parque_Nacional_Bah%C3%ADa_del_Glaciar%2C_Alaska%2C_Estados_Unidos%2C_2017-08-19%2C_DD_05-07_PAN.jpg");
+  background-image: url("../images/jumbotron_olympic.jpg");
   background-size: cover;
+  color: #ffffffdd;
 }
+.jumbotron h1 {
+  font-size: 2.5em;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #00A3ADdd !important;
+}
+
 
 /*clearing the nav bar */
 
