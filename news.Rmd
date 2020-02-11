@@ -1,0 +1,27 @@
+
+## Latest News and Updates
+
+<div class="news-post">
+![<small><em>Illustration of 2019 nCov<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
+
+### Announcing the Coronavirus Tracker {#news-announcing-ncov-tracker}
+February 10, 2020
+<div class="news-item-description">
+The UGA [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 nCoV outbreak. 
+
+Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the CEID formed the **Coronavirus Working Group**, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.
+
+The Working Group's **2019 Coronavirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **2019-nCov**. Activities include:
+
+* Mapping the spatial spread of 2019-nCov within China and abroad
+* Developing models for understanding the early stages of transmission and extrapolation to future events
+* Estimating key parameters related to transmission
+* Compiling clinical and epidemiological information to aid in the development and interpretation of model outputs as well as understanding of events as they are observed
+* Assessing the effectiveness of public health interventions on containment
+
+The **2019 Coronavirus Tracker** is updated every morning at about 9:00 AM EST (14:00 UTC).
+
+Contact: <a href="mailto:jdrake@uga.edu">John M. Drake (jdrake@uga.edu)</a>
+
+</div>
+</div>
