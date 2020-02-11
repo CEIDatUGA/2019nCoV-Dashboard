@@ -4,14 +4,21 @@
 knitr::include_url("stochastic-web-summary.html")
 ```
 
+</div>
+
+## Supplemental Information
+
+<div class="container-frames">
+
 <!-- Supplemental information: [html]() -->
 
 <!-- Preprint: [download]() -->
 
 <p>
-  <a href="https://github.com/CEIDatUGA/ncov-wuhan-stochastic-model">
+  <a href="https://github.com/CEIDatUGA/ncov-data-summary">
     <img src="images/GitHub-Mark-32px.png" alt="GitHub repository"/>
-    GitHub repository
+    GitHub repository (private)
   </a>
 </p>
+
 </div>

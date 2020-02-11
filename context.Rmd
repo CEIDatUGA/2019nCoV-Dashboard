@@ -1,10 +1,17 @@
+<div class="container-frames">
+
 <div class="context-web-sum-page">
+
 ```{r echo=FALSE}
 knitr::include_url("context-web-summary.html")
 ```
+
+</div>
 </div>
 
 ## Supplemental Information
+
+<div class="container-frames">
 
 <!-- Supplemental information: [html]() -->
 
@@ -16,3 +23,4 @@ knitr::include_url("context-web-summary.html")
     GitHub repository (private)
   </a>
 </p>
+</div>

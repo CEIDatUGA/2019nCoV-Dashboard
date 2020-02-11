@@ -1,28 +1,37 @@
 
 ## Spatial Spread of 2019 novel coronavirus in China {.tabset .tabset-fade}
 
-### Map 
+### Map
+
+<div class="container-frames">
 <div class="china-spatial-link">
 ```{r echo=FALSE}
 knitr::include_url("china-spatial-link-weights.html")
 ```
 </div>
+</div>
+
 ### Gravity Model
+<div class="container-frames">
 <div class="gravity-model">
 ```{r echo=FALSE}
 knitr::include_url("china-spatial-web-summary.html")
 ```
 </div>
+</div>
+
 
 ## Supplemental Information
-
+<div class="container-frames">
 <!-- Supplemental information: [html]() -->
 
 <!-- Preprint: [download]() -->
 
 <p>
-  <a href="https://github.com/CEIDatUGA/CoronavirusSpatial">
+  <a href="https://github.com/CEIDatUGA/ncov-data-summary">
     <img src="images/GitHub-Mark-32px.png" alt="GitHub repository"/>
     GitHub repository (private)
   </a>
 </p>
+
+</div>

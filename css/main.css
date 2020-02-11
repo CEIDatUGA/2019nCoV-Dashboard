@@ -7,118 +7,383 @@
 
 @import url("//fonts.googleapis.com/css?family=Merriweather+Sans:300|Merriweather:300|Oswald:300,400,500&display=swap");
 
-main-container {
-    height: 100%;
+
+.macintosh,.avoid-move-cursor,body,.rstudio-HelpFrame,.main-container ,.section,#section,iframe,.container-frames,.container-fluid,.container,.fluid-row{
+background-color:transparent;
+border:none;
 }
+
+.container-fluid,
+.main-container {
+    height: 100%;
+    position: relative;
+    overflow:visible;
+}
+.container-frames{
+  position:relative;
+  height: 100%;
+  display:block;
+  left:0;
+  right:0;
+  margin-left:0;
+  margin-right:0;
+  padding-left:0;
+  padding-right:0;
+}
+
+
+#supplemental-information{
+    padding:40px 0 15px 0;
+    position: relative;
+    margin:20px 0 10px 0;;
+}
+
+html{
+  overflow:visible;
+}
+
+body{
+  height:100%;
+  width:100%;
+  overflow:visible;
+}
+
 /*page sizing world-epidemic-map-tab on data-page*/
 .china-spatial-link,.china-epidemic-map{
-  height:600px;
-    width:100%;
+  height:800px;
+
 }
+
 @media (min-width: 576px) {
       .china-spatial-link,.china-epidemic-map{
   height:600px;
     width:100%;
+
 } }
     @media (min-width: 768px) {
       .china-spatial-link,.china-epidemic-map{
   height:600px;
     width:100%;
+
 }}
     @media (min-width: 992px) {
          .china-spatial-link,.china-epidemic-map{
   height:600px;
     width:100%;
+
 }}
     @media (min-width: 1200px) {
          .china-spatial-link,.china-epidemic-map{
   height:600px;
   width:100%;
+
 }}
 
 /*page sizing world-epidemic-map-tab on data-page*/
 .world-epidemic-map{
   height:600px;
   width:100%;
+
 }
 @media (min-width: 576px) {
       .world-epidemic-map{
   height:600px;
+
 } }
     @media (min-width: 768px) {
       .world-epidemic-map{
   height:600px;
+
 }}
     @media (min-width: 992px) {
          .world-epidemic-map{
   height:600px;
+
 }}
     @media (min-width: 1200px) {
          .world-epidemic-map{
   height:600px;
   width:100%;
+
 }}
 
 /*page sizing epidemic-curves-tab on data-page*/
 
 .epidemic-curves{
-  height:1000px;
+  height:2200px;
+  width:100%;
+  margin-bottom:66%;
 }
+
 
 @media (min-width: 576px) {
       .epidemic-curves{
-  height:800px;
+ height:2200px;
+ width:100%;
+ margin-bottom:67%;
 } }
     @media (min-width: 768px) {
       .epidemic-curves{
-  height:800px;
+  height:2200px;
+  width:100%;
+  margin-bottom:67%;
+
 }}
     @media (min-width: 992px) {
          .epidemic-curves{
-  height:800px;
+  height:2200px;
+  width:100%;
+    margin-bottom:67%;
+
 }}
     @media (min-width: 1200px) {
          .epidemic-curves{
-  height:800px;
+  height:2200px;
+  margin-bottom:67%;
+  width:100%;
+
 }}
+
+/*page sizing context-page*/
+
+.context-web-sum-page{
+    height:2800px;
+    margin-bottom:67%;
+    width:100%;
+    overflow:hidden;
+
+}
+
+@media (min-width: 576px) {
+  .context-web-sum-page{
+    height:2800px;
+    margin-bottom:67%;
+    width:100%;
+    overflow:hidden;
+
+  }
+
+}
+
+@media (min-width: 768px) {
+  .context-web-sum-page{
+    height:2800px;
+    margin-bottom:67%;
+    width:100%;
+    overflow:hidden;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .context-web-sum-page{
+    height:2800px;
+    margin-bottom:67%;
+    width:100%;
+    overflow:hidden;
+  }
+}
+@media (min-width: 1200px) {
+  .context-web-sum-page{
+    height:2800px;
+    margin-bottom:67%;
+    width:100%;
+    overflow:hidden;
+  }
+}
+
+
 
 /*page sizing stochastic-page*/
 
-.context-web-sum-page,.stochastic-page,.parameters-page{
-  height:800px;
+.stochastic-page{
+  height:5500px;
+  margin-bottom:57%;
+  width:100%;
 }
-    @media (min-width: 576px) {
-      .context-web-sum-page,.stochastic-page,.parameters-page{
+
+@media (min-width: 576px) {
+  .stochastic-page{
+    height:5500px;
+    width:100%;
+    margin-bottom:57%;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .stochastic-page{
+    height:5500px;
+    margin-bottom:57%;
+    width:100%;
+
+  }
+
+}
+
+@media (min-width: 992px) {
+  .stochastic-page{
+    height:5500px;
+    margin-bottom:57%;
+    width:100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .stochastic-page{
+    height:5500px;
+    margin-bottom:57%;
+    width:100%;
+  }
+}
+
+/*page sizing parameters-page*/
+
+.parameters-page{
+  height:5500px;
+  margin-bottom:17%;
+  width:100%;
+}
+
+@media (min-width: 576px) {
+ .parameters-page{
+    height:5500px;
+    margin-bottom:17%;
+    width:100%;
+
+  }
+
+}
+
+@media (min-width: 768px) {
+  .parameters-page{
+    height:5500px;
+    margin-bottom:67%;
+    width:100%;
+
+  }
+
+}
+
+@media (min-width: 992px) {
+  .parameters-page{
+    height:5500px;
+    margin-bottom:67%;
+    width:100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .parameters-page{
+    height:5500px;
+    margin-bottom:67%;
+    width:100%;
+  }
+}
+
+/*page sizing gravity-model*/
+
+.gravity-model{
+  height:900px;
+  margin-bottom:67%;
+  width:100%;
+}
+
+@media (min-width: 576px) {
+ .gravity-model{
+    height:1200px;
+    margin-bottom:67%;
+    width:100%;
+
+  }
+
+}
+
+@media (min-width: 768px) {
+  .gravity-model{
+    height:900px;
+    margin-bottom:67%;
+    width:100%;
+
+  }
+
+}
+
+@media (min-width: 992px) {
+  .gravity-model{
+    height:900px;
+    margin-bottom:67%;
+    width:100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .gravity-model{
+    height:900px;
+    margin-bottom:67%;
+    width:100%;
+  }
+}
+
+
+/*page sizing for china-spatial-link*/
+.china-spatial-link{
+  height:800px;
+
+}
+
+@media (min-width: 576px) {
+      .china-spatial-link{
   height:600px;
+    width:100%;
+
 } }
     @media (min-width: 768px) {
-      .context-web-sum-page,.stochastic-page,.parameters-page{
+      .china-spatial-link{
   height:600px;
+    width:100%;
+
 }}
     @media (min-width: 992px) {
-         .context-web-sum-page,.stochastic-page,.parameters-page{
-  height:800px;
+         .china-spatial-link{
+  height:600px;
+    width:100%;
+
 }}
     @media (min-width: 1200px) {
-         .context-web-sum-page,.stochastic-page,.parameters-page{
-  height:800px;
-}}
-        
-        
-.gravity-model{
-  height:800px;
-}        
+         .china-spatial-link{
+  height:600px;
+  width:100%;
 
+}}
+
+
+
+body,iframe {
+background-color:transparent;
+}
 
 iframe {
-   border: 0;
-   height: 100%;
+   top: 20;
+   height: 115%;
    left: 0;
    position: absolute;
    margin-bottom:2.5em;
    width: 100%;
    clear: both;
+   overflow:visible;
+   background-color: transparent;
+   zoom: 0.95;
+    -webkit-transform:scale(0.9%);
+    -webkit-transform-origin: 0 0;
+  -moz-transform: scale(0.95);
+  -moz-transform-origin: 0 0;
+  -ms-transform: 0.95;
+   -o-transform: scale(0.95);
+  -o-transform-origin: 0 0;
+  transform:scale(0.95);
 }
+
 
 
 /*edit the jumbotron to edit homepage image*/
@@ -129,15 +394,25 @@ iframe {
 
 /*clearing the nav bar */
 
-#header::before{
+.ceidfooter::before{
+  content: "";
+  height: 80px;
+  display: block;
+  width: 0;
+  padding:20px 0 20px 0;
+  margin: 0 0 20px 0;
+  clear: both;
+}
+#supplemental-information::after,#supplemental-information:before,#header::before{
   content: "";
   height: 15px;
   display: block;
   width: 0;
   padding: 0;
-  margin: 0 0 0 10px;
+  margin: 0 0 10px 0;
   clear: both;
 }
+
 
 @media (max-width: 992px) {
   #header::before{
@@ -227,14 +502,12 @@ h1,h2,h3,h4,h5,h6,a, a:active{
     font-weight:400;
 }
 
-.ceidfooter{
-  margin-top:10px;
-}
+
 .r, p, span, li, ol, ul,body, div, span, code{
   font-family:'Merriweather Sans', Arial, sans-serif;
   font-weight:300;
   line-height: 1.5em;
-  
+
 }
 
 
@@ -244,10 +517,7 @@ a,a:active, a:hover, a:focus{
 }
 
 
-div {
-    display: block;
-    /*padding:10px 0 10px 0;*/
-}
+
 
 p,.navbar-nav>li>a{
   padding:10px 14.5px 10px 14.5px;
@@ -289,8 +559,6 @@ pre.r{
 
 
 .ceidfooter {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   padding: 48px 0;
   border-width: 4px 0 0;
   border-style: solid;
@@ -309,6 +577,7 @@ pre.r{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     width: 100%;
+    z-index:99999;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -490,11 +759,11 @@ pre.r{
       .ceidfooter__social-link:hover {
         color: #BA0C2F;
         text-decoration: none; }
-        
-        
+
+
 #no-links-names:hover,#no-links:hover{
   color: #000000;
-  
+
 }
 
 .news-item-date{
