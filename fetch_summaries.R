@@ -45,19 +45,11 @@ utils::download.file(
 #   destfile="nowcast-web-summary.html"
 # )
 
-# China Spatial Model
-utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4A7TNXO27D2IP6EG6C6JIC6W",
-  destfile="china-spatial-web-summary.html"
-)
-
-# China Spatial Model
-utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.Rmd?token=ADVPF4CSYIGR26NN6WBWVWC6JP67I",
-  destfile="china-spatial-web-summary.Rmd"
-)
-
-
+# # China Spatial Model
+# utils::download.file(
+#   url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4A7TNXO27D2IP6EG6C6JIC6W",
+#   destfile="china-spatial-web-summary.html"
+# )
 
 # China Spatial Model - links map
 utils::download.file(
