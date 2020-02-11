@@ -775,6 +775,11 @@ pre.r{
 
 }
 
+
+.news-post .figure img {
+  width: 25%;
+}
+
 .news-item-date{
   font-size:13px;
 }
