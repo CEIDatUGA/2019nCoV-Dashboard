@@ -18,9 +18,10 @@ knitr::include_url("context-web-summary.html")
 <!-- Preprint: [download]() -->
 
 <p>
-  <a href="https://github.com/CEIDatUGA/ncov-context">
-    <img src="images/GitHub-Mark-32px.png" alt="GitHub repository"/>
+  <a href="https://github.com/CEIDatUGA/ncov-data-summary">
+    <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
     GitHub repository (private)
   </a>
 </p>
+
 </div>

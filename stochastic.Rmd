@@ -1,9 +1,9 @@
+
 <div class="stochastic-page">
 
 ```{r echo=FALSE}
 knitr::include_url("stochastic-web-summary.html")
 ```
-
 </div>
 
 ## Supplemental Information
@@ -16,7 +16,7 @@ knitr::include_url("stochastic-web-summary.html")
 
 <p>
   <a href="https://github.com/CEIDatUGA/ncov-data-summary">
-    <img src="images/GitHub-Mark-32px.png" alt="GitHub repository"/>
+    <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
     GitHub repository (private)
   </a>
 </p>
