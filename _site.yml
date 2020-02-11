@@ -21,6 +21,8 @@ navbar:
 #      href: spatial-US.html
 #    - text: "World Import Risk"
 #      href: spatial-world.html
+    - text: "News"
+      href: news.html
 output:
   html_document:
     self_contained: false
