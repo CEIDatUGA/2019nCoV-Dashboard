@@ -1,15 +1,23 @@
 <div class="parameters-page">
+
 ```{r echo=FALSE}
 knitr::include_url("parameters-web-summary.html")
 ```
 </div>
+
+## Supplemental Information
+
+<div class="container-frames">
+
 <!-- Supplemental information: [html]() -->
 
 <!-- Preprint: [download]() -->
 
 <p>
-  <a href="https://github.com/CEIDatUGA/ncov-parameters">
-    <img src="images/GitHub-Mark-32px.png" alt="GitHub repository"/>
+  <a href="https://github.com/CEIDatUGA/ncov-data-summary">
+    <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
     GitHub repository (private)
   </a>
 </p>
+
+</div>

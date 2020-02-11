@@ -33,9 +33,9 @@ border:none;
 
 
 #supplemental-information{
-    padding:40px 0 15px 0;
+    padding:10px 0 15px 0;
     position: relative;
-    margin:20px 0 10px 0;;
+    margin:10px 0 10px 0;;
 }
 
 html{
@@ -197,24 +197,21 @@ body{
 /*page sizing stochastic-page*/
 
 .stochastic-page{
-  height:5500px;
-  margin-bottom:57%;
+  height:5550px;
   width:100%;
 }
 
 @media (min-width: 576px) {
   .stochastic-page{
-    height:5500px;
+    height:5550px;
     width:100%;
-    margin-bottom:57%;
   }
 
 }
 
 @media (min-width: 768px) {
   .stochastic-page{
-    height:5500px;
-    margin-bottom:57%;
+    height:5550px;
     width:100%;
 
   }
@@ -223,16 +220,14 @@ body{
 
 @media (min-width: 992px) {
   .stochastic-page{
-    height:5500px;
-    margin-bottom:57%;
+    height:5550px;
     width:100%;
   }
 }
 
 @media (min-width: 1200px) {
   .stochastic-page{
-    height:5500px;
-    margin-bottom:57%;
+    height:5550px;
     width:100%;
   }
 }
@@ -240,15 +235,13 @@ body{
 /*page sizing parameters-page*/
 
 .parameters-page{
-  height:5500px;
-  margin-bottom:17%;
+  height:5150px;
   width:100%;
 }
 
 @media (min-width: 576px) {
  .parameters-page{
-    height:5500px;
-    margin-bottom:17%;
+    height:5150px;
     width:100%;
 
   }
@@ -257,8 +250,7 @@ body{
 
 @media (min-width: 768px) {
   .parameters-page{
-    height:5500px;
-    margin-bottom:67%;
+    height:5150px;
     width:100%;
 
   }
@@ -267,16 +259,14 @@ body{
 
 @media (min-width: 992px) {
   .parameters-page{
-    height:5500px;
-    margin-bottom:67%;
+    height:5150px;
     width:100%;
   }
 }
 
 @media (min-width: 1200px) {
   .parameters-page{
-    height:5500px;
-    margin-bottom:67%;
+    height:5150px;
     width:100%;
   }
 }
@@ -384,7 +374,10 @@ iframe {
   transform:scale(0.95);
 }
 
-
+#github-icon{
+  width:32px;
+  height:32px;
+}
 
 /*edit the jumbotron to edit homepage image*/
 .jumbotron {
@@ -395,17 +388,11 @@ iframe {
 .jumbotron h1 {
   font-size: 2.5em;
 }
-
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #00A3ADdd !important;
-}
-
-
 /*clearing the nav bar */
 
 .ceidfooter::before{
   content: "";
-  height: 80px;
+  height: 0;
   display: block;
   width: 0;
   padding:20px 0 20px 0;
