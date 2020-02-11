@@ -2,6 +2,18 @@
 ## Latest News and Updates
 
 <div class="news-post">
+
+### Virus renamed COVID-19 {#news-covid-19}
+February 11, 2020
+<div class="news-item-description">
+The 2019 novel coronavirus has received its official name from the [World Health Organization](https://www.who.int/). 
+
+Its new name, **"COVID-19,"** is a contraction of "**Co**rona **Vi**rus **D**isease 20**19**"
+
+</div>
+</div>
+
+<div class="news-post">
 ![<small><em>Illustration of 2019 nCov<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
 
 ### Announcing the Coronavirus Tracker {#news-announcing-ncov-tracker}
