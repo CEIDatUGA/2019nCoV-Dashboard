@@ -11,7 +11,7 @@
 
 
 
-<meta name="date" content="2020-02-11" />
+<meta name="date" content="2020-02-12" />
 
 <title>A gravity model for the spatial spread of 2019-nCov in China</title>
 
@@ -372,7 +372,7 @@ summary {
 
 
 <h1 class="title toc-ignore">A gravity model for the spatial spread of 2019-nCov in China</h1>
-<h4 class="date">February 11, 2020</h4>
+<h4 class="date">February 12, 2020</h4>
 
 </div>
 
@@ -380,13 +380,13 @@ summary {
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
 <p>We developed a gravity-based model to better understand the risk of spatial spread of the 2019-nCov at the prefecture level in China, and to determine the efficacy of quarantines imposed in Wuhan and other prefectures.</p>
-<p>This model is calibrated using <a href="https://ncov.dxy.cn/ncovh5/view/pneumonia?scene=2&amp;clicktime=1579579384&amp;enterid=1579579384&amp;from=groupmessage&amp;isappinstalled=0">data</a> of the first reported cases within each prefecture in China, with data sources crowd sourced from news stories and twitter.</p>
+<p>This model is calibrated using data of the first reported cases within each prefecture in China. Prefecture case data are accessd from the <a href="https://ncov.dxy.cn/ncovh5/view/pneumonia?scene=2&amp;clicktime=1579579384&amp;enterid=1579579384&amp;from=groupmessage&amp;isappinstalled=0">丁香园</a> website, an online forum for medical related news and medical professionals. This website was built to disseminate information on the confirmed coronavirus cases with information being supplied directly from the China National Health Commission and the corresponding health commission in each province, starting January 23rd 2020. Prior to January 23rd, case data were collected using news reports and local government websites.</p>
 <p>Data of <a href="https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1525027375">quarantines</a> and other travel restrictions were collated from various sources, including news reports, and Chinese government websites. A given prefecture was assumed under quarantine following the first date a quarantine or travel restriction was administered in a given prefecture. Interprovincial travel restrictions implemented in China are not currently included in the model, only those at the city or prefecture level.</p>
 <p>All findings are preliminary and subject to change, pending future changes in the underlying data. These results have not been peer-reviewed, but have been prepared to a professional standard with the intention of providing useful information about a rapidly developing event.</p>
 </div>
 <div id="model" class="section level2">
 <h2>Model</h2>
-<p>We use competing stochastic, mechanistic Susceptible-Infected (SI) models at the prefecture scale to predict the risk of 2019-nCov (EVD) importation into uninfected prefectures within China. The models are updated daily using date of the first reported case by prefecture (administrative level 2), provided by <a href="https://ncov.dxy.cn/ncovh5/view/pneumonia?scene=2&amp;clicktime=1579579384&amp;enterid=1579579384&amp;from=groupmessage&amp;isappinstalled=0">link to data</a>.</p>
+<p>We use competing stochastic, mechanistic Susceptible-Infected (SI) models at the prefecture scale to predict the risk of 2019-nCov (EVD) importation into uninfected prefectures within China. The models are updated daily using date of the first reported case by prefecture (administrative level 2), provided by the 丁香园 website described above.</p>
 <p>The probabilities of importation to all susceptible zones <span class="math inline">\(i\)</span> from all infected zones <span class="math inline">\(j\)</span> (sources) are modelled using a logistic parameterization, with <span class="math inline">\(P_{ij}\)</span> defined as the probability of infection between prefectures <span class="math inline">\(j\)</span> and <span class="math inline">\(i\)</span> according to a set of two competing gravity models. Both models consider the distance between prefectures <span class="math inline">\(d_{ij}\)</span>, the population sizes of the prefectures <span class="math inline">\(p\)</span>, and the second includes an additional term when there is a quarantine or travel restriction in place between prefectures <span class="math inline">\(j\)</span> and <span class="math inline">\(i\)</span>, <span class="math inline">\(quarantine_{ij}\)</span>.</p>
 <div id="model-1" class="section level3">
 <h3>Model 1</h3>
@@ -438,19 +438,19 @@ Model1
 distance, populations
 </td>
 <td style="text-align:left;width: 4em; ">
-5.03
+4.93
 </td>
 <td style="text-align:left;width: 4em; ">
-289.65
+190.77
 </td>
 <td style="text-align:left;width: 3em; ">
-0.41
+0.39
 </td>
 <td style="text-align:left;width: 10em; ">
 —
 </td>
 <td style="text-align:left;">
-1837.38
+1820.03
 </td>
 </tr>
 <tr>
@@ -461,19 +461,19 @@ Model2
 distance, populations, and quarantine
 </td>
 <td style="text-align:left;width: 4em; ">
-4.87
+5.13
 </td>
 <td style="text-align:left;width: 4em; ">
-8145.28
+8953.48
 </td>
 <td style="text-align:left;width: 3em; ">
-0.51
+0.5
 </td>
 <td style="text-align:left;width: 10em; ">
--3.85
+-4.27
 </td>
 <td style="text-align:left;">
-1829.47
+1900.59
 </td>
 </tr>
 </tbody>
@@ -482,9 +482,9 @@ distance, populations, and quarantine
 </div>
 <div id="discussion" class="section level2">
 <h2>Discussion</h2>
-<p>The model with the lowest AIC included quarantine borders but the parameter estimates suggest that the quarantines were ineffective at slowing the rate of spread of the nCov within China. In fact, according to the model, prefectures with quarantines are associated with increased transmission risk. This could be a signal of extensive unobserved spread of the disease prior to the quarantines going into effect, although more than one infectious period has passed since the initial quarantine in Wuhan.</p>
-<p>Alternatively, since we are not currently including the number of cases in each prefecture at each time step, it is likely that the prefectures that contain quarantines are simply prefectures that have the highest case load, and that including the quarantines in the model is identifying the most infectious prefectures as having the highest risk of transmitting the disease prior to and potentially during the quarantines.</p>
-<p>Additionally, the model implies that the quarantines put in place were not effective at slowing the spread of disease within China, but we are making no conclusions about international spread or efficacy of international quarantines or restrictions.</p>
+<p>The best model does not include quarantine borders, suggesting that quarantines have been ineffective at slowing the rate of spread of the nCov within China. We point out that the model does not provide information about international spread or efficacy of international quarantines or restrictions.</p>
+<p>The lack of an effect of quarantines could be a signal of extensive unobserved spread of the disease prior to the quarantines going into effect, although more than one infectious period has passed since the initial quarantine in Wuhan.</p>
+<p>We point out that according to the model including quarantines, the current data suggests prefectures with quarantines would be associated with increased transmission risk. This could result of spread prior to the quarantines as noted above. Alternatively, since we are not currently including the number of cases in each prefecture at each time step, it is likely that the prefectures that contain quarantines are simply prefectures that have the highest case load, and that including the quarantines in the model is identifying the most infectious prefectures as having the highest risk of transmitting the disease prior to and potentially during the quarantines.</p>
 <p>We will extend the model to include the number of daily reported cases in the estimation of transmission risk. This may improve our ability to estimate risk, but it also introduces additional error from under-reporting of cases during the initial spread.</p>
 </div>
 

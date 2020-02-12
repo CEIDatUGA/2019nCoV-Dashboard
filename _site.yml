@@ -13,6 +13,8 @@ navbar:
       href: parameters.html
     - text: "Stochastic Model"
       href: stochastic.html
+    - text: "Mass Testing"
+      href: mass_testing.html
 #    - text: "Nowcasting"
 #      href: nowcast.html
     - text: "China Spatial Model"

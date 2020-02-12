@@ -39,6 +39,17 @@ utils::download.file(
   destfile="stochastic-web-summary.html"
 )
 
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model.html",
+  destfile="stochastic-model.html"
+)
+
+# Mass Testing
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/CoV_MassTesting_summary.html?token=ADVPF4FR452OEBZK6HBW7LS6JVCTO",
+  destfile="CoV_MassTesting_summary.html"
+)
+
 # # Nowcast
 # utils::download.file(
 #   url="",
