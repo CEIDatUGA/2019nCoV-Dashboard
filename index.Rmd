@@ -2,7 +2,10 @@
 ---
 
 
-<div class="jumbotron">
+</div> <!-- container-fluid main-container -->
+
+<div class="jumbotron jumbotron-fluid">
+<div class="container">
   <!--<h1 class="display-3">Hello, world!</h1>-->
   <h1 class="lead">The UGA Center for the Ecology of Infectious Diseases [(CEID)](http://ceid.uga.edu)<br><strong>Coronavirus Working Group</strong></h2>
   <!--
@@ -13,6 +16,9 @@
     <a class="btn btn-primary btn-lg" href="news.html" role="button">Updates</a>
   </p>
 </div>
+</div>
+
+<div class="container-fluid main-container"> <!-- container-fluid main-container -->
 
 
 <div class="row">
