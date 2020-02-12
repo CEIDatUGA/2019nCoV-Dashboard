@@ -10,7 +10,7 @@ knitr::include_url("stochastic-web-summary.html")
 
 <div class="container-frames">
 
-<!-- Supplemental information: [html]() -->
+Model deails and R code: [stochastic-model.html](stochastic-model.html)
 
 <!-- Preprint: [download]() -->
 

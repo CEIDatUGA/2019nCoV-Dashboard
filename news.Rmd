@@ -14,7 +14,7 @@ Its new name, **"COVID-19,"** is a contraction of "**Co**rona **Vi**rus **D**ise
 </div>
 
 <div class="news-post">
-![<small><em>Illustration of 2019 nCov<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
+![<small><em>Artist's impression of COVID-19 coronavirus<br>Based on micrographs of related SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
 
 ### Announcing the Coronavirus Tracker {#news-announcing-ncov-tracker}
 February 10, 2020

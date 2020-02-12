@@ -52,7 +52,7 @@ The 2019 novel coronavirus has received its official name from the [World Health
 
 <!--NEWS ITEM-->
 <div class="news-item">
-![<small><em>Illustration of 2019 nCov<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
+![<small><em><small><em>Artist's impression of COVID-19 coronavirus<br>Based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
 
 #### Announcing the Coronavirus Tracker
 <div class="news-item-date">February 10, 2020</div>

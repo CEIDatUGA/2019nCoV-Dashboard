@@ -15,6 +15,9 @@ knitr::include_url("china-spatial-web-summary.html")
 
 <div class="container-frames">
 <div class="china-spatial-link">
+
+Black lines represent the link weights in the 90th percentile and are drawn between prefecture centroids. Link weight magnitude was estimated from the best-fit model, which includes effects of distance, population size and whether links cross quarantine borders. The map is fully connected and invisible links represent the remaining 90% of links. Administrative units used to fit the model are colored by the first date of infection. Uninfected prefectures are colored grey.
+
 ```{r echo=FALSE}
 knitr::include_url("china-spatial-link-weights.html")
 ```
