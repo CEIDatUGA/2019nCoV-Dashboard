@@ -1,4 +1,3 @@
-<div class="container-frames">
 
 <div class="context-web-sum-page">
 
@@ -7,7 +6,7 @@ knitr::include_url("context-web-summary.html")
 ```
 
 </div>
-</div>
+
 
 ## Supplemental Information
 
