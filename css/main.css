@@ -28,31 +28,31 @@
 
 /*header styles*/
 
-h1,#header,#data-summary{
+h1,#header,#data-summary, #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
   padding-top:20px;
   clear:both;
 }
 
 @media (min-width: 576px) {
-  #header,#data-summary{
+  #header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:15px;
 }
 }
 
 @media (min-width: 768px) {
-  #header,#data-summary{
+  #header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:40px;
   }
 }
 
 @media (min-width: 992px) {
-  #header,#data-summary{
+  #header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:20px;
   }
 }
 
 @media (min-width: 1200px) {
-  #header,#data-summary{
+  #header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:10px;
   }
 }
@@ -76,6 +76,45 @@ body{
   padding-bottom:10px;
 }
 
+/*page sizing for mass-testing-page*/ 
+
+.mass-testing-page{
+  height:4125px;
+  width:100%;
+  margin-bottom:7%;
+}
+
+@media (min-width: 576px) {
+  .mass-testing-page{
+    height:3940px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .mass-testing-page{
+    height:3750px;
+    width:100%;
+    margin-bottom:5%;
+  }
+}
+
+@media (min-width: 992px) {
+  .mass-testing-page{
+    height:3750px;
+    width:100%;
+    margin-bottom:5%;
+  }
+}
+
+@media (min-width: 1200px) {
+.mass-testing-page{
+    height:3750px;
+    width:100%;
+    margin-bottom:5%;
+  }
+}
 
 /*page sizing for china-spatial-link*/
 
