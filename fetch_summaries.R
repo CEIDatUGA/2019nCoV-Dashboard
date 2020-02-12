@@ -62,9 +62,9 @@ utils::download.file(
   destfile="china-spatial-web-summary.html"
 )
 
-# China Spatial Model - links map
+# China Spatial Model - links map - UPDATE MANUALLY - FILE NAME CHANGES
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/f8b0d4b6f1d721809d17fe2a85919b2e7f11d7f5/maps/link-weights-chloropleth-highest-ten-pct-2020-02-09.html?token=ADVPF4FW2UNUFT522DXAMGC6JKSOA",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/maps/link-weights-chloropleth-highest-ten-pct-2020-02-11.html?token=ADVPF4COFZRUS2V3INJCJXC6JVHJ4",
   destfile="china-spatial-link-weights.html"
 )
 
