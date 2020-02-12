@@ -8,17 +8,12 @@
 @import url("//fonts.googleapis.com/css?family=Merriweather+Sans:300|Merriweather:300|Oswald:300,400,500&display=swap");
 
 
-.macintosh,.avoid-move-cursor,body,.rstudio-HelpFrame,.main-container ,.section,#section,iframe,.container-frames,.container-fluid,.container,.fluid-row{
-background-color:transparent;
-border:none;
-}
-
-.container-fluid,
-.main-container {
+.container-fluid,.main-container {
     height: 100%;
     position: relative;
     overflow:visible;
 }
+
 .container-frames{
   position:relative;
   height: 100%;
@@ -31,6 +26,37 @@ border:none;
   padding-right:0;
 }
 
+/*header styles*/
+
+h1,#header,#data-summary{
+  padding-top:20px;
+  clear:both;
+}
+
+@media (min-width: 576px) {
+  #header,#data-summary{
+    padding-top:15px;
+}
+}
+
+@media (min-width: 768px) {
+  #header,#data-summary{
+    padding-top:40px;
+  }
+}
+
+@media (min-width: 992px) {
+  #header,#data-summary{
+    padding-top:20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #header,#data-summary{
+    padding-top:10px;
+  }
+}
+/*end of header styles*/
 
 #supplemental-information{
     padding:10px 0 15px 0;
@@ -50,64 +76,118 @@ body{
   padding-bottom:10px;
 }
 
-/*page sizing world-epidemic-map-tab on data-page*/
-.china-spatial-link,.china-epidemic-map{
-  height:850px;
-  padding-bottom:10%;
+
+/*page sizing for china-spatial-link*/
+
+
+.china-spatial-link{
+  height:650px;
+  padding-bottom:67%;
 }
 
 @media (min-width: 576px) {
-      .china-spatial-link,.china-epidemic-map{
-  height:600px;
-    width:100%;
+  .china-spatial-link{
+    height:600px;
+    padding-bottom:67%;
+  }
+}
 
-} }
-    @media (min-width: 768px) {
-      .china-spatial-link,.china-epidemic-map{
-  height:600px;
-    width:100%;
+@media (min-width: 768px) {
+  .china-spatial-link{
+    height:650px;
+    padding-bottom:67%;
+  }
+}
 
-}}
-    @media (min-width: 992px) {
-         .china-spatial-link,.china-epidemic-map{
-  height:600px;
-    width:100%;
+@media (min-width: 992px) {
+  .china-spatial-link{
+    height:600px;
+    padding-bottom:67%;
+  }
+}
 
-}}
-    @media (min-width: 1200px) {
-         .china-spatial-link,.china-epidemic-map{
+@media (min-width: 1200px) {
+  .china-spatial-link{
+    height:600px;
+    padding-bottom:67%;
+  }
+}
+
+/*sizing for china-epidemic-map*/
+.china-epidemic-map{
+  height:600px;
+  padding-bottom:67%;
+}
+
+@media (min-width: 576px) {
+  .china-epidemic-map{
+    height:600px;
+    width:100%;
+    padding-bottom:67%;
+  }
+}
+
+@media (min-width: 768px) {
+  .china-epidemic-map{
   height:600px;
   width:100%;
+  padding-bottom:67%;
+  }
+}
 
-}}
+@media (min-width: 992px) {
+  .china-epidemic-map{
+    height:600px;
+    width:100%;
+    padding-bottom:67%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .china-epidemic-map{
+    height:600px;
+    width:100%;
+    padding-bottom:67%;
+  }
+}
+
 
 /*page sizing world-epidemic-map-tab on data-page*/
+
 .world-epidemic-map{
   height:600px;
   width:100%;
-
+  padding-bottom:67%;
 }
+
 @media (min-width: 576px) {
-      .world-epidemic-map{
-  height:600px;
+  .world-epidemic-map{
+    height:600px;
+    padding-bottom:67%;
+  }
+}
+   
+@media (min-width: 768px) {
+  .world-epidemic-map{
+    height:600px;
+    padding-bottom:67%;
+  }
+}
 
-} }
-    @media (min-width: 768px) {
-      .world-epidemic-map{
-  height:600px;
+@media (min-width: 992px) {
+  .world-epidemic-map{
+   height:600px;
+   padding-bottom:67%;
+  }
+}
 
-}}
-    @media (min-width: 992px) {
-         .world-epidemic-map{
+@media (min-width: 1200px) {
+  .world-epidemic-map{
   height:600px;
-
-}}
-    @media (min-width: 1200px) {
-         .world-epidemic-map{
-  height:600px;
+  padding-bottom:67%;
   width:100%;
-
-}}
+  }
+}
 
 /*page sizing epidemic-curves-tab on data-page*/
 
@@ -119,32 +199,36 @@ body{
 
 
 @media (min-width: 576px) {
-      .epidemic-curves{
- height:2200px;
- width:100%;
- margin-bottom:67%;
-} }
-    @media (min-width: 768px) {
-      .epidemic-curves{
+  .epidemic-curves{
   height:2200px;
   width:100%;
   margin-bottom:67%;
+  }
+}
 
-}}
-    @media (min-width: 992px) {
-         .epidemic-curves{
-  height:2200px;
-  width:100%;
+@media (min-width: 768px) {
+  .epidemic-curves{
+    height:2200px;
+    width:100%;
     margin-bottom:67%;
+  }
+}
 
-}}
-    @media (min-width: 1200px) {
-         .epidemic-curves{
-  height:2200px;
-  margin-bottom:67%;
-  width:100%;
+@media (min-width: 992px) {
+  .epidemic-curves{
+    height:2200px;
+    width:100%;
+    margin-bottom:67%;
+  }
+}
 
-}}
+@media (min-width: 1200px) {
+  .epidemic-curves{
+    height:2200px;
+    margin-bottom:67%;
+    width:100%;
+  }
+}
 
 /*page sizing context-page*/
 
@@ -152,8 +236,6 @@ body{
     height:3700px;
     width:100%;
     margin-bottom:67%;
-
-
 }
 
 
@@ -162,9 +244,7 @@ body{
     height:3400px;
     width:100%;
     margin-bottom:10%;
-
   }
-
 }
 
 @media (min-width: 768px) {
@@ -172,9 +252,7 @@ body{
     height:3300px;
     margin-bottom:10%;
     width:100%;
-    
   }
-
 }
 
 @media (min-width: 992px) {
@@ -182,9 +260,9 @@ body{
     height:3400px;
     margin-bottom:10%;
     width:100%;
-    
   }
 }
+
 @media (min-width: 1200px) {
   .context-web-sum-page{
     height:3400px;
@@ -198,31 +276,32 @@ body{
 /*page sizing stochastic-page*/
 
 .stochastic-page{
-  height:5550px;
+  height:5250px;
   width:100%;
+  margin-bottom:5%;
 }
 
 @media (min-width: 576px) {
   .stochastic-page{
-    height:5550px;
+    height:5250px;
     width:100%;
+    margin-bottom:10%;
   }
-
 }
 
 @media (min-width: 768px) {
   .stochastic-page{
-    height:5550px;
+    height:5450px;
     width:100%;
-
+    margin-bottom:10%;
   }
-
 }
 
 @media (min-width: 992px) {
   .stochastic-page{
     height:5550px;
     width:100%;
+    margin-bottom:10%;
   }
 }
 
@@ -236,26 +315,25 @@ body{
 /*page sizing parameters-page*/
 
 .parameters-page{
-  height:5150px;
-  width:100%;
+    height:5150px;
+    width:100%;
+    margin-bottom:10%;
 }
 
 @media (min-width: 576px) {
- .parameters-page{
-    height:5150px;
+  .parameters-page{
+    height:4600px;
     width:100%;
-
+    margin-bottom:12%;
   }
-
 }
 
 @media (min-width: 768px) {
   .parameters-page{
     height:5150px;
     width:100%;
-
+    margin-bottom:10%;
   }
-
 }
 
 @media (min-width: 992px) {
@@ -275,79 +353,42 @@ body{
 /*page sizing gravity-model*/
 
 .gravity-model{
-  height:900px;
-  margin-bottom:67%;
-  width:100%;
+    height:2225px;
+    margin-bottom:15%;
+    width:100%;
 }
 
 @media (min-width: 576px) {
  .gravity-model{
-    height:1200px;
-    margin-bottom:67%;
+    height:2050px;
+    margin-bottom:10px;
     width:100%;
-
   }
-
 }
 
 @media (min-width: 768px) {
   .gravity-model{
-    height:900px;
-    margin-bottom:67%;
+    height:1825px;
+    margin-bottom:10px;
     width:100%;
-
   }
-
 }
 
 @media (min-width: 992px) {
   .gravity-model{
-    height:900px;
-    margin-bottom:67%;
+    height:1625px;
+    margin-bottom:10px;
     width:100%;
   }
 }
 
 @media (min-width: 1200px) {
   .gravity-model{
-    height:900px;
-    margin-bottom:67%;
+    height:1625px;
+    margin-bottom:10%;
     width:100%;
   }
 }
-
-
-/*page sizing for china-spatial-link*/
-.china-spatial-link{
-  height:800px;
-
-}
-
-@media (min-width: 576px) {
-      .china-spatial-link{
-  height:600px;
-    width:100%;
-
-} }
-    @media (min-width: 768px) {
-      .china-spatial-link{
-  height:600px;
-    width:100%;
-
-}}
-    @media (min-width: 992px) {
-         .china-spatial-link{
-  height:600px;
-    width:100%;
-
-}}
-    @media (min-width: 1200px) {
-         .china-spatial-link{
-  height:600px;
-  width:100%;
-
-}}
-
 
 
 body,iframe {
@@ -358,6 +399,7 @@ iframe {
    top: 20;
    height: 101%;
    left: 0;
+   border:0;
    position: absolute;
    margin-bottom:2.5em;
    width: 100%;
@@ -406,6 +448,7 @@ iframe {
   margin: 0 0 20px 0;
   clear: both;
 }
+
 #supplemental-information::after,#supplemental-information:before,#header::before{
   content: "";
   height: 15px;
@@ -420,11 +463,11 @@ iframe {
 @media (max-width: 992px) {
   #header::before{
   content: "";
-  height: 30px;
+  height: 15px;
   display: block;
   width: 0;
   padding: 0;
-  margin: 0 0 0 10px;
+  margin: 0 0 10px 0;
   clear: both;
 }
 }
@@ -432,23 +475,23 @@ iframe {
 @media (max-width: 768) {
   #header::before{
   content: "";
-  height: 40px;
+  height: 20px;
   display: block;
   width: 0;
   padding: 0;
-  margin: 0 0 0 10px;
+  margin: 0 0 10px 0;
   clear: both;
 }
 }
 
-@media (min-width: 600) {
+@media (min-width: 576) {
   #header::before{
   content: "";
-  height: 40px;
+  height: 10px;
   display: block;
   width: 0;
   padding: 0;
-  margin: 0 0 0 10px;
+  margin: 0 0 20px 0;
   clear: both;
 }
 }
