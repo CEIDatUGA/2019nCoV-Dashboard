@@ -1,27 +1,28 @@
 
-<div class="stochastic-page">
+<div class="mass-testing-page">
   
-  ```{r echo=FALSE}
+```{r echo=FALSE}
 knitr::include_url("CoV_MassTesting_summary.html")
 ```
+
 </div>
   
-  ## Supplemental Information
+## Supplemental Information
   
-  <div class="container-frames">
+<div class="container-frames">
   
 <!--Model deails and R code: []()-->
 
 <!--Preprint: [download]() -->
   
-  <p>
+<p>
   <a href="https://github.com/CEIDatUGA/CoV_MassTesting">
   <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
   GitHub repository (private)
-</a>
-  </p>
+  </a>
+</p>
   
-  </div>
+</div>
   
   
   
