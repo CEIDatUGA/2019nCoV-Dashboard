@@ -44,14 +44,16 @@ html{
 
 body{
   height:100%;
-  width:100%;
-  overflow:visible;
+}
+
+.news-item{
+  padding-bottom:10px;
 }
 
 /*page sizing world-epidemic-map-tab on data-page*/
 .china-spatial-link,.china-epidemic-map{
-  height:800px;
-
+  height:850px;
+  padding-bottom:10%;
 }
 
 @media (min-width: 576px) {
@@ -147,19 +149,19 @@ body{
 /*page sizing context-page*/
 
 .context-web-sum-page{
-    height:2800px;
-    margin-bottom:67%;
+    height:3700px;
     width:100%;
-    overflow:hidden;
+    margin-bottom:67%;
+
 
 }
 
+
 @media (min-width: 576px) {
   .context-web-sum-page{
-    height:2800px;
-    margin-bottom:67%;
+    height:3400px;
     width:100%;
-    overflow:hidden;
+    margin-bottom:10%;
 
   }
 
@@ -167,28 +169,27 @@ body{
 
 @media (min-width: 768px) {
   .context-web-sum-page{
-    height:2800px;
-    margin-bottom:67%;
+    height:3300px;
+    margin-bottom:10%;
     width:100%;
-    overflow:hidden;
+    
   }
 
 }
 
 @media (min-width: 992px) {
   .context-web-sum-page{
-    height:2800px;
-    margin-bottom:67%;
+    height:3400px;
+    margin-bottom:10%;
     width:100%;
-    overflow:hidden;
+    
   }
 }
 @media (min-width: 1200px) {
   .context-web-sum-page{
-    height:2800px;
-    margin-bottom:67%;
+    height:3400px;
+    margin-bottom:10%;
     width:100%;
-    overflow:hidden;
   }
 }
 
@@ -355,7 +356,7 @@ background-color:transparent;
 
 iframe {
    top: 20;
-   height: 115%;
+   height: 101%;
    left: 0;
    position: absolute;
    margin-bottom:2.5em;
