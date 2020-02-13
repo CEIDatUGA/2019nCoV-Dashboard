@@ -26,6 +26,13 @@
   padding-right:0;
 }
 
+
+/*page titles*/
+.title {
+  display: none;
+}
+/*end page titles*/
+
 /*header styles*/
 
 h1,#header,#data-summary, #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{

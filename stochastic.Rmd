@@ -1,3 +1,6 @@
+---
+title: "2019 Coronavirus Tracker - Stochastic Model"
+---
 
 <div class="stochastic-page">
 

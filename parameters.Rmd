@@ -1,3 +1,7 @@
+---
+title: "2019 Coronavirus Tracker - Epidemic Characteristics"
+---
+
 <div class="parameters-page">
 
 ```{r echo=FALSE}
