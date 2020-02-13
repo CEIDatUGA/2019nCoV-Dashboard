@@ -1,0 +1,31 @@
+---
+title: "2019 Coronavirus Tracker - Nowcast"
+---
+<p id="disclaimer"></p>
+<div class="nowcast-page">
+  
+```{r echo=FALSE}
+knitr::include_url("nowcast_summary.html")
+```
+
+</div>
+  
+## Supplemental Information
+  
+<div class="container-frames">
+  
+<!--Model deails and R code: []()-->
+
+<!--Preprint: [download]() -->
+  
+<p>
+  <a href="https://github.com/CEIDatUGA/ncov-nowcast">
+  <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
+  GitHub repository (private)
+  </a>
+</p>
+  
+</div>
+  
+  
+  
