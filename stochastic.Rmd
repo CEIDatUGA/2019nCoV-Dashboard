@@ -1,7 +1,7 @@
 ---
 title: "2019 Coronavirus Tracker - Stochastic Model"
 ---
-
+<p id="disclaimer"></p>
 <div class="stochastic-page">
 
 ```{r echo=FALSE}

@@ -33,6 +33,17 @@
 }
 /*end page titles*/
 
+/*disclaimer*/
+#disclaimer {
+  padding: 0;
+}
+#disclaimer::before {
+  font-size: .75em;
+  color: #808080;
+  content:"Findings are preliminary and subject to change, pending future changes in the underlying data. Results have not been peer-reviewed, but have been prepared to a professional standard with the intention of providing useful information about a rapidly developing event.";
+}
+/*end disclaimer*/
+
 /*header styles*/
 
 h1,#header,#data-summary, #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{

@@ -1,7 +1,7 @@
 ---
 title: "2019 Coronavirus Tracker - Context"
 ---
-
+<p id="disclaimer"></p>
 <div class="context-web-sum-page">
 
 ```{r echo=FALSE}

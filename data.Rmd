@@ -1,7 +1,7 @@
 ---
 title: "2019 Coronavirus Tracker - Data"
 ---
-
+<p id="disclaimer"></p>
 ## Data Summary {.tabset .tabset-fade}
 
 ### Data Sources
