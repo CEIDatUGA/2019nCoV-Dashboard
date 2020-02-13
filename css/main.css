@@ -38,9 +38,9 @@
   padding: 0;
 }
 #disclaimer::before {
+  content:"Findings are preliminary and subject to change, pending future changes in the underlying data. Results have not been peer-reviewed, but have been prepared to a professional standard with the intention of providing useful information about a rapidly developing event.";
   font-size: .75em;
   color: #808080;
-  content:"Findings are preliminary and subject to change, pending future changes in the underlying data. Results have not been peer-reviewed, but have been prepared to a professional standard with the intention of providing useful information about a rapidly developing event.";
 }
 /*end disclaimer*/
 
