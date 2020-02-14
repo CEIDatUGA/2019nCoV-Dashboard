@@ -39,7 +39,7 @@ knitr::include_url("china-spatial-link-weights.html")
 <!-- Preprint: [download]() -->
 
 <p>
-  <a href="https://github.com/CEIDatUGA/ncov-data-summary">
+  <a href="https://github.com/CEIDatUGA/CoronavirusSpatial" target="_blank">
     <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
     GitHub repository (private)
   </a>

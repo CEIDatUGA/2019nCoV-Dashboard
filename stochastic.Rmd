@@ -13,14 +13,17 @@ knitr::include_url("stochastic-web-summary.html")
 
 <div class="container-frames">
 
-Model deails and R code: [stochastic-model.html](stochastic-model.html)
+<p>Model details and R code:<br>
+  <a href="parameters-supplement.html" target="_blank">
+  A stochastic model for the transmission of 2019-nCov in Wuhan</a> (html)
+</p>
 
 <!-- Preprint: [download]() -->
 
 <p>
-  <a href="https://github.com/CEIDatUGA/ncov-data-summary">
+  <a href="https://github.com/CEIDatUGA/ncov-wuhan-stochastic-model" target="_blank">
     <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
-    GitHub repository (private)
+    GitHub repository (public)
   </a>
 </p>
 

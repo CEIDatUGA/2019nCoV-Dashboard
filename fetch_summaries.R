@@ -33,6 +33,13 @@ utils::download.file(
   destfile="parameters-web-summary.html"
   )
 
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4CUBYWQBP6WT4XYLHK6J7PQG",
+  destfile="parameters-supplement.html"
+)
+
+
+
 # Stochastic Model
 utils::download.file(
   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/web-summary.html?token=ADVPF4BS5FEA3TZFR2QTLIK6I3O4S",

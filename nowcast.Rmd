@@ -13,13 +13,17 @@ knitr::include_url("nowcast_summary.html")
 ## Supplemental Information
   
 <div class="container-frames">
-  
-<!--Model deails and R code: []()-->
+
+<!--  
+<p>"Supplment":<br><a href="" target="_blank">
+  howcast-supplment.html</a> (html)
+</p>
+-->
 
 <!--Preprint: [download]() -->
   
 <p>
-  <a href="https://github.com/CEIDatUGA/ncov-nowcast">
+  <a href="https://github.com/CEIDatUGA/ncov-nowcast" taget="_blank">
   <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
   GitHub repository (private)
   </a>

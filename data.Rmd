@@ -51,7 +51,7 @@ knitr::include_url("epidemic-curves-web-summary.html")
 <!-- Preprint: [download]() -->
 
 <p>
-  <a href="https://github.com/CEIDatUGA/ncov-data-summary">
+  <a href="https://github.com/CEIDatUGA/ncov-data-summary" target="_blank">
     <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
     GitHub repository (private)
   </a>
