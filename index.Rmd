@@ -23,17 +23,17 @@ title: "2019 Coronavirus Tracker - About"
 
 <div class="row">
   <div class="col-sm-8">
-#### Novel coronavirus outbreak in Wuhan, China (2019-nCov)
+#### Novel coronavirus outbreak in Wuhan, China (COVID-19)
 
-On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (known as 2019-nCov) in Wuhan, China. In the first weeks of January 2020, 2019-nCov spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On January 21, 2020, the CDC activated its emergency response system.
+On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (known as 2019-nCov) in Wuhan, China. In the first weeks of January 2020, the viral disease spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On January 21, 2020, the CDC activated its emergency response system. On February 11, the WHO named the disease COVID-19.
 
 #### 2019 Coronavirus Tracker
 
 Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the [The Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) at the University of Georgia formed the **Coronavirus Working Group**, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.
 
-The Working Group's **2019 Coronavirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **2019-nCov**. Activities include:
+The Working Group's **2019 Coronavirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **COVID-19**. Activities include:
 
-* Mapping the spatial spread of 2019-nCov within China and abroad
+* Mapping the spatial spread of COVID-19 within China and abroad
 * Developing models for understanding the early stages of transmission and extrapolation to future events
 * Estimating key parameters related to transmission
 * Compiling clinical and epidemiological information to aid in the development and interpretation of model outputs as well as understanding of events as they are observed
@@ -52,18 +52,18 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 #### Virus renamed COVID-19
 <div class="news-item-date">February 11, 2020</div>
 <div class="news-item-description">
-The 2019 novel coronavirus has received its official name from the [World Health Organization](https://www.who.int/). Its new name, **"COVID-19,"** is a contraction of **Co**rona **Vi**rus **D**isease 20**19**.</div>
+The disease caused by the 2019 novel coronavirus has received its official name from the [World Health Organization](https://www.who.int/). The disease name, **"COVID-19,"** is a contraction of **Co**rona **Vi**rus **D**isease 20**19**.</div>
 [READ MORE >](news.html#news-covid-19)
 </div>
 
 <!--NEWS ITEM-->
 <div class="news-item">
-![<small><em><small><em>Artist's impression of COVID-19 coronavirus<br>Based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
+![<small><em><small><em>Artist's impression: 2019 novel coronavirus<br>Based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
 
 #### Announcing the Coronavirus Tracker
 <div class="news-item-date">February 10, 2020</div>
 <div class="news-item-description">
-The [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 nCoV outbreak. </div>[READ MORE >](news.html#news-announcing-ncov-tracker)</div>
+The [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak. </div>[READ MORE >](news.html#news-announcing-ncov-tracker)</div>
 </div>
 
 <!--NEWS ITEM-->
