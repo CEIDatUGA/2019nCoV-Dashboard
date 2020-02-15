@@ -14,7 +14,7 @@ knitr::include_url("stochastic-web-summary.html")
 <div class="container-frames">
 
 <p>Model details and R code:<br>
-  <a href="parameters-supplement.html" target="_blank">
+  <a href="stochastic-model.html" target="_blank">
   A stochastic model for the transmission of 2019-nCov in Wuhan</a> (html)
 </p>
 
