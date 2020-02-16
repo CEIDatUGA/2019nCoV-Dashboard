@@ -333,14 +333,14 @@ body{
 /*page sizing stochastic-page*/
 
 .stochastic-page{
-  height:5250px;
+  height:6650px;
   width:100%;
   margin-bottom:5%;
 }
 
 @media (min-width: 576px) {
   .stochastic-page{
-    height:5250px;
+    height:6650px;
     width:100%;
     margin-bottom:10%;
   }
@@ -348,7 +348,7 @@ body{
 
 @media (min-width: 768px) {
   .stochastic-page{
-    height:5450px;
+    height:6850px;
     width:100%;
     margin-bottom:10%;
   }
@@ -356,7 +356,7 @@ body{
 
 @media (min-width: 992px) {
   .stochastic-page{
-    height:5550px;
+    height:6950px;
     width:100%;
     margin-bottom:10%;
   }
@@ -364,7 +364,7 @@ body{
 
 @media (min-width: 1200px) {
   .stochastic-page{
-    height:5550px;
+    height:6950px;
     width:100%;
   }
 }
