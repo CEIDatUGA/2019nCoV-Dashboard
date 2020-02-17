@@ -46,31 +46,31 @@
 
 /*header styles*/
 
-h1,#header,#data-summary, #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+#disclaimer,#header,#data-summary, #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
   padding-top:20px;
   clear:both;
 }
 
 @media (min-width: 576px) {
-  #header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+  #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:15px;
 }
 }
 
 @media (min-width: 768px) {
-  #header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+  #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:40px;
   }
 }
 
 @media (min-width: 992px) {
-  #header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+  #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:20px;
   }
 }
 
 @media (min-width: 1200px) {
-  #header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+  #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:10px;
   }
 }
@@ -97,14 +97,21 @@ body{
 /*page sizing for mass-testing-page*/ 
 
 .mass-testing-page{
-  height:4125px;
+  height:4200px;
   width:100%;
   margin-bottom:7%;
 }
 
+@media (min-width: 370px) {
+  .mass-testing-page{
+    height:4000px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
 @media (min-width: 576px) {
   .mass-testing-page{
-    height:3940px;
+    height:4000px;
     width:100%;
     margin-bottom:10%;
   }
@@ -112,7 +119,7 @@ body{
 
 @media (min-width: 768px) {
   .mass-testing-page{
-    height:3750px;
+    height:3950px;
     width:100%;
     margin-bottom:5%;
   }
@@ -120,7 +127,7 @@ body{
 
 @media (min-width: 992px) {
   .mass-testing-page{
-    height:3750px;
+    height:3950px;
     width:100%;
     margin-bottom:5%;
   }
@@ -128,57 +135,76 @@ body{
 
 @media (min-width: 1200px) {
 .mass-testing-page{
-    height:3750px;
+    height:3950px;
     width:100%;
     margin-bottom:5%;
   }
 }
 
+
 /*page sizing for china-spatial-link*/
 
 
+
 .china-spatial-link{
-  height:650px;
+  height:775px;
   padding-bottom:67%;
+}
+
+@media (min-width: 376px) {
+  .china-spatial-link{
+    height:775px;
+    padding-bottom:67%;
+  }
 }
 
 @media (min-width: 576px) {
   .china-spatial-link{
-    height:600px;
+    height:775px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 768px) {
   .china-spatial-link{
-    height:650px;
+    height:775px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 992px) {
   .china-spatial-link{
-    height:600px;
+    height:775px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 1200px) {
   .china-spatial-link{
-    height:600px;
+    height:775px;
     padding-bottom:67%;
   }
 }
 
+
+
 /*sizing for china-epidemic-map*/
 .china-epidemic-map{
-  height:600px;
+  height:775px;
   padding-bottom:67%;
+}
+
+@media (min-width: 370px) {
+  .china-epidemic-map{
+    height:775px;
+    width:100%;
+    padding-bottom:67%;
+  }
 }
 
 @media (min-width: 576px) {
   .china-epidemic-map{
-    height:600px;
+    height:775px;
     width:100%;
     padding-bottom:67%;
   }
@@ -186,7 +212,7 @@ body{
 
 @media (min-width: 768px) {
   .china-epidemic-map{
-  height:600px;
+  height:775px;
   width:100%;
   padding-bottom:67%;
   }
@@ -194,7 +220,7 @@ body{
 
 @media (min-width: 992px) {
   .china-epidemic-map{
-    height:600px;
+    height:775px;
     width:100%;
     padding-bottom:67%;
   }
@@ -202,7 +228,7 @@ body{
 
 @media (min-width: 1200px) {
   .china-epidemic-map{
-    height:600px;
+    height:775px;
     width:100%;
     padding-bottom:67%;
   }
@@ -212,93 +238,115 @@ body{
 /*page sizing world-epidemic-map-tab on data-page*/
 
 .world-epidemic-map{
-  height:600px;
+  height:825px;
   width:100%;
   padding-bottom:67%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 370px) {
   .world-epidemic-map{
-    height:600px;
+    height:825px;
     padding-bottom:67%;
   }
 }
-   
+
+@media (min-width: 576px) {
+  .world-epidemic-map{
+    height:825px;
+    padding-bottom:67%;
+  }
+}
+
 @media (min-width: 768px) {
   .world-epidemic-map{
-    height:600px;
+    height:825px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 992px) {
   .world-epidemic-map{
-   height:600px;
+   height:825px;
    padding-bottom:67%;
   }
 }
 
 @media (min-width: 1200px) {
   .world-epidemic-map{
-  height:600px;
+  height:825px;
   padding-bottom:67%;
   width:100%;
   }
 }
 
+
 /*page sizing epidemic-curves-tab on data-page*/
 
 .epidemic-curves{
-  height:2200px;
-  width:100%;
-  margin-bottom:66%;
+    height:5150px;
+    margin-bottom:10%;
+    width:100%;
 }
 
+@media (min-width: 370px) {
+  .epidemic-curves{
+    height:5150px;
+    margin-bottom:10%;
+    width:100%;
+  }
+}
 
 @media (min-width: 576px) {
   .epidemic-curves{
-  height:2200px;
-  width:100%;
-  margin-bottom:67%;
+    height:5150px;
+    margin-bottom:10%;
+    width:100%;
   }
 }
 
 @media (min-width: 768px) {
   .epidemic-curves{
-    height:2200px;
+    height:5150px;
+    margin-bottom:10%;
     width:100%;
-    margin-bottom:67%;
   }
 }
 
 @media (min-width: 992px) {
   .epidemic-curves{
-    height:2200px;
+    height:5150px;
+    margin-bottom:10%;
     width:100%;
-    margin-bottom:67%;
   }
 }
 
 @media (min-width: 1200px) {
   .epidemic-curves{
-    height:2200px;
-    margin-bottom:67%;
+    height:5150px;
+    margin-bottom:10%;
     width:100%;
   }
 }
+
 
 /*page sizing context-page*/
 
 .context-web-sum-page{
-    height:3700px;
+    height:3775px;
     width:100%;
     margin-bottom:67%;
 }
 
-
+@media (min-width: 370px) {
+  .context-web-sum-page{
+    height:3675px;
+    width:100%;
+    margin-bottom:67%;
+  }}
+  
 @media (min-width: 576px) {
   .context-web-sum-page{
-    height:3400px;
+    height:3475px;
     width:100%;
     margin-bottom:10%;
   }
@@ -306,7 +354,7 @@ body{
 
 @media (min-width: 768px) {
   .context-web-sum-page{
-    height:3300px;
+    height:3375px;
     margin-bottom:10%;
     width:100%;
   }
@@ -314,7 +362,7 @@ body{
 
 @media (min-width: 992px) {
   .context-web-sum-page{
-    height:3400px;
+    height:3475px;
     margin-bottom:10%;
     width:100%;
   }
@@ -322,25 +370,32 @@ body{
 
 @media (min-width: 1200px) {
   .context-web-sum-page{
-    height:3400px;
+    height:3475px;
     margin-bottom:10%;
     width:100%;
   }
 }
-
 
 
 /*page sizing stochastic-page*/
 
 .stochastic-page{
-  height:6650px;
+  height:6800px;
   width:100%;
   margin-bottom:5%;
 }
 
+@media (min-width: 370px) {
+  .stochastic-page{
+    height:6800px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
 @media (min-width: 576px) {
   .stochastic-page{
-    height:6650px;
+    height:6800px;
     width:100%;
     margin-bottom:10%;
   }
@@ -348,7 +403,7 @@ body{
 
 @media (min-width: 768px) {
   .stochastic-page{
-    height:6850px;
+    height:6950px;
     width:100%;
     margin-bottom:10%;
   }
@@ -356,7 +411,7 @@ body{
 
 @media (min-width: 992px) {
   .stochastic-page{
-    height:6950px;
+    height:7050px;
     width:100%;
     margin-bottom:10%;
   }
@@ -364,22 +419,31 @@ body{
 
 @media (min-width: 1200px) {
   .stochastic-page{
-    height:6950px;
+    height:7050px;
     width:100%;
   }
 }
 
+
 /*page sizing parameters-page*/
 
 .parameters-page{
-    height:5150px;
+    height:2450px;
     width:100%;
     margin-bottom:10%;
 }
 
+@media (min-width: 370px) {
+  .parameters-page{
+    height:2450px;
+    width:100%;
+    margin-bottom:12%;
+  }
+}
+
 @media (min-width: 576px) {
   .parameters-page{
-    height:4600px;
+    height:2450px;
     width:100%;
     margin-bottom:12%;
   }
@@ -387,7 +451,7 @@ body{
 
 @media (min-width: 768px) {
   .parameters-page{
-    height:5150px;
+    height:2450px;
     width:100%;
     margin-bottom:10%;
   }
@@ -395,29 +459,47 @@ body{
 
 @media (min-width: 992px) {
   .parameters-page{
-    height:5150px;
+    height:1450px;
     width:100%;
   }
 }
 
 @media (min-width: 1200px) {
   .parameters-page{
-    height:5150px;
+    height:1450px;
     width:100%;
   }
+}
+
+
+
+/*tabs-test*/
+
+.tab-content>.active {
+    display: block;
+    margin-bottom: 5%;
+    height: 100%;
 }
 
 /*page sizing reff-outside-page*/
 
 .reff-outside-page{
-    height:3150px;
+    height:3300px;
     width:100%;
     margin-bottom:10%;
 }
 
+@media (min-width: 370px) {
+  .reff-outside-page{
+    height:4700px;
+    width:100%;
+    margin-bottom:12%;
+  }
+}
+
 @media (min-width: 576px) {
   .reff-outside-page{
-    height:4600px;
+    height:4700px;
     width:100%;
     margin-bottom:12%;
   }
@@ -425,7 +507,7 @@ body{
 
 @media (min-width: 768px) {
   .reff-outside-page{
-    height:3150px;
+    height:3250px;
     width:100%;
     margin-bottom:10%;
   }
@@ -433,47 +515,52 @@ body{
 
 @media (min-width: 992px) {
   .reff-outside-page{
-    height:3150px;
+    height:3200px;
     width:100%;
   }
 }
 
 @media (min-width: 1200px) {
   .reff-outside-page{
-    height:3150px;
+    height:3225px;
     width:100%;
   }
 }
 
 /*page sizing gravity-model*/
 
+
 .gravity-model{
-    height:2225px;
+    height:2425px;
     margin-bottom:15%;
-    width:100%;
+
 }
 
-@media (min-width: 576px) {
- .gravity-model{
-    height:2050px;
+@media (min-width: 370px){
+  .gravity-model{
+    height:2025px;
     margin-bottom:10px;
-    width:100%;
+  }
+}
+
+@media (min-width: 576px){
+  .gravity-model{
+    height:1825px;
+    margin-bottom:10px;
   }
 }
 
 @media (min-width: 768px) {
   .gravity-model{
-    height:1825px;
-    margin-bottom:10px;
-    width:100%;
+    height:2025px;
+    margin-bottom:10%;
   }
 }
 
 @media (min-width: 992px) {
   .gravity-model{
     height:1625px;
-    margin-bottom:10px;
-    width:100%;
+    margin-bottom:10%;
   }
 }
 
@@ -481,13 +568,11 @@ body{
   .gravity-model{
     height:1625px;
     margin-bottom:10%;
-    width:100%;
   }
 }
 
-
-body,iframe {
-background-color:transparent;
+body{
+background-color:#fff;;
 }
 
 iframe {
@@ -593,6 +678,7 @@ iframe {
 /* navbar styling */
 
 .navbar-default{
+  background-color:black;
   background-color:rgba(0,0,0,.90);
   border-width: 0 0 4px;
   border-style: solid;
@@ -844,7 +930,7 @@ pre.r{
       display: block;
       padding: .25em 1em;
       font-size: .75em;
-      font-weight:300px;
+      font-weight:300;
       color: #000000;
       text-decoration: none;
       -webkit-transition: color 100ms ease-in;
@@ -896,6 +982,7 @@ pre.r{
       color: #A9A9A9;
       text-decoration: none;
       -webkit-transition: color 100ms ease-in;
+      
       transition: color 100ms ease-in; }
       .ceidfooter__social-link:hover {
         color: #BA0C2F;
