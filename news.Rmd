@@ -6,6 +6,21 @@ title: "2019 Coronavirus Tracker - News"
 
 <div class="news-post">
 
+### Virus causing COVID-19 disease named "SARS-CoV-2" {#news-sars-cov-2}
+February 17, 2020
+<div class="news-item-description">
+
+The virus causing the current outbreak of COVID-19 has been officially named **"Severe acute respiratory syndrome coronavirus 2" (SARS-CoV-2)**. For the first several weeks of the outbreak, the virus had been informally referred to as 2019-nCoV.
+
+A [manuscript](https://www.biorxiv.org/content/10.1101/2020.02.07.937862v1.full.pdf) describing the work of the [ICTV](https://talk.ictvonline.org) Coronaviridae Study Group reports that the virus belongs to the existing species ["Severe acute respiratory syndrome-related coronavirus"](https://talk.ictvonline.org/taxonomy/p/taxonomy-history?taxnode_id=201851868), and as such, is a sister to existing SARS-CoVs.
+
+The official disease name, COVID-19, which was announced February 11, 2020, should not be confused with the official name of the virus itself, henceforth known as SARS-CoV-2.
+
+</div>
+</div>
+
+<div class="news-post">
+
 ### R effective outside China {#news-reff-outside}
 February 17, 2020
 <div class="news-item-description">
@@ -35,7 +50,9 @@ February 11, 2020
 <div class="news-item-description">
 The 2019 novel coronavirus disease has received its official name from the [World Health Organization](https://www.who.int/). 
 
-The new disease name, **"COVID-19,"** is a contraction of "**Co**rona **Vi**rus **D**isease 20**19**", indicating that the outbreak begain in 2019, and is caused by a novel virus in the coronavirus family. The novel virus is being referred to as 2019-nCov.
+The new disease name, **"COVID-19,"** is a contraction of "**Co**rona **Vi**rus **D**isease 20**19**", indicating that the outbreak begain in 2019, and is caused by a novel virus in the coronavirus family. 
+
+The novel virus itself is still unnamed, and is being referred to as 2019-nCov. [ICTV](https://talk.ictvonline.org/) will be the official authority on naming the virus. 
 
 </div>
 </div>

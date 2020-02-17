@@ -47,6 +47,17 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 <div class="col-sm-4">
 ### Latest News
 
+
+<!--NEWS ITEM-->
+<div class="news-item">
+#### Virus causing COVID-19 disease named "SARS-CoV-2"
+<div class="news-item-date">February 17, 2020</div>
+<div class="news-item-description">
+The virus causing the current outbreak of COVID-19 disease has been officially named **"Severe acute respiratory syndrome coronavirus 2" (SARS-CoV-2**).  SARS-CoV-2 is a sister virus to other SARS-CoVs. The new name replaces the informal virus name "2019-nCoV" and is not to be confused with the disease it causes, COVID-19.
+</div>
+[READ MORE >](news.html#news-sars-cov-2)
+</div>
+
 <!--NEWS ITEM-->
 <div class="news-item">
 #### Estimating "R Effective" outside China
@@ -58,7 +69,7 @@ CEID has developed a method to estimate the **Effecitve Reproductive Number $R_{
 
 <!--NEWS ITEM-->
 <div class="news-item">
-#### Virus renamed COVID-19
+#### Disease renamed COVID-19
 <div class="news-item-date">February 11, 2020</div>
 <div class="news-item-description">
 The disease caused by the 2019 novel coronavirus has received its official name from the [World Health Organization](https://www.who.int/). The disease name, **"COVID-19,"** is a contraction of **Co**rona **Vi**rus **D**isease 20**19**.</div>
