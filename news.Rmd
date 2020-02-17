@@ -6,12 +6,55 @@ title: "2019 Coronavirus Tracker - News"
 
 <div class="news-post">
 
+### Virus causing COVID-19 disease named "SARS-CoV-2" {#news-sars-cov-2}
+February 17, 2020
+<div class="news-item-description">
+
+The virus causing the current outbreak of COVID-19 has been officially named **"Severe acute respiratory syndrome coronavirus 2" (SARS-CoV-2)**. For the first several weeks of the outbreak, the virus had been informally referred to as 2019-nCoV.
+
+A [manuscript](https://www.biorxiv.org/content/10.1101/2020.02.07.937862v1.full.pdf) describing the work of the [ICTV](https://talk.ictvonline.org) Coronaviridae Study Group reports that the virus belongs to the existing species ["Severe acute respiratory syndrome-related coronavirus"](https://talk.ictvonline.org/taxonomy/p/taxonomy-history?taxnode_id=201851868), and as such, is a sister to existing SARS-CoVs.
+
+![<small><em><small><em>Artist's impression: SARS-CoV-2, based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-4.jpeg)
+
+The official disease name, COVID-19, which was announced February 11, 2020, should not be confused with the official name of the virus itself, henceforth known as SARS-CoV-2.
+
+</div>
+</div>
+
+<div class="news-post">
+
+### R effective outside China {#news-reff-outside}
+February 17, 2020
+<div class="news-item-description">
+
+The CEID Coronavirus Working Group has developed a method to estimate the effective reproduction number $R_{eff}$ of COVID-19 outside China.  The Effective Reproduction Number is the expected number of secondary cases to arise from an arbitrary case, taking into account immunity and containment efforts. 
+
+Inside of China, the related quantity "Basic Reproduction Number" ($R_0$), which does not take into account comtainment or immunity, has been estaimated at around 2, meaning on average an infected person would infect 2 other people in a population without immunity. This should be a basic property of the virus.
+
+In contrast, $R_{eff}$ is expected to change over the course of an outbreak due to increasing immuity and containment efforts. Containment will occur when $R_{eff}<1$.
+
+As of February 16, 2020, a number of cases of COVID-19 have been exported outside of China. Some of these have led to secondary transmission, while others have not. Some important questions include:
+
+* Is the current level of vigilance adequate for detection and containment?
+* What potential is there for sustained transmission in these settings?
+
+Because there is relatively little data from secondary transmission chains, it is not possible to estimate the $R_{eff}$ directly in these settings directly. However, the relative number of secondary transmission events may still contain information about the effective reproduction number in these settings. 
+
+CEID has now introduced a method to estimate the average effective reproduction number of cases exported outside China, usingrelying on certain assumptions. The method and first estimates are detailed here: <http://2019-coronavirus-tracker.com/reff-outside.html>
+
+</div>
+</div>
+
+<div class="news-post">
+
 ### Novel coronavirus disease renamed COVID-19 {#news-covid-19}
 February 11, 2020
 <div class="news-item-description">
 The 2019 novel coronavirus disease has received its official name from the [World Health Organization](https://www.who.int/). 
 
-The new disease name, **"COVID-19,"** is a contraction of "**Co**rona **Vi**rus **D**isease 20**19**", indicating that the outbreak begain in 2019, and is caused by a novel virus in the coronavirus family. The novel virus is being referred to as 2019-nCov.
+The new disease name, **"COVID-19,"** is a contraction of "**Co**rona **Vi**rus **D**isease 20**19**", indicating that the outbreak begain in 2019, and is caused by a novel virus in the coronavirus family. 
+
+The novel virus itself is still unnamed, and is being referred to as 2019-nCov. [ICTV](https://talk.ictvonline.org/) will be the official authority on naming the virus. 
 
 </div>
 </div>

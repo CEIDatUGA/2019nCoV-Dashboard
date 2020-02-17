@@ -47,27 +47,54 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 <div class="col-sm-4">
 ### Latest News
 
+
 <!--NEWS ITEM-->
 <div class="news-item">
-#### Virus renamed COVID-19
+
+<a href="news.html#news-sars-cov-2">![<small><em><small><em>Artist's impression: SARS-CoV-2<br>Based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-4.jpeg)</a>
+
+#### Virus causing COVID-19 disease named "SARS-CoV-2"
+<div class="news-item-date">February 17, 2020</div>
+<div class="news-item-description">
+The virus causing the current outbreak of COVID-19 disease has been officially named **"Severe acute respiratory syndrome coronavirus 2" (SARS-CoV-2**).  SARS-CoV-2 is a sister virus to other SARS-CoVs. The new name replaces the informal virus name "2019-nCoV" and is not to be confused with the disease it causes, COVID-19.
+</div>
+[READ MORE >](news.html#news-sars-cov-2)
+</div>
+
+<!--NEWS ITEM-->
+<div class="news-item">
+#### Estimating "R Effective" outside China
+<div class="news-item-date">February 17, 2020</div>
+<div class="news-item-description">
+CEID has developed a method to estimate the **Effecitve Reproductive Number $R_{eff}$** for COVID-19 cases outside of China. This will help answer the question of whether or not COVID-19 cases outside of China will be contained.</div>
+[READ MORE >](news.html#news-reff-outside)
+</div>
+
+<!--NEWS ITEM-->
+<div class="news-item">
+#### Disease renamed COVID-19
 <div class="news-item-date">February 11, 2020</div>
 <div class="news-item-description">
 The disease caused by the 2019 novel coronavirus has received its official name from the [World Health Organization](https://www.who.int/). The disease name, **"COVID-19,"** is a contraction of **Co**rona **Vi**rus **D**isease 20**19**.</div>
 [READ MORE >](news.html#news-covid-19)
 </div>
 
-<!--NEWS ITEM-->
-<div class="news-item">
-![<small><em><small><em>Artist's impression: 2019 novel coronavirus<br>Based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
+<!--NEWS ITEM HIDDEN-->
+
+<div class="news-item hidden">
 
 #### Announcing the Coronavirus Tracker
 <div class="news-item-date">February 10, 2020</div>
 <div class="news-item-description">
-The [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak. </div>[READ MORE >](news.html#news-announcing-ncov-tracker)</div>
+The [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak. </div>[READ MORE >](news.html#news-announcing-ncov-tracker)
 </div>
 
-<!--NEWS ITEM-->
+<!--LINK TO OLDER NEWS-->
+<div class="news-item">
+#### [ALL NEWS >](news.html)
+</div>
 
+</div>
 
 <!--END-->
 </div>
