@@ -6,6 +6,30 @@ title: "2019 Coronavirus Tracker - News"
 
 <div class="news-post">
 
+### R effective outside China {#news-reff-outside}
+February 17, 2020
+<div class="news-item-description">
+
+The CEID Coronavirus Working Group has developed a method to estimate the effective reproduction number $R_{eff}$ of COVID-19 outside China.  The Effective Reproduction Number is the expected number of secondary cases to arise from an arbitrary case, taking into account immunity and containment efforts. 
+
+Inside of China, the related quantity "Basic Reproduction Number" ($R_0$), which does not take into account comtainment or immunity, has been estaimated at around 2, meaning on average an infected person would infect 2 other people in a population without immunity. This should be a basic property of the virus.
+
+In contrast, $R_{eff}$ is expected to change over the course of an outbreak due to increasing immuity and containment efforts. Containment will occur when $R_{eff}<1$.
+
+As of February 16, 2020, a number of cases of COVID-19 have been exported outside of China. Some of these have led to secondary transmission, while others have not. Some important questions include:
+
+* Is the current level of vigilance adequate for detection and containment?
+* What potential is there for sustained transmission in these settings?
+
+Because there is relatively little data from secondary transmission chains, it is not possible to estimate the $R_{eff}$ directly in these settings directly. However, the relative number of secondary transmission events may still contain information about the effective reproduction number in these settings. 
+
+CEID has now introduced a method to estimate the average effective reproduction number of cases exported outside China, usingrelying on certain assumptions. The method and first estimates are detailed here: <http://2019-coronavirus-tracker.com/reff-outside.html>
+
+</div>
+</div>
+
+<div class="news-post">
+
 ### Novel coronavirus disease renamed COVID-19 {#news-covid-19}
 February 11, 2020
 <div class="news-item-description">
