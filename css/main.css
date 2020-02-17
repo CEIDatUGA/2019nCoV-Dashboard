@@ -98,7 +98,7 @@ body{
   display: none; 
 }
 
-/*page sizing for mass-testing-page*/ 
+/*page sizing for mass-testing-page*/
 
 .mass-testing-page{
   height:4200px;
@@ -347,7 +347,7 @@ body{
     width:100%;
     margin-bottom:67%;
   }}
-  
+
 @media (min-width: 576px) {
   .context-web-sum-page{
     height:3475px;
@@ -986,7 +986,7 @@ pre.r{
       color: #A9A9A9;
       text-decoration: none;
       -webkit-transition: color 100ms ease-in;
-      
+
       transition: color 100ms ease-in; }
       .ceidfooter__social-link:hover {
         color: #BA0C2F;
