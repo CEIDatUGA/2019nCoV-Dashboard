@@ -11,6 +11,8 @@ navbar:
       href: context.html
     - text: "Epidemic Characteristics"
       href: parameters.html
+    - text: "R-effective outside China"
+      href: reff-outside.html
     - text: "Stochastic Model"
       href: stochastic.html
 #    - text: "Mass Testing"

@@ -407,6 +407,44 @@ body{
   }
 }
 
+/*page sizing reff-outside-page*/
+
+.reff-outside-page{
+    height:3150px;
+    width:100%;
+    margin-bottom:10%;
+}
+
+@media (min-width: 576px) {
+  .reff-outside-page{
+    height:4600px;
+    width:100%;
+    margin-bottom:12%;
+  }
+}
+
+@media (min-width: 768px) {
+  .reff-outside-page{
+    height:3150px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 992px) {
+  .reff-outside-page{
+    height:3150px;
+    width:100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reff-outside-page{
+    height:3150px;
+    width:100%;
+  }
+}
+
 /*page sizing gravity-model*/
 
 .gravity-model{

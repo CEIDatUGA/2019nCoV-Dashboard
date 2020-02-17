@@ -2,7 +2,7 @@
 
 # Data Summary - China
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China-Web-Summary.html?token=ADVPF4EYUYFETO23VJCM43S6JIAYS",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China-Web-Summary.html?token=ADVPF4DPH3X2WVLKRTM2BNC6KPI2C",
   destfile="nCov-Mapping-China-Web-Summary.html"
 )
 
@@ -10,20 +10,20 @@ utils::download.file(
 
 # Data Summary - World
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4DRFYKFGN4WLZXHP7C6JIBBC",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4BVUAS7BFT3YEVOEKK6KPI7A",
   destfile="nCov-Mapping-World-Web-Summary.html"
 )
 
 # Data Summary - Epidemic Curves
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4AWYSELJNNQHOSKXZ26JIL7G",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/Epidemic_Curves_2019_Coronavirus.html?token=ADVPF4BSIEFVBX4LLPPB2KK6KPJCS",
   destfile="epidemic-curves-web-summary.html"
 )
 
 
 # Context
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4C3BLB3ZMF6EFYITQC6JICJY",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4EEBY7YWACCGE2DHMK6KPJHI",
   destfile="context-web-summary.html"
 )
 
@@ -38,7 +38,12 @@ utils::download.file(
   destfile="parameters-supplement.html"
 )
 
+# R_eff outside China
 
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-Reff-outside-China/master/web-summary.html",
+  destfile="reff-outside-web-summary.html"
+)
 
 # Stochastic Model
 utils::download.file(
@@ -65,7 +70,7 @@ utils::download.file(
 
 # China Spatial Model
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4A7TNXO27D2IP6EG6C6JIC6W",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4GZVSRV4WD2MVTTUKS6KPJLQ",
   destfile="china-spatial-web-summary.html"
 )
 
