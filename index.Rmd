@@ -50,6 +50,9 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 
 <!--NEWS ITEM-->
 <div class="news-item">
+
+<a href="news.html#news-sars-cov-2">![<small><em><small><em>Artist's impression: SARS-CoV-2<br>Based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-4.jpeg)</a>
+
 #### Virus causing COVID-19 disease named "SARS-CoV-2"
 <div class="news-item-date">February 17, 2020</div>
 <div class="news-item-description">
@@ -76,18 +79,22 @@ The disease caused by the 2019 novel coronavirus has received its official name 
 [READ MORE >](news.html#news-covid-19)
 </div>
 
-<!--NEWS ITEM-->
-<div class="news-item">
-![<small><em><small><em>Artist's impression: 2019 novel coronavirus<br>Based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
+<!--NEWS ITEM HIDDEN-->
+
+<div class="news-item hidden">
 
 #### Announcing the Coronavirus Tracker
 <div class="news-item-date">February 10, 2020</div>
 <div class="news-item-description">
-The [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak. </div>[READ MORE >](news.html#news-announcing-ncov-tracker)</div>
+The [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak. </div>[READ MORE >](news.html#news-announcing-ncov-tracker)
 </div>
 
-<!--NEWS ITEM-->
+<!--LINK TO OLDER NEWS-->
+<div class="news-item">
+#### [ALL NEWS >](news.html)
+</div>
 
+</div>
 
 <!--END-->
 </div>

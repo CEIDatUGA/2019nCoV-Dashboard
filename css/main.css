@@ -94,6 +94,10 @@ body{
   padding-bottom:10px;
 }
 
+.hidden{
+  display: none; 
+}
+
 /*page sizing for mass-testing-page*/ 
 
 .mass-testing-page{
