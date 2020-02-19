@@ -432,14 +432,14 @@ body{
 /*page sizing parameters-page*/
 
 .parameters-page{
-    height:2450px;
+    height:3450px;
     width:100%;
     margin-bottom:10%;
 }
 
 @media (min-width: 370px) {
   .parameters-page{
-    height:2450px;
+    height:3450px;
     width:100%;
     margin-bottom:12%;
   }
@@ -447,7 +447,7 @@ body{
 
 @media (min-width: 576px) {
   .parameters-page{
-    height:2450px;
+    height:3450px;
     width:100%;
     margin-bottom:12%;
   }
@@ -455,7 +455,7 @@ body{
 
 @media (min-width: 768px) {
   .parameters-page{
-    height:2450px;
+    height:3450px;
     width:100%;
     margin-bottom:10%;
   }
@@ -463,14 +463,14 @@ body{
 
 @media (min-width: 992px) {
   .parameters-page{
-    height:1450px;
+    height:2450px;
     width:100%;
   }
 }
 
 @media (min-width: 1200px) {
   .parameters-page{
-    height:1450px;
+    height:2450px;
     width:100%;
   }
 }
