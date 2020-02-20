@@ -488,14 +488,14 @@ body{
 /*page sizing reff-outside-page*/
 
 .reff-outside-page{
-    height:3300px;
+    height:5300px;
     width:100%;
     margin-bottom:10%;
 }
 
 @media (min-width: 370px) {
   .reff-outside-page{
-    height:4700px;
+    height:6700px;
     width:100%;
     margin-bottom:12%;
   }
@@ -503,7 +503,7 @@ body{
 
 @media (min-width: 576px) {
   .reff-outside-page{
-    height:4700px;
+    height:6700px;
     width:100%;
     margin-bottom:12%;
   }
@@ -511,7 +511,7 @@ body{
 
 @media (min-width: 768px) {
   .reff-outside-page{
-    height:3250px;
+    height:5250px;
     width:100%;
     margin-bottom:10%;
   }
@@ -519,14 +519,14 @@ body{
 
 @media (min-width: 992px) {
   .reff-outside-page{
-    height:3200px;
+    height:5200px;
     width:100%;
   }
 }
 
 @media (min-width: 1200px) {
   .reff-outside-page{
-    height:3225px;
+    height:5225px;
     width:100%;
   }
 }
