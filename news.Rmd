@@ -3,6 +3,28 @@ title: "2019 Coronavirus Tracker - News"
 ---
 
 ## Latest News and Updates
+<hr>
+<div class="news-post">
+
+### Estimates of case fatality rate added {#news-cfr}
+February 20, 2020
+<div class="news-item-description">
+
+Estimates of the case fatality rate $CFR$ have been added to the [Epidemic Characteristics](parameters.html) page. The *case fatality rate* is the death rate among those with COVID-19 disease.
+
+</div>
+</div>
+
+<div class="news-post">
+
+### Effective reproduction number outside China updated {#news-reff-updated}
+February 20, 2020
+<div class="news-item-description">
+
+Estimates of the *effective reproduction number* $R_{eff}$ outside of China have been updated to account for heterogeneity in transmission. See [R-effective outside China](reff-outside.html) for details.  $R_e{eff}$ is the average number of secondary infections, taking into account immunity in the population and containment efforts. When $R_{eff} < 1.0$ containment occurs.
+
+</div>
+</div>
 
 <div class="news-post">
 
@@ -14,7 +36,7 @@ The virus causing the current outbreak of COVID-19 has been officially named **"
 
 A [manuscript](https://www.biorxiv.org/content/10.1101/2020.02.07.937862v1.full.pdf) describing the work of the [ICTV](https://talk.ictvonline.org) Coronaviridae Study Group reports that the virus belongs to the existing species ["Severe acute respiratory syndrome-related coronavirus"](https://talk.ictvonline.org/taxonomy/p/taxonomy-history?taxnode_id=201851868), and as such, is a sister to existing SARS-CoVs.
 
-![<small><em><small><em>Artist's impression: SARS-CoV-2, based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-4.jpeg)
+![<small><em>Artist's impression: SARS-CoV-2, based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-4.jpeg)
 
 The official disease name, COVID-19, which was announced February 11, 2020, should not be confused with the official name of the virus itself, henceforth known as SARS-CoV-2.
 

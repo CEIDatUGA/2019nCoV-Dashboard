@@ -57,6 +57,40 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 <!--NEWS ITEM-->
 <div class="card">
 <div class="card-body">
+<div class="card-title">
+#### Estimates of case fatality rate added
+</div>
+<p class="card-text">
+<small class="card-subtitle mb-2 text-muted">February 20, 2020</small><br>
+Estimates of the case fatality rate $CFR$ have been added to the [Epidemic Characteristics](parameters.html) page. The *case fatality rate* is the death rate among those with COVID-19 disease.
+</p>
+<div class="card-link">
+<!--[READ MORE >](news.html#news-cfr)-->
+</div>
+</div>
+</div>
+
+<!--NEWS ITEM-->
+<div class="card">
+<div class="card-body">
+<div class="card-title">
+#### Effective reproduction number outside China updated
+</div>
+<p class="card-text">
+<small class="card-subtitle mb-2 text-muted">February 20, 2020</small><br>
+Estimates of the *effective reproduction number* $R_{eff}$ outside of China have been updated to account for heterogeneity in transmission. $R_e{eff}$ is the average number of secondary infections, taking into account immunity in the population and containment efforts. When $R_{eff} < 1.0$ containment occurs.  
+See [R-effective outside China](reff-outside.html) for details.<hr>
+</p>
+<div class="card-link">
+<!--[READ MORE >](news.html#news-cfr)-->
+</div>
+</div>
+</div>
+
+
+<!--NEWS ITEM-->
+<div class="card">
+<div class="card-body">
 <a href="news.html#news-sars-cov-2">![<small><em><small><em>Artist's impression: SARS-CoV-2<br>Based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-4.jpeg)</a>
 <div class="card-title">
 #### Virus causing COVID-19 disease named "SARS-CoV-2"
@@ -73,7 +107,7 @@ The virus causing the current outbreak of COVID-19 disease has been officially n
 
 
 <!--NEWS ITEM-->
-<div class="card">
+<div class="card hidden">
 <div class="card-body">
 <div class="card-title">
 #### Estimating "R Effective" outside China
