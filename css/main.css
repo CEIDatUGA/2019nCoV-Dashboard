@@ -101,21 +101,21 @@ body{
 /*page sizing for mass-testing-page*/
 
 .mass-testing-page{
-  height:4200px;
+  height:3000px;
   width:100%;
   margin-bottom:7%;
 }
 
 @media (min-width: 370px) {
   .mass-testing-page{
-    height:4000px;
+    height:3200px;
     width:100%;
     margin-bottom:10%;
   }
 }
 @media (min-width: 576px) {
   .mass-testing-page{
-    height:4000px;
+    height:2800px;
     width:100%;
     margin-bottom:10%;
   }
@@ -123,7 +123,7 @@ body{
 
 @media (min-width: 768px) {
   .mass-testing-page{
-    height:3950px;
+    height:2750px;
     width:100%;
     margin-bottom:5%;
   }
@@ -131,7 +131,7 @@ body{
 
 @media (min-width: 992px) {
   .mass-testing-page{
-    height:3950px;
+    height:2750px;
     width:100%;
     margin-bottom:5%;
   }
@@ -139,7 +139,7 @@ body{
 
 @media (min-width: 1200px) {
 .mass-testing-page{
-    height:3950px;
+    height:2750px;
     width:100%;
     margin-bottom:5%;
   }

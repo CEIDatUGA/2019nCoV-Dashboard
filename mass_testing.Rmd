@@ -5,7 +5,7 @@ title: "2019 Coronavirus Tracker - Mass Testing"
 <div class="mass-testing-page">
   
 ```{r echo=FALSE}
-knitr::include_url("CoV_MassTesting_summary.html")
+knitr::include_url("mass_testing_summary.html")
 ```
 
 </div>
@@ -13,8 +13,19 @@ knitr::include_url("CoV_MassTesting_summary.html")
 ## Supplemental Information
   
 <div class="container-frames">
-  
-Supplement: [Assessing the impact of mass testing during a novel infectious disease outbreak: The case of COVID-19](CoV_MassTesting_supplement.html)
+ 
+
+<p>
+  <a href="mass_testing_main.html" target="_blank">
+  Y. Ge, B.L. McKay, S. Sun, F. Zhang, A. Handel. Assessing the impact of a symptom-based mass screening and testing intervention during a novel infectious disease outbreak: The case of COVID-19</a>
+  (html)
+</p>
+
+<p>
+  <a href="mass_testing_supplement.html" target="_blank">
+  Supplementary material</a>
+  (html)
+</p>
 
 <!--Preprint: [download]() -->
   

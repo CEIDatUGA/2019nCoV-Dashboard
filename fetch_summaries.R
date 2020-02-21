@@ -58,13 +58,18 @@ utils::download.file(
 
 # Mass Testing
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/nCoV_cid_html.html?token=ADVPF4GFBIIOH66VBYQBWIK6LEHOM",
-  destfile="CoV_MassTesting_summary.html"
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_summary_html.html?token=ADVPF4EVFXIUQ77ZCO5U3BS6LF2B6",
+  destfile="mass_testing_summary.html"
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/nCoV_cid_supplement_html.html?token=ADVPF4GEE33GYSLOQ33EA7C6LEHSC",
-  destfile="CoV_MassTesting_supplement.html"
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_html.html?token=ADVPF4ALXGRL7D3SEXLHPRS6LF2RA",
+  destfile="mass_testing_main.html"
+)
+
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_html_sup.html?token=ADVPF4BYTHRA763OCEOBBLC6LF2TE",
+  destfile="mass_testing_supplement.html"
 )
 
 
