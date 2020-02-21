@@ -287,14 +287,14 @@ body{
 /*page sizing epidemic-curves-tab on data-page*/
 
 .epidemic-curves{
-    height:2650px;
+    height:3150px;
     margin-bottom:10%;
     width:100%;
 }
 
 @media (min-width: 370px) {
   .epidemic-curves{
-    height:2650px;
+    height:3150px;
     margin-bottom:10%;
     width:100%;
   }
@@ -302,7 +302,7 @@ body{
 
 @media (min-width: 576px) {
   .epidemic-curves{
-    height:2650px;
+    height:3150px;
     margin-bottom:10%;
     width:100%;
   }
@@ -310,7 +310,7 @@ body{
 
 @media (min-width: 768px) {
   .epidemic-curves{
-    height:2650px;
+    height:3150px;
     margin-bottom:10%;
     width:100%;
   }
@@ -318,7 +318,7 @@ body{
 
 @media (min-width: 992px) {
   .epidemic-curves{
-    height:2650px;
+    height:3150px;
     margin-bottom:10%;
     width:100%;
   }
@@ -326,7 +326,7 @@ body{
 
 @media (min-width: 1200px) {
   .epidemic-curves{
-    height:5150px;
+    height:5650px;
     margin-bottom:10%;
     width:100%;
   }
