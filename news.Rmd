@@ -9,7 +9,7 @@ title: "2019 Coronavirus Tracker - News"
 <div class="news-post">
 
 ### Assessment of mass screening and testing {#news-masstesting}
-February 20, 2020
+February 21, 2020
 <div class="news-item-description">
 The CEID Coronavirus Working Group has released an assessment of the impact of symptom-based [mass screening and testing intervention](mass_testing.html) (MSTI) during novel disease outbreaks to help understand how current mass testing and screening may be affecting the COVID-19 outbreak in China.
 
