@@ -15,8 +15,8 @@ navbar:
       href: reff-outside.html
     - text: "Stochastic Model"
       href: stochastic.html
-#    - text: "Mass Testing"
-#      href: mass_testing.html
+    - text: "Mass Testing"
+      href: mass_testing.html
 #    - text: "Nowcasting"
 #      href: nowcast.html
     - text: "China Spatial Model"

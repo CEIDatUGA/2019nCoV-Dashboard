@@ -14,7 +14,7 @@ knitr::include_url("CoV_MassTesting_summary.html")
   
 <div class="container-frames">
   
-<!--Supplement: []()-->
+Supplement: [Assessing the impact of mass testing during a novel infectious disease outbreak: The case of COVID-19](CoV_MassTesting_supplement.html)
 
 <!--Preprint: [download]() -->
   

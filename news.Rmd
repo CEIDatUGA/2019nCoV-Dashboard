@@ -4,6 +4,24 @@ title: "2019 Coronavirus Tracker - News"
 
 ## Latest News and Updates
 <hr>
+
+<!--NEWS ITEM-->
+<div class="news-post">
+
+### Assessment of mass screening and testing {#news-masstesting}
+February 20, 2020
+<div class="news-item-description">
+The CEID Coronavirus Working Group has released an assessment of the impact of symptom-based [mass screening and testing intervention](mass_testing.html) (MSTI) during novel disease outbreaks to help understand how current mass testing and screening may be affecting the COVID-19 outbreak in China.
+
+China is currently using a strategy of symptom-based mass screening and testing intervention (MSTI) for the COVID-19 outbreak. MSTI can identify a large fraction of infected individuals during an infectious disease outbreak. However, MSTI might lead to increased transmission if not properly implemented. The new study investigates which conditions MSTI is beneficial, comparing theoretical helpfulness of MSTI during outbreaks of COVID-19, Measles and Ebola.
+
+Because COVID-19 shows general respiratory symptoms that are similar to common infections, MSTI might quickly overload the health system. MSTI might also lead directly to a worsening of the outbreak due to increased transmission at testing sites. This study presents a method for balance the risks and benefits of MSTI given known caharacteristics of novel pathogens.
+
+</div>
+</div>
+<!--END NEWS ITEM-->
+
+<!--NEWS ITEM-->
 <div class="news-post">
 
 ### Estimates of case fatality rate added {#news-cfr}
@@ -14,7 +32,9 @@ Estimates of the case fatality rate $CFR$ have been added to the [Epidemic Chara
 
 </div>
 </div>
+<!--END NEWS ITEM-->
 
+<!--NEWS ITEM-->
 <div class="news-post">
 
 ### Effective reproduction number outside China updated {#news-reff-updated}
@@ -25,7 +45,9 @@ Estimates of the *effective reproduction number* $R_{eff}$ outside of China have
 
 </div>
 </div>
+<!--END NEWS ITEM-->
 
+<!--NEWS ITEM-->
 <div class="news-post">
 
 ### Virus causing COVID-19 disease named "SARS-CoV-2" {#news-sars-cov-2}
@@ -42,7 +64,9 @@ The official disease name, COVID-19, which was announced February 11, 2020, shou
 
 </div>
 </div>
+<!--END NEWS ITEM-->
 
+<!--NEWS ITEM-->
 <div class="news-post">
 
 ### R effective outside China {#news-reff-outside}
@@ -66,7 +90,9 @@ CEID has now introduced a method to estimate the average effective reproduction 
 
 </div>
 </div>
+<!--END NEWS ITEM-->
 
+<!--NEWS ITEM-->
 <div class="news-post">
 
 ### Novel coronavirus disease renamed COVID-19 {#news-covid-19}
@@ -80,7 +106,9 @@ The novel virus itself is still unnamed, and is being referred to as 2019-nCov. 
 
 </div>
 </div>
+<!--END NEWS ITEM-->
 
+<!--NEWS ITEM-->
 <div class="news-post">
 ![<small><em>Artist's impression of 2019-nCov<br>Based on micrographs of related SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-9.jpeg)
 
@@ -105,3 +133,4 @@ Contact: <a href="mailto:jdrake@uga.edu">John M. Drake (jdrake@uga.edu)</a>
 
 </div>
 </div>
+<!--END NEWS ITEM-->
