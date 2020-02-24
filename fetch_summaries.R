@@ -16,7 +16,7 @@ utils::download.file(
 
 # Data Summary - Epidemic Curves
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4HHW4NFAE5HROZYXOS6KQGAU",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4D4FYSBBNPXT5G3QDC6LVOCC",
   destfile="epidemic-curves-web-summary.html"
 )
 
