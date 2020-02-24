@@ -2,7 +2,7 @@
 
 # Data Summary - China
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China-Web-Summary.html?token=ADVPF4DPH3X2WVLKRTM2BNC6KPI2C",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China-Web-Summary.html?token=ADVPF4G3ITUMQUOZUDH3J7K6LUIOC",
   destfile="nCov-Mapping-China-Web-Summary.html"
 )
 
@@ -10,7 +10,7 @@ utils::download.file(
 
 # Data Summary - World
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4BVUAS7BFT3YEVOEKK6KPI7A",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4ANW4IGRGCRNVZ3KVC6LUIRM",
   destfile="nCov-Mapping-World-Web-Summary.html"
 )
 
@@ -23,7 +23,7 @@ utils::download.file(
 
 # Context
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4EEBY7YWACCGE2DHMK6KPJHI",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4GWWGXGDERZPJ7J26S6LUIWE",
   destfile="context-web-summary.html"
 )
 
@@ -81,7 +81,7 @@ utils::download.file(
 
 # China Spatial Model
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4GZVSRV4WD2MVTTUKS6KPJLQ",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4A4DTBEUVQ2C6JUFLS6LUJBY",
   destfile="china-spatial-web-summary.html"
 )
 
