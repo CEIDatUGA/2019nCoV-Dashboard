@@ -7,7 +7,6 @@
 
 @import url("//fonts.googleapis.com/css?family=Merriweather+Sans:300|Merriweather:300|Oswald:300,400,500&display=swap");
 
-
 .container-fluid,.main-container {
     height: 100%;
     position: relative;
@@ -583,42 +582,90 @@ body{
 
 
 .gravity-model{
-    height:2425px;
-    margin-bottom:15%;
+    height:3600px;
 
+}
+
+@media (min-width: 275px){
+  .gravity-model{
+    height:3410px;
+  
+  }
+}
+
+@media (min-width: 305px){
+  .gravity-model{
+    height:3425px;
+
+  }
+}
+
+@media (min-width: 335px){
+  .gravity-model{
+    height:2865px;
+
+  }
 }
 
 @media (min-width: 370px){
   .gravity-model{
-    height:2025px;
-    margin-bottom:10px;
+    height:2425px;
+
+  }
+}
+
+@media (min-width: 476px){
+  .gravity-model{
+    height:2300px;
+
+  }
+}
+
+@media (min-width: 525px){
+  .gravity-model{
+    height:2220px;
+
   }
 }
 
 @media (min-width: 576px){
   .gravity-model{
-    height:1825px;
-    margin-bottom:10px;
+   height:2081px;
+
+  }
+}
+
+@media (min-width: 608px){
+  .gravity-model{
+   height:2081px;
+
+  }
+}
+
+@media (min-width: 668px) {
+  .gravity-model{
+    height:1865px;
+
   }
 }
 
 @media (min-width: 768px) {
   .gravity-model{
-    height:2025px;
-    margin-bottom:10%;
+    height:1720px;
+
   }
 }
 
 @media (min-width: 992px) {
   .gravity-model{
-    height:1625px;
-    margin-bottom:10%;
+    height:1620px;
+
   }
 }
 
 @media (min-width: 1200px) {
   .gravity-model{
-    height:1625px;
+    height:1620px;
     margin-bottom:10%;
   }
 }
