@@ -70,7 +70,7 @@
 
 @media (min-width: 1200px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:10px;
+    padding-top:15px;
   }
 }
 /*end of header styles*/
@@ -94,7 +94,7 @@ body{
 }
 
 .hidden{
-  display: none; 
+  display: none;
 }
 
 /*page sizing for mass-testing-page*/
@@ -188,7 +188,7 @@ body{
 .mass-testing-page{
     height:2800px;
     width:100%;
-    margin-bottom:15%;
+
   }
 }
 
@@ -198,43 +198,10 @@ body{
 
 
 .china-spatial-link{
-  height:775px;
-  padding-bottom:67%;
-}
-
-@media (min-width: 376px) {
-  .china-spatial-link{
-    height:775px;
-    padding-bottom:67%;
-  }
-}
-
-@media (min-width: 576px) {
-  .china-spatial-link{
-    height:775px;
-    padding-bottom:67%;
-  }
-}
-
-@media (min-width: 768px) {
-  .china-spatial-link{
-    height:775px;
-    padding-bottom:67%;
-  }
-}
-
-@media (min-width: 992px) {
-  .china-spatial-link{
-    height:775px;
-    padding-bottom:67%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .china-spatial-link{
-    height:775px;
-    padding-bottom:67%;
-  }
+  height:400px;
+  margin-bottom:15%;
+  width:100%;
+  padding-bottom:67%
 }
 
 
@@ -341,24 +308,24 @@ body{
 
 @media (min-width: 370px) {
   .epidemic-curves{
-    height:3150px;
-    margin-bottom:10%;
-    width:100%;
+    height:2440.px;
+    margin-bottom:10px;
+    width:50%;
   }
 }
 
 @media (min-width: 576px) {
   .epidemic-curves{
-    height:3150px;
-    margin-bottom:10%;
+    height:2375px;
+    margin-bottom:10px;
     width:100%;
   }
 }
 
 @media (min-width: 768px) {
   .epidemic-curves{
-    height:3150px;
-    margin-bottom:10%;
+    height:2685px;
+    margin-bottom:10px;
     width:100%;
   }
 }
@@ -373,8 +340,8 @@ body{
 
 @media (min-width: 1200px) {
   .epidemic-curves{
-    height:5650px;
-    margin-bottom:10%;
+    height:2753px;
+    margin-bottom:10px;
     width:100%;
   }
 }
@@ -589,7 +556,7 @@ body{
 @media (min-width: 275px){
   .gravity-model{
     height:3410px;
-  
+
   }
 }
 
@@ -676,11 +643,11 @@ background-color:#fff;;
 
 iframe {
    top: 20;
-   height: 101%;
+   height: 100%;
    left: 0;
    border:0;
    position: absolute;
-   margin-bottom:2.5em;
+   margin-bottom:.5em;
    width: 100%;
    clear: both;
    overflow:visible;
