@@ -93,6 +93,7 @@ body{
   padding-bottom:10px;
 }
 
+
 .hidden{
   display: none;
 }
@@ -1068,14 +1069,6 @@ pre.r{
 }
 
 
-.news-post .figure img {
-  width: 25%;
-}
-
-.news-item-date{
-  font-size:13px;
-}
-
 /*end of footer sytles*/
 
 #no-links{
@@ -1085,25 +1078,23 @@ pre.r{
 #no-links-names{
   font-weight:300;
 }
+
 /*card styles for news section*/
 .card{
     background-color: #fff;
-    border-bottom: white;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125)
+    border-bottom: #DCDCDC;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.5);
 }
 
 .card-title{
   line-height: 1.5em;
 }
 .card-text{
-  margin:0;
   padding: 0 5px 0 5px;
+  line-height: 1.5;
 }
 
-.news-post .figure img {
-  width: 25%;
-}
-
-.news-item-date{
-  font-size:13px;
+figcaption{
+  font-style: italic;
+  font-size: xx-small;
 }

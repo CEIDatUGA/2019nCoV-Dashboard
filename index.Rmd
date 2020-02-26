@@ -81,7 +81,7 @@ The CEID Coronavirus Working Group has released an assessment of the impact of s
 Estimates of the case fatality rate $CFR$ have been added to the [Epidemic Characteristics](parameters.html) page. The *case fatality rate* is the death rate among those with COVID-19 disease.
 </p>
 <div class="card-link">
-<!--[READ MORE >](news.html#news-cfr)-->
+[READ MORE >](news.html#news-cfr)
 </div>
 </div>
 </div>
@@ -94,18 +94,18 @@ Estimates of the case fatality rate $CFR$ have been added to the [Epidemic Chara
 </div>
 <p class="card-text">
 <small class="card-subtitle mb-2 text-muted">February 20, 2020</small><br>
-Estimates of the *effective reproduction number* $R_{eff}$ outside of China have been updated to account for heterogeneity in transmission. $R_{eff}$ is the average number of secondary infections, taking into account immunity in the population and containment efforts. When $R_{eff} < 1.0$ containment occurs.  
-See [R-effective outside China](reff-outside.html) for details.<hr>
+Estimates of the *effective reproduction number* $R_{eff}$ outside of China have been updated to account for heterogeneity in transmission. $R_{eff}$ is the average number of secondary infections, taking into account immunity in the population and containment efforts. When $R_{eff} < 1.0$ containment occurs.
+See [R-effective outside China](reff-outside.html) for details.
 </p>
 <div class="card-link">
-<!--[READ MORE >](news.html#news-cfr)-->
+[READ MORE >](news.html#news-cfr)
 </div>
 </div>
 </div>
 
 
-<!--NEWS ITEM-->
-<div class="card">
+<!--NEWS ITEM HIDDEN-->
+<div class="card hidden">
 <div class="card-body">
 <a href="news.html#news-sars-cov-2">![<small><em><small><em>Artist's impression: SARS-CoV-2<br>Based on micrographs of SARS and MERS coronaviruses<br>Image credit: Chloe Parker</em></small>](images/2019ncov_Parker/Image-4.jpeg)</a>
 <div class="card-title">
@@ -122,7 +122,7 @@ The virus causing the current outbreak of COVID-19 disease has been officially n
 </div>
 
 
-<!--NEWS ITEM-->
+<!--NEWS ITEM HIDDEN-->
 <div class="card hidden">
 <div class="card-body">
 <div class="card-title">
@@ -138,7 +138,7 @@ CEID has developed a method to estimate the **Effecitve Reproductive Number $R_{
 </div>
 </div>
 
-<!--NEWS ITEM-->
+<!--NEWS ITEM HIDDEN-->
 <div class="card hidden">
 <div class="card-body">
 <div class="card-title">
