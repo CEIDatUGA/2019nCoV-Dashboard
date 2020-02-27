@@ -7,7 +7,6 @@
 
 @import url("//fonts.googleapis.com/css?family=Merriweather+Sans:300|Merriweather:300|Oswald:300,400,500&display=swap");
 
-
 .container-fluid,.main-container {
     height: 100%;
     position: relative;
@@ -71,7 +70,7 @@
 
 @media (min-width: 1200px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:10px;
+    padding-top:15px;
   }
 }
 /*end of header styles*/
@@ -94,28 +93,77 @@ body{
   padding-bottom:10px;
 }
 
+
 .hidden{
-  display: none; 
+  display: none;
 }
 
 /*page sizing for mass-testing-page*/
 
 .mass-testing-page{
-  height:3000px;
+  height:4700px;
   width:100%;
-  margin-bottom:7%;
+  margin-bottom:40%;
 }
 
-@media (min-width: 370px) {
+@media (min-width: 270px) {
   .mass-testing-page{
-    height:3200px;
+    height:6100px;
+    width:100%;
+    margin-bottom:37%;
+  }
+}
+@media (min-width: 300px) {
+  .mass-testing-page{
+    height:5100px;
+    width:100%;
+    margin-bottom:30%;
+  }
+}
+
+@media (min-width: 350px) {
+  .mass-testing-page{
+    height:4700px;
+    width:100%;
+    margin-bottom:30%;
+  }
+}
+
+@media (min-width: 390px) {
+  .mass-testing-page{
+    height:4400px;
     width:100%;
     margin-bottom:10%;
   }
 }
+
+@media (min-width: 432px) {
+  .mass-testing-page{
+    height:3900px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 476px) {
+  .mass-testing-page{
+    height:3700px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
 @media (min-width: 576px) {
   .mass-testing-page{
-    height:2800px;
+    height:3300px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 676px) {
+  .mass-testing-page{
+    height:3200px;
     width:100%;
     margin-bottom:10%;
   }
@@ -123,25 +171,25 @@ body{
 
 @media (min-width: 768px) {
   .mass-testing-page{
-    height:2750px;
+    height:3000px;
     width:100%;
-    margin-bottom:5%;
+    margin-bottom:10%;
   }
 }
 
 @media (min-width: 992px) {
   .mass-testing-page{
-    height:2750px;
+    height:2800px;
     width:100%;
-    margin-bottom:5%;
+    margin-bottom:15%;
   }
 }
 
 @media (min-width: 1200px) {
 .mass-testing-page{
-    height:2750px;
+    height:2800px;
     width:100%;
-    margin-bottom:5%;
+
   }
 }
 
@@ -151,43 +199,10 @@ body{
 
 
 .china-spatial-link{
-  height:775px;
-  padding-bottom:67%;
-}
-
-@media (min-width: 376px) {
-  .china-spatial-link{
-    height:775px;
-    padding-bottom:67%;
-  }
-}
-
-@media (min-width: 576px) {
-  .china-spatial-link{
-    height:775px;
-    padding-bottom:67%;
-  }
-}
-
-@media (min-width: 768px) {
-  .china-spatial-link{
-    height:775px;
-    padding-bottom:67%;
-  }
-}
-
-@media (min-width: 992px) {
-  .china-spatial-link{
-    height:775px;
-    padding-bottom:67%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .china-spatial-link{
-    height:775px;
-    padding-bottom:67%;
-  }
+  height:400px;
+  margin-bottom:15%;
+  width:100%;
+  padding-bottom:67%
 }
 
 
@@ -294,24 +309,24 @@ body{
 
 @media (min-width: 370px) {
   .epidemic-curves{
-    height:3150px;
-    margin-bottom:10%;
-    width:100%;
+    height:2440.px;
+    margin-bottom:10px;
+    width:50%;
   }
 }
 
 @media (min-width: 576px) {
   .epidemic-curves{
-    height:3150px;
-    margin-bottom:10%;
+    height:2375px;
+    margin-bottom:10px;
     width:100%;
   }
 }
 
 @media (min-width: 768px) {
   .epidemic-curves{
-    height:3150px;
-    margin-bottom:10%;
+    height:2685px;
+    margin-bottom:10px;
     width:100%;
   }
 }
@@ -326,8 +341,8 @@ body{
 
 @media (min-width: 1200px) {
   .epidemic-curves{
-    height:5650px;
-    margin-bottom:10%;
+    height:2753px;
+    margin-bottom:10px;
     width:100%;
   }
 }
@@ -535,42 +550,90 @@ body{
 
 
 .gravity-model{
-    height:2425px;
-    margin-bottom:15%;
+    height:3600px;
 
+}
+
+@media (min-width: 275px){
+  .gravity-model{
+    height:3410px;
+
+  }
+}
+
+@media (min-width: 305px){
+  .gravity-model{
+    height:3425px;
+
+  }
+}
+
+@media (min-width: 335px){
+  .gravity-model{
+    height:2865px;
+
+  }
 }
 
 @media (min-width: 370px){
   .gravity-model{
-    height:2025px;
-    margin-bottom:10px;
+    height:2425px;
+
+  }
+}
+
+@media (min-width: 476px){
+  .gravity-model{
+    height:2300px;
+
+  }
+}
+
+@media (min-width: 525px){
+  .gravity-model{
+    height:2220px;
+
   }
 }
 
 @media (min-width: 576px){
   .gravity-model{
-    height:1825px;
-    margin-bottom:10px;
+   height:2081px;
+
+  }
+}
+
+@media (min-width: 608px){
+  .gravity-model{
+   height:2081px;
+
+  }
+}
+
+@media (min-width: 668px) {
+  .gravity-model{
+    height:1865px;
+
   }
 }
 
 @media (min-width: 768px) {
   .gravity-model{
-    height:2025px;
-    margin-bottom:10%;
+    height:1720px;
+
   }
 }
 
 @media (min-width: 992px) {
   .gravity-model{
-    height:1625px;
-    margin-bottom:10%;
+    height:1620px;
+
   }
 }
 
 @media (min-width: 1200px) {
   .gravity-model{
-    height:1625px;
+    height:1620px;
     margin-bottom:10%;
   }
 }
@@ -581,11 +644,11 @@ background-color:#fff;;
 
 iframe {
    top: 20;
-   height: 101%;
+   height: 100%;
    left: 0;
    border:0;
    position: absolute;
-   margin-bottom:2.5em;
+   margin-bottom:.5em;
    width: 100%;
    clear: both;
    overflow:visible;
@@ -1006,14 +1069,6 @@ pre.r{
 }
 
 
-.news-post .figure img {
-  width: 25%;
-}
-
-.news-item-date{
-  font-size:13px;
-}
-
 /*end of footer sytles*/
 
 #no-links{
@@ -1023,25 +1078,23 @@ pre.r{
 #no-links-names{
   font-weight:300;
 }
+
 /*card styles for news section*/
 .card{
     background-color: #fff;
-    border-bottom: white;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125)
+    border-bottom: #DCDCDC;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.5);
 }
 
 .card-title{
   line-height: 1.5em;
 }
 .card-text{
-  margin:0;
   padding: 0 5px 0 5px;
+  line-height: 1.5;
 }
 
-.news-post .figure img {
-  width: 25%;
-}
-
-.news-item-date{
-  font-size:13px;
+figcaption{
+  font-style: italic;
+  font-size: xx-small;
 }
