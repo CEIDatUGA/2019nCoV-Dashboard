@@ -351,21 +351,21 @@ body{
 /*page sizing context-page*/
 
 .context-web-sum-page{
-    height:3775px;
+    height:4275px;
     width:100%;
     margin-bottom:67%;
 }
 
 @media (min-width: 370px) {
   .context-web-sum-page{
-    height:3675px;
+    height:4175px;
     width:100%;
     margin-bottom:67%;
   }}
 
 @media (min-width: 576px) {
   .context-web-sum-page{
-    height:3475px;
+    height:3975px;
     width:100%;
     margin-bottom:10%;
   }
@@ -373,7 +373,7 @@ body{
 
 @media (min-width: 768px) {
   .context-web-sum-page{
-    height:3375px;
+    height:3875px;
     margin-bottom:10%;
     width:100%;
   }
@@ -381,7 +381,7 @@ body{
 
 @media (min-width: 992px) {
   .context-web-sum-page{
-    height:3475px;
+    height:3975px;
     margin-bottom:10%;
     width:100%;
   }
@@ -389,7 +389,7 @@ body{
 
 @media (min-width: 1200px) {
   .context-web-sum-page{
-    height:3475px;
+    height:3975px;
     margin-bottom:10%;
     width:100%;
   }
