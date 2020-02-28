@@ -29,12 +29,12 @@ utils::download.file(
 
 # Epidemic Characteristics
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4DFNA5T722AY6H7HQ26LEOCC",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4BAE5QJZZTFDPLVEE26MJLUE",
   destfile="parameters-web-summary.html"
   )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4CZ7HVY3VVPDQ5TMJ26LEOH2G",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4HUDTB2S6KPBLD5GBS6MJLYY",
   destfile="parameters-supplement.html"
 )
 
@@ -58,19 +58,19 @@ utils::download.file(
 
 # Mass Testing
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_summary_html.html?token=ADVPF4EVFXIUQ77ZCO5U3BS6LF2B6",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_summary_html.html?token=ADVPF4GMSFM4FMIRYKWUY526MJMBS",
   destfile="mass_testing_summary.html"
 )
 
-utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_html.html?token=ADVPF4ALXGRL7D3SEXLHPRS6LF2RA",
-  destfile="mass_testing_main.html"
-)
-
-utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_html_sup.html?token=ADVPF4BYTHRA763OCEOBBLC6LF2TE",
-  destfile="mass_testing_supplement.html"
-)
+# utils::download.file(
+#   url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_html.html?token=ADVPF4ALXGRL7D3SEXLHPRS6LF2RA",
+#   destfile="mass_testing_main.html"
+# )
+# 
+# utils::download.file(
+#   url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_html_sup.html?token=ADVPF4BYTHRA763OCEOBBLC6LF2TE",
+#   destfile="mass_testing_supplement.html"
+# )
 
 
 # # Nowcast
@@ -87,7 +87,7 @@ utils::download.file(
 
 # China Spatial Model - links map - UPDATE MANUALLY - FILE NAME CHANGES
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/maps/link-weights-chloropleth-highest-ten-pct-2020-02-11.html?token=ADVPF4AATSPBCIWUZWGSE326LEOO2",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/maps/link-weights-chloropleth-highest-ten-pct-2020-02-11.html?token=ADVPF4GKYGABREUOE2QKV3C6MJMJC",
   destfile="china-spatial-link-weights.html"
 )
 
