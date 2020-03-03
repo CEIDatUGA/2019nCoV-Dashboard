@@ -29,6 +29,8 @@ navbar:
 #      href: spatial-world.html
     - text: "News"
       href: news.html
+#    - text: "Test"
+#      href: test.html
 output:
   html_document:
     self_contained: false

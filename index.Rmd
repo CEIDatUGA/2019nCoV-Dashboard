@@ -58,6 +58,22 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 <div class="card">
 <div class="card-body">
 <div class="card-title">
+#### Estimating Final Outbreak Size
+</div>
+<p class="card-text">
+<small class="card-subtitle mb-2 text-muted">March 3, 2020</small><br>
+The CEID Coronavirus Tracker now includes a model to estimate the [final size of the ongoing COVID-19 outbreak](final-size.html). The model estimates global outbreak size by probabilistically incorporating the sparking of new local outbreaks across the globe. The model provides insight on best-case, worst-case and average-case scenarios under a range of assumptions, including how fast local containment efforts improve.
+</p>
+<div class="card-link">
+[READ MORE >](news.html#news-finalsize)
+</div>
+</div>
+</div>
+
+<!--NEWS ITEM-->
+<div class="card">
+<div class="card-body">
+<div class="card-title">
 #### Assessing the impact of mass screening and testing
 </div>
 <p class="card-text">
