@@ -16,7 +16,7 @@ utils::download.file(
 
 # Data Summary - Epidemic Curves
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4D4FYSBBNPXT5G3QDC6LVOCC",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4GNTAE3IDPFNEUL7226M6PGE",
   destfile="epidemic-curves-web-summary.html"
 )
 
@@ -96,4 +96,17 @@ utils::download.file(
 #   url="",
 #   destfile="world-spatial-web-summary.html"
 # )
+
+# Final Size - web summary
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSizeSummary.html?token=ADVPF4FKF3OI2CVGTR7GMSS6M22VA",
+  destfile="final-size-web-summary.html"
+)
+
+# Final Size - web summary
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSize.html?token=ADVPF4B4DHAS4XKBQQXO7SK6M22PW",
+  destfile="final-size-supplement.html"
+)
+
 

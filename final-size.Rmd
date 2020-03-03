@@ -1,0 +1,30 @@
+---
+title: "2019 Coronavirus Tracker - Final Outbreak Size"
+---
+<p id="disclaimer"></p>
+<div class="final-size-page">
+
+```{r echo=FALSE}
+knitr::include_url("final-size-web-summary.html")
+```
+</div>
+
+## Supplemental Information
+
+<div class="container-frames">
+
+<p>Model details and R code:<br>
+  <a href="final-size-supplement.html" target="_blank">
+  A.W. Park & J.M. Drake. Final epidemic size in systems with local containment by improved time-to-isolation and probabilistic transmission to new locales</a> (html)
+</p>
+
+<!-- Preprint: [download]() -->
+
+<p>
+  <a href="https://github.com/CEIDatUGA/ncov-coupled-outbreaks" target="_blank">
+    <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
+    GitHub repository (public)
+  </a>
+</p>
+
+</div>

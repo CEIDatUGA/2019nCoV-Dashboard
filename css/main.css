@@ -46,31 +46,31 @@
 /*header styles*/
 
 #disclaimer,#header,#data-summary, #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-  padding-top:20px;
+  padding-top:40px;
   clear:both;
 }
 
 @media (min-width: 576px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:15px;
+    padding-top:35px;
 }
 }
 
 @media (min-width: 768px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:40px;
+    padding-top:60px;
   }
 }
 
 @media (min-width: 992px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:20px;
+    padding-top:40px;
   }
 }
 
 @media (min-width: 1200px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:15px;
+    padding-top:35px;
   }
 }
 /*end of header styles*/
@@ -439,6 +439,53 @@ body{
 @media (min-width: 1200px) {
   .stochastic-page{
     height:7050px;
+    width:100%;
+  }
+}
+
+/*page sizing final-size-page*/
+
+.final-size-page{
+  height:5000px;
+  width:100%;
+  margin-bottom:5%;
+}
+
+@media (min-width: 370px) {
+  .final-size-page{
+    height:5400px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 576px) {
+  .final-size-page{
+    height:4700px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .final-size-page{
+    height:3700px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 992px) {
+  .final-size-page{
+    height:3500px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .final-size-page{
+    height:3500px;
     width:100%;
   }
 }
