@@ -11,16 +11,18 @@ title: "2019 Coronavirus Tracker - News"
 ### Estimating Final Outbreak Size {.card-title #news-finalsize}
 
 <div class="news-date text-muted">
-March 3, 2020
+March 3, 2020 (Updated March 4, 2020)
 </div>
 <p class="card-text">
-The CEID Coronavirus Working Group has developed a model to estimate the ultimate [final size](final-size.html) of the ongoing COVID-19 outbreak. The authors adapt a model previously developed for the recent Ebola outbreak.</p>
+The CEID Coronavirus Working Group has developed a model to provide insight into the potential [final size](final-size.html) of the ongoing COVID-19 outbreak. The authors adapt a model previously developed for the recent Ebola outbreak.</p>
 
-<p class="card-text">The model first considers local outbreaks, and assumes containment improves over time due to better diagnostics and patient isolation, until the time that infectious individuals are in the community is shortened enough to halt spread.</p>
+<p class="card-text">In the model, multiple local outbreaks of a hypothetical disease are sparked (using what we know of epidemic characteristics of COVID-19). The model assumes containment improves over time due to better diagnostics and patient isolation, until the time that infectious individuals are in the community is shortened enough to halt spread. The rate of improvement in time-to-isolation, called the "Learning Rate", has a strong effect on the final outbreak size, with rapid response greatly reducing the final outbreak size.</p>
 
 <p class="card-text">The model is scaled up to provide a global estimate of the ultimate outbreak size by probabilistically incorporating the sparking of new outbreaks across the globe, resulting in a predicted distribution of ultimate outbreak sizes. The full model is useful in providing best-case, worst-case and average-case scenarios under a range of assumptions, especially before regional data is fully collected.</p>
 
-<p class="card-text">The global model predicts that average-case final outbreak sizes vary over several orders of magnitude as a result of both how quickly local containment is achieved and how likely infectious individuals are to seed new outbreaks elsewhere. Model details and estimates are available at [http://2019-coronavirus-tracker.com/final-size](final-size.html).</p>
+<p class="card-text">The global model shows how rapid response and limiting sparking are key to preventing pandemic. According to the model, average-case final outbreak sizes can vary over several orders of magnitude as a result of both how quickly local containment is achieved and how likely infectious individuals are to seed new outbreaks elsewhere.</p>
+
+<p class="card-text">Model details and estimates are available at [http://2019-coronavirus-tracker.com/final-size](final-size.html).</p>
 </div>
 </div>
 <!--END NEWS ITEM-->
