@@ -1,7 +1,6 @@
 ---
 title: "2019 Coronavirus Tracker - News"
 ---
-<div class="card bg-light mb-3">
 
 ## Latest News and Updates {.card-header}
 
@@ -9,10 +8,8 @@ title: "2019 Coronavirus Tracker - News"
 <div class="card-body">
 
 ### Estimating Final Outbreak Size {.card-title #news-finalsize}
+<div class="news-date text-muted">March 3, 2020 (Updated March 4, 2020)</div>
 
-<div class="news-date text-muted">
-March 3, 2020 (Updated March 4, 2020)
-</div>
 <p class="card-text">
 The CEID Coronavirus Working Group has developed a model to provide insight into the potential [final size](final-size.html) of the ongoing COVID-19 outbreak. The authors adapt a model previously developed for the recent Ebola outbreak.</p>
 
@@ -23,8 +20,8 @@ The CEID Coronavirus Working Group has developed a model to provide insight into
 <p class="card-text">The global model shows how rapid response and limiting sparking are key to preventing pandemic. According to the model, average-case final outbreak sizes can vary over several orders of magnitude as a result of both how quickly local containment is achieved and how likely infectious individuals are to seed new outbreaks elsewhere.</p>
 
 <p class="card-text">Model details and estimates are available at [http://2019-coronavirus-tracker.com/final-size](final-size.html).</p>
-</div>
-</div>
+
+</div><hr>
 <!--END NEWS ITEM-->
 
 <!--NEWS ITEM-->
@@ -32,21 +29,21 @@ The CEID Coronavirus Working Group has developed a model to provide insight into
 
 ### Assessment of mass screening and testing {.card-title #news-masstesting}
 
-<div class="news-date text-muted">
-February 21, 2020
-</div>
+<div class="news-date text-muted">February 21, 2020</div>
+
 <p class="card-text">
 The CEID Coronavirus Working Group has released an assessment of the impact of symptom-based [mass screening and testing intervention](mass_testing.html) (MSTI) during novel disease outbreaks to help understand how current mass testing and screening may be affecting the COVID-19 outbreak in China.</p>
+
 <p class="card-text">
 China is currently using a strategy of symptom-based mass screening and testing intervention (MSTI) for the COVID-19 outbreak. MSTI can identify a large fraction of infected individuals during an infectious disease outbreak. However, MSTI might lead to increased transmission if not properly implemented. The new study investigates which conditions MSTI is beneficial, comparing theoretical helpfulness of MSTI during outbreaks of COVID-19, Measles and Ebola.</p>
+
 <p class="card-text">
 Because COVID-19 shows general respiratory symptoms that are similar to common infections, MSTI might quickly overload the health system. MSTI might also lead directly to a worsening of the outbreak due to increased transmission at testing sites. This study presents a method for balance the risks and benefits of MSTI given known caharacteristics of novel pathogens.</p>
-</div>
-</div>
+
+</div><hr>
 <!--END NEWS ITEM-->
 
 <!--NEWS ITEM-->
-<div class="card bg-light mb-3">
 <div class="card-body">
 
 ### Estimates of case fatality rate added {.card-title #news-cfr}
@@ -56,12 +53,11 @@ February 20, 2020
 </div>
 <p class="card-text">
 Estimates of the case fatality rate $CFR$ have been added to the [Epidemic Characteristics](parameters.html) page. The *case fatality rate* is the death rate among those with COVID-19 disease.</p>
-</div>
-</div>
+
+</div><hr>
 <!--END NEWS ITEM-->
 
 <!--NEWS ITEM-->
-<div class="card bg-light mb-3">
 <div class="news-post card-body">
 
 ### Effective reproduction number outside China updated {.card-title #news-reff-updated}
@@ -71,14 +67,12 @@ February 20, 2020
 </div>
 
 <p class="card-text">
-Estimates of the *effective reproduction number* $R_{eff}$ outside of China have been updated to account for heterogeneity in transmission. See [R-effective outside China](reff-outside.html) for details.  $R_e{eff}$ is the average number of secondary infections, taking into account immunity in the population and containment efforts. When $R_{eff} < 1.0$ containment occurs.
-</p>
-</div>
-</div>
+Estimates of the *effective reproduction number* $R_{eff}$ outside of China have been updated to account for heterogeneity in transmission. See [R-effective outside China](reff-outside.html) for details.  $R_e{eff}$ is the average number of secondary infections, taking into account immunity in the population and containment efforts. When $R_{eff} < 1.0$ containment occurs.</p>
+
+</div><hr>
 <!--END NEWS ITEM-->
 
 <!--NEWS ITEM-->
-<div class="card bg-light mb-3">
 <div class="news-post card-body">
 
 ### Virus causing COVID-19 disease named "SARS-CoV-2" {.card-title #news-sars-cov-2}
@@ -101,12 +95,10 @@ A [manuscript](https://www.biorxiv.org/content/10.1101/2020.02.07.937862v1.full.
 <p class="card-text">
 The official disease name, COVID-19, which was announced February 11, 2020, should not be confused with the official name of the virus itself, henceforth known as SARS-CoV-2.</p>
 
-</div>
-</div>
+</div><hr>
 <!--END NEWS ITEM-->
 
 <!--NEWS ITEM-->
-<div class="card bg-light mb-3">
 <div class="news-post card-body">
 
 ### R effective outside China {.card-title #news-reff-outside}
@@ -130,12 +122,10 @@ Because there is relatively little data from secondary transmission chains, it i
 <p class="card-text">
 CEID has now introduced a method to estimate the average effective reproduction number of cases exported outside China, usingrelying on certain assumptions. The method and first estimates are detailed here: <http://2019-coronavirus-tracker.com/reff-outside.html> </p>
 
-</div>
-</div>
+</div><hr>
 <!--END NEWS ITEM-->
 
 <!--NEWS ITEM-->
-<div class="card bg-light mb-3">
 <div class="news-post card-body">
 
 ### Novel coronavirus disease renamed COVID-19 {.card-title #news-covid-19}
@@ -150,12 +140,11 @@ The 2019 novel coronavirus disease has received its official name from the [Worl
 The new disease name, **"COVID-19,"** is a contraction of "**Co**rona **Vi**rus **D**isease 20**19**", indicating that the outbreak begain in 2019, and is caused by a novel virus in the coronavirus family.</p>
 <p class="card-text">
 The novel virus itself is still unnamed, and is being referred to as 2019-nCov. [ICTV](https://talk.ictvonline.org/) will be the official authority on naming the virus.</p>
-</div>
-</div>
+
+</div><hr>
 <!--END NEWS ITEM-->
 
 <!--NEWS ITEM-->
-<div class="card bg-light mb-3">
 <div class="news-post card-body">
 
 ### Announcing the Coronavirus Tracker {.card-title #news-announcing-ncov-tracker}
@@ -195,11 +184,9 @@ The **2019 Coronavirus Tracker** is updated every morning at about 9:00 AM EST (
 <p class="card-text">
 Contact: <a href="mailto:jdrake@uga.edu" class="card-link">John M. Drake (jdrake@uga.edu)</a>
 </p>
-</div>
 
-
-</div>
-</div>
+</div><hr>
 <!--END NEWS ITEM-->
 
+<!-- </div> -->
 <!--END NEWS ITEMS-->
