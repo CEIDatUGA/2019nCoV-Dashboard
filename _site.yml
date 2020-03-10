@@ -41,5 +41,6 @@ output:
     toc_float:
       collapsed: false
     includes:
+      in_header: GA-script.html
       after_body: include_footer_tmpfix.html
     css: css/main.css
