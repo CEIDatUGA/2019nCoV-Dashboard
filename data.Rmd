@@ -15,7 +15,9 @@ These are the primary data resources being used by the CEID Coronavirus Working 
 [Interventions in China by prefecture](https://docs.google.com/spreadsheets/d/1aK9Es7x6KReabBRkWiBbiSGsxSC37kPKD-qiPcD50hg/edit#gid=0) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
 [Travel advisories](https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1525027375) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
 
-### Epidemic Map - China
+### Epidemic Maps {.tabset .tabset-fade}
+
+#### Epidemic Map - China
 
 <div class="china-epidemic-map">
 
@@ -25,7 +27,7 @@ knitr::include_url("nCov-Mapping-China-Web-Summary.html")
 </div>
 
 
-### Epidemic Map - World
+#### Epidemic Map - World
 
 <div class="world-epidemic-map">
 ```{r echo=FALSE}
