@@ -102,8 +102,8 @@ Estimates of the case fatality rate $CFR$ have been added to the [Epidemic Chara
 </div>
 </div>
 
-<!--NEWS ITEM-->
-<div class="card">
+<!--NEWS Hidden ITEM-->
+<div class="card hidden">
 <div class="card-body">
 <div class="card-title">
 #### Effective reproduction number outside China updated
