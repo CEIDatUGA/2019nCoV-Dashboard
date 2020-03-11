@@ -5,6 +5,8 @@ navbar:
   left:
     - text: "About"
       href: index.html
+    - text: "Early Intervention"
+      href: early-intervention.html
     - text: "Data"
       href: data.html
     - text: "Context"

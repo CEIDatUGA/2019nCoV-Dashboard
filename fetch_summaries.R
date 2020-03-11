@@ -1,5 +1,12 @@
 # fetch summaries
 
+# Early Intervention - web summary
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary.html?token=ADVPF4ECLRHMW2P73JP75RS6OI4FW",
+  destfile="early-intervention-web-summary.html"
+)
+
+
 # Data Summary - China
 utils::download.file(
   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4GF3A3WXHMD7LX6QH26ODFDK",
@@ -103,7 +110,7 @@ utils::download.file(
   destfile="final-size-web-summary.html"
 )
 
-# Final Size - web summary
+# Final Size - supp
 utils::download.file(
   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSize.html?token=ADVPF4AECCEKYT6PJB44YXC6ODFQM",
   destfile="final-size-supplement.html"

@@ -98,6 +98,101 @@ body{
   display: none;
 }
 
+/*page sizing for early-intervention-page*/
+
+.early-intervention-page{
+  height:5200px;
+  width:100%;
+  margin-bottom:40%;
+}
+
+@media (min-width: 270px) {
+  .early-intervention-page{
+    height:6600px;
+    width:100%;
+    margin-bottom:37%;
+  }
+}
+@media (min-width: 300px) {
+  .early-intervention-page{
+    height:5600px;
+    width:100%;
+    margin-bottom:30%;
+  }
+}
+
+@media (min-width: 350px) {
+  .early-intervention-page{
+    height:5200px;
+    width:100%;
+    margin-bottom:30%;
+  }
+}
+
+@media (min-width: 390px) {
+  .early-intervention-page{
+    height:4900px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 432px) {
+  .early-intervention-page{
+    height:4400px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 476px) {
+  .early-intervention-page{
+    height:4200px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 576px) {
+  .early-intervention-page{
+    height:3800px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 676px) {
+  .early-intervention-page{
+    height:3700px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .early-intervention-page{
+    height:3500px;
+    width:100%;
+    margin-bottom:10%;
+  }
+}
+
+@media (min-width: 992px) {
+  .early-intervention-page{
+    height:3300px;
+    width:100%;
+    margin-bottom:15%;
+  }
+}
+
+@media (min-width: 1200px) {
+.early-intervention-page{
+    height:3300px;
+    width:100%;
+
+  }
+}
+
 /*page sizing for mass-testing-page*/
 
 .mass-testing-page{

@@ -1,0 +1,29 @@
+---
+title: "2019 Coronavirus Tracker - Early Intervention"
+---
+<p id="disclaimer"></p>
+<div class="early-intervention-page">
+
+```{r echo=FALSE}
+knitr::include_url("early-intervention-web-summary.html")
+```
+</div>
+
+## Supplemental Information
+
+<div class="container-frames">
+<!-- 
+<p>
+  <a href="" target="_blank"></a> (html)
+</p>
+-->
+<!-- Preprint: [download]() -->
+
+<p>
+  <a href="https://github.com/CEIDatUGA/ncov-early-intervention" target="_blank">
+    <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
+    GitHub repository (public)
+  </a>
+</p>
+
+</div>
