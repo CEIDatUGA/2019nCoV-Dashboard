@@ -302,51 +302,80 @@ body{
 /*page sizing epidemic-curves-tab on data-page*/
 
 .epidemic-curves{
-    height:4150px;
-    margin-bottom:10%;
-    width:100%;
+  height:1125px;
+  padding-bottom:67%;
+
+}
+
+@media (min-width: 300px) {
+  .epidemic-curves{
+    height:925px;
+    padding-bottom:67%;
+  }
+}
+@media (min-width: 325px) {
+  .epidemic-curves{
+    height:1325px;
+    padding-bottom:67%;
+  }
 }
 
 @media (min-width: 370px) {
   .epidemic-curves{
-    height:3440.px;
-    margin-bottom:10px;
-    width:50%;
+    height:925px;
+    padding-bottom:67%;
+  }
+}
+
+@media (min-width: 400px) {
+  .epidemic-curves{
+    height:925px;
+    padding-bottom:67%;
+  }
+}
+
+@media (min-width: 476px) {
+  .epidemic-curves{
+    height:925px;
+    padding-bottom:67%;
   }
 }
 
 @media (min-width: 576px) {
   .epidemic-curves{
-    height:3375px;
-    margin-bottom:10px;
-    width:100%;
+    height:825px;
+    padding-bottom:67%;
   }
 }
 
-@media (min-width: 768px) {
+ @media (min-width: 768px) {
   .epidemic-curves{
-    height:3685px;
-    margin-bottom:10px;
-    width:100%;
+    height:825px;
+    padding-bottom:67%;
+
+  }
+}
+
+ @media (min-width: 868px) {
+  .epidemic-curves{
+    height:725px;
+    padding-bottom:67%;
   }
 }
 
 @media (min-width: 992px) {
   .epidemic-curves{
-    height:4150px;
-    margin-bottom:10%;
-    width:100%;
+    height:825px;
+    padding-bottom:67%;
   }
 }
 
 @media (min-width: 1200px) {
   .epidemic-curves{
-    height:3753px;
-    margin-bottom:10px;
-    width:100%;
+    height:825px;
+    padding-bottom:67%;
   }
 }
-
 
 /*page sizing context-page*/
 
