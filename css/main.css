@@ -475,21 +475,21 @@ body{
 /*page sizing context-page*/
 
 .context-web-sum-page{
-    height:4275px;
+    height:5075px;
     width:100%;
     margin-bottom:67%;
 }
 
 @media (min-width: 370px) {
   .context-web-sum-page{
-    height:4175px;
+    height:4975px;
     width:100%;
     margin-bottom:67%;
   }}
 
 @media (min-width: 576px) {
   .context-web-sum-page{
-    height:3975px;
+    height:4775px;
     width:100%;
     margin-bottom:10%;
   }
@@ -497,7 +497,7 @@ body{
 
 @media (min-width: 768px) {
   .context-web-sum-page{
-    height:3875px;
+    height:4675px;
     margin-bottom:10%;
     width:100%;
   }
@@ -505,7 +505,7 @@ body{
 
 @media (min-width: 992px) {
   .context-web-sum-page{
-    height:3975px;
+    height:4775px;
     margin-bottom:10%;
     width:100%;
   }
@@ -513,7 +513,7 @@ body{
 
 @media (min-width: 1200px) {
   .context-web-sum-page{
-    height:3975px;
+    height:4775px;
     margin-bottom:10%;
     width:100%;
   }
