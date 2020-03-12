@@ -11,7 +11,7 @@ knitr::include_url("context-web-summary.html")
 </div>
 
 
-## Supplemental Information
+## Supplemental Information 
 
 <div class="container-frames">
 
