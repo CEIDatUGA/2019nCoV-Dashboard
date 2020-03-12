@@ -25,7 +25,7 @@ title: "2019 Coronavirus Tracker - About"
 <div class="col-sm-8">
 #### Novel coronavirus outbreak in Wuhan, China (COVID-19)
 
-On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (known as 2019-nCov) in Wuhan, China. In the first weeks of January 2020, the viral disease spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On January 21, 2020, the CDC activated its emergency response system. On February 11, the WHO named the disease COVID-19.
+On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (known as 2019-nCov) in Wuhan, China. In the first weeks of January 2020, the viral disease spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On January 21, 2020, the CDC activated its emergency response system. On February 11, the WHO named the disease COVID-19. On March 11, the WHO declared a global pandemic.
 
 #### 2019 Coronavirus Tracker
 
