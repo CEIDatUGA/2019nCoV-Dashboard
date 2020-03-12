@@ -17,7 +17,7 @@ navbar:
       href: reff-outside.html
     - text: "Stochastic Model"
       href: stochastic.html
-    - text: "Final Outbreak Size"
+    - text: "Probability of widespread transmission"
       href: final-size.html
     - text: "Mass Testing"
       href: mass_testing.html
