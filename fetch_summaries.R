@@ -23,7 +23,7 @@ utils::download.file(
 
 # Data Summary - Epidemic Curves
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4AZOSY6ZITULEDD2XS6OD3HC",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4GJCIT5FUNFK2CT63S6OS4MI",
   destfile="epidemic-curves-web-summary.html"
 )
 
@@ -36,12 +36,12 @@ utils::download.file(
 
 # Epidemic Characteristics
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4GY7LJS7L6N734BK526NOJ4I",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4FQD3RLHJNGH6HG24C6OTMBI",
   destfile="parameters-web-summary.html"
   )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4H7VMWIBYIV77Z4TNC6NOKAE",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4DREBBOFRMOMHBFCBK6OTMIO",
   destfile="parameters-supplement.html"
 )
 
@@ -65,7 +65,7 @@ utils::download.file(
 
 # Mass Testing
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_summary_html.html?token=ADVPF4G2YHTZ4D4YQ7WPRIS6NOKLS",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_summary_html.html?token=ADVPF4DRNSUBKVYW2IDSYAC6OTMMK",
   destfile="mass_testing_summary.html"
 )
 
