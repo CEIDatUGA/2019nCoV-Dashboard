@@ -36,7 +36,7 @@ utils::download.file(
 
 # Epidemic Characteristics
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4FQD3RLHJNGH6HG24C6OTMBI",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4ED2EV3HI5YRFZA3CC6OUCDI",
   destfile="parameters-web-summary.html"
   )
 
