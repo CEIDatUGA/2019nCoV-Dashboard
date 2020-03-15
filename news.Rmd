@@ -7,6 +7,32 @@ title: "2019 Coronavirus Tracker - News"
 <!--NEWS ITEM-->
 <div class="card-body">
 
+### Stochastic Model for Georgia {.card-title #news-georgia-stochastic}
+<div class="news-date text-muted">March 15, 2020</div>
+
+<p class="card-text">The 2019 Coronavirus Tracker now includes a stochastic model for the COVID-19 outbreak in the state of Georgia. [http://2019-coronavirus-tracker.com/stochastic-GA](stochastic-GA.html).</p>
+
+</div><hr>
+<!--END NEWS ITEM-->
+
+<!--NEWS ITEM-->
+<div class="card-body">
+
+### Effect of Early Intervention {.card-title #news-early-intervention}
+<div class="news-date text-muted">March 15, 2020</div>
+
+<p class="card-text">CEID has released an anlysis of the [effect of early intervention](early-intervention.html) on its 2019 Coronavirus Tracker. The analysis of intervention timing and outbreak size by province in China clearly demonstrates the importance of early intervention.</p>
+
+<p class="card-text">Based on a study of government intervention in China following the Initial outbreak of COVID-19 in Wuhan, Dr. Drake found a very strong correlation (90%) between how early a lockdown was imposed in a province and the ultimate severity of the outbreak there.  The results show that early action yields critical gains, with every delay of 3.8 days leading to a tenfold increase in cases.</p>
+
+<p class="card-text">Details: [http://2019-coronavirus-tracker.com/final-size](final-size.html).</p>
+
+</div><hr>
+<!--END NEWS ITEM-->
+
+<!--NEWS ITEM-->
+<div class="card-body">
+
 ### Estimating Final Outbreak Size {.card-title #news-finalsize}
 <div class="news-date text-muted">March 3, 2020 (Updated March 4, 2020)</div>
 

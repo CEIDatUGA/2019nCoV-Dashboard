@@ -23,11 +23,19 @@ title: "2019 Coronavirus Tracker - About"
 
 <div class="row">
 <div class="col-sm-8">
-#### Novel coronavirus outbreak in Wuhan, China (COVID-19)
+### Op-ed by CEID Director John Drake
+
+**Dr. John Drake urges swift, decisive action to curb spread of COVID-19.**
+
+In an op-ed in the Atlanta Journal Constitution, CEID Director Dr. John Drake has called for immediate and decisive intervention to slow the spread of COVID-19.  Based on a study of government intervention in China following the Initial outbreak of COVID-19 in Wuhan, CEID researchers found a very strong correlation (90%) between how early a lockdown was imposed in a province and the ultimate severity of the outbreak there. The results show that early action yields critical gains, with every delay of 3.8 days leading to a tenfold increase in cases. 
+
+<a href="https://www.ajc.com/news/opinion/opinion-now-the-time-act-coronavirus/AwELZ1Fm9GMZVJsW6rsHJL/" target="_blank">Opinion: Now’s the time to act on coronavirus.</a> Guest column. Atlanta Journal Constitution, March 13, 2020
+
+### COVID-19 Global Pandemic
 
 On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (known as 2019-nCov) in Wuhan, China. In the first weeks of January 2020, the viral disease spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On January 21, 2020, the CDC activated its emergency response system. On February 11, the WHO named the disease COVID-19. On March 11, the WHO declared a global pandemic.
 
-#### 2019 Coronavirus Tracker
+### 2019 Coronavirus Tracker
 
 Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the [The Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) at the University of Georgia formed the **Coronavirus Working Group**, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.
 
@@ -41,7 +49,7 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 
 #### CEID
 
-[The Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) is a research unit housed in the Odum School of Ecology. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.
+<a href="http://ceid.uga.edu" target="_blank">The Center for the Ecology of Infectious Diseases (CEID)</a> is a research unit housed in the Odum School of Ecology at the University of Georgia. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.
 
 </div>
 
@@ -52,6 +60,38 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 <div class="card mb-0">
 <div class="card-header">
 ### Latest News & Updates
+</div>
+
+<!--NEWS ITEM-->
+<div class="card">
+<div class="card-body">
+<div class="card-title">
+#### Stochastic Model for Georgia
+</div>
+<p class="card-text">
+<small class="card-subtitle mb-2 text-muted">March 15, 2020</small><br>
+The 2019 Coronavirus Tracker now includes a stochastic model for the COVID-19 outbreak in the state of Georgia. [http://2019-coronavirus-tracker.com/stochastic-GA](stochastic-GA.html).
+</p>
+<!-- <div class="card-link"> -->
+<!-- [READ MORE >](news.html#news-georgia-stochastic) -->
+<!-- </div> -->
+</div>
+</div>
+
+<!--NEWS ITEM-->
+<div class="card">
+<div class="card-body">
+<div class="card-title">
+#### Effect of Early Intervention
+</div>
+<p class="card-text">
+<small class="card-subtitle mb-2 text-muted">March 15, 2020</small><br>
+CEID has released an anlysis of the [effect of early intervention](early-intervention.html) on its 2019 Coronavirus Tracker. The analysis of intervention timing and outbreak size by province in China clearly demonstrates the importance of early intervention.
+</p>
+<div class="card-link">
+[READ MORE >](news.html#news-early-intervention)
+</div>
+</div>
 </div>
 
 <!--NEWS ITEM-->
