@@ -5,8 +5,6 @@ navbar:
   left:
     - text: "About"
       href: index.html
-    - text: "Early Intervention"
-      href: early-intervention.html
     - text: "Data"
       href: data.html
     - text: "Context"
@@ -15,20 +13,24 @@ navbar:
       href: parameters.html
     - text: "R-effective outside China"
       href: reff-outside.html
-    - text: "Stochastic Model"
+#    - text: "US Nowcast"
+#      href: nowcast.html
+    - text: "Stochastic Model (Wuahn)"
       href: stochastic.html
+    - text: "Stochastic Model (Georgia)"
+      href: stochastic-GA.html
     - text: "Probability of widespread transmission"
       href: final-size.html
-    - text: "Mass Testing"
-      href: mass_testing.html
-#    - text: "Nowcasting"
-#      href: nowcast.html
     - text: "China Spatial Model"
       href: spatial-china.html
 #    - text: "US Spatial Model"
 #      href: spatial-US.html
 #    - text: "World Import Risk"
 #      href: spatial-world.html
+    - text: "Effect of Early Intervention"
+      href: early-intervention.html
+    - text: "Effect of Mass Testing"
+      href: mass_testing.html
     - text: "News"
       href: news.html
 #    - text: "Test"

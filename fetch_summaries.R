@@ -59,6 +59,11 @@ utils::download.file(
 )
 
 utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model-georgia-web-summary.html",
+  destfile="stochastic-georgia-web-summary.html"
+)
+
+utils::download.file(
   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model.html",
   destfile="stochastic-model.html"
 )
@@ -80,11 +85,15 @@ utils::download.file(
 # )
 
 
-# # Nowcast
-# utils::download.file(
-#   url="",
-#   destfile="nowcast-web-summary.html"
-# )
+# Nowcast - US Cases
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-cases.html?token=ADVPF4GCGR7XK56I4QP62QS6OZ4R4",
+  destfile="nowcast-US-cases.html"
+)
+
+# Nowcast - US Cases
+# file in this repo: "ncov-parameters-US.pdf"
+
 
 # China Spatial Model
 utils::download.file(

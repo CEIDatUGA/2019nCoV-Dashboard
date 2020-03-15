@@ -1,5 +1,5 @@
 ---
-title: "2019 Coronavirus Tracker - Stochastic Model"
+title: "2019 Coronavirus Tracker - Stochastic Model for Wuhan (China)"
 ---
 <p id="disclaimer"></p>
 <div class="stochastic-page">
