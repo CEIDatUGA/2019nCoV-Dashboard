@@ -15,7 +15,7 @@ navbar:
       href: reff-outside.html
 #    - text: "US Nowcast"
 #      href: nowcast.html
-    - text: "Stochastic Model (Wuahn)"
+    - text: "Stochastic Model (Wuhan)"
       href: stochastic.html
     - text: "Stochastic Model (Georgia)"
       href: stochastic-GA.html
