@@ -7,7 +7,7 @@ title: "2019 Coronavirus Tracker - News"
 <!--NEWS ITEM-->
 <div class="card-body">
 
-### Stochastic Model for Georgia {.card-title #news-georgia-stochastic}
+### Stochastic model for Georgia {.card-title #news-georgia-stochastic}
 <div class="news-date text-muted">March 15, 2020</div>
 
 <p class="card-text">The 2019 Coronavirus Tracker now includes a stochastic model for the COVID-19 outbreak in the state of Georgia. [http://2019-coronavirus-tracker.com/stochastic-GA](stochastic-GA.html).</p>
@@ -18,14 +18,14 @@ title: "2019 Coronavirus Tracker - News"
 <!--NEWS ITEM-->
 <div class="card-body">
 
-### Effect of Early Intervention {.card-title #news-early-intervention}
+### Effect of early intervention {.card-title #news-early-intervention}
 <div class="news-date text-muted">March 15, 2020</div>
 
 <p class="card-text">CEID has released an anlysis of the [effect of early intervention](early-intervention.html) on its 2019 Coronavirus Tracker. The analysis of intervention timing and outbreak size by province in China clearly demonstrates the importance of early intervention.</p>
 
 <p class="card-text">Based on a study of government intervention in China following the Initial outbreak of COVID-19 in Wuhan, Dr. Drake found a very strong correlation (90%) between how early a lockdown was imposed in a province and the ultimate severity of the outbreak there.  The results show that early action yields critical gains, with every delay of 3.8 days leading to a tenfold increase in cases.</p>
 
-<p class="card-text">Details: [http://2019-coronavirus-tracker.com/final-size](final-size.html).</p>
+<p class="card-text">Details: [http://2019-coronavirus-tracker.com/early-intervention](early-intervention.html).</p>
 
 </div><hr>
 <!--END NEWS ITEM-->
@@ -33,7 +33,7 @@ title: "2019 Coronavirus Tracker - News"
 <!--NEWS ITEM-->
 <div class="card-body">
 
-### Estimating Final Outbreak Size {.card-title #news-finalsize}
+### Estimating final outbreak size {.card-title #news-finalsize}
 <div class="news-date text-muted">March 3, 2020 (Updated March 4, 2020)</div>
 
 <p class="card-text">
@@ -74,9 +74,7 @@ Because COVID-19 shows general respiratory symptoms that are similar to common i
 
 ### Estimates of case fatality rate added {.card-title #news-cfr}
 
-<div class="news-date text-muted">
-February 20, 2020
-</div>
+<div class="news-date text-muted">February 20, 2020</div>
 <p class="card-text">
 Estimates of the case fatality rate $CFR$ have been added to the [Epidemic Characteristics](parameters.html) page. The *case fatality rate* is the death rate among those with COVID-19 disease.</p>
 
@@ -88,9 +86,7 @@ Estimates of the case fatality rate $CFR$ have been added to the [Epidemic Chara
 
 ### Effective reproduction number outside China updated {.card-title #news-reff-updated}
 
-<div class="news-date text-muted">
-February 20, 2020
-</div>
+<div class="news-date text-muted">February 20, 2020</div>
 
 <p class="card-text">
 Estimates of the *effective reproduction number* $R_{eff}$ outside of China have been updated to account for heterogeneity in transmission. See [R-effective outside China](reff-outside.html) for details.  $R_e{eff}$ is the average number of secondary infections, taking into account immunity in the population and containment efforts. When $R_{eff} < 1.0$ containment occurs.</p>
@@ -103,9 +99,7 @@ Estimates of the *effective reproduction number* $R_{eff}$ outside of China have
 
 ### Virus causing COVID-19 disease named "SARS-CoV-2" {.card-title #news-sars-cov-2}
 
-<div class="news-date text-muted">
-February 17, 2020
-</div>
+<div class="news-date text-muted">February 17, 2020</div>
 
 
 <figure class="figure text-center">
@@ -129,9 +123,8 @@ The official disease name, COVID-19, which was announced February 11, 2020, shou
 
 ### R effective outside China {.card-title #news-reff-outside}
 
-<div class="news-date text-muted">
-February 17, 2020
-</div>
+<div class="news-date text-muted">February 17, 2020</div>
+
 <p class="card-text">
 The CEID Coronavirus Working Group has developed a method to estimate the effective reproduction number $R_{eff}$ of COVID-19 outside China.  The Effective Reproduction Number is the expected number of secondary cases to arise from an arbitrary case, taking into account immunity and containment efforts.</p>
 <p class="card-text">
@@ -156,9 +149,7 @@ CEID has now introduced a method to estimate the average effective reproduction 
 
 ### Novel coronavirus disease renamed COVID-19 {.card-title #news-covid-19}
 
-<div class="news-date text-muted">
-February 11, 2020
-</div>
+<div class="news-date text-muted">February 11, 2020</div>
 
 <p class="card-text">
 The 2019 novel coronavirus disease has received its official name from the [World Health Organization](https://www.who.int/).</p>
@@ -175,9 +166,7 @@ The novel virus itself is still unnamed, and is being referred to as 2019-nCov. 
 
 ### Announcing the Coronavirus Tracker {.card-title #news-announcing-ncov-tracker}
 
-<div class="news-date text-muted">
-February 10, 2020
-</div>
+<div class="news-date text-muted">February 10, 2020</div>
 
 <figure class="figure text-center">
 <img src="images/2019ncov_Parker/Image-9.jpeg" class="figure-img img-fluid rounded" alt="micrograph coronaviruses" style="height: 200px">

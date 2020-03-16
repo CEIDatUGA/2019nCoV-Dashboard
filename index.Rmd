@@ -66,7 +66,7 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 <div class="card">
 <div class="card-body">
 <div class="card-title">
-#### Stochastic Model for Georgia
+#### Stochastic model for Georgia
 </div>
 <p class="card-text">
 <small class="card-subtitle mb-2 text-muted">March 15, 2020</small><br>
@@ -82,7 +82,7 @@ The 2019 Coronavirus Tracker now includes a stochastic model for the COVID-19 ou
 <div class="card">
 <div class="card-body">
 <div class="card-title">
-#### Effect of Early Intervention
+#### Effect of early intervention
 </div>
 <p class="card-text">
 <small class="card-subtitle mb-2 text-muted">March 15, 2020</small><br>
@@ -98,7 +98,7 @@ CEID has released an anlysis of the [effect of early intervention](early-interve
 <div class="card">
 <div class="card-body">
 <div class="card-title">
-#### Estimating Final Outbreak Size
+#### Estimating final outbreak size
 </div>
 <p class="card-text">
 <small class="card-subtitle mb-2 text-muted">March 3, 2020</small><br>
