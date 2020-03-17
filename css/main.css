@@ -351,13 +351,13 @@ body{
 
 /*sizing for speed-of-spread-page*/
 .speed-of-spread-page{
-  height:775px;
+  height:1000px;
   padding-bottom:67%;
 }
 
 @media (min-width: 370px) {
   .speed-of-spread-page{
-    height:775px;
+    height:1000px;
     width:100%;
     padding-bottom:67%;
   }
@@ -365,7 +365,7 @@ body{
 
 @media (min-width: 576px) {
   .speed-of-spread-page{
-    height:775px;
+    height:1000px;
     width:100%;
     padding-bottom:67%;
   }
@@ -373,7 +373,7 @@ body{
 
 @media (min-width: 768px) {
   .speed-of-spread-page{
-  height:775px;
+  height:1000px;
   width:100%;
   padding-bottom:67%;
   }
@@ -381,7 +381,7 @@ body{
 
 @media (min-width: 992px) {
   .speed-of-spread-page{
-    height:775px;
+    height:1000px;
     width:100%;
     padding-bottom:67%;
   }
@@ -389,7 +389,7 @@ body{
 
 @media (min-width: 1200px) {
   .speed-of-spread-page{
-    height:775px;
+    height:1000px;
     width:100%;
     padding-bottom:67%;
   }
