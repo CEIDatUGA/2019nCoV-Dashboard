@@ -11,7 +11,7 @@ knitr::include_url("early-intervention-web-summary.html")
 ```
 </div>
 
-### Time to containment
+### Time to containment 
 <div class="early-intervention-page">
 
 ```{r echo=FALSE}
