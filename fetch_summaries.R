@@ -6,6 +6,10 @@ utils::download.file(
   destfile="early-intervention-web-summary.html"
 )
 
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary2.html?token=ADVPF4F6VQDX2OH6K74DA5S6PINPK",
+  destfile="early-intervention-web-summary2.html"
+)
 
 # Data Summary - China
 utils::download.file(
