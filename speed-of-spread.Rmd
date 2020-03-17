@@ -1,0 +1,38 @@
+---
+title: "2019 Coronavirus Tracker - Speed of Spread"
+---
+<p id="disclaimer"></p>
+
+## Speed of Spread of COVID-19 {.tabset .tabset-fade}
+
+### US, by State 
+<div class="speed-of-spread-page">
+```{r echo=FALSE}
+knitr::include_url("epi-curve-by-us-state-web-summary.html")
+```
+</div>
+
+### Global, by country
+<div class="speed-of-spread-page">
+```{r echo=FALSE}
+knitr::include_url("epi-curve-by-country-web-summary.html")
+```
+</div>
+
+
+## Supplemental Information
+
+<div class="container-frames">
+
+<!-- Supplemental information: [html]() -->
+
+<!-- Preprint: [download]() -->
+
+<p>
+  <a href="https://github.com/CEIDatUGA/ncov-data-summary" target="_blank">
+    <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
+    GitHub repository (private)
+  </a>
+</p>
+
+</div>

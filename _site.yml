@@ -5,9 +5,11 @@ navbar:
   left:
     - text: "About"
       href: index.html
-    - text: "Data"
+    - text: "Epidemic Data, Curves & Maps"
       href: data.html
-    - text: "Context"
+    - text: "Speed of Spread"
+      href: speed-of-spread.html
+    - text: "COVID-19 in Context"
       href: context.html
     - text: "Epidemic Characteristics"
       href: parameters.html

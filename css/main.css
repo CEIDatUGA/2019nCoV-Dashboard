@@ -349,6 +349,54 @@ body{
 }
 
 
+/*sizing for speed-of-spread-page*/
+.speed-of-spread-page{
+  height:775px;
+  padding-bottom:67%;
+}
+
+@media (min-width: 370px) {
+  .speed-of-spread-page{
+    height:775px;
+    width:100%;
+    padding-bottom:67%;
+  }
+}
+
+@media (min-width: 576px) {
+  .speed-of-spread-page{
+    height:775px;
+    width:100%;
+    padding-bottom:67%;
+  }
+}
+
+@media (min-width: 768px) {
+  .speed-of-spread-page{
+  height:775px;
+  width:100%;
+  padding-bottom:67%;
+  }
+}
+
+@media (min-width: 992px) {
+  .speed-of-spread-page{
+    height:775px;
+    width:100%;
+    padding-bottom:67%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .speed-of-spread-page{
+    height:775px;
+    width:100%;
+    padding-bottom:67%;
+  }
+}
+
+
+
 /*page sizing world-epidemic-map-tab on data-page*/
 
 .world-epidemic-map{
@@ -397,55 +445,55 @@ body{
 /*page sizing epidemic-curves-tab on data-page*/
 
 .epidemic-curves{
-  height:1125px;
+  height:2125px;
   padding-bottom:67%;
 
 }
 
 @media (min-width: 300px) {
   .epidemic-curves{
-    height:925px;
+    height:1925px;
     padding-bottom:67%;
   }
 }
 @media (min-width: 325px) {
   .epidemic-curves{
-    height:1325px;
+    height:2325px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 370px) {
   .epidemic-curves{
-    height:925px;
+    height:1925px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 400px) {
   .epidemic-curves{
-    height:925px;
+    height:1925px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 476px) {
   .epidemic-curves{
-    height:925px;
+    height:1925px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 576px) {
   .epidemic-curves{
-    height:825px;
+    height:1825px;
     padding-bottom:67%;
   }
 }
 
  @media (min-width: 768px) {
   .epidemic-curves{
-    height:825px;
+    height:1825px;
     padding-bottom:67%;
 
   }
@@ -453,21 +501,21 @@ body{
 
  @media (min-width: 868px) {
   .epidemic-curves{
-    height:725px;
+    height:1725px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 992px) {
   .epidemic-curves{
-    height:825px;
+    height:1825px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 1200px) {
   .epidemic-curves{
-    height:825px;
+    height:1825px;
     padding-bottom:67%;
   }
 }
