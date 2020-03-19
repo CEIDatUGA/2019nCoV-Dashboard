@@ -62,6 +62,11 @@ utils::download.file(
   destfile="parameters-supplement.html"
 )
 
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters-US.html?token=ADVPF4DBMO7IDYBAXAHS55K6PUFCY",
+  destfile="parameters-US.html"
+)
+
 # R_eff outside China
 
 utils::download.file(
@@ -102,10 +107,25 @@ utils::download.file(
 # )
 
 
-# Nowcast - US Cases
+# Nowcast US
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-cases.html?token=ADVPF4GCGR7XK56I4QP62QS6OZ4R4",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US.html?token=ADVPF4ACU452MBU2SOJAGVK6PUDUO",
+  destfile="nowcast-US.html"
+)
+
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-cases.html?token=ADVPF4A5YBOXCFNWIFDDHCC6PUD5C",
   destfile="nowcast-US-cases.html"
+)
+
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-fatalities.html?token=ADVPF4ATYLY7QQH77NLAV5K6PUD7S",
+  destfile="nowcast-US-fatalities.html"
+)
+
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/under-reporting.html?token=ADVPF4C2IXKJMLU24XDIPRS6PUEDI",
+  destfile="nowcast-US-ascertainment.html"
 )
 
 # Nowcast - US Cases

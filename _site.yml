@@ -7,6 +7,8 @@ navbar:
       href: index.html
     - text: "Epidemic Data, Curves & Maps"
       href: data.html
+    - text: "US Nowcast"
+      href: nowcast.html
     - text: "Speed of Spread"
       href: speed-of-spread.html
     - text: "COVID-19 in Context"
@@ -15,8 +17,6 @@ navbar:
       href: parameters.html
     - text: "R-effective outside China"
       href: reff-outside.html
-#    - text: "US Nowcast"
-#      href: nowcast.html
     - text: "Stochastic Model (Wuhan)"
       href: stochastic.html
     - text: "Stochastic Model (Georgia)"

@@ -712,14 +712,14 @@ body{
 /*page sizing nowcast-page*/
 
 .nowcast-page{
-    height:700px;
+    height:1000px;
     width:100%;
     margin-bottom:10%;
 }
 
 @media (min-width: 370px) {
   .nowcast-page{
-    height:700px;
+    height:1000px;
     width:100%;
     margin-bottom:12%;
   }
@@ -727,7 +727,7 @@ body{
 
 @media (min-width: 576px) {
   .nowcast-page{
-    height:700px;
+    height:1000px;
     width:100%;
     margin-bottom:12%;
   }
@@ -735,7 +735,7 @@ body{
 
 @media (min-width: 768px) {
   .nowcast-page{
-    height:700px;
+    height:1000px;
     width:100%;
     margin-bottom:10%;
   }
@@ -743,14 +743,14 @@ body{
 
 @media (min-width: 992px) {
   .nowcast-page{
-    height:700px;
+    height:1000px;
     width:100%;
   }
 }
 
 @media (min-width: 1200px) {
   .nowcast-page{
-    height:700px;
+    height:1000px;
     width:100%;
   }
 }

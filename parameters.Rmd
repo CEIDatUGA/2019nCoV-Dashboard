@@ -2,10 +2,20 @@
 title: "2019 Coronavirus Tracker - Epidemic Characteristics"
 ---
 <p id="disclaimer"></p>
+## {.tabset .tabset-fade}
+### Global Parameters
 <div class="parameters-page">
 
 ```{r echo=FALSE}
 knitr::include_url("parameters-web-summary.html")
+```
+</div>
+
+### US Parameters
+<div class="parameters-page">
+
+```{r echo=FALSE}
+knitr::include_url("parameters-US.html")
 ```
 </div>
 
