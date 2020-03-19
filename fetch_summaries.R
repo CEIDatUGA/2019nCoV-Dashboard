@@ -2,12 +2,12 @@
 
 # Early Intervention - web summary
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary.html?token=ADVPF4ECLRHMW2P73JP75RS6OI4FW",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary.html?token=ADVPF4FDJPUQDNH4DU2EP226PSY4C",
   destfile="early-intervention-web-summary.html"
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary2.html?token=ADVPF4F6VQDX2OH6K74DA5S6PINPK",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary2.html?token=ADVPF4EXGOAUT7B3IQAGDC26PSY6A",
   destfile="early-intervention-web-summary2.html"
 )
 
