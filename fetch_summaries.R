@@ -27,7 +27,7 @@ utils::download.file(
 
 # Data Summary - Epidemic Curves
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4GJCIT5FUNFK2CT63S6OS4MI",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4FAWO6B4IOJMXVC6726PX5TM",
   destfile="epidemic-curves-web-summary.html"
 )
 
@@ -107,26 +107,26 @@ utils::download.file(
 # )
 
 
-# Nowcast US
-utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US.html?token=ADVPF4ACU452MBU2SOJAGVK6PUDUO",
-  destfile="nowcast-US.html"
-)
-
-utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-cases.html?token=ADVPF4A5YBOXCFNWIFDDHCC6PUD5C",
-  destfile="nowcast-US-cases.html"
-)
-
-utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-fatalities.html?token=ADVPF4ATYLY7QQH77NLAV5K6PUD7S",
-  destfile="nowcast-US-fatalities.html"
-)
-
-utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/under-reporting.html?token=ADVPF4C2IXKJMLU24XDIPRS6PUEDI",
-  destfile="nowcast-US-ascertainment.html"
-)
+# # Nowcast US
+# utils::download.file(
+#   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US.html?token=ADVPF4ACU452MBU2SOJAGVK6PUDUO",
+#   destfile="nowcast-US.html"
+# )
+# 
+# utils::download.file(
+#   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-cases.html?token=ADVPF4A5YBOXCFNWIFDDHCC6PUD5C",
+#   destfile="nowcast-US-cases.html"
+# )
+# 
+# utils::download.file(
+#   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-fatalities.html?token=ADVPF4ATYLY7QQH77NLAV5K6PUD7S",
+#   destfile="nowcast-US-fatalities.html"
+# )
+# 
+# utils::download.file(
+#   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/under-reporting.html?token=ADVPF4C2IXKJMLU24XDIPRS6PUEDI",
+#   destfile="nowcast-US-ascertainment.html"
+# )
 
 # Nowcast - US Cases
 # file in this repo: "ncov-parameters-US.pdf"
