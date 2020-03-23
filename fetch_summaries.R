@@ -118,10 +118,10 @@ utils::download.file(
 #   destfile="nowcast-US-cases.html"
 # )
 # 
-# utils::download.file(
-#   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-fatalities.html?token=ADVPF4ATYLY7QQH77NLAV5K6PUD7S",
-#   destfile="nowcast-US-fatalities.html"
-# )
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-fatalities.html?token=ADVPF4ATYLY7QQH77NLAV5K6PUD7S",
+  destfile="nowcast-US-fatalities.html"
+)
 # 
 # utils::download.file(
 #   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/under-reporting.html?token=ADVPF4C2IXKJMLU24XDIPRS6PUEDI",
