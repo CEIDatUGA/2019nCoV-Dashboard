@@ -33,13 +33,13 @@ utils::download.file(
 
 # Speed of Spread - Epidemic Curves by Country
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epi-curve-by-country-web-summary.html?token=ADVPF4HJGGXHVU2AUGQ3X226PIBVK",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epi-curve-by-country-web-summary.html?token=ADVPF4HXCTP5ZCOOVOACTGK6QNAPK",
   destfile="epi-curve-by-country-web-summary.html"
 )
 
 # Speed of Spread - Epidemic Curves by US State
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epi-curve-by-us-state-web-summary.html?token=ADVPF4HCOTKWT444GQ7FARS6PICH4",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epi-curve-by-us-state-web-summary.html?token=ADVPF4BDC6IGU5NDQ6LGMJK6QNAR4",
   destfile="epi-curve-by-us-state-web-summary.html"
 )
 
@@ -76,17 +76,17 @@ utils::download.file(
 
 # Stochastic Model
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/web-summary.html?token=ADVPF4BS5FEA3TZFR2QTLIK6I3O4S",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/web-summary.html?token=ADVPF4ENOB44HFHG7LRNSBS6QNAZY",
   destfile="stochastic-web-summary.html"
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model-georgia-web-summary.html",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model-georgia-web-summary.html?token=ADVPF4BUOCWLBSB4ZXAOIL26QNBAQ",
   destfile="stochastic-georgia-web-summary.html"
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model.html",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model.html?token=ADVPF4EK46ACYA6WBSXHPOC6QNBDM",
   destfile="stochastic-model.html"
 )
 
