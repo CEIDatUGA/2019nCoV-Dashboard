@@ -719,52 +719,207 @@ body{
   }
 }
 
-/*page sizing nowcast-page*/
+/*page sizing for nowcast page by tabs*/
+/*page sizing nowcast-algorithm*/
 
-.nowcast-page{
-    height:1000px;
+.nowcast-algorithm{
+    height:3520px;
     width:100%;
-    margin-bottom:10%;
+    margin-bottom:5%;
+}
+
+@media (min-width: 270px) {
+  .nowcast-algorithm{
+    height:3110px;
+  }
 }
 
 @media (min-width: 370px) {
-  .nowcast-page{
-    height:1000px;
-    width:100%;
-    margin-bottom:12%;
+  .nowcast-algorithm{
+    height:2110px;
   }
 }
 
 @media (min-width: 576px) {
-  .nowcast-page{
-    height:1000px;
-    width:100%;
-    margin-bottom:12%;
+  .nowcast-algorithm{
+    height:2000px;
+  }
+}
+
+@media (min-width: 576px) {
+  .nowcast-algorithm{
+    height:1800px;
+
   }
 }
 
 @media (min-width: 768px) {
-  .nowcast-page{
-    height:1000px;
-    width:100%;
-    margin-bottom:10%;
+  .nowcast-algorithm{
+    height:1500px;
+
+
+  }
+}
+
+@media (min-width: 868px) {
+  .nowcast-algorithm{
+    height:1300px;
+
+
   }
 }
 
 @media (min-width: 992px) {
-  .nowcast-page{
-    height:1000px;
-    width:100%;
+  .nowcast-algorithm{
+    height:1150px;
+
+
   }
 }
 
 @media (min-width: 1200px) {
-  .nowcast-page{
+  .nowcast-algorithm{
     height:1000px;
-    width:100%;
+
   }
 }
 
+
+
+/* nowcast-case-reports */
+
+.nowcast-case-reports{
+    height:835px;
+    width:100%;
+
+}
+
+@media (min-width: 270px) {
+  .nowcast-case-reports{
+    height:1450px;
+
+  }
+}
+
+@media (min-width: 370px) {
+  .nowcast-case-reports{
+    height:1450px;
+
+  }
+}
+
+@media (min-width: 576px) {
+  .nowcast-case-reports{
+    height:1000px;
+
+
+  }
+}
+
+@media (min-width: 768px) {
+  .nowcast-case-reports{
+    height:1000px;
+
+
+  }
+}
+
+@media (min-width: 992px) {
+  .nowcast-case-reports{
+    height:1000px;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .nowcast-case-reports{
+    height:835px;
+  }
+}
+
+/*nowcast-fatalities*/
+
+.nowcast-fatalities{
+    height:1000px;
+    width:100%;
+
+}
+
+@media (min-width: 370px) {
+  .nowcast-fatalities{
+    height:1000px;
+
+  }
+}
+
+@media (min-width: 576px) {
+  .nowcast-fatalities{
+    height:1000px;
+
+  }
+}
+
+@media (min-width: 768px) {
+  .nowcast-fatalities{
+    height:1000px;
+
+  }
+}
+
+@media (min-width: 992px) {
+  .nowcast-fatalities{
+    height:1000px;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .nowcast-fatalities{
+    height:1000px;
+
+  }
+}
+/* nowcast-ascertainment */
+
+.nowcast-ascertainment{
+    height:735px;
+    width:100%;
+}
+
+@media (min-width: 370px) {
+  .nowcast-ascertainment{
+    height:735px;
+    
+  }
+}
+
+@media (min-width: 576px) {
+  .nowcast-ascertainment{
+    height:735px;
+   
+  }
+}
+
+@media (min-width: 768px) {
+  .nowcast-ascertainment{
+    height:735px;
+
+  }
+}
+
+@media (min-width: 992px) {
+  .nowcast-ascertainment{
+    height:735px;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .nowcast-ascertainment{
+    height:735px;
+
+  }
+}
 
 
 /*tabs-test*/
@@ -1093,12 +1248,14 @@ iframe {
     background-color: #000;
 }
 
+/*
 /*section padding*/
-.level3{
+/*.level3{
   padding-top:2.0em;
   padding-bottom:1.2em;
   margin-bottom:10px;
-}
+} */
+
 
 h1,h2,h3,a, a:active{
     font-family:'Oswald','Roboto',Arial,sans-serif;
