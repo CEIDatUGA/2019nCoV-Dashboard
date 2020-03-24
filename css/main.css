@@ -33,38 +33,37 @@
 /*end page titles*/
 
 /*disclaimer*/
-#disclaimer {
-  padding: 0;
-}
+
 #disclaimer::before {
   content:"Findings are preliminary and subject to change, pending future changes in the underlying data. Results have not been peer-reviewed, but have been prepared to a professional standard with the intention of providing useful information about a rapidly developing event.";
   font-size: .75em;
   color: #808080;
+  padding:.25em;
 }
 /*end disclaimer*/
 
 /*header styles*/
 
-#disclaimer,#header,#data-summary, #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+#data-summary, #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
   padding-top:40px;
   clear:both;
 }
 
 @media (min-width: 576px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:35px;
+    padding-top:15px;
 }
 }
 
 @media (min-width: 768px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:60px;
+    padding-top:90px;
   }
 }
 
 @media (min-width: 992px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:40px;
+    padding-top:80px;
   }
 }
 
@@ -73,6 +72,13 @@
     padding-top:35px;
   }
 }
+
+@media (min-width: 1500px) {
+  #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+    padding-top:35px;
+  }
+}
+
 /*end of header styles*/
 
 #supplemental-information{
@@ -86,8 +92,9 @@ html{
 }
 
 body{
-  height:100%;
+  height:100%; 
 }
+
 
 .news-item{
   padding-bottom:10px;
@@ -971,8 +978,42 @@ iframe {
   clear: both;
 }
 
+@media (min-width: 1500px) {
+  #header::before{
+  content: "";
+  height: 25px;
+  display: block;
+  width: 0;
+  padding: 0;
+  margin: 0 0 10px 0;
+  clear: both;
+}
+}
 
-@media (max-width: 992px) {
+@media (min-width: 1240px) {
+  #header::before{
+  content: "";
+  height: 375px;
+  display: block;
+  width: 0;
+  padding: 0;
+  margin: 0 0 10px 0;
+  clear: both;
+}
+}
+
+@media (min-width: 1100px) {
+  #header::before{
+  content: "";
+  height: 175px;
+  display: block;
+  width: 0;
+  padding: 0;
+  margin: 0 0 10px 0;
+  clear: both;
+}
+}
+@media (min-width: 992px) {
   #header::before{
   content: "";
   height: 15px;
@@ -984,7 +1025,7 @@ iframe {
 }
 }
 
-@media (max-width: 768) {
+@media (min-width: 768) {
   #header::before{
   content: "";
   height: 20px;
