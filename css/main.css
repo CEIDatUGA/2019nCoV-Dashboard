@@ -362,47 +362,38 @@ body{
 
 /*sizing for speed-of-spread-page*/
 .speed-of-spread-page{
-  height:1000px;
+  height:1832px;
   padding-bottom:67%;
+  width:100%;
 }
 
 @media (min-width: 370px) {
   .speed-of-spread-page{
-    height:1000px;
-    width:100%;
-    padding-bottom:67%;
+    height:1440px;
   }
 }
 
 @media (min-width: 576px) {
   .speed-of-spread-page{
-    height:1000px;
-    width:100%;
-    padding-bottom:67%;
+    height:1180px;
   }
 }
 
 @media (min-width: 768px) {
   .speed-of-spread-page{
   height:1000px;
-  width:100%;
-  padding-bottom:67%;
   }
 }
 
 @media (min-width: 992px) {
   .speed-of-spread-page{
     height:1000px;
-    width:100%;
-    padding-bottom:67%;
   }
 }
 
 @media (min-width: 1200px) {
   .speed-of-spread-page{
     height:1000px;
-    width:100%;
-    padding-bottom:67%;
   }
 }
 
