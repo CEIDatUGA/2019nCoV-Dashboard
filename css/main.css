@@ -789,14 +789,13 @@ body{
 /* nowcast-case-reports */
 
 .nowcast-case-reports{
-    height:835px;
+    height:1840px;
     width:100%;
-
 }
 
 @media (min-width: 270px) {
   .nowcast-case-reports{
-    height:1450px;
+    height:1696px;
 
   }
 }
@@ -833,7 +832,7 @@ body{
 
 @media (min-width: 1200px) {
   .nowcast-case-reports{
-    height:835px;
+    height:1230px;
   }
 }
 
@@ -882,41 +881,41 @@ body{
 /* nowcast-ascertainment */
 
 .nowcast-ascertainment{
-    height:735px;
+    height:1875px;
     width:100%;
 }
 
 @media (min-width: 370px) {
   .nowcast-ascertainment{
-    height:735px;
+    height:1875px;
     
   }
 }
 
 @media (min-width: 576px) {
   .nowcast-ascertainment{
-    height:735px;
+    height:1300px;
    
   }
 }
 
 @media (min-width: 768px) {
   .nowcast-ascertainment{
-    height:735px;
+    height:1250px;
 
   }
 }
 
 @media (min-width: 992px) {
   .nowcast-ascertainment{
-    height:735px;
+    height:1250px;
 
   }
 }
 
 @media (min-width: 1200px) {
   .nowcast-ascertainment{
-    height:735px;
+    height:1220px;
 
   }
 }
