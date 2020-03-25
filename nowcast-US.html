@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2020-03-19" />
+<meta name="date" content="2020-03-25" />
 
 <title>Nowcasting the current size of the COVID-19 outbreak in the United States</title>
 
@@ -1634,11 +1634,13 @@ summary {
 
 
 <h1 class="title toc-ignore">Nowcasting the current size of the COVID-19 outbreak in the United States</h1>
-<h4 class="date">March 19, 2020</h4>
+<h4 class="date">March 25, 2020</h4>
 
 </div>
 
 
+<!-- Knit this page 4th -->
+<!-- Get params for US -->
 <div id="section" class="section level2 tabset tabset-fade">
 <h2></h2>
 <div id="algorithm" class="section level3">
@@ -1652,8 +1654,8 @@ summary {
 </ul>
 <div id="estimating-from-case-reports" class="section level4">
 <h4>Estimating from case reports</h4>
-<p>Case reports do not include infected persons who are symptomatic but not yet diagnosed, nor infected persons with latent infections (people who cary the virus but are not <em>yet</em> symptomatic). In addition, a number of individuals may be infected but never develop sysmptoms. It is possible that these <em>asymptomatic infections</em> may still transmit the virus.</p>
-<p>To estimate the size of the outbreak at any given time from case reports, we first estimate the number of symptomatic and latent infections in the community, accounting for cases that would be missed because they would never show symptoms. The estimates of symptomatic and latent infections are only valid some time before the present, so we forecast from that point to the present. At any time, the sum of sympotmatic and latent infections is our estimate of the total number of unnotified individuals currently infected with SARS-CoV2.</p>
+<p>Case reports do not include infected persons who are symptomatic but not yet diagnosed, nor infected persons with latent infections (people who cary the virus but are not <em>yet</em> symptomatic). In addition, a number of individuals may be infected but never develop symptoms. It is possible that these asymptomatic infections may still transmit the virus. The ratio of detecetd cases to the true number of cases is the <strong>ascertainment rate</strong>.</p>
+<p>To estimate the size of the outbreak at any given time from case reports, we first adjust the number of new cases for ascertainment rate, then estimate the number of symptomatic and latent infections in the community from the adjusted new case count. The estimates of symptomatic and latent infections are only valid some time before the present, so we forecast from that point to the present. At any time, the sum of sympotmatic and latent infections is our estimate of the total number of unnotified individuals currently infected with SARS-CoV2.</p>
 </div>
 <div id="estimating-from-fatality-reports" class="section level4">
 <h4>Estimating from fatality reports</h4>
@@ -1661,44 +1663,43 @@ summary {
 </div>
 <div id="ascertainment-rate" class="section level4">
 <h4>Ascertainment rate</h4>
-<p>The ratio of the two different estimates for the number of persons acquiring infection on any given day is an estimate of the <strong>ascertainment rate</strong>.</p>
 <p>The <strong>ascertainment rate</strong> tells us how many infections we don’t know about compared with those we do know about.</p>
+<p>We find the ascertainment rate for the US by comparing the estimate of the outbreak size in the US derived from <em>uncorrected</em> case reports, to the estimate of the outbreak size in the US derived from fatalities (corrected for IFR). The ratio of the two is the ascertainment rate, which varies over time.</p>
+<p>We then apply that ascertainment rate to our national and state case reports to produce nowcasts of outbreak size estimated from case counts for the US and US states.</p>
 </div>
 </div>
 <div id="algorithm-details" class="section level3">
 <h3>Algorithm details</h3>
-<p>From <strong>case notification reports</strong> (the number of newly confirmed cases on each day), we use Monte Carlo simulation and estimated probability distributions to construct a synthetic <strong>line list</strong> of symptom onset times for all cases that are eventually notified. The average <strong>delay from symptom onset to case notification</strong> for the US is 4.4 days<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. Simulated symtom onset times are distributed according to a gamma distribution with a mean of 4.4 days before case notification (shape parameter: 1.9816403).</p>
-<p>A second simulation generates synthetic exposure dates for each infected individual. The average <strong>incubation period</strong> for the US is 7.67 days<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Individual simulated exposure times are distributed according to a gamma distribution with a mean of 7.67 days before symptom onset (shape parameter: 4.18).</p>
+<p>From <strong>case notification reports</strong> (the number of newly confirmed cases on each day), we use Monte Carlo simulation and estimated probability distributions to construct a synthetic <strong>line list</strong> of symptom onset times for all cases that are eventually notified. The average <strong>delay from symptom onset to case notification</strong> for the US is 5.95 days<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. Simulated symtom onset times are distributed according to a gamma distribution with a mean of 5.95 days before case notification (shape parameter: 2.2788163).</p>
+<p>A second simulation generates synthetic exposure dates for each infected individual. The average <strong>incubation period</strong> for the US is 5.89 days<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Individual simulated exposure times are distributed according to a gamma distribution with a mean of 5.89 days before symptom onset (shape parameter: 2.4265511).</p>
 <p>Now we have a synthetic line list that generates the observed number of case notifications and includes exposure date, symptom onset date, and notification date.</p>
-<p>From the line list, we tally the <strong>number of individuals with latent infections</strong> on each date to produce a curve of the number of latent cases in the community. We do the same to find the <strong>number of individuals symptomatic infections</strong> on each date. These curves represent only individuals with latent and symptomatic cases that were eventually reported.</p>
-<p>Based on testing of passengers on the Princess Cruises ship in Yokohama, Japan, Mizumoto <em>et al.</em> estimated that the <strong>proportion of cases that are asymptomatic</strong> is 34.6% (95% CrI: 29.4%–39.8%)<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>. We assume asymptomatic cases are never detected. To account for these, we multiply both the number of symptomatic cases and the number of latent cases by <span class="math inline">\(\frac{1}{34.6\%}\)</span>.</p>
-<p>Since the symptom onsets occur on average 2.67 days before reporting, we are only sure to have an accurate estimate for the number of symptomatic individuals at some time prior to 2.67 days befor the present. We therefore discard estimates for the last several days (2.67 days plus a margin of 2 standard deviations), and use statistical forecasting to extrapolate from the observed trajectory of symptomatic cases to the present time. This is the “nowcast” of symptomatic individuals.</p>
-<p>We repeat the process for latent cases, discarding values for times within 7.67 days (plus a margin) of the last good estimate of symptomatic individuals, and forecasting to the present. The is the “nowcast” of latent individuals.</p>
-<p>The sum of the latent and symptomatic cases at any time provides an estimate of toatal number of cases (including asymptomatic and unnotified) cases.</p>
-<p>From <strong>fatality reports</strong> (the number of newly reported deaths on each day), we use Monte Carlo simulation and estimated probability distributions to construct a synthetic <strong>line list</strong> of symptom onset times for all cases that are eventually notified. The average <strong>delay from symptom onset to death</strong>, estimated from data in the China outbreak outside Hubei, is 19.9 days<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. Individual simulated symptom onset times are distributed according to a log normal distribution with a mean of 19.9 (standard deviation = 11.4).</p>
-<p>Based on data from China, and correcting for demographics in Great Britain, Ferguson <em>et al.</em> estimated an Infection Fatality Rat (IFR) of 0.9% (95% CrI: 0.4%–1.4%)<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>. To account for IFR, we multiply the fatalities by <span class="math inline">\(\frac{1}{0.9\%}\)</span> before simulating the line list of symptom onset times.</p>
+<p>From the line list, we tally the <strong>number of individuals with latent infections</strong> on each date to produce a curve of the number of latent cases in the community. We do the same to find the <strong>number of individuals symptomatic infections</strong> on each date.</p>
+<!-- Based on testing of passengers on the Princess Cruises ship in Yokohama, Japan, Mizumoto *et al.* estimated that the **proportion of cases that are asymptomatic** is 34.6% (95% CrI: 29.4%–39.8%)^[Kenji Mizumoto, *et al*. Estimating the Asymptomatic Ratio of 2019 Novel Coronavirus onboard the Princess Cruises Ship, 2020. medRxiv preprint. <https://doi.org/10.1101/2020.02.20.20025866>]. We assume asymptomatic cases are never detected. To account for these, we multiply both the number of symptomatic cases and the number of latent cases by $\frac{1}{34.6\%}$.  -->
+<p>Since the symptom onsets occur on average 5.95 days before reporting, we are only sure to have an accurate estimate for the number of symptomatic individuals at some time prior to the present. We therefore discard estimates for the last several days (5.95 days plus a margin of 2 standard deviations), and use statistical forecasting to extrapolate from the observed trajectory of symptomatic cases to the present time. This is the “nowcast” of symptomatic individuals.</p>
+<p>We repeat the process for latent cases, discarding values for times within 5.89 days (plus two standard deviations) of the last good estimate of symptomatic individuals, and forecasting to the present. The is the “nowcast” of latent individuals.</p>
+<p>The sum of the latent and symptomatic cases at any time provides an estimate of total number of cases (including asymptomatic and unnotified) cases.</p>
+<p>From <strong>fatality reports</strong> (the number of newly reported deaths on each day), we use Monte Carlo simulation and estimated probability distributions to construct a synthetic <strong>line list</strong> of symptom onset times for all cases that are eventually notified. The average <strong>delay from symptom onset to death</strong>, estimated from data in the China outbreak outside Hubei, is 16 days<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>. Individual simulated symptom onset times are distributed according to a gamma distribution with a mean of 16 (shape parameter = 4).</p>
+<p>Based on data from China, and correcting for demographics in Great Britain, Ferguson <em>et al.</em> estimated an Infection Fatality Rat (IFR) of 0.9% (95% CrI: 0.4%–1.4%)<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. To account for IFR, we multiply the fatalities by <span class="math inline">\(\frac{1}{0.9\%}\)</span> before simulating the line list of symptom onset times.</p>
 <p>The resulting estimates of latent and infectious individuals are intended to represent all unnotified cases.</p>
 </div>
 <div id="data-sources" class="section level3">
 <h3>Data sources</h3>
-<p><strong>US Case Reports by State</strong></p>
-<p>US data are maintained by <a href="http://ceid.uga.edu">CEID</a> and available <a href="https://docs.google.com/spreadsheets/d/10NYNf4UX7R_nNdM-jkbo7A5SGkB8sUVMIiqU7e_-miU/edit#gid=0">here</a>.</p>
-<p>Data are compiled from <a href="https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States" class="uri">https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_the_United_States</a>, which is updated by anonymous contributors.</p>
-<p>We aim to update our dataset daily.</p>
-<p><strong>Fatalities by Country</strong></p>
-<p>Country level fatality data are maintained by <a href="http://ceid.uga.edu">CEID</a> and available <a href="https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit#gid=219891324">here</a> on the tab called “Cumulative fatalities reported by country.”</p>
-<p>Data are compiled from various sources, listed in the dataset.</p>
-<p>We aim to update our dataset daily.</p>
+<p><strong>US case and fatailty reports by state</strong></p>
+<p>Data are compiled daily from <a href="https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases" class="uri">https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases</a>, which is updated by anonymous contributors.</p>
+<!-- **Fatalities by Country** -->
+<!-- Country level fatality data are maintained by [CEID](http://ceid.uga.edu) and available -->
+<!-- [here](https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit#gid=219891324) on the tab called "Cumulative fatalities reported by country." -->
+<!-- Data are compiled from various sources, listed in the dataset.  -->
+<!-- We aim to update our dataset daily. -->
 </div>
 </div>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Analysis by the Center for the Ecology of Infectious Diseases of US data. See supplemental information.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>Analysis by the Center for the Ecology of Infectious Diseases of US data suggests a mean incubation period of 7.67 days. See supplemental information.<a href="#fnref2" class="footnote-back">↩</a></p></li>
-<li id="fn3"><p>Kenji Mizumoto, <em>et al</em>. Estimating the Asymptomatic Ratio of 2019 Novel Coronavirus onboard the Princess Cruises Ship, 2020. medRxiv preprint. <a href="https://doi.org/10.1101/2020.02.20.20025866" class="uri">https://doi.org/10.1101/2020.02.20.20025866</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
-<li id="fn4"><p>Jung-mok Jung, <em>et al.</em> Real-Time Estimation of the Risk of Death from Novel Coronavirus (COVID-19) Infection: Inference Using Exported Cases. February 14, 2020, Journal of Clinical Medicine. <a href="https://doi.org/10.3390/jcm9020523" class="uri">https://doi.org/10.3390/jcm9020523</a><a href="#fnref4" class="footnote-back">↩</a></p></li>
-<li id="fn5"><p>Neil M Ferguson, <em>et al</em>. Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand. March 16, 2020, Imperial College COVID-19 Response Team. <a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf" class="uri">https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf</a><a href="#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>Analysis by the Center for the Ecology of Infectious Diseases of US data. Parameters updated periodically. See supplemental information.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Analysis by the Center for the Ecology of Infectious Diseases of US. Parameters updated periodically. See supplemental information.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>Kenji Mizumoto, Gerardo Chowell. “Estimating the risk of 2019 Novel Coronavirus death during the course of the outbreak in China, 2020” medRxiv preprint. <a href="https://doi.org/10.1101/2020.02.19.20025163" class="uri">https://doi.org/10.1101/2020.02.19.20025163</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>Neil M Ferguson, <em>et al</em>. Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand. March 16, 2020, Imperial College COVID-19 Response Team. <a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf" class="uri">https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf</a><a href="#fnref4" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
 

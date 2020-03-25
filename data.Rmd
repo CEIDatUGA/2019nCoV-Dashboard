@@ -24,6 +24,13 @@ knitr::include_url("nCov-Mapping-World-Web-Summary.html")
 ```
 </div>
 
+#### Epidemic Map - US
+
+<div class="world-epidemic-map">
+```{r echo=FALSE}
+knitr::include_url("nCov-Mapping-US-Web-Summary.html")
+```
+</div>
 
 ### Epidemic Curves
 

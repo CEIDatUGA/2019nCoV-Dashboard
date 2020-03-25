@@ -13,7 +13,7 @@ utils::download.file(
 
 # Data Summary - China
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China-Web-Summary.html?token=ADVPF4FZ3KW3BZFN7RV3EBS6PIE72",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China-Web-Summary.html?token=ADVPF4H54WWXLYTXPSBATHK6QSMTM",
   destfile="nCov-Mapping-China-Web-Summary.html"
 )
 
@@ -21,13 +21,19 @@ utils::download.file(
 
 # Data Summary - World
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4BNRU2HDEE5YSQTVXK6PIFD4",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-US-Web-Summary.html?token=ADVPF4AKIDH3IKQOS4VD2AC6QSM32",
   destfile="nCov-Mapping-World-Web-Summary.html"
+)
+
+# Data Summary - US
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-US-Web-Summary.html?token=ADVPF4HQGE2PCJAXJTS2CJC6QSNAC",
+  destfile="nCov-Mapping-US-Web-Summary.html"
 )
 
 # Data Summary - Epidemic Curves
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4FAWO6B4IOJMXVC6726PX5TM",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4HCYWWSCX7XXHWCRKS6QSNG6",
   destfile="epidemic-curves-web-summary.html"
 )
 
@@ -47,7 +53,7 @@ utils::download.file(
 
 # Context
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4BQDN5MQJMDZ7ETFVK6PIFIU",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4BX64JLSPHNAA6GL5K6QSNKU",
   destfile="context-web-summary.html"
 )
 
@@ -107,40 +113,37 @@ utils::download.file(
 # )
 
 
-# # Nowcast US
-# utils::download.file(
-#   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US.html?token=ADVPF4ACU452MBU2SOJAGVK6PUDUO",
-#   destfile="nowcast-US.html"
-# )
-# 
-# utils::download.file(
-#   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-cases.html?token=ADVPF4A5YBOXCFNWIFDDHCC6PUD5C",
-#   destfile="nowcast-US-cases.html"
-# )
-# 
+# Nowcast US
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US.html?token=ADVPF4ACU452MBU2SOJAGVK6PUDUO",
+  destfile="nowcast-US.html"
+)
+
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-cases.html?token=ADVPF4A5YBOXCFNWIFDDHCC6PUD5C",
+  destfile="nowcast-US-cases.html"
+)
+
 utils::download.file(
   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-fatalities.html?token=ADVPF4ATYLY7QQH77NLAV5K6PUD7S",
   destfile="nowcast-US-fatalities.html"
 )
-# 
-# utils::download.file(
-#   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/under-reporting.html?token=ADVPF4C2IXKJMLU24XDIPRS6PUEDI",
-#   destfile="nowcast-US-ascertainment.html"
-# )
 
-# Nowcast - US Cases
-# file in this repo: "ncov-parameters-US.pdf"
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/under-reporting.html?token=ADVPF4C2IXKJMLU24XDIPRS6PUEDI",
+  destfile="nowcast-US-ascertainment.html"
+)
 
 
 # China Spatial Model
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4CKXXNG3EWT4WME3HK6PIFTY",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4HNWWHNHPOLADS7UZ26QSNWW",
   destfile="china-spatial-web-summary.html"
 )
 
 # China Spatial Model - links map - UPDATE MANUALLY - FILE NAME CHANGES
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/maps/link-weights-chloropleth-highest-ten-pct-2020-03-22.html?token=ADVPF4BQAVR6HULTI3BNZGS6QHYBY",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/maps/link-weights-chloropleth-highest-ten-pct-2020-03-22.html?token=ADVPF4ADQMOTNJMM5L2AOVK6QSNTO",
   destfile="china-spatial-link-weights.html"
 )
 
@@ -152,13 +155,13 @@ utils::download.file(
 
 # Final Size - web summary
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSizeSummary.html?token=ADVPF4H6YWK25U5ODLMOA3C6PIF76",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSizeSummary.html?token=ADVPF4HYL4HGX7MCAPC7KMS6QSNZG",
   destfile="final-size-web-summary.html"
 )
 
 # Final Size - supp
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSize.html?token=ADVPF4E2BSHIOXAOSVDDDMS6PIGCO",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSize.html?token=ADVPF4C54IXPZETMXFEQP6K6QSN26",
   destfile="final-size-supplement.html"
 )
 
