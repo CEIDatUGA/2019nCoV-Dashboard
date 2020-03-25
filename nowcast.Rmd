@@ -5,15 +5,6 @@ title: "2019 Coronavirus Tracker - US Nowcast"
 
 ## {.tabset .tabset-fade}
 
-### Algorithm and Data
-
-<div class="nowcast-algorithm">
-
-```{r echo=FALSE}
-knitr::include_url("nowcast-US.html")
-```
-</div>
-
 ### US Nowcast from case reports
 
 <div class="nowcast-case-reports">
@@ -44,6 +35,15 @@ knitr::include_url("nowcast-US-ascertainment.html")
 
 </div>
   
+### Algorithm and Data
+
+<div class="nowcast-algorithm">
+
+```{r echo=FALSE}
+knitr::include_url("nowcast-US.html")
+```
+</div>
+
 ## Supplemental Information
   
 <div class="container-frames">
