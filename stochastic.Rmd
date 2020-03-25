@@ -2,7 +2,7 @@
 title: "2019 Coronavirus Tracker - Stochastic Model for Wuhan (China)"
 ---
 <p id="disclaimer"></p>
-<div class="stochastic-page">
+<div class="stochastic-wuhan">
 
 ```{r echo=FALSE}
 knitr::include_url("stochastic-web-summary.html")
