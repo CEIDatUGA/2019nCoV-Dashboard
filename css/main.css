@@ -524,47 +524,54 @@ body{
 /*page sizing context-page*/
 
 .context-web-sum-page{
-    height:5075px;
+    height:7272px;
     width:100%;
-    margin-bottom:67%;
 }
 
-@media (min-width: 370px) {
+@media (min-width: 270px) {
   .context-web-sum-page{
-    height:4975px;
-    width:100%;
-    margin-bottom:67%;
+    height:6315px;
   }}
+  
+@media (min-width: 325px) {
+  .context-web-sum-page{
+    height:5910px;
 
+  }}
+  
+@media (min-width: 350px) {
+  .context-web-sum-page{
+    height:5750px;
+
+  }}
+@media (min-width: 400px) {
+  .context-web-sum-page{
+    height:5510px;
+
+  }}
 @media (min-width: 576px) {
   .context-web-sum-page{
-    height:4775px;
-    width:100%;
-    margin-bottom:10%;
+    height:5290px;
   }
 }
 
 @media (min-width: 768px) {
   .context-web-sum-page{
-    height:4675px;
-    margin-bottom:10%;
-    width:100%;
+    height:5000px;
+
   }
 }
 
 @media (min-width: 992px) {
   .context-web-sum-page{
-    height:4775px;
-    margin-bottom:10%;
-    width:100%;
+    height:4836px;
   }
 }
 
 @media (min-width: 1200px) {
   .context-web-sum-page{
-    height:4775px;
-    margin-bottom:10%;
-    width:100%;
+    height:4836px;
+
   }
 }
 
