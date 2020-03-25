@@ -576,50 +576,188 @@ body{
 }
 
 
-/*page sizing stochastic-page*/
+/*page sizing stochastic-pages*/
+  /*stochastic now separated by pages*/
+/*page sizing stochastic-wuhan*/
 
-.stochastic-page{
-  height:6800px;
+.stochastic-wuhan{
+  height:9500px;
   width:100%;
-  margin-bottom:5%;
+
 }
 
+@media (min-width: 270px) {
+  .stochastic-wuhan{
+    height:8150px;
+  }
+}
+
+@media (min-width: 300px) {
+  .stochastic-wuhan{
+    height:7660px;
+  }
+}
+
+@media (min-width: 325px) {
+  .stochastic-wuhan{
+    height:7460px;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .stochastic-wuhan{
+    height:7300px;
+  }
+}
+
+
 @media (min-width: 370px) {
-  .stochastic-page{
-    height:6800px;
-    width:100%;
-    margin-bottom:10%;
+  .stochastic-wuhan{
+    height:7000px;
+  }
+}
+
+@media (min-width: 400px) {
+  .stochastic-wuhan{
+    height:6725px;
+  }
+}
+
+@media (min-width: 476px) {
+  .stochastic-wuhan{
+    height:6425px;
   }
 }
 
 @media (min-width: 576px) {
-  .stochastic-page{
-    height:6800px;
-    width:100%;
-    margin-bottom:10%;
+  .stochastic-wuhan{
+    height:6525px;
+  }
+}
+
+@media (min-width: 676px) {
+  .stochastic-wuhan{
+    height:6550px;
   }
 }
 
 @media (min-width: 768px) {
-  .stochastic-page{
-    height:6950px;
-    width:100%;
-    margin-bottom:10%;
+  .stochastic-wuhan{
+    height:6750px;
+  }
+}
+
+@media (min-width: 850px) {
+  .stochastic-wuhan{
+    height:7050px;
   }
 }
 
 @media (min-width: 992px) {
-  .stochastic-page{
+  .stochastic-wuhan{
     height:7050px;
-    width:100%;
-    margin-bottom:10%;
   }
 }
 
 @media (min-width: 1200px) {
-  .stochastic-page{
+  .stochastic-wuhan{
     height:7050px;
-    width:100%;
+  }
+}
+
+
+/* stochastic-georgia */
+
+.stochastic-georgia{
+  height:7850px;
+  width:100%;
+
+}
+
+@media (min-width: 270px) {
+  .stochastic-georgia{
+    height:6835px;
+  }
+}
+
+@media (min-width: 300px) {
+  .stochastic-georgia{
+    height:6600px;
+  }
+}
+
+@media (min-width: 325px) {
+  .stochastic-georgia{
+    height:6460px;
+  }
+}
+
+
+@media (min-width: 350px) {
+  .stochastic-georgia{
+    height:6300px;
+  }
+}
+
+
+@media (min-width: 370px) {
+  .stochastic-georgia{
+    height:6100px;
+  }
+}
+
+@media (min-width: 400px) {
+  .stochastic-georgia{
+    height:6225px;
+  }
+}
+
+@media (min-width: 476px) {
+  .stochastic-georgia{
+    height:6450px;
+  }
+}
+
+@media (min-width: 525px) {
+  .stochastic-georgia{
+    height:6850px;
+  }
+}
+
+@media (min-width: 576px) {
+  .stochastic-georgia{
+    height:6950px;
+  }
+}
+
+@media (min-width: 676px) {
+  .stochastic-georgia{
+    height:6950px;
+  }
+}
+
+@media (min-width: 768px) {
+  .stochastic-georgia{
+    height:6950px;
+  }
+}
+
+@media (min-width: 850px) {
+  .stochastic-georgia{
+    height:6900px;
+  }
+}
+
+@media (min-width: 992px) {
+  .stochastic-georgia{
+    height:6800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .stochastic-georgia{
+   height:6775px;
   }
 }
 
