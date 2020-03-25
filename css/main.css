@@ -11,11 +11,14 @@
     height: 100%;
     position: relative;
     overflow:visible;
+    width:100%;
+
 }
 
 .container-frames{
   position:relative;
   height: 100%;
+  width:100%;
   display:block;
   left:0;
   right:0;
@@ -23,6 +26,7 @@
   margin-right:0;
   padding-left:0;
   padding-right:0;
+
 }
 
 
@@ -33,38 +37,37 @@
 /*end page titles*/
 
 /*disclaimer*/
-#disclaimer {
-  padding: 0;
-}
+
 #disclaimer::before {
   content:"Findings are preliminary and subject to change, pending future changes in the underlying data. Results have not been peer-reviewed, but have been prepared to a professional standard with the intention of providing useful information about a rapidly developing event.";
   font-size: .75em;
   color: #808080;
+  padding:.25em;
 }
 /*end disclaimer*/
 
 /*header styles*/
 
-#disclaimer,#header,#data-summary, #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+#data-summary, #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
   padding-top:40px;
   clear:both;
 }
 
 @media (min-width: 576px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:35px;
+    padding-top:15px;
 }
 }
 
 @media (min-width: 768px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:60px;
+    padding-top:90px;
   }
 }
 
 @media (min-width: 992px) {
   #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:40px;
+    padding-top:80px;
   }
 }
 
@@ -73,6 +76,13 @@
     padding-top:35px;
   }
 }
+
+@media (min-width: 1500px) {
+  #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+    padding-top:35px;
+  }
+}
+
 /*end of header styles*/
 
 #supplemental-information{
@@ -86,8 +96,9 @@ html{
 }
 
 body{
-  height:100%;
+  height:100%; 
 }
+
 
 .news-item{
   padding-bottom:10px;
@@ -441,59 +452,58 @@ body{
   }
 }
 
-
 /*page sizing epidemic-curves-tab on data-page*/
 
 .epidemic-curves{
-  height:2125px;
+  height:7125px;
   padding-bottom:67%;
-
+  width:80%;
 }
 
 @media (min-width: 300px) {
   .epidemic-curves{
-    height:1925px;
+    height:7125px;
     padding-bottom:67%;
   }
 }
 @media (min-width: 325px) {
   .epidemic-curves{
-    height:2325px;
+     height:7125px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 370px) {
   .epidemic-curves{
-    height:1925px;
+     height:7125px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 400px) {
   .epidemic-curves{
-    height:1925px;
+     height:7125px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 476px) {
   .epidemic-curves{
-    height:1925px;
+     height:7125px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 576px) {
   .epidemic-curves{
-    height:1825px;
+     height:7125px;
     padding-bottom:67%;
   }
 }
 
  @media (min-width: 768px) {
   .epidemic-curves{
-    height:1825px;
+    height:7125px;
     padding-bottom:67%;
 
   }
@@ -501,21 +511,21 @@ body{
 
  @media (min-width: 868px) {
   .epidemic-curves{
-    height:1725px;
+     height:7125px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 992px) {
   .epidemic-curves{
-    height:1825px;
+     height:7125px;
     padding-bottom:67%;
   }
 }
 
 @media (min-width: 1200px) {
   .epidemic-curves{
-    height:1825px;
+     height:7125px;
     padding-bottom:67%;
   }
 }
@@ -709,52 +719,207 @@ body{
   }
 }
 
-/*page sizing nowcast-page*/
+/*page sizing for nowcast page by tabs*/
+/*page sizing nowcast-algorithm*/
 
-.nowcast-page{
-    height:1000px;
+.nowcast-algorithm{
+    height:3520px;
     width:100%;
-    margin-bottom:10%;
+    margin-bottom:5%;
+}
+
+@media (min-width: 270px) {
+  .nowcast-algorithm{
+    height:3110px;
+  }
 }
 
 @media (min-width: 370px) {
-  .nowcast-page{
-    height:1000px;
-    width:100%;
-    margin-bottom:12%;
+  .nowcast-algorithm{
+    height:2110px;
   }
 }
 
 @media (min-width: 576px) {
-  .nowcast-page{
-    height:1000px;
-    width:100%;
-    margin-bottom:12%;
+  .nowcast-algorithm{
+    height:2000px;
+  }
+}
+
+@media (min-width: 576px) {
+  .nowcast-algorithm{
+    height:1800px;
+
   }
 }
 
 @media (min-width: 768px) {
-  .nowcast-page{
-    height:1000px;
-    width:100%;
-    margin-bottom:10%;
+  .nowcast-algorithm{
+    height:1500px;
+
+
+  }
+}
+
+@media (min-width: 868px) {
+  .nowcast-algorithm{
+    height:1300px;
+
+
   }
 }
 
 @media (min-width: 992px) {
-  .nowcast-page{
-    height:1000px;
-    width:100%;
+  .nowcast-algorithm{
+    height:1150px;
+
+
   }
 }
 
 @media (min-width: 1200px) {
-  .nowcast-page{
+  .nowcast-algorithm{
     height:1000px;
-    width:100%;
+
   }
 }
 
+
+
+/* nowcast-case-reports */
+
+.nowcast-case-reports{
+    height:835px;
+    width:100%;
+
+}
+
+@media (min-width: 270px) {
+  .nowcast-case-reports{
+    height:1450px;
+
+  }
+}
+
+@media (min-width: 370px) {
+  .nowcast-case-reports{
+    height:1450px;
+
+  }
+}
+
+@media (min-width: 576px) {
+  .nowcast-case-reports{
+    height:1000px;
+
+
+  }
+}
+
+@media (min-width: 768px) {
+  .nowcast-case-reports{
+    height:1000px;
+
+
+  }
+}
+
+@media (min-width: 992px) {
+  .nowcast-case-reports{
+    height:1000px;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .nowcast-case-reports{
+    height:835px;
+  }
+}
+
+/*nowcast-fatalities*/
+
+.nowcast-fatalities{
+    height:1000px;
+    width:100%;
+
+}
+
+@media (min-width: 370px) {
+  .nowcast-fatalities{
+    height:1000px;
+
+  }
+}
+
+@media (min-width: 576px) {
+  .nowcast-fatalities{
+    height:1000px;
+
+  }
+}
+
+@media (min-width: 768px) {
+  .nowcast-fatalities{
+    height:1000px;
+
+  }
+}
+
+@media (min-width: 992px) {
+  .nowcast-fatalities{
+    height:1000px;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .nowcast-fatalities{
+    height:1000px;
+
+  }
+}
+/* nowcast-ascertainment */
+
+.nowcast-ascertainment{
+    height:735px;
+    width:100%;
+}
+
+@media (min-width: 370px) {
+  .nowcast-ascertainment{
+    height:735px;
+    
+  }
+}
+
+@media (min-width: 576px) {
+  .nowcast-ascertainment{
+    height:735px;
+   
+  }
+}
+
+@media (min-width: 768px) {
+  .nowcast-ascertainment{
+    height:735px;
+
+  }
+}
+
+@media (min-width: 992px) {
+  .nowcast-ascertainment{
+    height:735px;
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .nowcast-ascertainment{
+    height:735px;
+
+  }
+}
 
 
 /*tabs-test*/
@@ -971,8 +1136,42 @@ iframe {
   clear: both;
 }
 
+@media (min-width: 1500px) {
+  #header::before{
+  content: "";
+  height: 25px;
+  display: block;
+  width: 0;
+  padding: 0;
+  margin: 0 0 10px 0;
+  clear: both;
+}
+}
 
-@media (max-width: 992px) {
+@media (min-width: 1240px) {
+  #header::before{
+  content: "";
+  height: 375px;
+  display: block;
+  width: 0;
+  padding: 0;
+  margin: 0 0 10px 0;
+  clear: both;
+}
+}
+
+@media (min-width: 1100px) {
+  #header::before{
+  content: "";
+  height: 175px;
+  display: block;
+  width: 0;
+  padding: 0;
+  margin: 0 0 10px 0;
+  clear: both;
+}
+}
+@media (min-width: 992px) {
   #header::before{
   content: "";
   height: 15px;
@@ -984,7 +1183,7 @@ iframe {
 }
 }
 
-@media (max-width: 768) {
+@media (min-width: 768) {
   #header::before{
   content: "";
   height: 20px;
@@ -1049,12 +1248,14 @@ iframe {
     background-color: #000;
 }
 
+/*
 /*section padding*/
-.level3{
+/*.level3{
   padding-top:2.0em;
   padding-bottom:1.2em;
   margin-bottom:10px;
-}
+} */
+
 
 h1,h2,h3,a, a:active{
     font-family:'Oswald','Roboto',Arial,sans-serif;

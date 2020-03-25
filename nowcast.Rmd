@@ -7,7 +7,7 @@ title: "2019 Coronavirus Tracker - US Nowcast"
 
 ### Algorithm and Data
 
-<div class="nowcast-page">
+<div class="nowcast-algorithm">
 
 ```{r echo=FALSE}
 knitr::include_url("nowcast-US.html")
@@ -16,7 +16,7 @@ knitr::include_url("nowcast-US.html")
 
 ### US Nowcast from case reports
 
-<div class="nowcast-page">
+<div class="nowcast-case-reports">
   
 ```{r echo=FALSE}
 knitr::include_url("nowcast-US-cases.html")
@@ -26,7 +26,7 @@ knitr::include_url("nowcast-US-cases.html")
 
 ### US Nowcast from fatalities
 
-<div class="nowcast-page">
+<div class="nowcast-fatalities">
 
 ```{r echo=FALSE}
 knitr::include_url("nowcast-US-fatalities.html")
@@ -36,7 +36,7 @@ knitr::include_url("nowcast-US-fatalities.html")
 
 ### US Ascertainment rate
 
-<div class="nowcast-page">
+<div class="nowcast-ascertainment">
 
 ```{r echo=FALSE}
 knitr::include_url("nowcast-US-ascertainment.html")
