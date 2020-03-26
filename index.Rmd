@@ -58,6 +58,7 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 
 <div class="col-sm-4">
 <div class="card mb-0">
+[Support CEID](http://ceid.uga.edu/support/)
 <div class="card-header">
 ### Latest News & Updates
 </div>
