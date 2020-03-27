@@ -58,9 +58,25 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 
 <div class="col-sm-4">
 <div class="card mb-0">
-[Support CEID](http://ceid.uga.edu/support/)
+<a href="http://ceid.uga.edu/support/" target='_blank'>Support CEID</a>
 <div class="card-header">
 ### Latest News & Updates
+</div>
+
+<!--NEWS ITEM-->
+<div class="card">
+<div class="card-body">
+<div class="card-title">
+#### Nowcast of outbreak size
+</div>
+<p class="card-text">
+<small class="card-subtitle mb-2 text-muted">March 27, 2020</small><br>
+The [nowcast](nowcast.html) of the COVID-19 outbreak size by US state has launched on the 2019 Coronavirus Tracker. The nowcast is an estimate of the total number of unreported cases by state. Nowcasts are estimated for the 50 states and for the US as a whole, and are calculated from COVID-19 case reports and fatalities. [http://2019-coronavirus-tracker.com/nowcast](nowcast.html)
+</p>
+<div class="card-link">
+[READ MORE >](news.html#news-nowcast)
+</div>
+</div>
 </div>
 
 <!--NEWS ITEM-->

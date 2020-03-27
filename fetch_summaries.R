@@ -2,12 +2,12 @@
 
 # Early Intervention - web summary
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary.html?token=ADVPF4FDJPUQDNH4DU2EP226PSY4C",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary.html?token=ADVPF4FUMEJR3Y7T33D7Y226Q5KR6",
   destfile="early-intervention-web-summary.html"
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary2.html?token=ADVPF4EXGOAUT7B3IQAGDC26PSY6A",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary2.html?token=ADVPF4A7VAC5CX3EYYLKTIK6Q5K3O",
   destfile="early-intervention-web-summary2.html"
 )
 
@@ -98,7 +98,7 @@ utils::download.file(
 
 # Mass Testing
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_summary_html.html?token=ADVPF4B2MIJKSVJCNGGKUYS6P5HEI",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_summary_html.html?token=ADVPF4DAFKOYA4M23ZEHOUS6Q5K6Q",
   destfile="mass_testing_summary.html"
 )
 
@@ -115,22 +115,22 @@ utils::download.file(
 
 # Nowcast US
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US.html?token=ADVPF4ACU452MBU2SOJAGVK6PUDUO",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US.html?token=ADVPF4GDLWVKSML4VYM65A26Q5LK4",
   destfile="nowcast-US.html"
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-cases.html?token=ADVPF4A5YBOXCFNWIFDDHCC6PUD5C",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-cases.html?token=ADVPF4DU63LK34X5SHHJMJC6Q5LMW",
   destfile="nowcast-US-cases.html"
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-fatalities.html?token=ADVPF4ATYLY7QQH77NLAV5K6PUD7S",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-fatalities.html?token=ADVPF4CGOO44UTTLX33MHKK6Q5LPE",
   destfile="nowcast-US-fatalities.html"
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/under-reporting.html?token=ADVPF4C2IXKJMLU24XDIPRS6PUEDI",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/under-reporting.html?token=ADVPF4DYMNTCVZOUW7BCNAS6Q5LHU",
   destfile="nowcast-US-ascertainment.html"
 )
 
