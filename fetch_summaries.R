@@ -59,17 +59,17 @@ utils::download.file(
 
 # Epidemic Characteristics
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4E5NPE4VSFOEFIFCBC6P5GX6",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4E7DI66NH7EBVQDKWK6RHIME",
   destfile="parameters-web-summary.html"
   )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4FO2V7TN2OAVLZIQDC6P5G4A",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4EC2XFZGQZY4IY4CW26RHIPS",
   destfile="parameters-supplement.html"
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters-US.html?token=ADVPF4GN52CTVLQUHURG3L26P5G5W",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters-US.html?token=ADVPF4GWXZECQMZ7VUJD7HK6RHIRQ",
   destfile="parameters-US.html"
 )
 
@@ -164,5 +164,3 @@ utils::download.file(
   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSize.html?token=ADVPF4C54IXPZETMXFEQP6K6QSN26",
   destfile="final-size-supplement.html"
 )
-
-
