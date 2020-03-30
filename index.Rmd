@@ -6,8 +6,12 @@ title: "2019 Coronavirus Tracker - About"
 
 <div class="jumbotron jumbotron-fluid">
 <div class="container">
-  <!--<h1 class="display-3">Hello, world!</h1>-->
+  <!--<h1 class="display-3"></h1>-->
   <h1 class="lead">The UGA Center for the Ecology of Infectious Diseases [(CEID)](http://ceid.uga.edu)<br><strong>Coronavirus Working Group</strong></h2>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="USnowcast_plot.html" allowtransparency="true"></iframe>
+</div>
+
   <!--
   <hr class="my-4">
   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -23,6 +27,8 @@ title: "2019 Coronavirus Tracker - About"
 
 <div class="row">
 <div class="col-sm-8">
+
+
 ### Op-ed by CEID Director John Drake
 
 **Dr. John Drake urges swift, decisive action to curb spread of COVID-19.**

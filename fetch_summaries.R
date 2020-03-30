@@ -134,6 +134,10 @@ utils::download.file(
   destfile="nowcast-US-ascertainment.html"
 )
 
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/USnowcast_plot.html?token=ADVPF4GFXWRSI7IB7ACCTNS6RMNIK",
+  destfile="USnowcast_plot.html"
+)
 
 # China Spatial Model
 utils::download.file(
