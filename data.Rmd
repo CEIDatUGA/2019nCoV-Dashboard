@@ -1,6 +1,8 @@
 ---
 title: "2019 Coronavirus Tracker - Data"
 ---
+
+
 <p id="disclaimer"></p>
 ## Data Summary {.tabset .tabset-fade}
 
@@ -10,34 +12,48 @@ title: "2019 Coronavirus Tracker - Data"
 
 <div class="china-epidemic-map">
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="myIframe1" scrolling="no" width="100%"'}
 knitr::include_url("nCov-Mapping-China-Web-Summary.html")
 ```
-</div>
 
+
+<script>
+  iFrameResize({ log: false }, '#myIframe1')
+</script>
+</div>
 
 #### Epidemic Map - World
 
 <div class="world-epidemic-map">
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="myIframe2" scrolling="no" width="100%"'}
 knitr::include_url("nCov-Mapping-World-Web-Summary.html")
 ```
+<script>
+  iFrameResize({ log: false }, '#myIframe2')
+</script>
 </div>
 
 #### Epidemic Map - US
 
 <div class="world-epidemic-map">
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="myIframe3" scrolling="no" width="100%"'}
 knitr::include_url("nCov-Mapping-US-Web-Summary.html")
 ```
+<script>
+  iFrameResize({ log: false }, '#myIframe3')
+</script>
 </div>
 
 ### Epidemic Curves
 
 <div class="epidemic-curves">
-```{r echo=FALSE}
+
+```{r echo=FALSE, out.extra='id="myIframe4" scrolling="no" width="80%"'}
 knitr::include_url("epidemic-curves-web-summary.html")
 ```
+<script>
+  iFrameResize({ log: false }, '#myIframe4')
+</script>
 </div>
 
 ### Data Sources
