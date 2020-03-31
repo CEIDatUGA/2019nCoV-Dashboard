@@ -22,15 +22,10 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70418635-11"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<meta name="description" content="The UGA Center for the Ecology of Infectious Diseases (CEID) Coronavirus tracker provides timely, data-driven situation awareness about the 2019 novel coronavirus outbreak." />
 
-  gtag('config', 'UA-70418635-11');
-</script>
+<script type="text/javascript" src="js/iframeResizer.min.js"></script>
+<script type="text/javascript" src="js/ga-analytics.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -349,30 +344,42 @@ $(document).ready(function () {
 <div id="epidemic-map---china" class="section level4">
 <h4>Epidemic Map - China</h4>
 <div class="china-epidemic-map">
-<iframe src="nCov-Mapping-China-Web-Summary.html" width="672" height="400px">
+<iframe src="nCov-Mapping-China-Web-Summary.html" width="672" height="400px" id="myIframe1" scrolling="no" width="100%">
 </iframe>
+<script>
+  iFrameResize({ log: false }, '#myIframe1')
+</script>
 </div>
 </div>
 <div id="epidemic-map---world" class="section level4">
 <h4>Epidemic Map - World</h4>
 <div class="world-epidemic-map">
-<iframe src="nCov-Mapping-World-Web-Summary.html" width="672" height="400px">
+<iframe src="nCov-Mapping-World-Web-Summary.html" width="672" height="400px" id="myIframe2" scrolling="no" width="100%">
 </iframe>
+<script>
+  iFrameResize({ log: false }, '#myIframe2')
+</script>
 </div>
 </div>
 <div id="epidemic-map---us" class="section level4">
 <h4>Epidemic Map - US</h4>
 <div class="world-epidemic-map">
-<iframe src="nCov-Mapping-US-Web-Summary.html" width="672" height="400px">
+<iframe src="nCov-Mapping-US-Web-Summary.html" width="672" height="400px" id="myIframe3" scrolling="no" width="100%">
 </iframe>
+<script>
+  iFrameResize({ log: false }, '#myIframe3')
+</script>
 </div>
 </div>
 </div>
 <div id="epidemic-curves" class="section level3">
 <h3>Epidemic Curves</h3>
 <div class="epidemic-curves">
-<iframe src="epidemic-curves-web-summary.html" width="672" height="400px">
+<iframe src="epidemic-curves-web-summary.html" width="672" height="400px" id="myIframe4" scrolling="no" width="80%">
 </iframe>
+<script>
+  iFrameResize({ log: false }, '#myIframe4')
+</script>
 </div>
 </div>
 <div id="data-sources" class="section level3">
