@@ -1659,16 +1659,16 @@ $(document).ready(function () {
 <p>Here we test the function assuming perfect observation by setting <span class="math inline">\(d_1 = 1\)</span> and <span class="math inline">\(d_2=1\)</span>. In this limit case, the numerical solution agrees with the exact solution to at least seven decimal places.</p>
 <pre><code>## $root
 ## [1] 0.1258278
-## 
+##
 ## $f.root
 ## [1] 0
-## 
+##
 ## $iter
 ## [1] 1
-## 
+##
 ## $init.it
 ## [1] NA
-## 
+##
 ## $estim.prec
 ## [1] 499.8742</code></pre>
 <p>Now, we solve over a range of <span class="math inline">\(d_1\)</span> and <span class="math inline">\(d_2\)</span>. Clearly, the failure to detect exported cases or cases among contacts of exported cases yields a biased estimate of <span class="math inline">\(R_{\text{eff}}\)</span>. The heavy solid line indicates the critical boundary at <span class="math inline">\(R_{\text{eff}}=0\)</span>. Given that there have not been a singificant number of cases identified without a plausible exposure scenario (e.g. travel history to China or exposure to a known case), it seems reasonable to assume that <span class="math inline">\(d_1\)</span> is relatively close to 1. It is hoped that <span class="math inline">\(d_2\)</span> has also remained close to 1, for instance through effective contract tracing. Assuming <span class="math inline">\(d_1=d_2=0.9\)</span>, this estimator yields an average <span class="math inline">\(R_{\text{eff}}\)</span> outside of China of 0.39.</p>
@@ -1730,6 +1730,6 @@ $(document).ready(function () {
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
-
+<script type="text/javascript" src="js/iframeResizer.contentWindow.min.js"></script>
 </body>
 </html>

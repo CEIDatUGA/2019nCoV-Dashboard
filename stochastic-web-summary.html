@@ -329,7 +329,7 @@ $(document).ready(function () {
 <p>All infectious cases are either detected (<span class="math inline">\(I_d\)</span>) or undetected (<span class="math inline">\(I_u\)</span>) according to a time-varying case detection rate (<span class="math inline">\(0 \leq q(t) \leq 1\)</span>). The linear chain trick is used to model realistic distributions for the progression from (i) latent to infectious infection, and (ii) infectious circulating in the community to isolation.</p>
 <p>The rate of progression from symptomatic illness to hospitalization (<span class="math inline">\(\gamma(t)\)</span>) is assumed to be piecewide linear with an average infectious period of <span class="math inline">\(\frac{1}{0.143}\approx 7\)</span> days prior to intervention day <span class="math inline">\(d\)</span>, followed by a linear increase in average recovery rate at rate <span class="math inline">\(a_0\)</span>. The default assumption is that <span class="math inline">\(d=45\)</span>, which (assuming an epidemic start date of December 1) corresponds to a signficant change on January 15 as found by statistical analysis, and four days before testing was expanded in Wuhan.</p>
 <p><span class="math display">\[\begin{equation}
-  \gamma(t) = 
+  \gamma(t) =
   \begin{cases}
       \frac{1}{7}, &amp; \text{if } t &lt; d\\
       \frac{1}{7}+ a_0(t-d),   &amp; \text{otherwise}
@@ -337,7 +337,7 @@ $(document).ready(function () {
 \end{equation}\]</span></p>
 <p>Case detection rate, <span class="math inline">\(q(t)\)</span>, is also assumed to be time-dependent. We assume that case detection was initially rare at rate <span class="math inline">\(q_0\)</span>, but at time <span class="math inline">\(w\)</span> becomes higher, for instance after the opening of fever clinics on 9 January or the expansion of testing on 19 January.</p>
 <p><span class="math display">\[\begin{equation}
-  q(t) = 
+  q(t) =
   \begin{cases}
       q_0, &amp; \text{if } t \leq w\\
       q_1,                   &amp; \text{otherwise}.
@@ -346,7 +346,7 @@ $(document).ready(function () {
 <p>The model also tracks case notifications. The time of case notification is assumed not to affect the ensuing epidemic dynamics, but tracking case notifications faciliates a comparison with data.</p>
 <p>Notification is also assumed to be time dependent, consistent with statistical analysis of data from the line list. Analysis of clinical outcomes suggests that the <em>notification rate</em> may be represented by</p>
 <p><span class="math display">\[\begin{equation}
-  \eta(t) = 
+  \eta(t) =
   \begin{cases}
       (-0.47t+27.2)^{-1}, &amp; \text{if } t \leq 55\\
       1,                   &amp; \text{otherwise}.
@@ -457,6 +457,6 @@ $(document).ready(function () {
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
-
+<script type="text/javascript" src="js/iframeResizer.contentWindow.min.js"></script>
 </body>
 </html>
