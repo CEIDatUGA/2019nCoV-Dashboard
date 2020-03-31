@@ -7,15 +7,19 @@
 
 @import url("//fonts.googleapis.com/css?family=Merriweather+Sans:300|Merriweather:300|Oswald:300,400,500&display=swap");
 
-.container-fluid,.main-container {
-    height: 100%;
-    position: relative;
-    overflow:visible;
-    width:100%;
-
+html, body {
+  height: 100%;
 }
 
-.container-frames{
+.section h2{
+  padding-top:0px;
+}
+
+
+
+
+
+/*.container-frames{
   position:relative;
   height: 100%;
   width:100%;
@@ -27,10 +31,11 @@
   padding-left:0;
   padding-right:0;
 
-}
+}*/
 
 
 /*page titles*/
+
 .title {
   display: none;
 }
@@ -48,37 +53,37 @@
 
 /*header styles*/
 
-#data-summary, #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+ #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates,#supplemental-information{
   padding-top:40px;
   clear:both;
 }
 
 @media (min-width: 576px) {
-  #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+  #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:15px;
 }
 }
 
 @media (min-width: 768px) {
-  #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+  #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:90px;
   }
 }
 
 @media (min-width: 992px) {
-  #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+  #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:80px;
   }
 }
 
 @media (min-width: 1200px) {
-  #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+  #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:35px;
   }
 }
 
 @media (min-width: 1500px) {
-  #disclaimer,#header,#data-summary,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+  #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:35px;
   }
 }
@@ -93,10 +98,6 @@
 
 html{
   overflow:visible;
-}
-
-body{
-  height:100%; 
 }
 
 
@@ -308,34 +309,34 @@ body{
   height:400px;
   margin-bottom:15%;
   width:100%;
-  padding-bottom:67%
+  padding-bottom:67%;
 }
 
 
 
 /*sizing for china-epidemic-map*/
-.china-epidemic-map{
+/*.china-epidemic-map{
   height:775px;
   padding-bottom:67%;
-}
+}*/
 
-@media (min-width: 370px) {
+/*@media (min-width: 370px) {
   .china-epidemic-map{
     height:775px;
     width:100%;
     padding-bottom:67%;
   }
-}
+}*/
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .china-epidemic-map{
-    height:775px;
+height:775px;
     width:100%;
     padding-bottom:67%;
   }
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .china-epidemic-map{
   height:775px;
   width:100%;
@@ -343,7 +344,7 @@ body{
   }
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .china-epidemic-map{
     height:775px;
     width:100%;
@@ -351,7 +352,7 @@ body{
   }
 }
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   .china-epidemic-map{
     height:775px;
     width:100%;
@@ -401,41 +402,36 @@ body{
 
 /*page sizing world-epidemic-map-tab on data-page*/
 
-.world-epidemic-map{
+/*.world-epidemic-map{
   height:825px;
   width:100%;
   padding-bottom:67%;
-}
-
-@media (min-width: 370px) {
+}*/
+/*@media (min-width: 370px) {
   .world-epidemic-map{
     height:825px;
     padding-bottom:67%;
   }
-}
-
-@media (min-width: 576px) {
+}*/
+/*@media (min-width: 576px) {
   .world-epidemic-map{
     height:825px;
     padding-bottom:67%;
   }
-}
-
-@media (min-width: 768px) {
+}*/
+/*@media (min-width: 768px) {
   .world-epidemic-map{
     height:825px;
     padding-bottom:67%;
   }
-}
-
-@media (min-width: 992px) {
+}*/
+/*@media (min-width: 992px) {
   .world-epidemic-map{
    height:825px;
    padding-bottom:67%;
   }
-}
-
-@media (min-width: 1200px) {
+}*/
+/*@media (min-width: 1200px) {
   .world-epidemic-map{
   height:825px;
   padding-bottom:67%;
@@ -444,82 +440,72 @@ body{
 }
 
 /*page sizing epidemic-curves-tab on data-page*/
-
-.epidemic-curves{
+/*.epidemic-curves{
   height:7125px;
   padding-bottom:67%;
   width:80%;
 }
-
-@media (min-width: 300px) {
+/*@media (min-width: 300px) {
   .epidemic-curves{
     height:7125px;
     padding-bottom:67%;
   }
-}
-@media (min-width: 325px) {
+}*/
+/*@media (min-width: 325px) {
   .epidemic-curves{
      height:7125px;
     padding-bottom:67%;
   }
-}
-
-@media (min-width: 370px) {
+}*/
+/*@media (min-width: 370px) {
   .epidemic-curves{
      height:7125px;
     padding-bottom:67%;
   }
-}
-
-@media (min-width: 400px) {
+}*/
+/*@media (min-width: 400px) {
   .epidemic-curves{
      height:7125px;
     padding-bottom:67%;
   }
-}
-
-@media (min-width: 476px) {
+}*/
+/*@media (min-width: 476px) {
   .epidemic-curves{
      height:7125px;
     padding-bottom:67%;
   }
-}
-
-@media (min-width: 576px) {
+}*/
+/*@media (min-width: 576px) {
   .epidemic-curves{
      height:7125px;
     padding-bottom:67%;
   }
-}
-
- @media (min-width: 768px) {
+}*/
+/*@media (min-width: 768px) {
   .epidemic-curves{
     height:7125px;
     padding-bottom:67%;
 
   }
-}
-
- @media (min-width: 868px) {
+}*/
+/*@media (min-width: 868px) {
   .epidemic-curves{
      height:7125px;
     padding-bottom:67%;
   }
-}
-
-@media (min-width: 992px) {
+}*/
+/*@media (min-width: 992px) {
   .epidemic-curves{
      height:7125px;
     padding-bottom:67%;
   }
-}
-
-@media (min-width: 1200px) {
+}*/
+/*@media (min-width: 1200px) {
   .epidemic-curves{
      height:7125px;
     padding-bottom:67%;
   }
-}
+}*/
 
 /*page sizing context-page*/
 
@@ -532,13 +518,13 @@ body{
   .context-web-sum-page{
     height:6315px;
   }}
-  
+
 @media (min-width: 325px) {
   .context-web-sum-page{
     height:5910px;
 
   }}
-  
+
 @media (min-width: 350px) {
   .context-web-sum-page{
     height:5750px;
@@ -1024,14 +1010,14 @@ body{
 @media (min-width: 370px) {
   .nowcast-ascertainment{
     height:1875px;
-    
+
   }
 }
 
 @media (min-width: 576px) {
   .nowcast-ascertainment{
     height:1300px;
-   
+
   }
 }
 
@@ -1224,30 +1210,18 @@ body{
   }
 }
 
-body{
-background-color:#fff;;
-}
+
 
 iframe {
    top: 20;
    height: 100%;
    left: 0;
    border:0;
-   position: absolute;
    margin-bottom:.5em;
    width: 100%;
    clear: both;
    overflow:visible;
-   background-color: transparent;
-   zoom: 0.95;
-    -webkit-transform:scale(0.9%);
-    -webkit-transform-origin: 0 0;
-  -moz-transform: scale(0.95);
-  -moz-transform-origin: 0 0;
-  -ms-transform: 0.95;
-   -o-transform: scale(0.95);
-  -o-transform-origin: 0 0;
-  transform:scale(0.95);
+
 }
 
 #github-icon{
@@ -1414,12 +1388,12 @@ iframe {
 
 
 h1,h2,h3,a, a:active{
-    font-family:'Oswald','Roboto',Arial,sans-serif;
+    font-family:'Oswald','Roboto',"Source Sans Pro", "Helvetica Neue", Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight:400;
 }
 
 h4,h5,h6{
-    font-family:'Oswald','Roboto',Arial,sans-serif;
+    font-family:'Oswald','Roboto',"Source Sans Pro", "Helvetica Neue", Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight:400;
     line-height: 1.5em;
     margin:5px;
