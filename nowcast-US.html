@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2020-03-30" />
+<meta name="date" content="2020-03-31" />
 
 <title>Nowcasting the current size of the COVID-19 outbreak in the United States</title>
 
@@ -1634,7 +1634,7 @@ summary {
 
 
 <h1 class="title toc-ignore">Nowcasting the current size of the COVID-19 outbreak in the United States</h1>
-<h4 class="date">March 30, 2020</h4>
+<h4 class="date">March 31, 2020</h4>
 
 </div>
 
@@ -1681,6 +1681,13 @@ summary {
 <p>From <strong>fatality reports</strong> (the number of newly reported deaths on each day), we use Monte Carlo simulation and estimated probability distributions to construct a synthetic <strong>line list</strong> of symptom onset times for all cases that are eventually notified. The average <strong>delay from symptom onset to death</strong>, estimated from data in the China outbreak outside Hubei, is 16 days<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>. Individual simulated symptom onset times are distributed according to a gamma distribution with a mean of 16 (shape parameter = 4).</p>
 <p>Based on data from China, and correcting for demographics in Great Britain, Ferguson <em>et al.</em> estimated an Infection Fatality Rat (IFR) of 0.9% (95% CrI: 0.4%–1.4%)<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. To account for IFR, we multiply the fatalities by <span class="math inline">\(\frac{1}{0.9\%}\)</span> before simulating the line list of symptom onset times.</p>
 <p>The resulting estimates of latent and infectious individuals are intended to represent all unnotified cases.</p>
+<!-- #### Effective reproductive number $R$ -->
+<!-- The effective reproductive number $R$ is the number of new secondary infections per infectious individual. If we consider only unnotified, symptomatic cases to be infectious, then at each time $t$, -->
+<!-- $$R_t = \frac{\frac{\Delta E_+}{\Delta t}}{I_t} \frac{1}{\gamma_t}$$ -->
+<!-- where $\frac{\Delta E_+}{\Delta t}$ is the number of individuals newly exposed over one day, ${I_t}$ is the total number of infectious individuals on day $t$, and $\frac{1}{\gamma_t}$ is the mean delay from symptom onset to case notification, which could be time varying. -->
+<!-- We calculate both $\frac{\Delta E_+}{\Delta t}$ and ${I_t}$ directly from the synthetic line list. $\frac{1}{\gamma_t}$ is estimated from US case data^[Analysis by the Center for the Ecology of Infectious Diseases of US. Parameters updated periodically. See supplemental information.]. -->
+<!-- As with the number of latent cases, we only have a good estimate of $\frac{\Delta E_+}{\Delta t}$ for times within 5.89 days (plus two standard deviations) of our last good estimate of the number of symptomatic individuals. We therefore forecast from that point forward to obtain an estimate of $R$ at times closer to the present. -->
+<!-- We can then use our estimate of $R$ or our forecast of $R$ to in turn forecast the number  -->
 </div>
 <div id="data-sources" class="section level3">
 <h3>Data sources</h3>

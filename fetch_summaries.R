@@ -69,7 +69,7 @@ utils::download.file(
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters-US.html?token=ADVPF4GWXZECQMZ7VUJD7HK6RHIRQ",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/parameters-US.html?token=ADVPF4DFB2GWORZIJDP3XJK6RNYHW",
   destfile="parameters-US.html"
 )
 
@@ -82,12 +82,12 @@ utils::download.file(
 
 # Stochastic Model
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/web-summary.html?token=ADVPF4ENOB44HFHG7LRNSBS6QNAZY",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/web-summary.html?token=ADVPF4G3KEESL744SSRW2JS6RRVJS",
   destfile="stochastic-web-summary.html"
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model-georgia-web-summary.html?token=ADVPF4BUOCWLBSB4ZXAOIL26QNBAQ",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model-georgia-web-summary.html?token=ADVPF4BFH3NJLM66KUGON2S6RRU26",
   destfile="stochastic-georgia-web-summary.html"
 )
 
