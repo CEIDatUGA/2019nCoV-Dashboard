@@ -10,51 +10,31 @@ title: "2019 Coronavirus Tracker - Data"
 
 #### Epidemic Map - China
 
-<div class="china-epidemic-map">
-
-```{r echo=FALSE, out.extra='id="myIframe1" scrolling="no" width="100%"'}
+```{r echo=FALSE, out.extra='id="nCov-Mapping-China-Web-Summary" scrolling="no" width="100%"'}
 knitr::include_url("nCov-Mapping-China-Web-Summary.html")
 ```
-
-
-<script>
-  iFrameResize({ log: false }, '#myIframe1')
-</script>
-</div>
+<script>iFrameResize({ log: false }, '#nCov-Mapping-China-Web-Summary')</script>
 
 #### Epidemic Map - World
 
-<div class="world-epidemic-map">
-```{r echo=FALSE, out.extra='id="myIframe2" scrolling="no" width="100%"'}
+```{r echo=FALSE, out.extra='id="nCov-Mapping-World-Web-Summary" scrolling="no" width="100%"'}
 knitr::include_url("nCov-Mapping-World-Web-Summary.html")
 ```
-<script>
-  iFrameResize({ log: false }, '#myIframe2')
-</script>
-</div>
+<script>iFrameResize({ log: false }, '#nCov-Mapping-World-Web-Summary')</script>
 
 #### Epidemic Map - US
 
-<div class="world-epidemic-map">
-```{r echo=FALSE, out.extra='id="myIframe3" scrolling="no" width="100%"'}
+```{r echo=FALSE, out.extra='id="nCov-Mapping-US-Web-Summary" scrolling="no" width="100%"'}
 knitr::include_url("nCov-Mapping-US-Web-Summary.html")
 ```
-<script>
-  iFrameResize({ log: false }, '#myIframe3')
-</script>
-</div>
+<script>iFrameResize({ log: false }, '#nCov-Mapping-US-Web-Summary')</script>
 
 ### Epidemic Curves
 
-<div class="epidemic-curves">
-
-```{r echo=FALSE, out.extra='id="myIframe4" scrolling="no" width="80%"'}
+```{r echo=FALSE, out.extra='id="epidemic-curves-web-summary" scrolling="no" width="80%"'}
 knitr::include_url("epidemic-curves-web-summary.html")
 ```
-<script>
-  iFrameResize({ log: false }, '#myIframe4')
-</script>
-</div>
+<script>iFrameResize({ log: false }, '#epidemic-curves-web-summary')</script>
 
 ### Data Sources
 
