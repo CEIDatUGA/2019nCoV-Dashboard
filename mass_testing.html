@@ -13,6 +13,7 @@
 
 <title>2019 Coronavirus Tracker - Mass Testing</title>
 
+<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -337,10 +338,9 @@ $(document).ready(function () {
 
 <p id="disclaimer">
 </p>
-<div class="mass-testing-page">
-<iframe src="mass_testing_summary.html" width="672" height="400px">
+<iframe src="mass_testing_summary.html" width="672" height="400px" id="mass-testing" scrolling="no" width="100%">
 </iframe>
-</div>
+<script>iFrameResize({ log: false }, '#mass-testing')</script>
 <div id="supplemental-information" class="section level2">
 <h2>Supplemental Information</h2>
 <div class="container-frames">

@@ -13,6 +13,7 @@
 
 <title>2019 Coronavirus Tracker - US Nowcast</title>
 
+<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -338,34 +339,30 @@ $(document).ready(function () {
 <p id="disclaimer">
 </p>
 <div id="section" class="section level2 tabset tabset-fade">
-<h2></h2>
+<h2 class="tabset tabset-fade"></h2>
 <div id="us-nowcast-from-case-reports" class="section level3">
 <h3>US Nowcast from case reports</h3>
-<div class="nowcast-case-reports">
-<iframe src="nowcast-US-cases.html" width="672" height="400px">
+<iframe src="nowcast-US-cases.html" width="672" height="400px" id="nowcast-case-reports" scrolling="no" width="100%">
 </iframe>
-</div>
+<script>iFrameResize({ log: false }, '#nowcast-case-reports')</script>
 </div>
 <div id="us-nowcast-from-fatalities" class="section level3">
 <h3>US Nowcast from fatalities</h3>
-<div class="nowcast-fatalities">
-<iframe src="nowcast-US-fatalities.html" width="672" height="400px">
+<iframe src="nowcast-US-fatalities.html" width="672" height="400px" id="nowcast-fatalities" scrolling="no" width="100%">
 </iframe>
-</div>
+<script>iFrameResize({ log: false }, '#nowcast-fatalities')</script>
 </div>
 <div id="us-ascertainment-rate" class="section level3">
 <h3>US Ascertainment rate</h3>
-<div class="nowcast-ascertainment">
-<iframe src="nowcast-US-ascertainment.html" width="672" height="400px">
+<iframe src="nowcast-US-ascertainment.html" width="672" height="400px" id="nowcast-ascertainment" scrolling="no" width="100%">
 </iframe>
-</div>
+<script>iFrameResize({ log: false }, '#nowcast-ascertainment')</script>
 </div>
 <div id="algorithm-and-data" class="section level3">
 <h3>Algorithm and Data</h3>
-<div class="nowcast-algorithm">
-<iframe src="nowcast-US.html" width="672" height="400px">
+<iframe src="nowcast-US.html" width="672" height="400px" id="nowcast-algorithm" scrolling="no" width="100%">
 </iframe>
-</div>
+<script>iFrameResize({ log: false }, '#nowcast-algorithm')</script>
 </div>
 </div>
 <div id="supplemental-information" class="section level2">

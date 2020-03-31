@@ -2,13 +2,12 @@
 title: "2019 Coronavirus Tracker - Context"
 ---
 <p id="disclaimer"></p>
-<div class="context-web-sum-page">
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="context-web-sum" scrolling="no" width="100%"'}
 knitr::include_url("context-web-summary.html")
 ```
+<script>iFrameResize({ log: false }, '#context-web-sum')</script>
 
-</div>
 
 
 ## Supplemental Information 

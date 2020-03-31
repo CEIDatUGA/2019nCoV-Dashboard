@@ -2,12 +2,12 @@
 title: "2019 Coronavirus Tracker - Stochastic Model for Georgia (USA)"
 ---
 <p id="disclaimer"></p>
-<div class="stochastic-georgia">
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="stochastic-georgia" scrolling="no" width="100%"'}
 knitr::include_url("stochastic-georgia-web-summary.html")
 ```
-</div>
+<script>iFrameResize({ log: false }, '#stochastic-georgia')</script>
+
 
 ## Supplemental Information
 

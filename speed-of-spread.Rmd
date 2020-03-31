@@ -6,20 +6,18 @@ title: "2019 Coronavirus Tracker - Speed of Spread"
 ## Speed of Spread of COVID-19 {.tabset .tabset-fade}
 
 ### US, by State 
-<div class="speed-of-spread-page">
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="epi-curve-by-us-state" scrolling="no" width="100%"'}
 knitr::include_url("epi-curve-by-us-state-web-summary.html")
 ```
-</div>
+<script>iFrameResize({ log: false }, '#epi-curve-by-us-state')</script>
 
 ### Global, by country
-<div class="speed-of-spread-page">
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="epi-curve-by-country" scrolling="no" width="100%"'}
 knitr::include_url("epi-curve-by-country-web-summary.html")
 ```
-</div>
+<script>iFrameResize({ log: false }, '#epi-curve-by-country')</script>
 
 
 ## Supplemental Information

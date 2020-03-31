@@ -6,13 +6,12 @@ title: "2019 Coronavirus Tracker - China Spatial Model"
 
 
 ### Gravity Model
-<div class="container-frames">
-<div class="gravity-model">
-```{r echo=FALSE}
+
+
+```{r echo=FALSE, out.extra='id="gravity-model" scrolling="no" width="100%"'}
 knitr::include_url("china-spatial-web-summary.html")
 ```
-</div>
-</div>
+<script>iFrameResize({ log: false }, '#gravity-model')</script>
 
 ### Map
 
@@ -22,13 +21,10 @@ Black lines represent the link weights in the 90th percentile and are drawn betw
 </div>
 </div>
 
-<div class="container-frames">
-<div class="china-spatial-link">
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="china-spatial-link" scrolling="no" width="100%"'}
 knitr::include_url("china-spatial-link-weights.html")
 ```
-</div>
-</div>
+<script>iFrameResize({ log: false }, '#china-spatial-link')</script>
 
 ## Supplemental Information
 

@@ -2,12 +2,12 @@
 title: "2019 Coronavirus Tracker - Stochastic Model for Wuhan (China)"
 ---
 <p id="disclaimer"></p>
-<div class="stochastic-wuhan">
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="stochastic-web-summary" scrolling="no" width="100%"'}
 knitr::include_url("stochastic-web-summary.html")
 ```
-</div>
+<script>iFrameResize({ log: false }, '#stochastic-web-summary')</script>
+
 
 ## Supplemental Information
 

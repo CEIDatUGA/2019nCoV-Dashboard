@@ -7,42 +7,36 @@ title: "2019 Coronavirus Tracker - US Nowcast"
 
 ### US Nowcast from case reports
 
-<div class="nowcast-case-reports">
-  
-```{r echo=FALSE}
+
+```{r echo=FALSE, out.extra='id="nowcast-case-reports" scrolling="no" width="100%"'}
 knitr::include_url("nowcast-US-cases.html")
 ```
+<script>iFrameResize({ log: false }, '#nowcast-case-reports')</script>
 
-</div>
 
 ### US Nowcast from fatalities
 
-<div class="nowcast-fatalities">
-
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="nowcast-fatalities" scrolling="no" width="100%"'}
 knitr::include_url("nowcast-US-fatalities.html")
 ```
+<script>iFrameResize({ log: false }, '#nowcast-fatalities')</script>
 
-</div>
 
 ### US Ascertainment rate
 
-<div class="nowcast-ascertainment">
-
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="nowcast-ascertainment" scrolling="no" width="100%"'}
 knitr::include_url("nowcast-US-ascertainment.html")
 ```
+<script>iFrameResize({ log: false }, '#nowcast-ascertainment')</script>
 
-</div>
   
 ### Algorithm and Data
 
-<div class="nowcast-algorithm">
-
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="nowcast-algorithm" scrolling="no" width="100%"'}
 knitr::include_url("nowcast-US.html")
 ```
-</div>
+<script>iFrameResize({ log: false }, '#nowcast-algorithm')</script>
+
 
 ## Supplemental Information
   

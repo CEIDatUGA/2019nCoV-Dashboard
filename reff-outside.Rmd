@@ -2,12 +2,11 @@
 title: "2019 Coronavirus Tracker - R_eff outside China"
 ---
 <p id="disclaimer"></p>
-<div class="reff-outside-page">
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="reff-outside" scrolling="no" width="100%"'}
 knitr::include_url("reff-outside-web-summary.html")
 ```
-</div>
+<script>iFrameResize({ log: false }, '#reff-outside')</script>
 
 ## Supplemental Information
 

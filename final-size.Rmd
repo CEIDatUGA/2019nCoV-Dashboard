@@ -2,12 +2,11 @@
 title: "2019 Coronavirus Tracker - Final Outbreak Size"
 ---
 <p id="disclaimer"></p>
-<div class="final-size-page">
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="final-size" scrolling="no" width="100%"'}
 knitr::include_url("final-size-web-summary.html")
 ```
-</div>
+<script>iFrameResize({ log: false }, '#final-size')</script>
 
 ## Supplemental Information
 

@@ -4,20 +4,18 @@ title: "2019 Coronavirus Tracker - Early Intervention"
 <p id="disclaimer"></p>
 ## {.tabset .tabset-fade}
 ### Outbreak Size
-<div class="early-intervention-page">
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="early-intervention-web-summary" scrolling="no" width="100%"'}
 knitr::include_url("early-intervention-web-summary.html")
 ```
-</div>
+<script>iFrameResize({ log: false }, '#early-intervention-web-summary')</script>
 
 ### Time to containment 
-<div class="early-intervention-page">
 
-```{r echo=FALSE}
+```{r echo=FALSE, out.extra='id="early-intervention-web-summary2" scrolling="no" width="100%"'}
 knitr::include_url("early-intervention-web-summary2.html")
 ```
-</div>
+<script>iFrameResize({ log: false }, '#early-intervention-web-summary2')</script>
 
 
 
