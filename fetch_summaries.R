@@ -30,7 +30,7 @@ fetch_and_fix(
 
 # Data Summary - China
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China-Web-Summary.html?token=ADVPF4H54WWXLYTXPSBATHK6QSMTM",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China-Web-Summary.html?token=ADVPF4ERGFQ7NT3BXZET7A26RXKXW",
   destfile="nCov-Mapping-China-Web-Summary.html"
 )
 
@@ -38,31 +38,31 @@ fetch_and_fix(
 
 # Data Summary - World
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-US-Web-Summary.html?token=ADVPF4AKIDH3IKQOS4VD2AC6QSM32",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4CVXXJF7LPS6SQ5GYC6RXK2Y",
   destfile="nCov-Mapping-World-Web-Summary.html"
 )
 
 # Data Summary - US
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-US-Web-Summary.html?token=ADVPF4HQGE2PCJAXJTS2CJC6QSNAC",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-US-Web-Summary.html?token=ADVPF4AFLQUPWLHSJWKZSYC6RXLCK",
   destfile="nCov-Mapping-US-Web-Summary.html"
 )
 
 # Data Summary - Epidemic Curves
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4HCYWWSCX7XXHWCRKS6QSNG6",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epidemic-curves-web-summary.html?token=ADVPF4BZONUPWNP7VHY7GU26RXLFA",
   destfile="epidemic-curves-web-summary.html"
 )
 
 # Speed of Spread - Epidemic Curves by Country
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epi-curve-by-country-web-summary.html?token=ADVPF4HXCTP5ZCOOVOACTGK6QNAPK",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epi-curve-by-country-web-summary.html?token=ADVPF4AMOTBYKPAR24Z7GUK6RXKKC",
   destfile="epi-curve-by-country-web-summary.html"
 )
 
 # Speed of Spread - Epidemic Curves by US State
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epi-curve-by-us-state-web-summary.html?token=ADVPF4BDC6IGU5NDQ6LGMJK6QNAR4",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/epi-curve-by-us-state-web-summary.html?token=ADVPF4HYGKGEGNEVNCMCNUK6RXKMI",
   destfile="epi-curve-by-us-state-web-summary.html"
 )
 
@@ -70,7 +70,7 @@ fetch_and_fix(
 
 # Context
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4BX64JLSPHNAA6GL5K6QSNKU",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4EZUWP3XFOE67E74QS6RXLJM",
   destfile="context-web-summary.html"
 )
 
@@ -78,7 +78,7 @@ fetch_and_fix(
 fetch_and_fix(
   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4E7DI66NH7EBVQDKWK6RHIME",
   destfile="parameters-web-summary.html"
-  )
+)
 
 fetch_and_fix(
   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4EC2XFZGQZY4IY4CW26RHIPS",
@@ -109,7 +109,7 @@ fetch_and_fix(
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model.html?token=ADVPF4EK46ACYA6WBSXHPOC6QNBDM",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model.html?token=ADVPF4HATVNXNQTV3QLRFC26RXMFO",
   destfile="stochastic-model.html"
 )
 
@@ -159,13 +159,13 @@ utils::download.file(
 
 # China Spatial Model
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4HNWWHNHPOLADS7UZ26QSNWW",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4AAJ2JE4MV7EYGEAH26RXLSA",
   destfile="china-spatial-web-summary.html"
 )
 
 # China Spatial Model - links map - UPDATE MANUALLY - FILE NAME CHANGES
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/maps/link-weights-chloropleth-highest-ten-pct-2020-03-22.html?token=ADVPF4ADQMOTNJMM5L2AOVK6QSNTO",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/maps/link-weights-chloropleth-highest-ten-pct-2020-03-22.html?token=ADVPF4E4CLCUHJZVULGEJI26RXLUC",
   destfile="china-spatial-link-weights.html"
 )
 
@@ -177,13 +177,13 @@ fetch_and_fix(
 
 # Final Size - web summary
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSizeSummary.html?token=ADVPF4HYL4HGX7MCAPC7KMS6QSNZG",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSizeSummary.html?token=ADVPF4HXMYVIVRHL2GDQK2K6RXLYA",
   destfile="final-size-web-summary.html"
 )
 
 # Final Size - supp
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSize.html?token=ADVPF4C54IXPZETMXFEQP6K6QSN26",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSize.html?token=ADVPF4F2C73GNRNAQ24RIZS6RXLZ6",
   destfile="final-size-supplement.html"
 )
 
