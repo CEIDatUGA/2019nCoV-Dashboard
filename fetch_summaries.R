@@ -141,10 +141,10 @@ fetch_and_fix(
   destfile="nowcast-US-cases.html"
 )
 
-fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-fatalities.html?token=ADVPF4CGOO44UTTLX33MHKK6Q5LPE",
-  destfile="nowcast-US-fatalities.html"
-)
+# fetch_and_fix(
+#   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-fatalities.html?token=ADVPF4CGOO44UTTLX33MHKK6Q5LPE",
+#   destfile="nowcast-US-fatalities.html"
+# )
 
 fetch_and_fix(
   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/under-reporting.html?token=ADVPF4DYMNTCVZOUW7BCNAS6Q5LHU",

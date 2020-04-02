@@ -339,29 +339,28 @@ $(document).ready(function () {
 </p>
 <div id="section" class="section level2 tabset tabset-fade">
 <h2></h2>
-<div id="us-nowcast-from-case-reports" class="section level3">
-<h3>US Nowcast from case reports</h3>
+<div id="us-nowcast" class="section level3">
+<h3>US Nowcast</h3>
 <iframe src="nowcast-US-cases.html" width="672" height="400px" id="nowcast-case-reports" scrolling="no" width="100%">
 </iframe>
 <script>iFrameResize({ log: false }, '#nowcast-case-reports')</script>
+<!-- ### US Nowcast from fatalities -->
+<!-- ```{r echo=FALSE, out.extra='id="nowcast-fatalities" scrolling="no" width="100%"'} -->
+<!-- knitr::include_url("nowcast-US-fatalities.html") -->
+<!-- ``` -->
+<!-- <script>iFrameResize({ log: false }, '#nowcast-fatalities')</script> -->
 </div>
-<div id="us-nowcast-from-fatalities" class="section level3">
-<h3>US Nowcast from fatalities</h3>
-<iframe src="nowcast-US-fatalities.html" width="672" height="400px" id="nowcast-fatalities" scrolling="no" width="100%">
-</iframe>
-<script>iFrameResize({ log: false }, '#nowcast-fatalities')</script>
-</div>
-<div id="us-ascertainment-rate" class="section level3">
-<h3>US Ascertainment rate</h3>
-<iframe src="nowcast-US-ascertainment.html" width="672" height="400px" id="nowcast-ascertainment" scrolling="no" width="100%">
-</iframe>
-<script>iFrameResize({ log: false }, '#nowcast-ascertainment')</script>
-</div>
-<div id="algorithm-and-data" class="section level3">
-<h3>Algorithm and Data</h3>
+<div id="about-the-nowcast" class="section level3">
+<h3>About the Nowcast</h3>
 <iframe src="nowcast-US.html" width="672" height="400px" id="nowcast-algorithm" scrolling="no" width="100%">
 </iframe>
 <script>iFrameResize({ log: false }, '#nowcast-algorithm')</script>
+</div>
+<div id="us-ascertainment-rate" class="section level3">
+<h3>US Ascertainment Rate</h3>
+<iframe src="nowcast-US-ascertainment.html" width="672" height="400px" id="nowcast-ascertainment" scrolling="no" width="100%">
+</iframe>
+<script>iFrameResize({ log: false }, '#nowcast-ascertainment')</script>
 </div>
 </div>
 <div id="supplemental-information" class="section level2">
