@@ -598,3 +598,50 @@ figcaption{
 #nCov-tracker{
   height:1300px;
 }
+
+
+@media only screen and (max-width: 270px) {
+  #nCov-tracker{
+    height:2450px;
+}
+}
+
+@media only screen and (min-width: 300px) {
+  #nCov-tracker{
+    height:2275px;
+}
+}
+
+
+@media only screen and (min-width: 400px) {
+  #nCov-tracker{
+    height:2150px;
+}
+}
+
+
+@media only screen and (min-width: 600px) {
+  #nCov-tracker{
+    height:2020px;
+}
+}
+
+
+@media only screen and (min-width: 768px) {
+  #nCov-tracker{
+    height:1980px;
+}
+}
+
+
+@media only screen and (min-width: 992px) {#nCov-tracker{
+    height:1200px;
+}
+}
+
+
+@media only screen and (min-width: 1200px) {
+  #nCov-tracker{
+    height:1300px;
+}
+}
