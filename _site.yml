@@ -1,7 +1,7 @@
 output_dir: '.'
 name: "CEID 2019 nCoV"
 navbar:
-  title: "CEID 2019 Novel Coronavirus Tracker"
+  title: "CEID COVID-19 Portal"
   left:
     - text: "About"
       href: index.html
@@ -11,8 +11,8 @@ navbar:
       href: maps.html
     - text: "US Nowcast"
       href: nowcast.html
-    - text: "Speed of Spread"
-      href: speed-of-spread.html
+#    - text: "Speed of Spread"
+#      href: speed-of-spread.html
     - text: "COVID-19 in Context"
       href: context.html
     - text: "Epidemic Characteristics"
