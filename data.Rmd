@@ -1,44 +1,50 @@
 ---
-title: "2019 Coronavirus Tracker - Data"
+title: "CEID COVID-19 - Maps"
 ---
 
 
 <p id="disclaimer"></p>
-## Data Summary {.tabset .tabset-fade}
+## Data Sources
 
-### Epidemic Maps {.tabset .tabset-fade}
+CEID now maintains a public repository of datasets used in our COVID-19 projects. The datasets in the repository were compiled by members of the CEID COVID-19 working group. The data have been formated to be used 'as-is' and are updated often. Data sets were either created from html scraping or manually entered. In the case of the automated web scraping, the raw data and scripts are included. 
 
-#### Epidemic Map - China
+Data are publicly available here: 
+<p>
+  <a href="https://github.com/CEIDatUGA/COVID-19-DATA" target="_blank">
+    <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
+    GitHub repository
+  </a>
+</p>
 
-```{r echo=FALSE, out.extra='id="nCov-Mapping-China-Web-Summary" scrolling="no" width="100%"'}
-knitr::include_url("nCov-Mapping-China-Web-Summary.html")
-```
-<script>iFrameResize({ log: false }, '#nCov-Mapping-China-Web-Summary')</script>
+### China data
 
-#### Epidemic Map - World
+- *China_casedata*
+- *China_TA*: Travel advisories or restrictions within China.
+- *Hubei_Evacuation_Repatriation*: Reports of evacuations from Hubei province.
 
-```{r echo=FALSE, out.extra='id="nCov-Mapping-World-Web-Summary" scrolling="no" width="100%"'}
-knitr::include_url("nCov-Mapping-World-Web-Summary.html")
-```
-<script>iFrameResize({ log: false }, '#nCov-Mapping-World-Web-Summary')</script>
+### US data
 
-#### Epidemic Map - US
+- *UScases_by_state_wikipedia.csv*: Number of new cases in a state by day.
+- *USfatalities_by_state_wikipedia.csv*: Number of new case fatalities in a state by day.
+- *us-state-intervention-data/stateInterventionTimeSeries.csv*: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily.
+- *us-state-intervention-data/longFormStateInterventions.csv*: Running summary of interventions at the state level taken from reports and wikipedia
 
-```{r echo=FALSE, out.extra='id="nCov-Mapping-US-Web-Summary" scrolling="no" width="100%"'}
-knitr::include_url("nCov-Mapping-US-Web-Summary.html")
-```
-<script>iFrameResize({ log: false }, '#nCov-Mapping-US-Web-Summary')</script>
+### State of Georgia data
 
-### Epidemic Curves
+- *ga-county-intervention-data/countyInterventionTimeSeries.csv*: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily.
+- *ga-county-intervention-data/longFormCountyInterventions.csv*: Running summary of interventions at the state level taken from reports and wikipedia
 
-```{r echo=FALSE, out.extra='id="epidemic-curves-web-summary" scrolling="no" width="80%"'}
-knitr::include_url("epidemic-curves-web-summary.html")
-```
-<script>iFrameResize({ log: false }, '#epidemic-curves-web-summary')</script>
+### Global data
 
-### Data Sources
+- *worldCases.csv*: Number of new cases in a country by day.
+- *Internation_TA*: Travel advisories announced by county.
+- *Global Health Security Index*: Index of epidemic preparedness and underlying data
+- *Epidemiological characteristics of COVID-19 and other zoonotics*
+- *Canada COVID-19 Case Data*: Includes cases, fatalities, recovered, and tested for Canada
 
-These are the primary data resources being used by the CEID Coronavirus Working Group
+## Legacy Data
+
+Data resources used initually by the CEID Coronavirus Working Group include:
 
 [Timeline of key events and case notifications by country](https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit#gid=0) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
 [Case notifications in China by province](https://docs.google.com/spreadsheets/d/1gTj4zFMfXRk92CCQAOwa04ZBhqJ4oSmQFm_nb8-YXbw/edit) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
@@ -47,20 +53,5 @@ These are the primary data resources being used by the CEID Coronavirus Working 
 [Interventions in China by prefecture](https://docs.google.com/spreadsheets/d/1aK9Es7x6KReabBRkWiBbiSGsxSC37kPKD-qiPcD50hg/edit#gid=0) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
 [Travel advisories](https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1525027375) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
 [Case notifications in the US by state](https://docs.google.com/spreadsheets/d/10NYNf4UX7R_nNdM-jkbo7A5SGkB8sUVMIiqU7e_-miU/edit#gid=0) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
-
-## Supplemental Information
-
-<div class="container-frames">
-
-<!-- Supplemental information: [html]() -->
-
-<!-- Preprint: [download]() -->
-
-<p>
-  <a href="https://github.com/CEIDatUGA/ncov-data-summary" target="_blank">
-    <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
-    GitHub repository (private)
-  </a>
-</p>
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: "2019 Coronavirus Tracker - R_eff outside China"
+title: "CEID COVID-19 - R_eff outside China"
 ---
 <p id="disclaimer"></p>
 

@@ -1,5 +1,5 @@
 ---
-title: "2019 Coronavirus Tracker - Context"
+title: "CEID COVID-19 - Context"
 ---
 <p id="disclaimer"></p>
 

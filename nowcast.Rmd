@@ -1,9 +1,11 @@
 ---
-title: "2019 Coronavirus Tracker - US Nowcast"
+title: "CEID COVID-19 - US Nowcast"
 ---
 <p id="disclaimer"></p>
 
 ## {.tabset .tabset-fade}
+
+<small>The Nowcast provides an estimate of the total number of COVID-19 cases circulating in the community and not known to us. The nowcast estimates the number of infections in the past from current case and death notifications, then forecasts forward to the present. Forecasting is automated and dependent on changing data. Close to the present, nowcasts only provide a rough estimated range for the current outbreak size.</small>
 
 ### US Nowcast
 

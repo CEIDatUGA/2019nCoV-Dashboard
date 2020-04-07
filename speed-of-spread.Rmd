@@ -1,5 +1,5 @@
 ---
-title: "2019 Coronavirus Tracker - Speed of Spread"
+title: "CEID COVID-19 - Speed of Spread"
 ---
 <p id="disclaimer"></p>
 

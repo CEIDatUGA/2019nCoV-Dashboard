@@ -1,5 +1,5 @@
 ---
-title: "2019 Coronavirus Tracker - Stochastic Model for Georgia (USA)"
+title: "CEID COVID-19 - Stochastic Model for Georgia (USA)"
 ---
 <p id="disclaimer"></p>
 

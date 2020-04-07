@@ -1,5 +1,5 @@
 ---
-title: "2019 Coronavirus Tracker - Early Intervention"
+title: "CEID COVID-19 - Early Intervention"
 ---
 <p id="disclaimer"></p>
 ## {.tabset .tabset-fade}

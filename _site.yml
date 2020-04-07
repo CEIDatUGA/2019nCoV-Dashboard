@@ -5,8 +5,10 @@ navbar:
   left:
     - text: "About"
       href: index.html
-    - text: "Epidemic Data, Curves & Maps"
-      href: data.html
+    - text: "Case & Fatality Tracker"
+      href: tracker.html
+    - text: "Epidemic Maps"
+      href: maps.html
     - text: "US Nowcast"
       href: nowcast.html
     - text: "Speed of Spread"
@@ -33,6 +35,8 @@ navbar:
       href: early-intervention.html
     - text: "Effect of Mass Testing"
       href: mass_testing.html
+    - text: "Data Sources"
+      href: data.html
     - text: "News"
       href: news.html
 #    - text: "Test"

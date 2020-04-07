@@ -1,5 +1,5 @@
 ---
-title: "2019 Coronavirus Tracker - China Spatial Model"
+title: "CEID COVID-19 - China Spatial Model"
 ---
 <p id="disclaimer"></p>
 ## Spatial Spread of 2019 novel coronavirus in China {.tabset .tabset-fade}

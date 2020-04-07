@@ -1,5 +1,5 @@
 ---
-title: "2019 Coronavirus Tracker - Final Outbreak Size"
+title: "CEID COVID-19 - Final Outbreak Size"
 ---
 <p id="disclaimer"></p>
 

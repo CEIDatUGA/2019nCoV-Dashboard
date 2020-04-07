@@ -1,5 +1,5 @@
 ---
-title: "2019 Coronavirus Tracker - Mass Testing"
+title: "CEID COVID-19 - Mass Testing"
 ---
 <p id="disclaimer"></p>
 

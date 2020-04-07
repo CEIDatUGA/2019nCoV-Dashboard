@@ -1,0 +1,30 @@
+---
+title: "CEID COVID-19 - Case & Fatality Tracker"
+---
+
+
+<p id="disclaimer"></p>
+
+```{r echo=FALSE, out.extra='id="nCov-tracker" scrolling="no" width="100%"'}
+knitr::include_url("https://shiny.ovpr.uga.edu/yact/")
+```
+<!-- <script>iFrameResize({ log: false }, '#nCov-tracker')</script> -->
+
+
+
+## Supplemental Information
+
+<div class="container-frames">
+
+<!-- Supplemental information: [html]() -->
+
+<!-- Preprint: [download]() -->
+
+<p>
+  <a href="https://github.com/CEIDatUGA/COVID-shiny-tracker" target="_blank">
+    <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
+    GitHub repository
+  </a>
+</p>
+
+</div>

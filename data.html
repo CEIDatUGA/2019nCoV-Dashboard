@@ -11,7 +11,7 @@
 
 
 
-<title>2019 Coronavirus Tracker - Data</title>
+<title>CEID COVID-19 - Maps</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -280,7 +280,10 @@ $(document).ready(function () {
   <a href="index.html">About</a>
 </li>
 <li>
-  <a href="data.html">Epidemic Data, Curves &amp; Maps</a>
+  <a href="tracker.html">Case &amp; Fatality Tracker</a>
+</li>
+<li>
+  <a href="maps.html">Epidemic Maps</a>
 </li>
 <li>
   <a href="nowcast.html">US Nowcast</a>
@@ -316,6 +319,9 @@ $(document).ready(function () {
   <a href="mass_testing.html">Effect of Mass Testing</a>
 </li>
 <li>
+  <a href="data.html">Data Sources</a>
+</li>
+<li>
   <a href="news.html">News</a>
 </li>
       </ul>
@@ -330,56 +336,59 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">2019 Coronavirus Tracker - Data</h1>
+<h1 class="title toc-ignore">CEID COVID-19 - Maps</h1>
 
 </div>
 
 
 <p id="disclaimer">
 </p>
-<div id="data-summary" class="section level2 tabset tabset-fade">
-<h2>Data Summary</h2>
-<div id="epidemic-maps" class="section level3 tabset tabset-fade">
-<h3>Epidemic Maps</h3>
-<div id="epidemic-map---china" class="section level4">
-<h4>Epidemic Map - China</h4>
-<iframe src="nCov-Mapping-China-Web-Summary.html" width="672" height="400px" id="nCov-Mapping-China-Web-Summary" scrolling="no" width="100%">
-</iframe>
-<script>iFrameResize({ log: false }, '#nCov-Mapping-China-Web-Summary')</script>
-</div>
-<div id="epidemic-map---world" class="section level4">
-<h4>Epidemic Map - World</h4>
-<iframe src="nCov-Mapping-World-Web-Summary.html" width="672" height="400px" id="nCov-Mapping-World-Web-Summary" scrolling="no" width="100%">
-</iframe>
-<script>iFrameResize({ log: false }, '#nCov-Mapping-World-Web-Summary')</script>
-</div>
-<div id="epidemic-map---us" class="section level4">
-<h4>Epidemic Map - US</h4>
-<iframe src="nCov-Mapping-US-Web-Summary.html" width="672" height="400px" id="nCov-Mapping-US-Web-Summary" scrolling="no" width="100%">
-</iframe>
-<script>iFrameResize({ log: false }, '#nCov-Mapping-US-Web-Summary')</script>
-</div>
-</div>
-<div id="epidemic-curves" class="section level3">
-<h3>Epidemic Curves</h3>
-<iframe src="epidemic-curves-web-summary.html" width="672" height="400px" id="epidemic-curves-web-summary" scrolling="no" width="80%">
-</iframe>
-<script>iFrameResize({ log: false }, '#epidemic-curves-web-summary')</script>
-</div>
-<div id="data-sources" class="section level3">
-<h3>Data Sources</h3>
-<p>These are the primary data resources being used by the CEID Coronavirus Working Group</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit#gid=0">Timeline of key events and case notifications by country</a> | Google sheet, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/1gTj4zFMfXRk92CCQAOwa04ZBhqJ4oSmQFm_nb8-YXbw/edit">Case notifications in China by province</a> | Google sheet, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/data/prefecture_master.csv?token=AD7PNRPAXQMS5ZSG6ENOMJ26K74G6">Case notifications in China by prefecture</a> | csv, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/data/prefecture_master_binary.csv?token=AD7PNRKJI4L22MWTZBOKL3S6K74TS">First date of infection for Chinese prefectures</a> | csv, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/1aK9Es7x6KReabBRkWiBbiSGsxSC37kPKD-qiPcD50hg/edit#gid=0">Interventions in China by prefecture</a> | Google sheet, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1525027375">Travel advisories</a> | Google sheet, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/10NYNf4UX7R_nNdM-jkbo7A5SGkB8sUVMIiqU7e_-miU/edit#gid=0">Case notifications in the US by state</a> | Google sheet, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br></p>
-</div>
-</div>
-<div id="supplemental-information" class="section level2">
-<h2>Supplemental Information</h2>
-<div class="container-frames">
-<!-- Supplemental information: [html]() -->
-<!-- Preprint: [download]() -->
+<div id="data-sources" class="section level2">
+<h2>Data Sources</h2>
+<p>CEID now maintains a public repository of datasets used in our COVID-19 projects. The datasets in the repository were compiled by members of the CEID COVID-19 working group. The data have been formated to be used ‘as-is’ and are updated often. Data sets were either created from html scraping or manually entered. In the case of the automated web scraping, the raw data and scripts are included.</p>
+Data are publicly available here:
 <p>
-<a href="https://github.com/CEIDatUGA/ncov-data-summary" target="_blank"> <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/> GitHub repository (private) </a>
+<a href="https://github.com/CEIDatUGA/COVID-19-DATA" target="_blank"> <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/> GitHub repository </a>
 </p>
+<div id="china-data" class="section level3">
+<h3>China data</h3>
+<ul>
+<li><em>China_casedata</em></li>
+<li><em>China_TA</em>: Travel advisories or restrictions within China.</li>
+<li><em>Hubei_Evacuation_Repatriation</em>: Reports of evacuations from Hubei province.</li>
+</ul>
+</div>
+<div id="us-data" class="section level3">
+<h3>US data</h3>
+<ul>
+<li><em>UScases_by_state_wikipedia.csv</em>: Number of new cases in a state by day.</li>
+<li><em>USfatalities_by_state_wikipedia.csv</em>: Number of new case fatalities in a state by day.</li>
+<li><em>us-state-intervention-data/stateInterventionTimeSeries.csv</em>: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily.</li>
+<li><em>us-state-intervention-data/longFormStateInterventions.csv</em>: Running summary of interventions at the state level taken from reports and wikipedia</li>
+</ul>
+</div>
+<div id="state-of-georgia-data" class="section level3">
+<h3>State of Georgia data</h3>
+<ul>
+<li><em>ga-county-intervention-data/countyInterventionTimeSeries.csv</em>: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily.</li>
+<li><em>ga-county-intervention-data/longFormCountyInterventions.csv</em>: Running summary of interventions at the state level taken from reports and wikipedia</li>
+</ul>
+</div>
+<div id="global-data" class="section level3">
+<h3>Global data</h3>
+<ul>
+<li><em>worldCases.csv</em>: Number of new cases in a country by day.</li>
+<li><em>Internation_TA</em>: Travel advisories announced by county.</li>
+<li><em>Global Health Security Index</em>: Index of epidemic preparedness and underlying data</li>
+<li><em>Epidemiological characteristics of COVID-19 and other zoonotics</em></li>
+<li><em>Canada COVID-19 Case Data</em>: Includes cases, fatalities, recovered, and tested for Canada</li>
+</ul>
+</div>
+</div>
+<div id="legacy-data" class="section level2">
+<h2>Legacy Data</h2>
+<p>Data resources used initually by the CEID Coronavirus Working Group include:</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit#gid=0">Timeline of key events and case notifications by country</a> | Google sheet, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/1gTj4zFMfXRk92CCQAOwa04ZBhqJ4oSmQFm_nb8-YXbw/edit">Case notifications in China by province</a> | Google sheet, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/data/prefecture_master.csv?token=AD7PNRPAXQMS5ZSG6ENOMJ26K74G6">Case notifications in China by prefecture</a> | csv, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/data/prefecture_master_binary.csv?token=AD7PNRKJI4L22MWTZBOKL3S6K74TS">First date of infection for Chinese prefectures</a> | csv, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/1aK9Es7x6KReabBRkWiBbiSGsxSC37kPKD-qiPcD50hg/edit#gid=0">Interventions in China by prefecture</a> | Google sheet, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1525027375">Travel advisories</a> | Google sheet, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/10NYNf4UX7R_nNdM-jkbo7A5SGkB8sUVMIiqU7e_-miU/edit#gid=0">Case notifications in the US by state</a> | Google sheet, updated daily, maintainer: <a href="http://ceid.uga.edu">CEID</a><br></p>
 </div>
 </div>
 
@@ -388,7 +397,7 @@ $(document).ready(function () {
 <footer class="container-fluid ceidfooter" id = "pageFooter">
 			<div class="row">
 				<div class='col-sm-6 col-md-4'>
-					<p><a href='https://ceid.uga.edu/' target='_blank'>
+					<p><a href='http://ceid.uga.edu/' target='_blank'>
 					<img src="images/Screen-CEID-H-FC.png" alt="Center for the Ecology of Infectious Diseases, University of Georgia"/></a></p>
           <p><small>Contact: <a href="mailto:jdrake@uga.edu">John M. Drake (jdrake@uga.edu)</a></small>
 						<!--

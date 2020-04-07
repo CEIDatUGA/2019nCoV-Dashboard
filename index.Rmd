@@ -1,5 +1,5 @@
 ---
-title: "2019 Coronavirus Tracker - About"
+title: "CEID COVID-19 - About"
 ---
 
 </div> <!-- container-fluid main-container -->
@@ -28,6 +28,10 @@ title: "2019 Coronavirus Tracker - About"
 <div class="row">
 <div class="col-sm-8">
 
+
+### New Tracker for Cases, Deaths and Hospitalizations
+
+The <a href="http://ceid.uga.edu" target="_blank">Center for the Ecology of Infectious Diseases (CEID)</a> and the <a href="https://publichealth.uga.edu" target="_blank">College of Public Health (CPH)</a> at UGA have created a [new interactive tracker](tracker.html) that allows users to track the spread of COVID-19 both in the US and worldwide. The tracker allows users to explore cases, hospitalizations, deaths and number of tests for every US state, as well as cases and deaths worldwide. Users can adjust the plots by choosing total or daily numbers, absolute or normalized values, and calendar date versus date since a certain number of cases occurred. The data comes from the Covid Tracking Project and the Johns Hopkins University Center for Systems Science and Engineering.
 
 ### Op-ed by CEID Director John Drake
 
@@ -64,7 +68,7 @@ The Working Group's **2019 Coronavirus Tracker** provides data-driven, informati
 
 <div class="col-sm-4">
 <div class="card mb-0">
-<a href="http://ceid.uga.edu/support/" target='_blank'>Support CEID</a>
+<!-- <a href="http://ceid.uga.edu/support/" target='_blank'>Support CEID</a> -->
 <div class="card-header">
 ### Latest News & Updates
 </div>
