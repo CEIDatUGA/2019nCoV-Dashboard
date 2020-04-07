@@ -58,33 +58,51 @@ html, body {
   clear:both;
 }
 
-@media (min-width: 576px) {
+@media only screen and (max-width: 275px) {
+  #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+    padding-top:45px;
+}
+}
+
+@media only screen and (min-width: 276px) {
+  #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+    padding-top:35px;
+}
+}
+
+@media only screen and (min-width: 376px) {
   #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:15px;
 }
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 576px) {
+  #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
+    padding-top:15px;
+}
+}
+
+@media only screen and (min-width: 768px) {
   #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:90px;
   }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
     padding-top:80px;
   }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:35px;
+    padding-top:65px;
   }
 }
 
-@media (min-width: 1500px) {
+@media only screen and (min-width: 1500px) {
   #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:35px;
+    padding-top:75px;
   }
 }
 
