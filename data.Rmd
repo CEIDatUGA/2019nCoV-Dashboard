@@ -54,4 +54,4 @@ Data resources used initually by the CEID Coronavirus Working Group include:
 [Travel advisories](https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1525027375) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
 [Case notifications in the US by state](https://docs.google.com/spreadsheets/d/10NYNf4UX7R_nNdM-jkbo7A5SGkB8sUVMIiqU7e_-miU/edit#gid=0) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
 
-</div>
+
