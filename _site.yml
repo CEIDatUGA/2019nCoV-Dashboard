@@ -1,46 +1,71 @@
 output_dir: '.'
 name: "CEID 2019 nCoV"
 navbar:
-  title: "CEID COVID-19 Portal"
+  title: "COVID-19 Portal&nbsp;&nbsp;|&nbsp;&nbsp;<small>Center for the Ecology of Infectious Diseases (CEID), University of Georgia</small>"
+#  title: "<img id=\"logo\" style=\"width: 30px;\" src=\"dog.gif\" />"
   left:
-    - text: "About"
+    - text: ""
+      icon: fa-home
       href: index.html
-    - text: "Case & Fatality Tracker"
+    - text: "Tracker (Cases, Fatalities, Hospitalizations)"
       href: tracker.html
-    - text: "Epidemic Maps"
+    - text: "Maps"
       href: maps.html
-    - text: "US Nowcast"
+    - text: "Nowcast"
       href: nowcast.html
 #    - text: "Speed of Spread"
 #      href: speed-of-spread.html
-    - text: "COVID-19 in Context"
-      href: context.html
-    - text: "Epidemic Characteristics"
-      href: parameters.html
-    - text: "R-effective outside China"
-      href: reff-outside.html
-    - text: "Stochastic Model (Wuhan)"
-      href: stochastic.html
-    - text: "Stochastic Model (Georgia)"
-      href: stochastic-GA.html
-    - text: "Probability of widespread transmission"
-      href: final-size.html
-    - text: "China Spatial Model"
-      href: spatial-china.html
+    - text: "Epidemic Characteristics in Context"
+      menu: 
+        - text: "COVID-19 in Context"
+          href: context.html
+        - text: "Epidemic Characteristics (Global & US)"
+          href: parameters.html
+        - text: "Effective Reproduction Number outside China"
+          href: reff-outside.html
+    - text: "Models & Research"
+      menu:
+#        - text: "Stochastic Models"
+        - text: "Stochastic Model for Wuhan (China)"
+          href: stochastic.html
+        - text: "Stochastic Model for Georgia (USA)"
+          href: stochastic-GA.html
+#        - text: "Spatial Models"
+        - text: "Spatial Model for China"
+          href: spatial-china.html
+        - text: "Probability of Widespread Transmission"
+          href: final-size.html
+        - text: "Effect of Early Intervention"
+          href: early-intervention.html
+        - text: "Effect of Mass Testing"
+          href: mass_testing.html
+#    - text: "Stochastic Model (Wuhan)"
+#      href: stochastic.html
+#    - text: "Stochastic Model (Georgia)"
+#      href: stochastic-GA.html
+#    - text: "Probability of Widespread Transmission"
+#      href: final-size.html
+#    - text: "China Spatial Model"
+#      href: spatial-china.html
 #    - text: "US Spatial Model"
 #      href: spatial-US.html
 #    - text: "World Import Risk"
 #      href: spatial-world.html
-    - text: "Effect of Early Intervention"
-      href: early-intervention.html
-    - text: "Effect of Mass Testing"
-      href: mass_testing.html
-    - text: "Data Sources"
-      href: data.html
+#    - text: "Effect of Early Intervention"
+#      href: early-intervention.html
+#    - text: "Effect of Mass Testing"
+#      href: mass_testing.html
     - text: "News"
       href: news.html
-#    - text: "Test"
-#      href: test.html
+    - text: "Data"
+      href: data.html
+#    - text: "About"
+#      href: about.html
+  right:
+#    - text: "<img id=\"logo\" style=\"width: 30px;\" src=\"dog.gif\" />"
+#    - text: "<a href=\"http://ceid.uga.edu/support/\" target=\"_blank\">Support CEID</a>"
+    - text: "Support CEID"
+      href: "http://ceid.uga.edu/support/"
 output:
   html_document:
     self_contained: false

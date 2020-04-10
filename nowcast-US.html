@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2020-04-08" />
+<meta name="date" content="2020-04-10" />
 
 <title>Nowcasting the current size of the COVID-19 outbreak in the United States</title>
 
@@ -1634,7 +1634,7 @@ summary {
 
 
 <h1 class="title toc-ignore">Nowcasting the current size of the COVID-19 outbreak in the United States</h1>
-<h4 class="date">April 08, 2020</h4>
+<h4 class="date">April 10, 2020</h4>
 
 </div>
 
@@ -1689,13 +1689,16 @@ summary {
 <p>Based on data from China, and correcting for demographics in Great Britain, Ferguson <em>et al.</em> estimated an Infection Fatality Rat (IFR) of 0.9% (95% CrI: 0.4%–1.4%)<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. To account for IFR, we multiply the fatalities by <span class="math inline">\(\frac{1}{0.9\%}\)</span> before simulating the line list of symptom onset times.</p>
 <p>The resulting estimates of latent and infectious individuals are intended to represent all unnotified cases.</p>
 <p>To find the time varying ascertainment rate for cases, we calculate the nowcast (sum of latent and symptomatic infections over time) from case notifications, and the nowcast from fatalities (corrected for IFR). The mean nowcast from uncorrected case reports divided by the mean npwcast from corrected fatalities gives the mean ascertainment rate. We also calculate upper and lower bounds for the ascertainment rate by comparing the upper and lower bounds of the two nowcasts. However, we only use the mean ascertainment rate to correct the final nowcast from case reports.</p>
-<!-- #### Effective reproductive number $R$ -->
-<!-- The effective reproductive number $R$ is the number of new secondary infections per infectious individual. If we consider only unnotified, symptomatic cases to be infectious, then at each time $t$, -->
-<!-- $$R_t = \frac{\frac{\Delta E_+}{\Delta t}}{I_t} \frac{1}{\gamma_t}$$ -->
-<!-- where $\frac{\Delta E_+}{\Delta t}$ is the number of individuals newly exposed over one day, ${I_t}$ is the total number of infectious individuals on day $t$, and $\frac{1}{\gamma_t}$ is the mean delay from symptom onset to case notification, which could be time varying. -->
-<!-- We calculate both $\frac{\Delta E_+}{\Delta t}$ and ${I_t}$ directly from the synthetic line list. $\frac{1}{\gamma_t}$ is estimated from US case data^[Analysis by the Center for the Ecology of Infectious Diseases of US. Parameters updated periodically. See supplemental information.]. -->
-<!-- As with the number of latent cases, we only have a good estimate of $\frac{\Delta E_+}{\Delta t}$ for times within 5.89 days (plus two standard deviations) of our last good estimate of the number of symptomatic individuals. We therefore forecast from that point forward to obtain an estimate of $R$ at times closer to the present. -->
-<!-- We can then use our estimate of $R$ or our forecast of $R$ to in turn forecast the number  -->
+<div id="effective-reproductive-number-r" class="section level4">
+<h4>Effective reproductive number <span class="math inline">\(R\)</span></h4>
+<p>The effective reproductive number <span class="math inline">\(R\)</span> is the number of new secondary infections per infectious individual. If we consider only unnotified, symptomatic cases to be infectious, then at each time <span class="math inline">\(t\)</span>,</p>
+<p><span class="math display">\[
+R_t = \frac{\frac{\Delta E_+}{\Delta t}}{I_t} \frac{1}{\gamma_t}
+\]</span> where <span class="math inline">\(\frac{\Delta E_+}{\Delta t}\)</span> is the number of individuals newly exposed over one day, <span class="math inline">\({I_t}\)</span> is the total number of infectious individuals on day <span class="math inline">\(t\)</span>, and <span class="math inline">\(\frac{1}{\gamma_t}\)</span> is the mean delay from symptom onset to case notification, which could be time varying.</p>
+<p>We calculate both <span class="math inline">\(\frac{\Delta E_+}{\Delta t}\)</span> and <span class="math inline">\({I_t}\)</span> directly from the synthetic line list. <span class="math inline">\(\frac{1}{\gamma_t}\)</span> is estimated from US case data<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
+<p>As with the number of latent cases, we only have a good estimate of <span class="math inline">\(\frac{\Delta E_+}{\Delta t}\)</span> for times within 5.89 days (plus two standard deviations) of our last good estimate of the number of symptomatic individuals. We therefore forecast from that point forward to obtain an estimate of <span class="math inline">\(R\)</span> at times closer to the present.</p>
+<!-- We can then use our estimate of $R$ or our forecast of $R$ to in turn forecast the number -->
+</div>
 </div>
 <div id="data-sources" class="section level3">
 <h3>Data sources</h3>
@@ -1716,6 +1719,7 @@ summary {
 <li id="fn2"><p>Analysis by the Center for the Ecology of Infectious Diseases of US. Parameters updated periodically. See supplemental information.<a href="#fnref2" class="footnote-back">↩</a></p></li>
 <li id="fn3"><p>Kenji Mizumoto, Gerardo Chowell. “Estimating the risk of 2019 Novel Coronavirus death during the course of the outbreak in China, 2020” medRxiv preprint. <a href="https://doi.org/10.1101/2020.02.19.20025163" class="uri">https://doi.org/10.1101/2020.02.19.20025163</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
 <li id="fn4"><p>Neil M Ferguson, <em>et al</em>. Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand. March 16, 2020, Imperial College COVID-19 Response Team. <a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf" class="uri">https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf</a><a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>Analysis by the Center for the Ecology of Infectious Diseases of US. Parameters updated periodically. See supplemental information.<a href="#fnref5" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
 

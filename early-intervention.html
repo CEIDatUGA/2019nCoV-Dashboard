@@ -22,6 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <meta name="description" content="The UGA Center for the Ecology of Infectious Diseases (CEID) Coronavirus tracker provides timely, data-driven situation awareness about the 2019 novel coronavirus outbreak." />
 
 <script type="text/javascript" src="js/iframeResizer.min.js"></script>
@@ -272,58 +274,82 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">CEID COVID-19 Portal</a>
+      <a class="navbar-brand" href="index.html">COVID-19 Portal&nbsp;&nbsp;|&nbsp;&nbsp;<small>Center for the Ecology of Infectious Diseases (CEID), University of Georgia</small></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">About</a>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    
+  </a>
 </li>
 <li>
-  <a href="tracker.html">Case &amp; Fatality Tracker</a>
+  <a href="tracker.html">Tracker (Cases, Fatalities, Hospitalizations)</a>
 </li>
 <li>
-  <a href="maps.html">Epidemic Maps</a>
+  <a href="maps.html">Maps</a>
 </li>
 <li>
-  <a href="nowcast.html">US Nowcast</a>
+  <a href="nowcast.html">Nowcast</a>
 </li>
-<li>
-  <a href="context.html">COVID-19 in Context</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Epidemic Characteristics in Context
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="context.html">COVID-19 in Context</a>
+    </li>
+    <li>
+      <a href="parameters.html">Epidemic Characteristics (Global &amp; US)</a>
+    </li>
+    <li>
+      <a href="reff-outside.html">Effective Reproduction Number outside China</a>
+    </li>
+  </ul>
 </li>
-<li>
-  <a href="parameters.html">Epidemic Characteristics</a>
-</li>
-<li>
-  <a href="reff-outside.html">R-effective outside China</a>
-</li>
-<li>
-  <a href="stochastic.html">Stochastic Model (Wuhan)</a>
-</li>
-<li>
-  <a href="stochastic-GA.html">Stochastic Model (Georgia)</a>
-</li>
-<li>
-  <a href="final-size.html">Probability of widespread transmission</a>
-</li>
-<li>
-  <a href="spatial-china.html">China Spatial Model</a>
-</li>
-<li>
-  <a href="early-intervention.html">Effect of Early Intervention</a>
-</li>
-<li>
-  <a href="mass_testing.html">Effect of Mass Testing</a>
-</li>
-<li>
-  <a href="data.html">Data Sources</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Models &amp; Research
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="stochastic.html">Stochastic Model for Wuhan (China)</a>
+    </li>
+    <li>
+      <a href="stochastic-GA.html">Stochastic Model for Georgia (USA)</a>
+    </li>
+    <li>
+      <a href="spatial-china.html">Spatial Model for China</a>
+    </li>
+    <li>
+      <a href="final-size.html">Probability of Widespread Transmission</a>
+    </li>
+    <li>
+      <a href="early-intervention.html">Effect of Early Intervention</a>
+    </li>
+    <li>
+      <a href="mass_testing.html">Effect of Mass Testing</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="news.html">News</a>
 </li>
+<li>
+  <a href="data.html">Data</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="http://ceid.uga.edu/support/">Support CEID</a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
