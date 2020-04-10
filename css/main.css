@@ -16,7 +16,10 @@ html, body {
 }
 
 
-
+#china-spatial-link-map-weights{
+  height:520px;
+  margin-bottom:67%;
+}
 
 
 /*.container-frames{
