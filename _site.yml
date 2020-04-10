@@ -4,8 +4,8 @@ navbar:
   title: "COVID-19 Portal&nbsp;&nbsp;|&nbsp;&nbsp;<small>Center for the Ecology of Infectious Diseases (CEID), University of Georgia</small>"
 #  title: "<img id=\"logo\" style=\"width: 30px;\" src=\"dog.gif\" />"
   left:
-    - text: ""
-      icon: fa-home
+    - text: "☗"
+#      icon: fa-home
       href: index.html
     - text: "Tracker (Cases, Fatalities, Hospitalizations)"
       href: tracker.html
