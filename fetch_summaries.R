@@ -70,7 +70,7 @@ fetch_and_fix(
 
 # Context
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4GCGBTZUIASRJ35YYC6UBRWM",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4FDO7FUZY5MB6EE5Z26UG2VO",
   destfile="context-web-summary.html"
 )
 
