@@ -151,12 +151,23 @@ iframe {
   height:32px;
 }
 
-/*edit the jumbotron to edit homepage image*/
+/*edit the jumbotron */
+
 .jumbotron {
-  background-image: url("../images/jumbotron_olympic.jpg");
   background-size: cover;
   color: #ffffffdd;
 }
+
+/*page specific jumbotrons */
+
+.aboutpagebanner{
+    background-image: url("../images/jumbotron_olympic.jpg");
+}
+
+.homepagebanner{
+  background-image: url("../images/jumbotron_olympic.jpg");
+}
+
 .jumbotron h1 {
   font-size: 2.5em;
 }
@@ -651,6 +662,16 @@ pre.r{
   padding: 0 5px 0 5px;
   line-height: 1.5;
 }
+.row-people{
+  padding-bottom:15px;
+}
+.card-img-top{
+  max-width:200px;
+}
+.card-body{
+    font-size: x-small;
+    line-height: 1;
+}
 
 figcaption{
   font-style: italic;
@@ -888,5 +909,6 @@ figcaption{
     display: inline-flex !important;
   }
 }
+
 
 /*end of bootstrap4 sytles*/
