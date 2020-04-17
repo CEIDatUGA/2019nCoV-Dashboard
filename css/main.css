@@ -50,14 +50,17 @@ html, body {
   content:"The models and findings included in the UGA Center for the Ecology of Infectious Diseases COVID-19 Portal are intended to provide the public, policymakers, and the research community with data and perspectives on the coronavirus pandemic. The content posted to this site has been created using widely accepted professional and scientific standards but—in the interest of providing information quickly during a rapidly changing pandemic—it has not been peer reviewed. The models are updated regularly as new data become available and as our understanding of COVID-19 and SARS-CoV-2 evolves. Please exercise caution when interpreting the content on this website, as circumstances related to the pandemic vary at the national, state, and local levels.";
   font-size: .75em;
   color: #808080;
-  padding:.25em;
+}
+
+#disclaimer{
+    padding:.25em;
 }
 /*end disclaimer*/
 
 /*header styles*/
 
- #spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates,#supplemental-information{
-  padding-top:40px;
+#disclaimer, #header, #spatial-spread-of-2019-novel-coronavirus-in-china, #latest-news-and-updates, #supplemental-information{
+  padding-top:70px;
   clear:both;
 }
 
@@ -69,25 +72,25 @@ html, body {
 
 @media only screen and (min-width: 276px) {
   #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:35px;
+    padding-top:30px;
 }
 }
 
 @media only screen and (min-width: 376px) {
   #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:15px;
+    padding-top:30px;
 }
 }
 
 @media only screen and (min-width: 576px) {
   #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:15px;
+    padding-top:30px;
 }
 }
 
 @media only screen and (min-width: 768px) {
   #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:90px;
+    padding-top:80px;
   }
 }
 
@@ -99,13 +102,13 @@ html, body {
 
 @media only screen and (min-width: 1200px) {
   #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:65px;
+    padding-top:50px;
   }
 }
 
 @media only screen and (min-width: 1500px) {
   #disclaimer,#header,#spatial-spread-of-2019-novel-coronavirus-in-china,#latest-news-and-updates{
-    padding-top:75px;
+    padding-top:55px;
   }
 }
 
