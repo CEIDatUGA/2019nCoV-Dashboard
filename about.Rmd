@@ -1,0 +1,419 @@
+---
+title: "CEID COVID-19 - About"
+---
+
+
+</div> <!-- container-fluid main-container -->
+
+<div class="jumbotron jumbotron-fluid aboutpagebanner">
+<div class="container">
+  <h1 class="lead text-center breadcrumbs">About</h1>
+  </div>
+</div>
+
+<div class="container-fluid main-container"> <!-- container-fluid main-container -->
+
+
+
+
+
+<div class="row row-people">
+
+<div class="col-sm-4">
+<img class="card-img-top img-circle" src="images/people/Lewis-Bartlett.webp" alt="Lewis Bartlett">
+<div class="card-body">
+  <h2 class="card-title name">Lewis Bartlett</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="departmentSchool1">Center for the Ecology of Infectious Diseases</p>
+  <p class="position">Postdoctoral Associate</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/lewis-bartlett/"> more ></a>
+</div></div>
+
+
+<div class="col-sm-4">
+  <img class="card-img-top img-circle" src="images/people/Ana-Bento.webp" alt="Ana Bento">
+<div class="card-body">
+  <h2 class="card-title name">Ana Bento</h2>
+  <p class="Institution"> Assistant Professor </p>
+  <p class="position"> Indiana University, Bloomington</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://www.anabento.io/"> more ></a>
+</div></div>
+
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Rebecca-Borchering.webp" alt="Rebecca Borchering">
+<div class="card-body">
+  <h2 class="card-title name">Rebecca Borchering</h2>
+  <p class="Institution">Postdoctoral Associate</p>
+  <p class="position"> University of Georgia</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/rebecca-borchering/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row-->
+<div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/John-Drake.webp" alt="John Drake">
+<div class="card-body">
+  <h2 class="card-title name">John Drake</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="departmentSchool1">Center for the Ecology of Infectious Diseases</p>
+  <p class="position1">Director</p>
+  <p class="departmentSchool2">Odum School of Ecology</p>
+  <p class="position2">Distinguished Research Professor and Associate Dean for Academic Affairs</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+<a class="personal-website btn-sm btn-primary" href="https://daphnia.ecology.uga.edu/drakelab/" target="_blank"> more > </a>
+</div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Yang-Ge.webp" alt="Yang Ge">
+<div class="card-body">
+  <h2 class="card-title name">Yang Ge</h2>
+  <p class="Institution"> University of Georgia </p>
+  <p class="college">College of Public Health</p>
+  <p class="department">Epidemiology & Biostatistics</p>
+  <p class="position">Doctor of Philosophy (PhD) in Epidemiology & Biostatistics</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://publichealth.uga.edu/student/yang-ge/" target="_blank"> more > </a>
+</div></div>
+
+
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Handel-Andreas.webp" alt="Andreas Handel">
+<div class="card-body">
+  <h2 class="card-title name">Andreas Handel</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">College of Public Health</p>
+  <p class="department">Epidemiology & Biostatistics, Health Informatics Institute</p>
+  <p class="position">Associate Department Head and Graduate Coordinator <br> Associate Professor</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://www.andreashandel.com/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row-->
+<div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Drew-Kramer.webp" alt="Drew Kramer">
+<div class="card-body">
+  <h2 class="card-title name">Drew Kramer</h2>
+  <p class="Institution">University of South Florida</p>
+  <p class="department">Department of Integrative Biology</p>
+  <p class="position">Assistant Professor</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://kramera3.github.io/" target="_blank"> more > </a>
+</div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Kennedy-Culzean.webp" alt="Culzean Kennedy">
+<div class="card-body">
+  <h2 class="card-title name">Culzean Kennedy</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">MS in Comparative Biomedical Sciences</p>
+  <p class="position">Scientific Writing Intern</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="http://ceid.uga.edu/blog/2020/01/22/culzean-kennedy/" target="_blank"> more > </a>
+</div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Brian-McKay.webp"  alt="Brian McKay">
+<div class="card-body">
+  <h2 class="card-title name">Brian McKay</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">College of Public Health</p>
+  <p class="department">Epidemiology & Biostatistics</p>
+  <p class="position">Lecturer</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://publichealth.uga.edu/faculty-member/brian-k-mckay/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row-->
+<div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Eric-Marty.webp"  alt="Eric Marty">
+<div class="card-body">
+  <h2 class="card-title name">Éric Marty</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Center for the Ecology of Infectious Diseases</p>
+  <p class="position">Research Professional</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="http://www.ericmarty.com/" target="_blank"> more > </a>
+</div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Rachel-Mercaldo.webp"  alt="Rachel Mercaldo">
+<div class="card-body">
+  <h2 class="card-title name">Rachel Mercaldo</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">College of Public Health</p>
+  <p class="department">Epidemiology & Biostatistics</p>
+  <p class="position">PhD Student</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://handelgroup.uga.edu/" target="_blank"> more > </a>
+</div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Paige-Miller.webp"  alt="Paige Miller">
+<div class="card-body">
+  <h2 class="card-title name">Paige Miller</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">PhD Student</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/paige-miller/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row-->
+<div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Tierney-OSullivan_.webp"  alt="Tierney O'Sullivan">
+<div class="card-body">
+  <h2 class="card-title name">Tierney O'Sullivan</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Center for the Ecology of Infectious Diseases</p>
+  <p class="position">Staff Statistician</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://www.researchgate.net/profile/Tierney_Osullivan" target="_blank"> more > </a>
+</div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Chloe-Parker.webp" alt="Chloe Parker">
+<div class="card-body">
+  <h2 class="card-title name">Chloe Parker</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Center for the Ecology of Infectious Diseases</p>
+  <p class="position">Graphic Design Intern</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://chloeparker.myportfolio.com/" target="_blank"> more > </a>
+</div></div>
+
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Robbie-Richards.webp" alt="Robbie Richards">
+<div class="card-body">
+  <h2 class="card-title name">Robbie Richards</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">PhD Student</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="http://ezenwalab.uga.edu/people/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row1-->
+<div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Trippe-Ross.webp" alt="Trippe Ross">
+<div class="card-body">
+  <h2 class="card-title name">Trippe Ross</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Center for the Ecology of Infectious Diseases</p>
+  <p class="position">Administrative Specialist & Graduate Student (MPA)</p>
+</div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Kate-Sabey.webp" alt="Kate Sabey">
+<div class="card-body">
+  <h2 class="card-title name">Kate Sabey</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">College of Veterinary Medicine</p>
+  <p class="position">IDEAS PhD Student</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="http://ezenwalab.uga.edu/people/" target="_blank"> more > </a>
+</div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Liliana-Salvador.webp" alt="Liliana Salvador">
+<div class="card-body">
+  <h2 class="card-title name">Liliana Salvador</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">College of Veterinary Medicine</p>
+  <p class="department">Department of Infectious Diseases & Institute of Bioinformatics</p>
+  <p class="position">Assistant Professor</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://vet.uga.edu/person/liliana-salvador/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row-->
+<div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Cecilia-Sánchez.webp" alt="Cecilia-Sánchez">
+<div class="card-body">
+  <h2 class="card-title name">Cecilia Sánchez</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Center for the Ecology of Infectious Diseases</p>
+  <p class="position">Postdoctoral Associate</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://ceciliaasanchez.weebly.com/"> more ></a>
+</div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/JP-Schmidt.webp" alt="JP Schmidt">
+<div class="card-body">
+  <h2 class="card-title name">JP Schmidt</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">Lecturer</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/john-paul-schmidt/" target="_blank"> more > </a>
+</div></div>
+
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Patrick-Stephens.webp" alt="Patrick Stephens">
+<div class="card-body">
+  <h2 class="card-title name">Patrick Stephens</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">Associate Research Scientist</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://prstephens.ecology.uga.edu/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row-->
+<div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Chao-Song.webp" alt="Chao Song">
+<div class="card-body">
+  <h2 class="card-title name">Chao Song</h2>
+  <p class="Institution">Michigan State University</p>
+  <p class="position">Postdoctoral Associate</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://songchao1986.github.io/" target="_blank"> more > </a>
+</div></div>
+
+
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Daniel-Suh.webp"  alt="Daniel Suh">
+<div class="card-body">
+  <h2 class="card-title name">Daniel Suh</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">IDEAS PhD Student</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="http://parklab.ecology.uga.edu/" target="_blank"> more > </a>
+</div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Benjamin-Taylor.webp"  alt="Benjamin Taylor">
+<div class="card-body">
+  <h2 class="card-title name">Benjamin Taylor</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">Public Relations Specialist</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://sasakilab.ecology.uga.edu/people/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row-->
+<div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/David-Vasquez.webp"  alt="David Vasquez">
+<div class="card-body">
+  <h2 class="card-title name">David Vasquez</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">IDEAS PhD Student</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+<a class="personal-website btn-sm btn-primary" href="https://davidvasquezjr.wixsite.com/diseaseecology" target="_blank"> more > </a>
+</div></div>
+
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Joy-Vaz.webp"  alt="Joy Vaz">
+<div class="card-body">
+  <h2 class="card-title name">Joy Vaz</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">IDEAS PhD Student</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://daphnia.ecology.uga.edu/drakelab/" target="_blank"> more > </a>
+</div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Jessica-Wenclawiak.webp" alt="Jessica Wenclawiak">
+<div class="card-body">
+  <h2 class="card-title name">Jessica Wenclawiak</h2>
+<p class="Institution">University of Georgia</p>
+<p class="college">Center for the Ecology of Infectious Diseases</p>
+<p class="position">Scientific Writing Intern</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+<a class="personal-website btn-sm btn-primary" href="https://daphnia.ecology.uga.edu/drakelab/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row-->
+<div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Anna-Willoughby.webp" alt="Anna Willoughby">
+<div class="card-body">
+  <h2 class="card-title name">Anna Willoughby</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">IDEAS PhD Student</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+<a class="personal-website btn-sm btn-primary" href="https://daphnia.ecology.uga.edu/drakelab/" target="_blank"> more > </a>
+</div></div>
+
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Cali-Wilson.webp" alt="Cali Wilson">
+<div class="card-body">
+  <h2 class="card-title name">Cali Wilson</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">IDEAS PhD Student</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+<a class="personal-website btn-sm btn-primary" href="http://halllab.ecology.uga.edu/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row-->
+
+<!--End of People -->
+
+
+
+
+
+## New Tracker for Cases, Deaths and Hospitalizations
+
+The <a href="http://ceid.uga.edu" target="_blank">Center for the Ecology of Infectious Diseases (CEID)</a> and the <a href="https://publichealth.uga.edu" target="_blank">College of Public Health (CPH)</a> at UGA have created a [new interactive tracker](tracker.html) that allows users to track the spread of COVID-19 both in the US and worldwide. The tracker allows users to explore cases, hospitalizations, deaths and number of tests for every US state, as well as cases and deaths worldwide. Users can adjust the plots by choosing total or daily numbers, absolute or normalized values, and calendar date versus date since a certain number of cases occurred. The data comes from the Covid Tracking Project and the Johns Hopkins University Center for Systems Science and Engineering.
+
+## Op-ed by CEID Director John Drake
+
+**Dr. John Drake urges swift, decisive action to curb spread of COVID-19.**
+
+In an op-ed in the *Atlanta Journal-Constitution*, CEID Director Dr. John Drake has called for immediate and decisive intervention to slow the spread of COVID-19.  Based on a study of government intervention in China following the initial outbreak of COVID-19 in Wuhan, CEID researchers found a very strong correlation (90%) between how early a major intervention was imposed in a province and the ultimate severity of the outbreak there. The results show that early action yields critical gains, with every delay of 3.8 days leading to a tenfold increase in cases. 
+
+<a href="https://www.ajc.com/news/opinion/opinion-now-the-time-act-coronavirus/AwELZ1Fm9GMZVJsW6rsHJL/" target="_blank">Opinion: Now’s the time to act on coronavirus.</a> Guest column. *Atlanta Journal-Constitution,* March 13, 2020
+
+## COVID-19 Global Pandemic
+
+On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (SARS-CoV-2) in Wuhan, China. In the first weeks of January 2020, the viral disease (COVID-19) caused by SARS-CoV-2 spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On January 21, 2020, the CDC activated its emergency response system. On March 11, the WHO declared a global pandemic.
+
+## 2019 Coronavirus Tracker
+
+Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the [The Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) at the University of Georgia formed the **Coronavirus Working Group**, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.
+
+The Working Group's **2019 Coronavirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **COVID-19**. Activities include:
+
+* Mapping the spatial spread of COVID-19 within China and abroad
+* Developing models for understanding the early stages of transmission and extrapolation to future events
+* Estimating key parameters related to transmission
+* Compiling clinical and epidemiological information to aid in the development and interpretation of model outputs as well as understanding of events as they are observed
+* Assessing the effectiveness of public health interventions on containment
+
+## The Center for the Ecology of Infectious Diseases
+
+<a href="http://ceid.uga.edu" target="_blank">The Center for the Ecology of Infectious Diseases (CEID)</a> is a research unit housed in the Odum School of Ecology at the University of Georgia. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.
+
