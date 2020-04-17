@@ -666,47 +666,47 @@ figcaption{
 
 @media only screen and (max-width: 270px) {
   #nCov-tracker{
-    height:2450px;
+    height:2900px;
 }
 }
 
 @media only screen and (min-width: 300px) {
   #nCov-tracker{
-    height:2275px;
+    height:2675px;
 }
 }
 
 
 @media only screen and (min-width: 400px) {
   #nCov-tracker{
-    height:2150px;
+    height:2400px;
 }
 }
 
 
 @media only screen and (min-width: 600px) {
   #nCov-tracker{
-    height:2020px;
+    height:2200px:
 }
 }
 
 
 @media only screen and (min-width: 768px) {
   #nCov-tracker{
-    height:1980px;
+    height:2200px;
 }
 }
 
 
 @media only screen and (min-width: 992px) {#nCov-tracker{
-    height:1200px;
+    height:1400px;
 }
 }
 
 
 @media only screen and (min-width: 1200px) {
   #nCov-tracker{
-    height:1300px;
+    height:1400px;
 }
 }
 
