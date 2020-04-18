@@ -4,10 +4,19 @@ title: "CEID COVID-19 - About"
 
 </div> <!-- container-fluid main-container -->
 
+<div class="jumbotron homepagebanner jumbotron-fluid">
+<div class="container">
+  <!--<h1 class="display-3"></h1>-->
+  <p class="display-3"><strong>The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID-19 pandemic.</strong></p>
+  <h2 class="lead">The UGA Center for the Ecology of Infectious Diseases [(CEID)](http://ceid.uga.edu)<br><strong>Coronavirus&nbsp;Working&nbsp;Group</strong></h2>
+  <a class="btn btn-primary btn-lg" href="news.html" role="button">Updates</a>
+  </p>
+</div>
+</div>
+
 <div class="jumbotron jumbotron-fluid">
 <div class="container">
   <!--<h1 class="display-3"></h1>-->
-  <h1 class="lead">The UGA Center for the Ecology of Infectious Diseases [(CEID)](http://ceid.uga.edu)<br><strong>Coronavirus Working Group</strong></h2>
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="USnowcast_plot.html" allowtransparency="true"></iframe>
 </div>
@@ -17,7 +26,6 @@ title: "CEID COVID-19 - About"
   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
   <p class="lead">
   -->
-    <a class="btn btn-primary btn-lg" href="news.html" role="button">Updates</a>
   </p>
 </div>
 </div>

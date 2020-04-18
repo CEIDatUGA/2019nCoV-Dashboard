@@ -2,6 +2,8 @@
 title: "2019 Coronavirus Tracker - Epidemic Characteristics"
 ---
 <p id="disclaimer"></p>
+Identifying the key processes that shape transmission of the novel coronavirus, SARS-CoV-2, is critically important to improving our understanding of the COVID-19 pandemic and society’s ability to manage it. This section provides estimates of key variables, known as "epidemic characteristics", supported by analysis of data from the U.S., China, and the world.
+
 ## {.tabset .tabset-fade}
 
 ### Global Parameters

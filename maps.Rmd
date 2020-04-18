@@ -4,6 +4,8 @@ title: "CEID COVID-19 - Maps"
 
 
 <p id="disclaimer"></p>
+The maps below visualize the spatial spread of the novel coronavirus pandemic through time. Click "Play" to animate the visualization, or choose a specific date using the slider. Zoom in with two fingers on a touch pad.
+
 ## Epidemic Maps {.tabset .tabset-fade}
 
 ### Epidemic Map - World

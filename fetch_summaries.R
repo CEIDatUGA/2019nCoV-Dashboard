@@ -30,7 +30,7 @@ fetch_and_fix(
 
 # Data Summary - China
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-US-Web-Summary.html?token=ADVPF4HGQUFMHYZZFAER63S6UBRNS",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China-Web-Summary.html?token=ADVPF4ESLA56RLFVOYLGB5S6UMFOO",
   destfile="nCov-Mapping-China-Web-Summary.html"
 )
 

@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2020-04-17" />
+<meta name="date" content="2020-04-18" />
 
 <title>Nowcasting the current size of the COVID-19 outbreak in the United States</title>
 
@@ -1634,7 +1634,7 @@ summary {
 
 
 <h1 class="title toc-ignore">Nowcasting the current size of the COVID-19 outbreak in the United States</h1>
-<h4 class="date">April 17, 2020</h4>
+<h4 class="date">April 18, 2020</h4>
 
 </div>
 
@@ -1645,7 +1645,7 @@ summary {
 <h2></h2>
 <div id="nowcast-overview" class="section level3">
 <h3>Nowcast overview</h3>
-<p><strong>At any given time, most COVID-19 cases are circulating in the community and not known to us.</strong> This means it is difficult to estimating the total number of infected individuals.</p>
+<p><strong>At any given time, most COVID-19 cases are circulating in the community and not known to us.</strong> This means it is difficult to estimate the total number of infected individuals.</p>
 <p>We would like to know the following things for any given point in time up to the present:</p>
 <ul>
 <li>the number of unnotified symptomatic SARS-CoV2 infections at any given time;</li>
@@ -1653,7 +1653,7 @@ summary {
 <li>the total number of unnotified SARS-CoV2 infections at any given time;</li>
 <li>the cumulative number of SARS-CoV2 infections since the beginning of the epidemic.</li>
 </ul>
-<p>These pieces of information constitute our <strong>nowcast</strong>.</p>
+<p>These pieces of information constitute our <strong>Nowcast</strong>.</p>
 <p>Here we detail a method for accomplishing this from two sources of data:</p>
 <ul>
 <li><strong>new case reports</strong> (the number of newly confirmed cases on a given day), or</li>
@@ -1661,13 +1661,13 @@ summary {
 </ul>
 <div id="estimating-from-case-reports-informed-by-an-estimate-from-fatalities" class="section level4">
 <h4>Estimating from case reports, informed by an estimate from fatalities</h4>
-<p>Case reports do not include infected persons who are symptomatic but not yet diagnosed, nor individuals with latent infections (those who cary the virus but are not <em>yet</em> symptomatic). If testing were perfect and universal, we would detect 100% of cases. In reality, we miss many of the cases because of imperfect surveillance. The ratio of detected cases to the true number of cases is the <strong>ascertainment rate</strong>, which can vary over time. The <strong>ascertainment rate</strong> tells us how many infections we don’t know about compared with those we do know about.</p>
-<p>If we know the ascertainment rate, as well as the distribution of times from infection to symptom onset and from symtom onset to case reporting, we can use case reports to estimate infection times for those cases. That gives us information about the number of latent and symptomatic infections present at some point in the past. We can forecast those curves from that point in the past up to the present to derive an estimate of the number of infections present now. This is the “nowcast.”</p>
-<p>To estimate the size of the outbreak at any given time from case reports, we first adjust the number of new cases for ascertainment rate, then estimate the number of symptomatic and latent infections in the community from the adjusted new case count. The estimates of symptomatic and latent infections are only valid some time before the present, so we forecast from that point to the present. At any time, the sum of sympotmatic and latent infections is our estimate of the total number of unnotified individuals currently infected with SARS-CoV2.</p>
-<p>To find the ascertainment rate, we reasoned that fatal cases are much less likely to be overlooked than non-fatal cases (particularly asymptomatic cases and cases with mild symtoms). The ascertainment rate for fatalities can be asumed to be very high, since individuals who die with COVID-19 like symptoms will inevitiably be tested, either during hospitalization or post-mortem. For simplification, we assume the ascertainment rate for fatalities is 100%. We construct a nowcast starting from reports of fatalities instead of cases, using the distribution of time from symtpom onset to death instead of symptom onset to case reporting. Nowcasting from fatalities does not require a correction for ascertainment, but does require knowledge about the infection fatality rate (IFR), known with a reasonable degree of precision to be around 0.9%. By comparing the total number of infections in the US estimated from case reports (without correction) to the total number of infections in the US estimated from fatalities, we can determine the ascertainment rate for case reports for the US. We can now go back and correct our nowcast from case reports by the ascertainment rate to produce a more accurate nowcast. We can apply the same correction to the nowcast from states, even if the state has few or no fatalities.</p>
+<p>Case reports do not include infected persons who are symptomatic but not yet diagnosed, nor individuals with latent infections (those who carry the virus but are not <em>yet</em> symptomatic). If testing were perfect and universal, we would detect 100% of cases. In reality, we miss many because of imperfect surveillance. The ratio of detected cases to the true number of cases is the <strong>ascertainment rate</strong>, which can vary over time. The <strong>ascertainment rate</strong> is the ratio of .</p>
+<p>If we know the ascertainment rate, as well as the distribution of times from infection to symptom onset and from symptom onset to case reporting, we can use case reports to estimate infection times for those cases. That gives us information about the number of latent and symptomatic infections present at some point in the past. We can forecast those curves from that point in the past up to the present to derive an estimate of the number of infections present now. This is the “Nowcast.”</p>
+<p>To estimate the size of the outbreak at any given time from case reports, we first adjust the number of new cases for ascertainment rate, then estimate the number of symptomatic and latent infections in the community from the adjusted new case count. The estimates of symptomatic and latent infections are only valid some time before the present, so we forecast from that point to the present. At any time, the sum of symptomatic and latent infections is our estimate of the total number of unnotified individuals currently infected with SARS-CoV2.</p>
+<p>To find the ascertainment rate, we reasoned that fatal cases are much less likely to be overlooked than non-fatal cases (particularly asymptomatic cases and cases with mild symptoms). The ascertainment rate for fatalities can be assumed to be very high, since individuals who die with COVID-19 like symptoms will inevitably be tested, either during hospitalization or post-mortem. For simplification, we assume the ascertainment rate for fatalities is 100%. We construct a nowcast starting from reports of fatalities instead of cases, using the distribution of time from symptom onset to death instead of symptom onset to case reporting. Nowcasting from fatalities does not require a correction for ascertainment, but does require knowledge about the infection fatality rate (IFR), known with a reasonable degree of precision to be around 0.9%. By comparing the total number of infections in the U.S. estimated from case reports (without correction) to the total number of infections in the U.S. estimated from fatalities, we can determine the ascertainment rate for case reports for the U.S. We can now go back and correct our nowcast from case reports by the ascertainment rate to produce a more accurate nowcast. We can apply the same correction to the Nowcast from states, even if the state has few or no fatalities.</p>
 </div>
 <div id="why-not-simply-nowcast-from-fatalities" class="section level4">
-<h4>Why not simply nowcast from fatalities?</h4>
+<h4>Why not simply Nowcast from fatalities?</h4>
 <p>Although we consider reports of fatalities to be more <em>accurate</em> than case reports, we consider case reports to be more <em>sensitive</em> to changes in infection rate that may arise due to social distancing and other interventions. This is in part because the average time delay from infection to death is much greater than the delay from infection to case reporting, so changes in the trends show up in case reports first. By correcting case reports by ascertainment rate informed by fatalities, we hope to combine the advantages of both sources of data.</p>
 </div>
 <div id="forecasting-method" class="section level4">
@@ -1677,34 +1677,34 @@ summary {
 </div>
 <div id="algorithm-details" class="section level3">
 <h3>Algorithm details</h3>
-<p>From <strong>case notification reports</strong> (the number of newly confirmed cases on each day), we use Monte Carlo simulation and estimated probability distributions to construct a synthetic <strong>line list</strong> of symptom onset times for all cases that are eventually notified. The average <strong>delay from symptom onset to case notification</strong> for the US is 5.95 days<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. Simulated symtom onset times are distributed according to a gamma distribution with a mean of 5.95 days before case notification (shape parameter: 2.2788163).</p>
-<p>A second simulation generates synthetic exposure dates for each infected individual. The average <strong>incubation period</strong> for the US is 5.89 days<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Individual simulated exposure times are distributed according to a gamma distribution with a mean of 5.89 days before symptom onset (shape parameter: 2.4265511).</p>
+<p>From <strong>case notification reports</strong> (the number of newly confirmed cases on each day), we use Monte Carlo simulation and estimated probability distributions to construct a synthetic <strong>line list</strong> of symptom onset times for all cases that are eventually notified. The average <strong>delay from symptom onset to case notification</strong> for the U.S. is 5.95 days<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. Simulated symptom onset times are distributed according to a gamma distribution with a mean of 5.95 days before case notification (shape parameter: 2.2788163).</p>
+<p>A second simulation generates synthetic exposure dates for each infected individual. The average <strong>incubation period</strong> for the U.S. is 5.89 days<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. Individual simulated exposure times are distributed according to a gamma distribution with a mean of 5.89 days before symptom onset (shape parameter: 2.4265511).</p>
 <p>Now we have a synthetic line list that generates the observed number of case notifications and includes exposure date, symptom onset date, and notification date.</p>
-<p>From the line list, we tally the <strong>number of individuals with latent infections</strong> on each date to produce a curve of the number of latent cases in the community. We do the same to find the <strong>number of individuals symptomatic infections</strong> on each date.</p>
+<p>From the line list, we tally the <strong>number of individuals with latent infections</strong> on each date to produce a curve of the number of latent cases in the community. We do the same to find the <strong>number of individuals with symptomatic infections</strong> on each date.</p>
 <!-- Based on testing of passengers on the Princess Cruises ship in Yokohama, Japan, Mizumoto *et al.* estimated that the **proportion of cases that are asymptomatic** is 34.6% (95% CrI: 29.4%–39.8%)^[Kenji Mizumoto, *et al*. Estimating the Asymptomatic Ratio of 2019 Novel Coronavirus onboard the Princess Cruises Ship, 2020. medRxiv preprint. <https://doi.org/10.1101/2020.02.20.20025866>]. We assume asymptomatic cases are never detected. To account for these, we multiply both the number of symptomatic cases and the number of latent cases by $\frac{1}{34.6\%}$.  -->
-<p>Since the symptom onsets occur on average 5.95 days before reporting, we are only sure to have an accurate estimate for the number of symptomatic individuals at some time prior to the present. We therefore discard estimates for the last several days (5.95 days plus a margin of 2 standard deviations), and use statistical forecasting to extrapolate from the observed trajectory of symptomatic cases to the present time. This is the “nowcast” of symptomatic individuals.</p>
-<p>We repeat the process for latent cases, discarding values for times within 5.89 days (plus two standard deviations) of the last good estimate of symptomatic individuals, and forecasting to the present. The is the “nowcast” of latent individuals.</p>
+<p>Since the symptom onsets occur on average 5.95 days before reporting, we are only sure to have an accurate estimate for the number of symptomatic individuals at some time prior to the present. We therefore discard estimates for the last several days (5.95 days plus a margin of 2 standard deviations), and use statistical forecasting to extrapolate from the observed trajectory of symptomatic cases to the present time. This is the “Nowcast” of symptomatic individuals.</p>
+<p>We repeat the process for latent cases, discarding values for times within 5.89 days (plus two standard deviations) of the last good estimate of symptomatic individuals, and forecasting to the present. The is the “Nowcast” of latent individuals.</p>
 <p>The sum of the latent and symptomatic cases at any time provides an estimate of total number of cases (including asymptomatic and unnotified) cases.</p>
 <p>From <strong>fatality reports</strong> (the number of newly reported deaths on each day), we use Monte Carlo simulation and estimated probability distributions to construct a synthetic <strong>line list</strong> of symptom onset times for all cases that are eventually notified. The average <strong>delay from symptom onset to death</strong>, estimated from data in the China outbreak outside Hubei, is 16 days<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>. Individual simulated symptom onset times are distributed according to a gamma distribution with a mean of 16 (shape parameter = 4).</p>
 <p>Based on data from China, and correcting for demographics in Great Britain, Ferguson <em>et al.</em> estimated an Infection Fatality Rat (IFR) of 0.9% (95% CrI: 0.4%–1.4%)<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. To account for IFR, we multiply the fatalities by <span class="math inline">\(\frac{1}{0.9\%}\)</span> before simulating the line list of symptom onset times.</p>
 <p>The resulting estimates of latent and infectious individuals are intended to represent all unnotified cases.</p>
-<p>To find the time varying ascertainment rate for cases, we calculate the nowcast (sum of latent and symptomatic infections over time) from case notifications, and the nowcast from fatalities (corrected for IFR). The mean nowcast from uncorrected case reports divided by the mean npwcast from corrected fatalities gives the mean ascertainment rate. We also calculate upper and lower bounds for the ascertainment rate by comparing the upper and lower bounds of the two nowcasts. However, we only use the mean ascertainment rate to correct the final nowcast from case reports.</p>
+<p>To find the time varying ascertainment rate for cases, we calculate the Nowcast (sum of latent and symptomatic infections over time) from case notifications, and the Nowcast from fatalities (corrected for IFR). The mean Nowcast from uncorrected case reports divided by the mean Nowcast from corrected fatalities gives the mean ascertainment rate. We also calculate upper and lower bounds for the ascertainment rate by comparing the upper and lower bounds of the two Nowcasts. However, we only use the mean ascertainment rate to correct the final Nowcast from case reports.</p>
 <div id="effective-reproductive-number-r" class="section level4">
 <h4>Effective reproductive number <span class="math inline">\(R\)</span></h4>
 <p>The effective reproductive number <span class="math inline">\(R\)</span> is the number of new secondary infections per infectious individual. If we consider only unnotified, symptomatic cases to be infectious, then at each time <span class="math inline">\(t\)</span>,</p>
 <p><span class="math display">\[
 R_t = \frac{\frac{\Delta E_+}{\Delta t}}{I_t} \frac{1}{\gamma_t}
 \]</span> where <span class="math inline">\(\frac{\Delta E_+}{\Delta t}\)</span> is the number of individuals newly exposed over one day, <span class="math inline">\({I_t}\)</span> is the total number of infectious individuals on day <span class="math inline">\(t\)</span>, and <span class="math inline">\(\frac{1}{\gamma_t}\)</span> is the mean delay from symptom onset to case notification, which could be time varying.</p>
-<p>We calculate both <span class="math inline">\(\frac{\Delta E_+}{\Delta t}\)</span> and <span class="math inline">\({I_t}\)</span> directly from the synthetic line list. <span class="math inline">\(\frac{1}{\gamma_t}\)</span> is estimated from US case data<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
+<p>We calculate both <span class="math inline">\(\frac{\Delta E_+}{\Delta t}\)</span> and <span class="math inline">\({I_t}\)</span> directly from the synthetic line list. <span class="math inline">\(\frac{1}{\gamma_t}\)</span> is estimated from U.S. case data<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
 <p>As with the number of latent cases, we only have a good estimate of <span class="math inline">\(\frac{\Delta E_+}{\Delta t}\)</span> for times within 5.89 days (plus two standard deviations) of our last good estimate of the number of symptomatic individuals. We therefore forecast from that point forward to obtain an estimate of <span class="math inline">\(R\)</span> at times closer to the present.</p>
 <!-- We can then use our estimate of $R$ or our forecast of $R$ to in turn forecast the number -->
 </div>
 </div>
 <div id="data-sources" class="section level3">
 <h3>Data sources</h3>
-<p><strong>US case and fatailty reports by state</strong></p>
-<p>We compile daily case and fatality reports for US states and territories from <a href="https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases" class="uri">https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases</a>, which is updated by anonymous contributors.</p>
-<p>Data from the wikipedia tables are downloaded and cleaned daily and made publicaly available in CSV format at <a href="https://github.com/CEIDatUGA/COVID-19-DATA" target="_blank"><a href="https://github.com/CEIDatUGA/COVID-19-DATA" class="uri">https://github.com/CEIDatUGA/COVID-19-DATA</a>&lt;&gt;</p>
+<p><strong>U.S. case and fatality reports by state</strong></p>
+<p>We compile daily case and fatality reports for U.S. states and territories from <a href="https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases" class="uri">https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases</a>, which is updated by anonymous contributors.</p>
+<p>Data from the Wikipedia tables are downloaded and cleaned daily and made publicly available in CSV format at <a href="https://github.com/CEIDatUGA/COVID-19-DATA" target="_blank">https://github.com/CEIDatUGA/COVID-19-DATA</a></p>
 <!-- **Fatalities by Country** -->
 <!-- Country level fatality data are maintained by [CEID](http://ceid.uga.edu) and available -->
 <!-- [here](https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit#gid=219891324) on the tab called "Cumulative fatalities reported by country." -->
@@ -1716,10 +1716,10 @@ R_t = \frac{\frac{\Delta E_+}{\Delta t}}{I_t} \frac{1}{\gamma_t}
 <hr />
 <ol>
 <li id="fn1"><p>Analysis by the Center for the Ecology of Infectious Diseases of US data. Parameters updated periodically. See supplemental information.<a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>Analysis by the Center for the Ecology of Infectious Diseases of US. Parameters updated periodically. See supplemental information.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Analysis by the Center for the Ecology of Infectious Diseases of U.S. data. Parameters updated periodically. See supplemental information.<a href="#fnref2" class="footnote-back">↩</a></p></li>
 <li id="fn3"><p>Kenji Mizumoto, Gerardo Chowell. “Estimating the risk of 2019 Novel Coronavirus death during the course of the outbreak in China, 2020” medRxiv preprint. <a href="https://doi.org/10.1101/2020.02.19.20025163" class="uri">https://doi.org/10.1101/2020.02.19.20025163</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
 <li id="fn4"><p>Neil M Ferguson, <em>et al</em>. Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand. March 16, 2020, Imperial College COVID-19 Response Team. <a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf" class="uri">https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf</a><a href="#fnref4" class="footnote-back">↩</a></p></li>
-<li id="fn5"><p>Analysis by the Center for the Ecology of Infectious Diseases of US. Parameters updated periodically. See supplemental information.<a href="#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>Analysis by the Center for the Ecology of Infectious Diseases of U.S. data. Parameters updated periodically. See supplemental information.<a href="#fnref5" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
 
