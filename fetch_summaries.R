@@ -76,17 +76,17 @@ fetch_and_fix(
 
 # Epidemic Characteristics
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4EUUJBL4LZ42AELWR26TROR4",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4D7RGCFVBZXNOCGWIK6U3KIO",
   destfile="parameters-web-summary.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4H3S7DRSXQOZ5KIDC26TROUS",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4ASG2KXGUVXAETAGOK6U3KLE",
   destfile="parameters-supplement.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/parameters-US.html?token=ADVPF4HTLYC2VZOIZQT4OHC6TROXE",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/parameters-US.html?token=ADVPF4AYUMBXUAX3JRTZW6S6U3KMQ",
   destfile="parameters-US.html"
 )
 
