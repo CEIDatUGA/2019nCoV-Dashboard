@@ -162,11 +162,11 @@ iframe {
 /*page specific jumbotrons */
 
 .aboutpagebanner{
-    background-image: url("../images/jumbotron_olympic.jpg");
+    background-image: url("../images/about_olympic.jpg");
 }
 
 .homepagebanner{
-  background-image: url("../images/jumbotron_olympic.jpg");
+  background-image: url("../images/home_olympic.jpg");
 }
 
 .jumbotron h1 {

@@ -7,7 +7,7 @@ title: "CEID COVID-19 - Home"
 <div class="jumbotron homepagebanner jumbotron-fluid">
 <div class="container">
   <!--<h1 class="display-3"></h1>-->
-  <p class="display-3"><strong>The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID-19 pandemic.</strong></p>
+  <h2 class="lead">The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID-19 pandemic.</h2>
   <h2 class="lead">The UGA Center for the Ecology of Infectious Diseases [(CEID)](http://ceid.uga.edu)<br><strong>Coronavirus&nbsp;Working&nbsp;Group</strong></h2>
   <a class="btn btn-primary btn-lg" href="#news" role="button">News &amp; Updates</a>
   </p>
