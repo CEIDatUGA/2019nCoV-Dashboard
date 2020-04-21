@@ -36,7 +36,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <div class="row row-people">
 
 <div class="col-sm-4">
-<img class="card-img-top img-circle" src="images/people/Lewis-Bartlett.webp" alt="Lewis Bartlett">
+<img class="card-img-top img-circle" src="images/people/Lewis-Bartlett.jpg" alt="Lewis Bartlett">
 <div class="card-body">
   <h2 class="card-title name">Lewis Bartlett</h2>
   <p class="Institution">University of Georgia</p>
@@ -48,7 +48,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 
 
 <div class="col-sm-4">
-  <img class="card-img-top img-circle" src="images/people/Ana-Bento.webp" alt="Ana Bento">
+  <img class="card-img-top img-circle" src="images/people/Ana-Bento.jpg" alt="Ana Bento">
 <div class="card-body">
   <h2 class="card-title name">Ana Bento</h2>
   <p class="Institution"> Assistant Professor </p>
@@ -59,7 +59,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Rebecca-Borchering.webp" alt="Rebecca Borchering">
+  <img class="card-img-top img-circle" src="images/people/Rebecca-Borchering.jpg" alt="Rebecca Borchering">
 <div class="card-body">
   <h2 class="card-title name">Rebecca Borchering</h2>
   <p class="Institution">Postdoctoral Associate</p>
@@ -72,7 +72,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <div class="row row-people">
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/John-Drake.webp" alt="John Drake">
+  <img class="card-img-top img-circle" src="images/people/John-Drake.jpg" alt="John Drake">
 <div class="card-body">
   <h2 class="card-title name">John Drake</h2>
   <p class="Institution">University of Georgia</p>
@@ -85,7 +85,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Yang-Ge.webp" alt="Yang Ge">
+  <img class="card-img-top img-circle" src="images/people/Yang-Ge.jpg" alt="Yang Ge">
 <div class="card-body">
   <h2 class="card-title name">Yang Ge</h2>
   <p class="Institution"> University of Georgia </p>
@@ -99,7 +99,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Handel-Andreas.webp" alt="Andreas Handel">
+  <img class="card-img-top img-circle" src="images/people/Handel-Andreas.jpg" alt="Andreas Handel">
 <div class="card-body">
   <h2 class="card-title name">Andreas Handel</h2>
   <p class="Institution">University of Georgia</p>
@@ -114,7 +114,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <div class="row row-people">
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Drew-Kramer.webp" alt="Drew Kramer">
+  <img class="card-img-top img-circle" src="images/people/Drew-Kramer.jpg" alt="Drew Kramer">
 <div class="card-body">
   <h2 class="card-title name">Drew Kramer</h2>
   <p class="Institution">University of South Florida</p>
@@ -125,7 +125,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Kennedy-Culzean.webp" alt="Culzean Kennedy">
+  <img class="card-img-top img-circle" src="images/people/Kennedy-Culzean.jpg" alt="Culzean Kennedy">
 <div class="card-body">
   <h2 class="card-title name">Culzean Kennedy</h2>
   <p class="Institution">University of Georgia</p>
@@ -136,7 +136,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Brian-McKay.webp"  alt="Brian McKay">
+  <img class="card-img-top img-circle" src="images/people/Brian-McKay.jpg"  alt="Brian McKay">
 <div class="card-body">
   <h2 class="card-title name">Brian McKay</h2>
   <p class="Institution">University of Georgia</p>
@@ -151,7 +151,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <div class="row row-people">
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Eric-Marty.webp"  alt="Eric Marty">
+  <img class="card-img-top img-circle" src="images/people/Eric-Marty.jpg"  alt="Eric Marty">
 <div class="card-body">
   <h2 class="card-title name">Éric Marty</h2>
   <p class="Institution">University of Georgia</p>
@@ -162,7 +162,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Rachel-Mercaldo.webp"  alt="Rachel Mercaldo">
+  <img class="card-img-top img-circle" src="images/people/Rachel-Mercaldo.jpg"  alt="Rachel Mercaldo">
 <div class="card-body">
   <h2 class="card-title name">Rachel Mercaldo</h2>
   <p class="Institution">University of Georgia</p>
@@ -174,7 +174,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Paige-Miller.webp"  alt="Paige Miller">
+  <img class="card-img-top img-circle" src="images/people/Paige-Miller.jpg"  alt="Paige Miller">
 <div class="card-body">
   <h2 class="card-title name">Paige Miller</h2>
   <p class="Institution">University of Georgia</p>
@@ -188,7 +188,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <div class="row row-people">
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Tierney-OSullivan_.webp"  alt="Tierney O'Sullivan">
+  <img class="card-img-top img-circle" src="images/people/Tierney-OSullivan_.jpg"  alt="Tierney O'Sullivan">
 <div class="card-body">
   <h2 class="card-title name">Tierney O'Sullivan</h2>
   <p class="Institution">University of Georgia</p>
@@ -199,7 +199,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Chloe-Parker.webp" alt="Chloe Parker">
+  <img class="card-img-top img-circle" src="images/people/Chloe-Parker.jpg" alt="Chloe Parker">
 <div class="card-body">
   <h2 class="card-title name">Chloe Parker</h2>
   <p class="Institution">University of Georgia</p>
@@ -211,7 +211,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Robbie-Richards.webp" alt="Robbie Richards">
+  <img class="card-img-top img-circle" src="images/people/Robbie-Richards.jpg" alt="Robbie Richards">
 <div class="card-body">
   <h2 class="card-title name">Robbie Richards</h2>
   <p class="Institution">University of Georgia</p>
@@ -225,7 +225,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <div class="row row-people">
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Trippe-Ross.webp" alt="Trippe Ross">
+  <img class="card-img-top img-circle" src="images/people/Trippe-Ross.jpg" alt="Trippe Ross">
 <div class="card-body">
   <h2 class="card-title name">Trippe Ross</h2>
   <p class="Institution">University of Georgia</p>
@@ -234,7 +234,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Kate-Sabey.webp" alt="Kate Sabey">
+  <img class="card-img-top img-circle" src="images/people/Kate-Sabey.jpg" alt="Kate Sabey">
 <div class="card-body">
   <h2 class="card-title name">Kate Sabey</h2>
   <p class="Institution">University of Georgia</p>
@@ -245,7 +245,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Liliana-Salvador.webp" alt="Liliana Salvador">
+  <img class="card-img-top img-circle" src="images/people/Liliana-Salvador.jpg" alt="Liliana Salvador">
 <div class="card-body">
   <h2 class="card-title name">Liliana Salvador</h2>
   <p class="Institution">University of Georgia</p>
@@ -260,7 +260,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <div class="row row-people">
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Cecilia-Sánchez.webp" alt="Cecilia-Sánchez">
+  <img class="card-img-top img-circle" src="images/people/Cecilia-Sánchez.jpg" alt="Cecilia-Sánchez">
 <div class="card-body">
   <h2 class="card-title name">Cecilia Sánchez</h2>
   <p class="Institution">University of Georgia</p>
@@ -271,7 +271,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/JP-Schmidt.webp" alt="JP Schmidt">
+  <img class="card-img-top img-circle" src="images/people/JP-Schmidt.jpg" alt="JP Schmidt">
 <div class="card-body">
   <h2 class="card-title name">JP Schmidt</h2>
   <p class="Institution">University of Georgia</p>
@@ -283,7 +283,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Patrick-Stephens.webp" alt="Patrick Stephens">
+  <img class="card-img-top img-circle" src="images/people/Patrick-Stephens.jpg" alt="Patrick Stephens">
 <div class="card-body">
   <h2 class="card-title name">Patrick Stephens</h2>
   <p class="Institution">University of Georgia</p>
@@ -297,7 +297,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <div class="row row-people">
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Chao-Song.webp" alt="Chao Song">
+  <img class="card-img-top img-circle" src="images/people/Chao-Song.jpg" alt="Chao Song">
 <div class="card-body">
   <h2 class="card-title name">Chao Song</h2>
   <p class="Institution">Michigan State University</p>
@@ -309,7 +309,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Daniel-Suh.webp"  alt="Daniel Suh">
+  <img class="card-img-top img-circle" src="images/people/Daniel-Suh.jpg"  alt="Daniel Suh">
 <div class="card-body">
   <h2 class="card-title name">Daniel Suh</h2>
   <p class="Institution">University of Georgia</p>
@@ -320,7 +320,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Benjamin-Taylor.webp"  alt="Benjamin Taylor">
+  <img class="card-img-top img-circle" src="images/people/Benjamin-Taylor.jpg"  alt="Benjamin Taylor">
 <div class="card-body">
   <h2 class="card-title name">Benjamin Taylor</h2>
   <p class="Institution">University of Georgia</p>
@@ -334,7 +334,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <div class="row row-people">
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/David-Vasquez.webp"  alt="David Vasquez">
+  <img class="card-img-top img-circle" src="images/people/David-Vasquez.jpg"  alt="David Vasquez">
 <div class="card-body">
   <h2 class="card-title name">David Vasquez</h2>
   <p class="Institution">University of Georgia</p>
@@ -346,7 +346,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Joy-Vaz.webp"  alt="Joy Vaz">
+  <img class="card-img-top img-circle" src="images/people/Joy-Vaz.jpg"  alt="Joy Vaz">
 <div class="card-body">
   <h2 class="card-title name">Joy Vaz</h2>
   <p class="Institution">University of Georgia</p>
@@ -357,7 +357,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Jessica-Wenclawiak.webp" alt="Jessica Wenclawiak">
+  <img class="card-img-top img-circle" src="images/people/Jessica-Wenclawiak.jpg" alt="Jessica Wenclawiak">
 <div class="card-body">
   <h2 class="card-title name">Jessica Wenclawiak</h2>
 <p class="Institution">University of Georgia</p>
@@ -371,7 +371,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <div class="row row-people">
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Anna-Willoughby.webp" alt="Anna Willoughby">
+  <img class="card-img-top img-circle" src="images/people/Anna-Willoughby.jpg" alt="Anna Willoughby">
 <div class="card-body">
   <h2 class="card-title name">Anna Willoughby</h2>
   <p class="Institution">University of Georgia</p>
@@ -383,7 +383,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Cali-Wilson.webp" alt="Cali Wilson">
+  <img class="card-img-top img-circle" src="images/people/Cali-Wilson.jpg" alt="Cali Wilson">
 <div class="card-body">
   <h2 class="card-title name">Cali Wilson</h2>
   <p class="Institution">University of Georgia</p>
