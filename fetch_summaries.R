@@ -156,6 +156,11 @@ utils::download.file(
   destfile="USnowcast_plot.html"
 )
 
+utils::download.file(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/GAnowcast_plot.html?token=ADVPF4FMWT3DWJMRFZNC45S6VASN4",
+  destfile="GAnowcast_plot.html"
+)
+
 # China Spatial Model
 fetch_and_fix(
   url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4D5C35ZDYL5ARI6EOC6UBR6C",

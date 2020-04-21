@@ -1,21 +1,37 @@
 ---
 title: "CEID COVID-19 - About"
 ---
-
-
 </div> <!-- container-fluid main-container -->
 
 <div class="jumbotron jumbotron-fluid aboutpagebanner">
 <div class="container">
-  <h1 class="lead text-center breadcrumbs">About</h1>
+  <h2 class="lead">The UGA Center for the Ecology of Infectious Diseases <a href="http://ceid.uga.edu" target="_blank">(CEID)</a> is a research unit housed in the Odum School of Ecology at the University of Georgia. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.</h2>
+  <p>The CEID <strong>Coronavirus Working Group</strong> was formed on January 24, 2020, three days after the Centers for Disease Control and Prevention (CDC) activated its emergency response system in reponse to the outbreak of the novel coronavirus SARS-CoV-2 in Wuhan, China. The group includes about 30 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling. The group's COVID-19 Portal was launched February 10, 2020.</p>
+  <p><strong>Emergence of the COVID-19 Global Pandemic.</strong><br>On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (SARS-CoV-2) in Wuhan, China. In the first weeks of January 2020, the viral disease (COVID-19) caused by SARS-CoV-2 spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On March 11, the WHO declared a global pandemic.</p>
   </div>
 </div>
 
 <div class="container-fluid main-container"> <!-- container-fluid main-container -->
 
+<div class="container">
+The **COVID-19 Portal** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **COVID-19**. Activities include:
+
+* Tracking cases, fatalities and deaths globally and across the U.S.
+* Mapping the spatial spread of COVID-19 within China and globally
+* Modeling transmission and extrapolation to future events
+* Estimating epidemic characteristics related to transmission
+* Assessing the effectiveness of public health interventions on containment
+* Compiling clinical and epidemiological information to aid in the interpretation of models and understanding of events
+</div> 
+
+</div> <!-- end container-fluid main-container -->
+
+<div class="jumbotron jumbotron-fluid aboutpagebanner">
+<div class="container"><h1>Contributors</h1></div>
+</div>
 
 
-
+<div class="container-fluid main-container"> <!-- container-fluid main-container -->
 
 <div class="row row-people">
 
@@ -385,35 +401,8 @@ title: "CEID COVID-19 - About"
 
 
 
-## New Tracker for Cases, Deaths and Hospitalizations
 
-The <a href="http://ceid.uga.edu" target="_blank">Center for the Ecology of Infectious Diseases (CEID)</a> and the <a href="https://publichealth.uga.edu" target="_blank">College of Public Health (CPH)</a> at UGA have created a [new interactive tracker](tracker.html) that allows users to track the spread of COVID-19 both in the US and worldwide. The tracker allows users to explore cases, hospitalizations, deaths and number of tests for every US state, as well as cases and deaths worldwide. Users can adjust the plots by choosing total or daily numbers, absolute or normalized values, and calendar date versus date since a certain number of cases occurred. The data comes from the Covid Tracking Project and the Johns Hopkins University Center for Systems Science and Engineering.
 
-## Op-ed by CEID Director John Drake
 
-**Dr. John Drake urges swift, decisive action to curb spread of COVID-19.**
 
-In an op-ed in the *Atlanta Journal-Constitution*, CEID Director Dr. John Drake has called for immediate and decisive intervention to slow the spread of COVID-19.  Based on a study of government intervention in China following the initial outbreak of COVID-19 in Wuhan, CEID researchers found a very strong correlation (90%) between how early a major intervention was imposed in a province and the ultimate severity of the outbreak there. The results show that early action yields critical gains, with every delay of 3.8 days leading to a tenfold increase in cases. 
-
-<a href="https://www.ajc.com/news/opinion/opinion-now-the-time-act-coronavirus/AwELZ1Fm9GMZVJsW6rsHJL/" target="_blank">Opinion: Now’s the time to act on coronavirus.</a> Guest column. *Atlanta Journal-Constitution,* March 13, 2020
-
-## COVID-19 Global Pandemic
-
-On December 31, 2019, the World Health Organization was notified about the emergence of a novel coronavirus (SARS-CoV-2) in Wuhan, China. In the first weeks of January 2020, the viral disease (COVID-19) caused by SARS-CoV-2 spread across China and emerged in several other countries. Coinciding media reports about an alarming number of accumulating cases further indicated that the spread of the virus would likely become a global concern in a matter of days. On January 21, 2020, the CDC activated its emergency response system. On March 11, the WHO declared a global pandemic.
-
-## 2019 Coronavirus Tracker
-
-Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the [The Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) at the University of Georgia formed the **Coronavirus Working Group**, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.
-
-The Working Group's **2019 Coronavirus Tracker** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **COVID-19**. Activities include:
-
-* Mapping the spatial spread of COVID-19 within China and abroad
-* Developing models for understanding the early stages of transmission and extrapolation to future events
-* Estimating key parameters related to transmission
-* Compiling clinical and epidemiological information to aid in the development and interpretation of model outputs as well as understanding of events as they are observed
-* Assessing the effectiveness of public health interventions on containment
-
-## The Center for the Ecology of Infectious Diseases
-
-<a href="http://ceid.uga.edu" target="_blank">The Center for the Ecology of Infectious Diseases (CEID)</a> is a research unit housed in the Odum School of Ecology at the University of Georgia. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.
 

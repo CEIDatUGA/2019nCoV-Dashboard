@@ -155,6 +155,7 @@ iframe {
 
 .jumbotron {
   background-size: cover;
+  background-color: #ffffffff;
   color: #ffffffdd;
 }
 
