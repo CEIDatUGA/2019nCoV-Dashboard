@@ -1,5 +1,5 @@
 ---
-title: "CEID COVID-19 - About"
+title: "CEID COVID-19 - Home"
 ---
 
 </div> <!-- container-fluid main-container -->
@@ -9,7 +9,7 @@ title: "CEID COVID-19 - About"
   <!--<h1 class="display-3"></h1>-->
   <p class="display-3"><strong>The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID-19 pandemic.</strong></p>
   <h2 class="lead">The UGA Center for the Ecology of Infectious Diseases [(CEID)](http://ceid.uga.edu)<br><strong>Coronavirus&nbsp;Working&nbsp;Group</strong></h2>
-  <a class="btn btn-primary btn-lg" href="news.html" role="button">Updates</a>
+  <a class="btn btn-primary btn-lg" href="#news" role="button">News &amp; Updates</a>
   </p>
 </div>
 </div>
@@ -25,25 +25,30 @@ title: "CEID COVID-19 - About"
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="GAnowcast_plot.html" allowtransparency="true"></iframe>
 </div>
-
-<a class="btn btn-primary btn-lg" href="nowcast.html" role="button">Nowcasts for all states</a>
+<p><a class="btn btn-primary btn-sm" href="nowcast.html" role="button">Nowcasts for all states</a></p>
 </div>
 
   <!--
   <hr class="my-4">
   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
+  <p class="lead"></p>
   -->
-  </p>
 </div>
 </div>
 
-<div class="container-fluid main-container"> <!-- container-fluid main-container -->
-
+<div class="container-fluid main-container" id="news"> <!-- container-fluid main-container -->
 
 <div class="row">
 <div class="col-sm-8">
 
+
+### John Drake feature article on [FiveThirtyEight](https://fivethirtyeight.com/features/why-one-expert-is-still-making-covid-19-models-despite-the-uncertainty/)
+
+**Why One Expert Is Still Making COVID-19 Models, Despite The Uncertainty**  
+by John M. Drake  
+APR. 17, 2020
+
+Read the full article on [FiveThirtyEight.com](https://fivethirtyeight.com/features/why-one-expert-is-still-making-covid-19-models-despite-the-uncertainty/).
 
 ### New Tracker for Cases, Deaths and Hospitalizations
 
@@ -56,13 +61,7 @@ The <a href="http://ceid.uga.edu" target="_blank">Center for the Ecology of Infe
 In an op-ed in the *Atlanta Journal-Constitution*, CEID Director Dr. John Drake has called for immediate and decisive intervention to slow the spread of COVID-19.  Based on a study of government intervention in China following the initial outbreak of COVID-19 in Wuhan, CEID researchers found a very strong correlation (90%) between how early a major intervention was imposed in a province and the ultimate severity of the outbreak there. The results show that early action yields critical gains, with every delay of 3.8 days leading to a tenfold increase in cases. 
 
 <a href="https://www.ajc.com/news/opinion/opinion-now-the-time-act-coronavirus/AwELZ1Fm9GMZVJsW6rsHJL/" target="_blank">Opinion: Now’s the time to act on coronavirus.</a> Guest column. *Atlanta Journal-Constitution,* March 13, 2020
-
-#### CEID
-
-<a href="http://ceid.uga.edu" target="_blank">The Center for the Ecology of Infectious Diseases (CEID)</a> is a research unit housed in the Odum School of Ecology at the University of Georgia. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.
-
 </div>
-
 
 <!--NEWS ITEMS-->
 
@@ -74,6 +73,25 @@ In an op-ed in the *Atlanta Journal-Constitution*, CEID Director Dr. John Drake 
 </div>
 
 <!--NEWS ITEM-->
+
+<!-- <div class="card"> -->
+<!-- <div class="card-body"> -->
+<!-- <div class="card-title"> -->
+<!-- #### John Drake article on FiveThirtyEight -->
+<!-- </div> -->
+<!-- <p class="card-text"> -->
+<!-- <small class="card-subtitle mb-2 text-muted">April 17, 2020</small><br> -->
+<!-- Feature by John Drake on FiveThirtyEight: "Why One Expert Is Still Making COVID-19 Models, Despite The Uncertainty." -->
+<!-- </p> -->
+<!-- <div class="card-link"> -->
+<!-- <a href="https://fivethirtyeight.com/features/why-one-expert-is-still-making-covid-19-models-despite-the-uncertainty/" target="_blank">READ at FiveThirtyEight.com &rarr;</a> -->
+
+<!-- </div> -->
+<!-- </div> -->
+<!-- </div> -->
+
+
+<!--NEWS ITEM-->
 <div class="card">
 <div class="card-body">
 <div class="card-title">
@@ -81,10 +99,10 @@ In an op-ed in the *Atlanta Journal-Constitution*, CEID Director Dr. John Drake 
 </div>
 <p class="card-text">
 <small class="card-subtitle mb-2 text-muted">March 27, 2020</small><br>
-The [nowcast](nowcast.html) of the COVID-19 outbreak size by US state has launched on the 2019 Coronavirus Tracker. The nowcast is an estimate of the total number of unreported cases by state. Nowcasts are estimated for the 50 states and for the US as a whole, and are calculated from COVID-19 case reports and fatalities. [http://2019-coronavirus-tracker.com/nowcast](nowcast.html)
+The [Nowcast](nowcast.html) of the COVID-19 outbreak size by US state has launched on the 2019 Coronavirus Tracker. The Nowcast is an estimate of the total number of unreported cases by state. Nowcasts are estimated for the 50 states and for the US as a whole, and are calculated from COVID-19 case reports and fatalities. [http://2019-coronavirus-tracker.com/nowcast](nowcast.html)
 </p>
 <div class="card-link">
-[READ MORE >](news.html#news-nowcast)
+[READ MORE &rarr;](news.html#news-nowcast)
 </div>
 </div>
 </div>
@@ -100,7 +118,7 @@ The [nowcast](nowcast.html) of the COVID-19 outbreak size by US state has launch
 The 2019 Coronavirus Tracker now includes a stochastic model for the COVID-19 outbreak in the state of Georgia. [http://2019-coronavirus-tracker.com/stochastic-GA](stochastic-GA.html).
 </p>
 <!-- <div class="card-link"> -->
-<!-- [READ MORE >](news.html#news-georgia-stochastic) -->
+<!-- [READ MORE &rarr;](news.html#news-georgia-stochastic) -->
 <!-- </div> -->
 </div>
 </div>
@@ -116,7 +134,7 @@ The 2019 Coronavirus Tracker now includes a stochastic model for the COVID-19 ou
 CEID has released an anlysis of the [effect of early intervention](early-intervention.html) on its 2019 Coronavirus Tracker. The analysis of intervention timing and outbreak size by province in China clearly demonstrates the importance of early intervention.
 </p>
 <div class="card-link">
-[READ MORE >](news.html#news-early-intervention)
+[READ MORE &rarr;](news.html#news-early-intervention)
 </div>
 </div>
 </div>
@@ -132,13 +150,13 @@ CEID has released an anlysis of the [effect of early intervention](early-interve
 The CEID Coronavirus Tracker now includes a model that provides insight into the [final size of the ongoing COVID-19 outbreak](final-size.html). The model estimates global outbreak sizes by probabilistically incorporating the sparking of new local outbreaks across the globe. The model estimates outbreak sizes for best-case, worst-case and average-case scenarios under a range of assumptions, including how fast local containment efforts improve.
 </p>
 <div class="card-link">
-[READ MORE >](news.html#news-finalsize)
+[READ MORE &rarr;](news.html#news-finalsize)
 </div>
 </div>
 </div>
 
-<!--NEWS ITEM-->
-<div class="card">
+<!--NEWS ITEM HIDDEN-->
+<div class="card hidden">
 <div class="card-body">
 <div class="card-title">
 #### Assessing the impact of mass screening and testing
@@ -148,13 +166,13 @@ The CEID Coronavirus Tracker now includes a model that provides insight into the
 The CEID Coronavirus Working Group has released an assessment of the impact of symptom-based [mass screening and testing intervention](mass_testing.html) (MSTI) during novel disease outbreaks to help understand how current mass testing and screening may be affecting the COVID-19 outbreak in China.
 </p>
 <div class="card-link">
-[READ MORE >](news.html#news-masstesting)
+[READ MORE &rarr;](news.html#news-masstesting)
 </div>
 </div>
 </div>
 
-<!--NEWS ITEM-->
-<div class="card">
+<!--NEWS ITEM HIDDEN-->
+<div class="card hidden">
 <div class="card-body">
 <div class="card-title">
 #### Estimates of case fatality rate added
@@ -164,7 +182,7 @@ The CEID Coronavirus Working Group has released an assessment of the impact of s
 Estimates of the case fatality rate $CFR$ have been added to the [Epidemic Characteristics](parameters.html) page. The *case fatality rate* is the death rate among those with COVID-19 disease.
 </p>
 <div class="card-link">
-[READ MORE >](news.html#news-cfr)
+[READ MORE &rarr;](news.html#news-cfr)
 </div>
 </div>
 </div>
@@ -181,7 +199,7 @@ Estimates of the *effective reproduction number* $R_{eff}$ outside of China have
 See [R-effective outside China](reff-outside.html) for details.
 </p>
 <div class="card-link">
-[READ MORE >](news.html#news-cfr)
+[READ MORE &rarr;](news.html#news-cfr)
 </div>
 </div>
 </div>
@@ -199,7 +217,7 @@ See [R-effective outside China](reff-outside.html) for details.
 The virus causing the current outbreak of COVID-19 disease has been officially named **"Severe acute respiratory syndrome coronavirus 2" (SARS-CoV-2**).  SARS-CoV-2 is a sister virus to other SARS-CoVs. The new name replaces the informal virus name "2019-nCoV" and is not to be confused with the disease it causes, COVID-19.
 </p>
 <div class="card-link">
-[READ MORE >](news.html#news-sars-cov-2)
+[READ MORE &rarr;](news.html#news-sars-cov-2)
 </div>
 </div>
 </div>
@@ -216,7 +234,7 @@ The virus causing the current outbreak of COVID-19 disease has been officially n
 CEID has developed a method to estimate the **Effecitve Reproductive Number $R_{eff}$** for COVID-19 cases outside of China. This will help answer the question of whether or not COVID-19 cases outside of China will be contained.
 </p>
 <div class="card-link">
-[READ MORE >](news.html#news-reff-outside)
+[READ MORE &rarr;](news.html#news-reff-outside)
 </div>
 </div>
 </div>
@@ -231,7 +249,7 @@ CEID has developed a method to estimate the **Effecitve Reproductive Number $R_{
 The disease caused by the 2019 novel coronavirus has received its official name from the [World Health Organization](https://www.who.int/). The disease name, **"COVID-19,"** is a contraction of **Co**rona **Vi**rus **D**isease 20**19**.
 </p>
 <div class="card-link">
-[READ MORE >](news.html#news-covid-19)
+[READ MORE &rarr;](news.html#news-covid-19)
 </div>
 </div>
 </div>
@@ -248,7 +266,7 @@ The disease caused by the 2019 novel coronavirus has received its official name 
 The [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak.
 </p>
 <div class="card-link">
-[READ MORE >](news.html#news-announcing-ncov-tracker)
+[READ MORE &rarr;](news.html#news-announcing-ncov-tracker)
 </div>
 </div>
 </div>
@@ -256,11 +274,16 @@ The [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) 
 <!--LINK TO OLDER NEWS-->
 <div class="card-footer">
 <div class="card-body">>
-#### [ALL NEWS >](news.html)
+#### [ALL NEWS &rarr;](news.html)
 </div>
 </div>
 
 <!--END-->
 </div>
 </div>
+
+<div class="container">
+<small><a href="http://ceid.uga.edu" target="_blank">The Center for the Ecology of Infectious Diseases (CEID)</a> is a research unit housed in the Odum School of Ecology at the University of Georgia. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.</small>
+</div>
+
 </div>

@@ -19,7 +19,7 @@ fetch_and_fix <- function(url,destfile) {
 
 # Early Intervention - web summary
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary.Rmd?token=ADVPF4H6NJNE4TWYAHBW5XK6UV7MS",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary.html?token=ADVPF4DXPHC4YNWQYVWM6OC6VBUFK",
   destfile="early-intervention-web-summary.html"
 )
 
