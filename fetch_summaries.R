@@ -38,7 +38,7 @@ fetch_and_fix(
 
 # Data Summary - World
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4APSBJPA5LH3CYQUAK6VLSM6",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4FONBMQX3YQL6MTYNC6VMZCY",
   destfile="nCov-Mapping-World-Web-Summary.html"
 )
 
@@ -70,7 +70,7 @@ fetch_and_fix(
 
 # Context
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4FDO7FUZY5MB6EE5Z26UG2VO",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4DZLR4F7CM6H6HWRFC6VMZIY",
   destfile="context-web-summary.html"
 )
 
@@ -104,13 +104,23 @@ fetch_and_fix(
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model-georgia-web-summary.html?token=ADVPF4GXZBHYLKCHRDN4BQS6VF3MQ",
-  destfile="stochastic-georgia-web-summary.html"
-)
-
-fetch_and_fix(
   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model.html?token=ADVPF4D3XEEIYV54YJ7WLIC6VF3OM",
   destfile="stochastic-model.html"
+)
+
+# Stochastic Model for Georgia (old version)
+
+## old version
+# fetch_and_fix(
+#   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model-georgia-web-summary.html?token=ADVPF4GXZBHYLKCHRDN4BQS6VF3MQ",
+#   destfile="stochastic-georgia-web-summary.html"
+# )
+
+# Stochastic Model for Georgia (new version)
+
+fetch_and_fix(
+  url="https://raw.githubusercontent.com/CEIDatUGA/COVID-stochastic-fitting/master/web-summary.html",
+  destfile="stochastic-fitting-georgia-web-summary.html"
 )
 
 # Mass Testing

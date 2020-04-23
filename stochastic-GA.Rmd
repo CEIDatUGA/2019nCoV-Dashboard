@@ -4,7 +4,7 @@ title: "CEID COVID-19 - Stochastic Model for Georgia (USA)"
 <p id="disclaimer"></p>
 
 ```{r echo=FALSE, out.extra='id="stochastic-georgia" scrolling="no" width="100%"'}
-knitr::include_url("stochastic-georgia-web-summary.html")
+knitr::include_url("stochastic-fitting-georgia-web-summary.html")
 ```
 <script>iFrameResize({ log: false }, '#stochastic-georgia')</script>
 
@@ -13,18 +13,27 @@ knitr::include_url("stochastic-georgia-web-summary.html")
 
 <div class="container-frames">
 
-<p>Model details and R code:<br>
-  <a href="stochastic-model.html" target="_blank">
-  J.M. Drake & P. Rohani. A stochastic model for the transmission of 2019-nCov in Wuhan</a> (html)
-</p>
-
-<!-- Preprint: [download]() -->
-
 <p>
-  <a href="https://github.com/CEIDatUGA/ncov-wuhan-stochastic-model" target="_blank">
+  <a href="https://github.com/CEIDatUGA/COVID-stochastic-fitting" target="_blank">
     <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
     GitHub repository (public)
   </a>
 </p>
+
+<!-- old version -->
+<!-- <p>Model details and R code:<br> -->
+<!--   <a href="stochastic-model.html" target="_blank"> -->
+<!--   J.M. Drake & P. Rohani. A stochastic model for the transmission of 2019-nCov in Wuhan</a> (html) -->
+<!-- </p> -->
+
+<!-- Preprint: [download]() -->
+
+<!-- old version -->
+<!-- <p> -->
+<!--   <a href="https://github.com/CEIDatUGA/ncov-wuhan-stochastic-model" target="_blank"> -->
+<!--     <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/> -->
+<!--     GitHub repository (public) -->
+<!--   </a> -->
+<!-- </p> -->
 
 </div>
