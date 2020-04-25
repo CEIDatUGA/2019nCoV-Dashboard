@@ -30,7 +30,7 @@ fetch_and_fix(
 
 # Data Summary - China
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China-Web-Summary.html?token=ADVPF4ESLA56RLFVOYLGB5S6UMFOO",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China.html?token=ADVPF4BPDPEGAJVFMYXQ6MS6VVZVK",
   destfile="nCov-Mapping-China-Web-Summary.html"
 )
 
@@ -38,7 +38,7 @@ fetch_and_fix(
 
 # Data Summary - World
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4FONBMQX3YQL6MTYNC6VMZCY",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4HU226EMICJANLYL6C6VVZSA",
   destfile="nCov-Mapping-World-Web-Summary.html"
 )
 

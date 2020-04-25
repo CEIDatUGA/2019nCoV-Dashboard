@@ -47,7 +47,7 @@ html, body {
 /*disclaimer*/
 
 #disclaimer::before {
-  content:"The models and findings included in the UGA Center for the Ecology of Infectious Diseases COVID-19 Portal are intended to provide the public, policymakers, and the research community with data and perspectives on the coronavirus pandemic. The content posted to this site has been created using widely accepted professional and scientific standards but—in the interest of providing information quickly during a rapidly changing pandemic—it has not been peer reviewed. The models are updated regularly as new data become available and as our understanding of COVID-19 and SARS-CoV-2 evolves. Please exercise caution when interpreting the content on this website, as circumstances related to the pandemic vary at the national, state, and local levels.";
+  content:"The models and findings included in the UGA Center for the Ecology of Infectious Diseases COVID-19 Portal are intended to provide the public, policymakers, and the research community with data and perspectives on the coronavirus pandemic. The content posted to this site has been created using widely accepted professional and scientific standards but—in the interest of providing information quickly during a rapidly changing pandemic—it has not been peer reviewed. Results are provisional and subject to change. The models are updated regularly as new data become available and as our understanding of COVID-19 and SARS-CoV-2 evolves. Please exercise caution when interpreting the content on this website, as circumstances related to the pandemic vary at the national, state, and local levels.";
   font-size: .75em;
   color: #808080;
 }
