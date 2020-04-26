@@ -7,34 +7,44 @@ title: "CEID COVID-19 - Home"
 <div class="jumbotron homepagebanner jumbotron-fluid">
 <div class="container">
   <!--<h1 class="display-3"></h1>-->
-  <h2 class="lead">The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID-19 pandemic.</h2>
-  <h2 class="lead">The UGA Center for the Ecology of Infectious Diseases [(CEID)](http://ceid.uga.edu)<br><strong>Coronavirus&nbsp;Working&nbsp;Group</strong></h2>
-  <a class="btn btn-primary btn-lg" href="#news" role="button">News &amp; Updates</a>
+  <h2 class="lead">The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID&#8209;19 pandemic.</h2>
+  <h2 class="lead">The&nbsp;UGA&nbsp;Center&nbsp;for&nbsp;the&nbsp;Ecology&nbsp;of Infectious&nbsp;Diseases&nbsp; [(CEID)](http://ceid.uga.edu)<strong> Coronavirus&nbsp;Working&nbsp;Group</strong>&nbsp;&nbsp;
+  <a class="btn btn-primary btn-sm" href="#news" role="button">News &amp; Updates</a></h2>
+  
   </p>
 </div>
 </div>
 
+<!-- Dashboard -->
+<!-- <div class="container centered"><h2>Nowcasts: Estimates of current outbreak size</h2></div> -->
+
 <div class="jumbotron jumbotron-fluid">
-<div class="container">
-  <!--<h1 class="display-3"></h1>-->
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="row">
+
+<div class="col-sm-6">
+
+
+<div class="embed-responsive embed-responsive-16by9"> 
 <iframe class="embed-responsive-item" src="USnowcast_plot.html" allowtransparency="true"></iframe>
-</div>
+</div> <!-- end embed -->
+</div> <!-- end col -->
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="col-sm-6"> 
+<div class="embed-responsive embed-responsive-16by9"> 
 <iframe class="embed-responsive-item" src="GAnowcast_plot.html" allowtransparency="true"></iframe>
-</div>
-<p><a class="btn btn-primary btn-sm" href="nowcast.html" role="button">Nowcasts for all states</a></p>
-</div>
-
-  <!--
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead"></p>
-  -->
-</div>
-</div>
+</div> <!-- end embed -->
+</div> <!-- end col -->
+</div> <!-- end row -->
+<div class="row">
+<div class="col-sm-6 text-center">
+<img src="images/nowcast-legend-combined.png" style="width:500px"/>
+</div> <!-- end col -->
+<div class="col-sm-6 text-center">
+<a class="btn btn-primary btn-sm" href="nowcast.html" role="button">Nowcasts for all states &#8594;</a>
+</div> <!-- end col -->
+</div> <!-- end row -->
+</div> <!-- end jumbotron -->
 
 <div class="container-fluid main-container" id="news"> <!-- container-fluid main-container -->
 

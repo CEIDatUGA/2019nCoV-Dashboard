@@ -35,6 +35,12 @@ knitr::include_url("nowcast-US-ascertainment.html")
 ```
 <script>iFrameResize({ log: false }, '#nowcast-ascertainment')</script>
 
+### Validation with data from China
+```{r echo=FALSE, out.extra='id="nowcast-validation" scrolling="no" width="100%"'}
+knitr::include_url("nowcast-validation.html")
+```
+<script>iFrameResize({ log: false }, '#nowcast-validation')</script>
+
 ## Supplemental Information
   
 <div class="container-frames">
