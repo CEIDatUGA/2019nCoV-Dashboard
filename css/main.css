@@ -7,8 +7,12 @@
 
 @import url("//fonts.googleapis.com/css?family=Merriweather+Sans:300|Merriweather:300|Oswald:300,400,500&display=swap");
 
-html, body {
+html, body, .footerPushDown {
   height: 100%;
+}
+
+.rightText .vCenter {
+  align-items: flex-end;
 }
 
 .section h2{
@@ -47,7 +51,7 @@ html, body {
 /*disclaimer*/
 
 #disclaimer::before {
-  content:"The models and findings included in the UGA Center for the Ecology of Infectious Diseases COVID-19 Portal are intended to provide the public, policymakers, and the research community with data and perspectives on the coronavirus pandemic. The content posted to this site has been created using widely accepted professional and scientific standards but—in the interest of providing information quickly during a rapidly changing pandemic—it has not been peer reviewed. Results are provisional and subject to change. The models are updated regularly as new data become available and as our understanding of COVID-19 and SARS-CoV-2 evolves. Please exercise caution when interpreting the content on this website, as circumstances related to the pandemic vary at the national, state, and local levels.";
+  content:"The models and findings included in the UGA Center for the Ecology of Infectious Diseases COVID-19 Portal are intended to provide the public, policymakers, and the research community with data and perspectives on the coronavirus pandemic. The content posted to this site has been created using widely accepted professional and scientific standards but—in the interest of providing information quickly during a rapidly changing pandemic—it has not been peer reviewed. The models are updated regularly as new data become available and as our understanding of COVID-19 and SARS-CoV-2 evolves. Please exercise caution when interpreting the content on this website, as circumstances related to the pandemic vary at the national, state, and local levels.";
   font-size: .75em;
   color: #808080;
 }
@@ -155,18 +159,28 @@ iframe {
 
 .jumbotron {
   background-size: cover;
-  background-color: #ffffffff;
-  color: #ffffffdd;
+  background-color:transparent;
 }
 
 /*page specific jumbotrons */
 
 .aboutpagebanner{
     background-image: url("../images/about_olympic.jpg");
+      color: #ffffff;
+      color: #ffffff;
+      background-color: #ffffff;
 }
 
 .homepagebanner{
     background-image: url("../images/home_olympic.jpg");
+    margin-bottom: 0px;
+    padding-top: 70px;
+    color: #ffffff;
+    background-color: #ffffff;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 
 .jumbotron h1 {
@@ -174,10 +188,116 @@ iframe {
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #00A3ADdd !important;
+    background-color: #00A3ADdd!important;
 }
 
 
+/*Adding colors (color-palette)*/
+
+.bg-grey{
+  background-color:#eee;
+}
+
+.bg-blue{
+  background-color:#00A3AD;
+  color:#fff;
+}
+
+.bg-red{
+  background-color:#BA0C2F;
+}
+
+
+/* Homepage bands */
+.media-heading {
+margin-left: 0px;
+}
+
+.bandContent{
+  margin: 0 auto;
+  max-width: 1140px;
+  z-index: 2;
+}
+
+.bandContentText {
+padding-bottom: 20px;
+}
+
+.band.full {
+  position: relative;
+  padding: 20px 0px;
+}
+
+.icon-item{
+      vertical-align: top;
+
+      text-align: center;
+
+      padding:20px;
+  }
+
+
+
+.fas{
+  padding:10px;
+  text-align: center;
+}
+
+
+.band.full {
+  position: relative;
+}
+
+.band.full.first {
+  height: 550px;
+}
+
+.band.full.second {
+  height: 480px;
+  overflow: hidden;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.band.full.third {
+  height: 755px;
+  overflow: hidden;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.band.full.fourth {
+height: 725px;
+overflow: hidden;
+background-image: url("../images/network-bg.png");
+
+background-position:right; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.band.full.fifth{
+  height: 520px;
+  overflow: hidden;
+}
+
+.band.full.sixth{
+padding-bottom: 25px;
+}
+
+
+
+.bandContent{
+  margin: 0 auto;
+  max-width: 1140px;
+  z-index: 2;
+}
+
+.media-body {
+padding: 25px;
+}
+
+.media-body-text{
+  padding-bottom: 25px;
+}
 /*clearing the nav bar */
 
 .ceidfooter::before{
@@ -188,6 +308,11 @@ iframe {
   padding:20px 0 20px 0;
   margin: 0 0 20px 0;
   clear: both;
+}
+
+#CeidFooter {
+border-color:#d3d3d3;
+border-top:  4px solid rgba(122,122,122,0.1);
 }
 
 #supplemental-information::after,#supplemental-information:before,#header::before{
@@ -390,265 +515,21 @@ a,a:active, a:hover, a:focus{
 }
 
 
-
-
-
-
-/* code formatting */
-pre.r{
-  margin-top:10px;
+#homeContent .band-section-title {
+  padding-top: 100px;
+  font-size: 32px;
+  margin-bottom: 16px;
 }
 
+.ceidbody__social-link{
+  color:#fff;}
 
-/* footer styles */
-
-.ceidfooter__logo, .ceidfooter__address, .ceidfooter__links, .ceidfooter__social {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px; }
-
-@media (min-width: 768px) {
-  .ceidfooter__logo, .ceidfooter__address {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 41.66667%;
-        -ms-flex: 0 0 41.66667%;
-            flex: 0 0 41.66667%;
-    max-width: 41.66667%; }
-  .ceidfooter__links, .ceidfooter__social {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 58.33333%;
-        -ms-flex: 0 0 58.33333%;
-            flex: 0 0 58.33333%;
-    max-width: 58.33333%; } }
-
-.container-fluid:before .container-fluid:after{
-    content: " ";
-    display: table;
+.ceidbody__social-link a, .ceidbody__social-link a:active, a:hover, a:focus{
+  color: #004E60;
+  transition: transform .2s; /* Animation */
 }
 
-
-.ceidfooter {
-  padding: 48px 0;
-  border-width: 4px 0 0;
-  border-style: solid;
-  border-color: #BA0C2F;
-  background: #FFFFFF center center no-repeat;
-  background-size: cover;
-  font-size: 16px;
-  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif; }
-  .ceidfooter--border-white {
-    border-color: #FFFFFF; }
-  .ceidfooter--border-grey {
-    border-color: #554F47; }
-  .ceidfooter--no-border {
-    border-width: 0; }
-  .ceidfooter__container {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 100%;
-    z-index:99999;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto; }
-    @media (min-width: 576px) {
-      .ceidfooter__container {
-        max-width: 540px; } }
-    @media (min-width: 768px) {
-      .ceidfooter__container {
-        max-width: 720px; } }
-    @media (min-width: 992px) {
-      .ceidfooter__container {
-        max-width: 960px; } }
-    @media (min-width: 1200px) {
-      .ceidfooter__container {
-        max-width: 1140px; } }
-  .ceidfooter__row {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px; }
-    .ceidfooter__row--primary {
-      margin-bottom: 1em;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center; }
-    .ceidfooter__row--secondary {
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center; }
-  .ceidfooter__links {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
-  .ceidfooter__logo {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    margin-bottom: 2em; }
-    @media (min-width: 768px) {
-      .ceidfooter__logo {
-        margin-bottom: 0; } }
-  .ceidfooter__logo-link {
-    display: block;
-    margin: 0 auto;
-    max-width: 200px;
-    height: 170px;
-    background-color: transparent;
-    background-image: url("../images/Screen-CEID-H-FC.png");
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    font: 0/0 a;
-    color: transparent;
-    text-shadow: none;
-    background-color: transparent;
-    border: 0; }
-    @media (min-width: 768px) {
-      .ceidfooter__logo-link {
-        margin: 0;
-        max-width: 300px;
-        height: 80px;
-        background-image: url("../images/Screen-CEID-H-FC.png");
-        background-position: left top; } }
-  .ceidfooter__links-list {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin-left: 0;
-    padding-left: 0;
-    list-style: none;
-    text-align: center;
-    line-height: 1.5;
-    -webkit-column-count: 2;
-            column-count: 2;
-    -webkit-column-gap: 0;
-            column-gap: 0;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    @media (min-width: 768px) {
-      .ceidfooter__links-list {
-        display: block;
-        text-align: left;
-        -webkit-column-count: 2;
-                column-count: 2;
-        -webkit-box-align: start;
-        -webkit-align-items: flex-start;
-            -ms-flex-align: start;
-                align-items: flex-start; } }
-    @media (min-width: 992px) {
-      .ceidfooter__links-list {
-        -webkit-column-count: 3;
-                column-count: 3; } }
-    .ceidfooter__links-list-item {
-      width: 50%;
-      border: none;
-      -webkit-column-break-inside: avoid;
-              break-inside: avoid; }
-      @media (min-width: 768px) {
-        .ceidfooter__links-list-item {
-          width: 100%; } }
-    .ceidfooter__links-list-link {
-      display: block;
-      padding: .25em 1em;
-      font-size: .75em;
-      font-weight:300;
-      color: #000000;
-      text-decoration: none;
-      -webkit-transition: color 100ms ease-in;
-      transition: color 100ms ease-in; }
-      .ceidfooter__links-list-link:hover {
-        color: #BA0C2F;
-        text-decoration: none; }
-      @media (min-width: 768px) {
-        .ceidfooter__links-list-link {
-          border-left: 1px #D3D3D3 solid;
-          font-weight: 300; } }
-  .ceidfooter__address {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    color: #000000;
-    text-align: center;
-    font-weight: 300;
-    font-size: .75em;
-    font-family: "Merriweather Sans", "Tahoma", "Helvetica Neue", Arial, sans-serif; }
-    @media (min-width: 768px) {
-      .ceidfooter__address {
-        text-align: left;
-        -webkit-box-ordinal-group: 2;
-        -webkit-order: 1;
-            -ms-flex-order: 1;
-                order: 1; } }
-  .ceidfooter__social {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    margin-bottom: 1em;
-    color: #808080;
-    text-align: center;
-    font-weight: 300;
-    font-size: 1.5em; }
-    @media (min-width: 768px) {
-      .ceidfooter__social {
-        margin-bottom: 0;
-        text-align: left;
-        -webkit-box-ordinal-group: 3;
-        -webkit-order: 2;
-            -ms-flex-order: 2;
-                order: 2; } }
-    .ceidfooter__social-label {
-      display: block; }
-      @media (min-width: 768px) {
-        .ceidfooter__social-label {
-          display: inline; } }
-    .ceidfooter__social-link {
-      color: #A9A9A9;
-      text-decoration: none;
-      -webkit-transition: color 100ms ease-in;
-
-      transition: color 100ms ease-in; }
-      .ceidfooter__social-link:hover {
-        color: #BA0C2F;
-        text-decoration: none; }
-
-
-#no-links-names:hover,#no-links:hover{
-  color: #000000;
-
-}
-
-
-/*end of footer sytles*/
-
-#no-links{
-  font-weight:400;
-}
-
-#no-links-names{
-  font-weight:300;
-}
-
+  
 /*card styles for news section*/
 .card{
     background-color: #fff;
@@ -658,6 +539,7 @@ pre.r{
 
 .card-title{
   line-height: 1.5em;
+  font-weight:bold;
 }
 .card-text{
   padding: 0 5px 0 5px;
@@ -670,7 +552,7 @@ pre.r{
   max-width:200px;
 }
 .card-body{
-    font-size: x-small;
+    font-size: small;
     line-height: 1;
 }
 
@@ -708,7 +590,7 @@ figcaption{
 
 @media only screen and (min-width: 600px) {
   #nCov-tracker{
-    height:2200px:
+    height:2200px;
 }
 }
 
@@ -913,3 +795,422 @@ figcaption{
 
 
 /*end of bootstrap4 sytles*/
+
+
+.band.full {
+  position: relative;
+}
+
+.band.full.first {
+  height: 550px;
+}
+
+.band.full.second {
+  height: 480px;
+
+  overflow: hidden;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.band.full.third {
+  height: 640px;
+}
+
+.band.full.fourth {
+  height: 520px;
+  overflow: hidden;
+}
+
+.bandContent, .standardPadding .articleBandContent {
+  margin: 0 auto;
+  max-width: 1140px;
+  z-index: 2;
+}
+
+.vCenter {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightText .vCenter {
+  align-items: flex-end;
+}
+
+.band .imageOne {
+  position: absolute;
+  left: 0px;
+  bottom: -120px;
+  width: 630px;
+  height: auto;
+  z-index: 5;
+}
+
+.band .imageTwo {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  width: 45%;
+  height: auto;
+}
+
+.band .imageThree {
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  width: 500px;
+  height: auto;
+
+  z-index: 5;
+}
+
+.band .imageFour {
+  position: absolute;
+  width: auto;
+  height: auto;
+  right: 0px;
+  bottom: 0px;
+  z-index:1;
+}
+
+
+
+#homeContent, #pageContent {
+  position: relative;
+  z-index: 1;
+  min-height: 100%;
+  margin-bottom: -91px;  /* height of footer */
+}
+
+#homeContent:after, #pageContent:after {
+  content: "";
+  height: 91px; /* height of footer */
+  display: block;
+}
+
+.standardPadding {
+  padding: 80px 5%;
+}
+
+#pageContent .pageTitle {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#pageContent .pageIntro {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+#pageContent .columns {
+  display: flex;
+  justify-content: space-between;
+
+  display: -ms-flexbox;
+  -ms-flex-pack: justify;
+}
+
+#pageContent .columns .column2 {
+  max-width: 46%;
+}
+
+#pageContent .linkSection {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#pageContent .linkSection .linkSectionTitle {
+  font-size: 1.4em;
+  margin-bottom: 12px;
+}
+
+#pageContent .links a {
+  display: block;
+  line-height: 24px;
+  max-width: 500px;
+  padding: 0 0 0 16px;
+  background-repeat: no-repeat;
+  background-position: left 8px;
+  background-size: 8px 8px;
+  background-image: url(../images/link-icon.png);
+}
+
+#pageContent .linkSection .articleBlurb {
+  padding-left: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+
+#homeContent .tagline {
+  padding-top: 100px;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+
+
+#homeContent a:hover {
+  text-decoration: underline;
+}
+
+#homeContent .band {
+  padding: 0 5%;
+}
+
+#homeContent .band.gray1 {
+  background-color: #f8f8f8;
+}
+
+#homeContent .band.gray2 {
+  background-color: #f0f0f0;
+}
+
+#homeContent .band.blue {
+  background-color: #00A3AD;
+  color: #fff;
+}
+
+#homeContent .band.orange {
+  background-color: #e6553a;
+  color: #fff;
+}
+
+#homeContent .band.leftText {
+  text-align: left;
+}
+
+#homeContent .band.rightText {
+  text-align: right;
+}
+
+#homeContent .band .blurb {
+  display: inline-block;
+  text-align: left;
+  max-width: 505px;
+  line-height: 40px;
+  min-height: 160px;
+  font-size: 25px;
+}
+
+#homeContent .band .actions {
+  margin-top: 20px;
+}
+
+#homeContent .band .actions div {
+  display: inline-block;
+}
+
+#homeContent .btn {
+
+  border: none;
+
+  border-radius: 5px;
+
+  margin: 5px;
+}
+
+#homeContent .bigButton.gallery {
+  color: #fff;
+  background-color: #8cb06c;
+}
+
+#homeContent .bigButton.getStarted {
+  color: #fff;
+  background-color: #75aadb;
+}
+
+
+
+/* adjustments for smaller screens */
+
+@media screen and (max-width: 1200px){
+
+  .band .imageOne {
+    width: 490px;
+    bottom: -50px;
+    left: -25px;
+  }
+
+  .band .imageThree {
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 1023px){
+#homeContent {
+  overflow-x: hidden;
+}
+.band.full.first, .band.full.second, .band.full.third {
+    height: auto;
+}
+.vCenter {
+  position: relative;
+  height: auto;
+  min-height: 0;
+  display: block;
+  padding: 100px 0px;
+}
+
+.third .vCenter {
+  padding-top: 10px;
+}
+
+#homeContent .band.rightText, #homeContent .band.leftText {
+  text-align: center;
+}
+
+#homeContent .band .blurb {
+  text-align: center;
+}
+
+.band .imageOne {
+  position: relative;
+  max-width: 120%;
+  bottom: auto;
+  left: auto;
+  top: -50px;
+}
+
+.band .imageTwo {
+  position: relative;
+  top: 0;
+  right: 0;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.band .imageThree {
+  position: relative;
+  left: auto;
+  bottom: auto;
+  max-width: 100%;
+}
+
+#pageContent .pageTitle {
+  font-size: 30px;
+}
+#pageContent .pageIntro {
+  font-size: 18px;
+}
+
+#pageContent .columns {
+  display: block;
+}
+
+#pageContent .columns .column2 {
+  max-width: none;
+}
+}
+
+
+
+
+/* footer styles */
+
+#CeidFooter {
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  height: 160px;
+}
+
+#CeidFooter.band {
+  background-color: #fff
+  padding: 30px 5%;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+#CeidFooter .bandContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 20px;
+}
+
+#CeidFooter .bandContent #copyright {
+  flex-shrink: 5;
+}
+
+#CeidFooter .bandContent #logos {
+  flex-shrink: 1;
+}
+
+
+
+#CeidFooter .bandContent {
+padding: 20px;
+}
+.ceid-contact{
+  text-align: left;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1; }
+
+
+  /* footer styles */
+.ceidfooter__social-link{
+  padding:10px;
+}
+.footer-section-title{
+  font-weight: bold;
+}
+.ceid-contact {
+  text-align: left;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  font-size: small;
+  padding-top: 10px;
+}
+.footer-text-sm{
+  font-size:small;
+}
+.ceidfooter__logo-link {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    height: 170px;
+    background-color: transparent;
+    background-image: url("../images/RGB-GEORGIA-V-FC.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0; }
+@media (min-width: 768px) {
+  .ceidfooter__logo-link {
+      margin: 0;
+      max-width: 300px;
+      height: 80px;
+      background-image: url("../images/Screen-CEID-H-FC.png");
+      background-position: left top; } }
+
+
+  #no-links-names:hover,#no-links:hover{
+    color: #000000;
+
+  }
+
+
+  /*end of footer sytles*/
+
+  #no-links{
+    font-weight:400;
+  }
+
+  #no-links-names{
+    font-weight:300;
+  }
