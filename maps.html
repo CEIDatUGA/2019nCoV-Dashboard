@@ -308,22 +308,23 @@ summary {
 <p>The maps below visualize the spatial spread of the novel coronavirus pandemic through time. Click “Play” to animate the visualization, or choose a specific date using the slider. Zoom in with two fingers on a touch pad.</p>
 <div id="epidemic-maps" class="section level2 tabset tabset-fade">
 <h2>Epidemic Maps</h2>
-<div id="epidemic-map---world" class="section level3">
-<h3>Epidemic Map - World</h3>
-<iframe src="nCov-Mapping-World-Web-Summary.html" width="672" height="400px" id="nCov-Mapping-World-Web-Summary" scrolling="no" width="100%">
+<!-- ### US -->
+<!-- <div class="embed-responsive embed-responsive-16by9"> -->
+<!-- <iframe class="embed-responsive-item" src="maps-us.html" allowtransparency="true"></iframe> -->
+<!-- </div> -->
+<div id="world" class="section level3">
+<h3>World</h3>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="maps-world.html" allowtransparency="true">
 </iframe>
-<script>iFrameResize({ log: false }, '#nCov-Mapping-World-Web-Summary')</script>
 </div>
-<div id="epidemic-map---china" class="section level3">
-<h3>Epidemic Map - China</h3>
-<iframe src="nCov-Mapping-China-Web-Summary.html" width="672" height="400px" id="nCov-Mapping-China-Web-Summary" scrolling="no" width="100%">
+</div>
+<div id="china" class="section level3">
+<h3>China</h3>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="maps-china.html" allowtransparency="true">
 </iframe>
-<script>iFrameResize({ log: false }, '#nCov-Mapping-China-Web-Summary')</script>
-<!-- #### Epidemic Map - US -->
-<!-- ```{r echo=FALSE, out.extra='id="nCov-Mapping-US-Web-Summary" scrolling="no" width="100%"'} -->
-<!-- knitr::include_url("nCov-Mapping-US-Web-Summary.html") -->
-<!-- ``` -->
-<!-- <script>iFrameResize({ log: false }, '#nCov-Mapping-US-Web-Summary')</script> -->
+</div>
 <!-- ### Epidemic Curves -->
 <!-- ```{r echo=FALSE, out.extra='id="epidemic-curves-web-summary" scrolling="no" width="80%"'} -->
 <!-- knitr::include_url("epidemic-curves-web-summary.html") -->

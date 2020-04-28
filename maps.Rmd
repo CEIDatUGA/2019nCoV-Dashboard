@@ -8,28 +8,23 @@ The maps below visualize the spatial spread of the novel coronavirus pandemic th
 
 ## Epidemic Maps {.tabset .tabset-fade}
 
-### Epidemic Map - World
+<!-- ### US -->
 
-```{r echo=FALSE, out.extra='id="nCov-Mapping-World-Web-Summary" scrolling="no" width="100%"'}
-knitr::include_url("nCov-Mapping-World-Web-Summary.html")
-```
-<script>iFrameResize({ log: false }, '#nCov-Mapping-World-Web-Summary')</script>
+<!-- <div class="embed-responsive embed-responsive-16by9"> -->
+<!-- <iframe class="embed-responsive-item" src="maps-us.html" allowtransparency="true"></iframe> -->
+<!-- </div> -->
 
-### Epidemic Map - China
+### World
 
-```{r echo=FALSE, out.extra='id="nCov-Mapping-China-Web-Summary" scrolling="no" width="100%"'}
-knitr::include_url("nCov-Mapping-China-Web-Summary.html")
-```
-<script>iFrameResize({ log: false }, '#nCov-Mapping-China-Web-Summary')</script>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="maps-world.html" allowtransparency="true"></iframe>
+</div>
 
+### China
 
-
-<!-- #### Epidemic Map - US -->
-
-<!-- ```{r echo=FALSE, out.extra='id="nCov-Mapping-US-Web-Summary" scrolling="no" width="100%"'} -->
-<!-- knitr::include_url("nCov-Mapping-US-Web-Summary.html") -->
-<!-- ``` -->
-<!-- <script>iFrameResize({ log: false }, '#nCov-Mapping-US-Web-Summary')</script> -->
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="maps-china.html" allowtransparency="true"></iframe>
+</div>
 
 <!-- ### Epidemic Curves -->
 
