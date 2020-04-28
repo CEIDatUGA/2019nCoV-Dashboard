@@ -15,6 +15,10 @@ html, body, .footerPushDown {
   align-items: flex-end;
 }
 
+.usnowcast{
+  height:400px;
+}
+
 .section h2{
   padding-top:0px;
 }
@@ -209,6 +213,35 @@ iframe {
 
 
 /* Homepage bands */
+.date-featured{
+  font-size:x-small;
+}
+.border-light{
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-color:rgba(122,122,122,0.1);
+
+}
+
+.featured-image{
+  border:none;
+  max-height:300px;
+}
+
+.feature-homepage-caption{
+  padding-bottom:10px;
+  font-size:x-small;
+}
+
+.feature-homepage{
+  padding:20px;
+}
+
+.thumbnail{
+  border: none;
+  background-color: transparent;
+}
+
 .media-heading {
 margin-left: 0px;
 }
@@ -244,60 +277,12 @@ padding-bottom: 20px;
 }
 
 
-.band.full {
-  position: relative;
-}
-
-.band.full.first {
-  height: 550px;
-}
-
-.band.full.second {
-  height: 480px;
-  overflow: hidden;
-  border-bottom: 1px solid #f8f8f8;
-}
-
-.band.full.third {
-  height: 755px;
-  overflow: hidden;
-  border-bottom: 1px solid #f8f8f8;
-}
-
-.band.full.fourth {
-height: 725px;
-overflow: hidden;
-background-image: url("../images/network-bg.png");
-
-background-position:right; /* Center the image */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-.band.full.fifth{
-  height: 520px;
-  overflow: hidden;
-}
-
-.band.full.sixth{
-padding-bottom: 25px;
-}
-
-
-
-.bandContent{
-  margin: 0 auto;
-  max-width: 1140px;
-  z-index: 2;
-}
 
 .media-body {
 padding: 25px;
 }
 
-.media-body-text{
-  padding-bottom: 25px;
-}
+
 /*clearing the nav bar */
 
 .ceidfooter::before{
@@ -346,6 +331,14 @@ border-top:  4px solid rgba(122,122,122,0.1);
   padding: 0;
   margin: 0 0 10px 0;
   clear: both;
+}
+.band.full.fourth {
+
+overflow: hidden;
+background-image: url("../images/network-bg.png");
+background-position:right; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: contain; /* Resize the background image to cover the entire container */
 }
 }
 
@@ -516,7 +509,7 @@ a,a:active, a:hover, a:focus{
 
 
 #homeContent .band-section-title {
-  padding-top: 100px;
+  padding-top: 50px;
   font-size: 32px;
   margin-bottom: 16px;
 }
@@ -529,17 +522,13 @@ a,a:active, a:hover, a:focus{
   transition: transform .2s; /* Animation */
 }
 
-  
+ 
 /*card styles for news section*/
-.card{
-    background-color: #fff;
-    border-bottom: #DCDCDC;
-    border-bottom: 1px solid rgba(220, 220, 220, 0.5);
-}
+
 
 .card-title{
   line-height: 1.5em;
-  font-weight:bold;
+
 }
 .card-text{
   padding: 0 5px 0 5px;
@@ -797,6 +786,13 @@ figcaption{
 /*end of bootstrap4 sytles*/
 
 
+.featured-link a:hover {
+  text-decoration: underline;
+    opacity:85;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
 .band.full {
   position: relative;
 }
@@ -806,26 +802,35 @@ figcaption{
 }
 
 .band.full.second {
-  height: 480px;
-
+  height: 560px;
   overflow: hidden;
   border-bottom: 1px solid #f8f8f8;
 }
 
 .band.full.third {
-  height: 640px;
+  height: 755px;
+  overflow: hidden;
+  border-bottom: 1px solid #f8f8f8;
 }
 
-.band.full.fourth {
-  height: 520px;
+
+.band.full.fifth{
+
   overflow: hidden;
 }
 
-.bandContent, .standardPadding .articleBandContent {
+.band.full.sixth{
+padding-bottom: 25px;
+}
+
+
+
+.bandContent{
   margin: 0 auto;
   max-width: 1140px;
   z-index: 2;
 }
+
 
 .vCenter {
   position: relative;
@@ -887,7 +892,7 @@ figcaption{
 
 #homeContent:after, #pageContent:after {
   content: "";
-  height: 91px; /* height of footer */
+  height: 125px; /* height of footer */
   display: block;
 }
 
@@ -1121,7 +1126,7 @@ figcaption{
 }
 
 #CeidFooter.band {
-  background-color: #fff
+  background-color: #fff;
   padding: 30px 5%;
   font-weight: 300;
   font-size: 12px;

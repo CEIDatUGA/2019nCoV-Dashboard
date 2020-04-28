@@ -317,35 +317,38 @@ $(".main-container").removeClass("main-container").removeClass("container-fluid"
 </script>
 <div id="homeContent">
 <div class="band full first homepagebanner">
-<div class="bandContent vCenter">
+<div class="bandContent">
 <h2 class="band-section-title">
-The UGA Center for the Ecology of Infectious Diseases <a href="http://ceid.uga.edu">(CEID)</a><br><strong>Coronavirus Working Group</strong>
+The UGA Center for the Ecology of Infectious Diseases <a href="http://ceid.uga.edu">(CEID)</a><br><strong>Coronavirus Working Group</strong>
 </h2>
 <p class="display-3">
 <strong>The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID-19 pandemic.</strong>
 </p>
 <p>
-<a class="btn btn-primary btn-lg" href="news.html" role="button">Updates</a>
+<a class="btn btn-primary btn-md" href="news.html" role="button">Updates</a>
 </p>
 </div>
 </div>
 <div class="band full second">
-<div class="bandContent vCenter text-left">
+<div class="bandContent">
 <div class="row">
 <div class="col-sm-3">
 <h2 class="band-section-title">
-Nowcasts
+Stochastic model for Georgia
 </h2>
 <div class="bandContentText">
 <p>
-At any given time, most COVID-19 cases are circulating in the community and not known to us. This means it is difficult to estimate the total number of infected individuals.
+To better understand the potential range of epidemic outcomes in the state of Georgia, we developed a model incorporating regionally specific conditions and calibrated to reported cases, hospitalizations, and deaths.
+</p>
+<p>
+We explore a range of social distancing scenarios ranging from increased social distancing to a complete return to normal.
 </p>
 </div>
 <p>
-<a class="btn btn-primary btn-sm" href="news.html" role="button">More <i class="fas fa-arrow-circle-right"></i> </a>
+<a class="btn btn-primary btn-sm" href="nowcasts.html" role="button">More <i class="fas fa-arrow-circle-right"></i> </a>
 </p>
 </div>
-<div class="col-sm-9">
+<div class="col-sm-9 usnowcast">
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="USnowcast_plot.html" allowtransparency="true">
 </iframe>
@@ -355,200 +358,139 @@ At any given time, most COVID-19 cases are circulating in the community and not 
 </div>
 </div>
 <!--CEID band full-->
-<div class="band full third blue">
-<div class="bandContent text-center">
-<h2 class="band-section-title">
-CEID 2019 Coronavirus Tracker
-</h2>
-<p class="lead">
-The Working Group’s <strong><em>2019 Coronavirus Tracker</em></strong> provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of <strong><em>COVID-19</em></strong>. Activities include:
-</p>
-<div class="row justify-content-center">
-<div class="col-md-2 col-md-offset-1 icon-item">
-<a class="ceidbody__social-link" aria-label="Mapping COVID-19" href="maps.html"> <i class="fas fa-globe fa-4x" aria-hidden="true" title="Mapping"></i></a>
-<div class="descriptionCeid">
-<p>
-Mapping the spatial spread of COVID-19 within China and abroad
-</p>
-</div>
-</div>
-<div class="col-md-2 icon-item">
-<a class="ceidbody__social-link" aria-label="Models of COVID-19" href="stochastic.html"> <i class="fas fa-virus fa-4x" aria-hidden="true" title="Developing"></i></a>
-<div class="descriptionCeid">
-<p>
-Developing models for understanding the early stages of transmission and extrapolation to future events
-</p>
-</div>
-</div>
-<div class="col-md-2 icon-item">
-<a class="ceidbody__social-link" aria-label="Transmission of COVID-19" href="stochastic.html"> <i class="fas fa-sliders-h fa-4x" aria-hidden="true" title="Estimating"></i></a>
-<div class="descriptionCeid">
-<p>
-Estimating key parameters related to transmission
-</p>
-</div>
-</div>
-<div class="col-md-2 icon-item">
-<a class="ceidbody__social-link" aria-label="clinical information for COVID-19" href="stochastic.html"> <i class="fas fa-hospital-o fa-4x" aria-hidden="true" title="Compiling"></i></a>
-<div class="descriptionCeid">
-<p>
-Compiling clinical and epidemiological information to aid in the development and interpretation of model outputs as well as understanding of events as they are observed
-</p>
-</div>
-</div>
-<div class="col-md-2 icon-item">
-<a class="ceidbody__social-link" aria-label="Assessing intervention" href="stochastic.html"> <i class="fas fa-head-side-mask fa-4x" aria-hidden="true" title="Assessing"></i></a>
-<div class="descriptionCeid">
-<p>
-Assessing the effectiveness of public health interventions on containment
-</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!--CEID-->
-<div class="band full fourth networkBanner">
-<div class="bandContent CeidSection">
-<h2 class="band-section-title">
-The Center for the Ecology of Infectious Diseases (CEID)
-</h2>
-<p class="blurb">
-The Center for the Ecology of Infectious Diseases (CEID) is a research unit housed in the Odum School of Ecology at the University of Georgia. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.
-</p>
-</div>
-</div>
 <!--Featured News ITEMS-->
-<div class="band full gray2 fifth">
-<div class="bandContent vCenter">
-<h2 class="featured-news">
+<div class="band full bg-grey fifth">
+<div class="bandContent">
+<h2 class="band-section-title">
 Featured News &amp; Updates
 </h2>
 <div class="row">
-<div class="col-xs-6">
+<!--Featured item 1-->
+<div class="col-sm-6 col-md-4 feature-homepage">
+<div class="thumbnail">
+<a href="tracker.html" title="Stochastic model for Georgia"> <img src="images/tracker.png" class="img-thumbnail featured-image" alt="daily tests"></a>
+<figcaption class="feature-homepage-caption text-right text-muted">
+Daily tests for CA, GA, and WA<br>
+</figcaption>
+<a class="featured-link" href="tracker.html" title="Stochastic model for Georgia">
+<div class="caption">
+<h4 class="media-heading">
+New Tracker for Cases, Deaths and Hospitalizations
+</h4>
+<p class="text-muted date-featured">
+April 7, 2020
+</p>
+<p class="media-body-text">
+The Center for the Ecology of Infectious Diseases (CEID) and the College of Public Health (CPH) at UGA have created a new interactive tracker that allows users to visualize the spread of COVID-19 both in the U.S. and worldwide.
+</p>
+</div>
+<p></a></p>
+</div>
+</div>
+<!--Featured item 2-->
+<div class="col-sm-6 col-md-4 feature-homepage border-light">
+<div class="thumbnail">
+<a href="https://fivethirtyeight.com/features/why-one-expert-is-still-making-covid-19-models-despite-the-uncertainty/" target="_blank" rel="noopener noreferrer" title="John Drake on FiveThirtyEight"><img src="https://fivethirtyeight.com/wp-content/uploads/2020/04/GettyImages-1219201731-4x3-1.jpg?w=1150" class="img-thumbnail featured-image" alt="Image credit: Chip Somodevilla / Getty Images"> </a>
+<figcaption class="feature-homepage-caption text-right text-muted">
+(Image credit: Chip Somodevilla / Getty Images)
+</figcaption>
+<a class="featured-link" href="https://fivethirtyeight.com/features/why-one-expert-is-still-making-covid-19-models-despite-the-uncertainty/" target="_blank" rel="noopener noreferrer" title="John Drake on FiveThirtyEight">
+<div class="caption">
+<h4 class="media-heading">
+Feature article by John Drake on FiveThirtyEight
+</h4>
+<p class="text-muted date-featured">
+March 27, 2020
+</p>
+<p class="media-body-text">
+FiveThirtyEight.com published a feature article by John Drake: “Why One Expert Is Still Making COVID-19 Models, Despite The Uncertainty.”
+</p>
+</div>
+<p></a></p>
+</div>
+</div>
+<!--Featured item 3-->
+<div class="col-md-4 feature-homepage">
+<div class="thumbnail">
+<a href="stochastic.html" title="Stochastic model for Georgia"> <img src="images/GAstoch.png" class="img-thumbnail featured-image" alt="Stochastic model for Georgia (U.S.)" ></a>
+<figcaption class="feature-homepage-caption text-right text-muted">
+Stochastic model for Georgia
+</figcaption>
+<a class="featured-link" href="stochastic.html" title="Stochastic model for Georgia">
+<div class="caption">
 <h4 class="media-heading">
 Stochastic model for Georgia
 </h4>
+<p class="text-muted date-featured">
+March 27, 2020
+</p>
 <p class="media-body-text">
-The 2019 Coronavirus Tracker now includes a stochastic model for the COVID-19 outbreak in the state of Georgia.
-</p>
-<button type="button" class="btn btn-primary btn-sm" href="http://2019-coronavirus-tracker.com/stochastic-GA">
-More <i class="fas fa-arrow-circle-right"></i>
-</button>
-</div>
-<div class="col-xs-6">
-<h4 class="media-heading">
-Virus causing COVID-19 disease named “SARS-CoV-2”
-</h4>
-<p class="media-body-text">
-The virus causing the current outbreak of COVID-19 has been officially named “Severe acute respiratory syndrome coronavirus 2” (SARS-CoV-2). For the first several weeks of the outbreak, the virus had been informally referred to as 2019-nCoV.
-</p>
-<button type="button" class="btn btn-primary btn-sm" href="news.html">
-More <i class="fas fa-arrow-circle-right"></i>
-</button>
-</div>
-</div>
-</div>
-</div>
-<div class="band full sixth">
-<div class="bandContent">
-<h2 class="band-section-title">
-Latest News &amp; Updates
-</h2>
-<!--Start of Latest News and Updates-->
-<div class="row">
-<div class="col-sm-8">
-<!--NEWS ITEM-->
-<div class="latest-news-body">
-<div class="home-news-title">
-<h3>
-Nowcast of outbreak size
-</h3>
-</div>
-<p class="Latest-news-text text-left">
-<small class="card-subtitle mb-2 text-muted">March 27, 2020</small><br> The <a href="nowcast.html">nowcast</a> of the COVID-19 outbreak size by US state has launched on the 2019 Coronavirus Tracker. The nowcast is an estimate of the total number of unreported cases by state. Nowcasts are estimated for the 50 states and for the US as a whole, and are calculated from COVID-19 case reports and fatalities.
-</p>
-<p>
-<a href="news.html#news-nowcast"class="card-link"> Read More <i class="fas fa-arrow-circle-right"></i> </a>
+The Nowcast of the COVID-19 outbreak size by U.S. state has launched on the UGA CEID COVID-19 Portal. The nowcast is an estimate of the total number of unreported cases by state.
 </p>
 </div>
-<!--NEWS ITEM-->
-<div class="latest-news-body">
-<div class="home-news-title">
-<h3>
-John Drake feature article on FiveThirtyEight
-</h3>
+<p></a></p>
 </div>
-<p class="Latest-news-text text-left">
-<small class="card-subtitle mb-2 text-muted">April 17, 2020</small><br> Why One Expert Is Still Making COVID-19 Models, Despite The Uncertainty
-</p>
-<p>
-<a href="https://fivethirtyeight.com/features/why-one-expert-is-still-making-covid-19-models-despite-the-uncertainty/" class="card-link"> Read More <i class="fas fa-arrow-circle-right"></i> </a>
-</p>
 </div>
-<!--NEWS ITEM-->
-<div class="latest-news-body">
-<div class="home-news-title">
-<h3>
-Effect of early intervention
-</h3>
 </div>
-<p class="Latest-news-text">
-<small class="card-subtitle mb-2 text-muted">March 15, 2020</small><br> CEID has released an anlysis of the <a href="early-intervention.html">effect of early intervention</a> on its 2019 Coronavirus Tracker. The analysis of intervention timing and outbreak size by province in China clearly demonstrates the importance of early intervention.
-</p>
-<p>
-<a href="news.html#news-early-intervention"class="card-link"> Read More <i class="fas fa-arrow-circle-right"></i> </a>
-</p>
 </div>
 </div>
 <!--Start of News of Archive-->
+<div class="band full fourth">
+<div class="bandContent">
+<h2 class="band-section-title">
+Archived News &amp; Updates
+</h2>
+<div class="row">
 <div class="col-sm-4">
 <div class="card mb-0">
 <div class="card-header">
-<h3>
-Archived News &amp; Updates
-</h3>
+
 </div>
 <p><br></p>
 <!--NEWS ITEM-->
 <div class="card">
 <div class="card-body">
-<div class="card-title">
-<p>Estimating final outbreak size</p>
-</div>
+<h3 class="card-title">
+Estimating final outbreak size
+</h3>
 <p class="card-text">
 <small class="card-subtitle mb-2 text-muted">March 3, 2020</small><br> The CEID Coronavirus Tracker now includes a model that provides insight into the <a href="final-size.html">final size of the ongoing COVID-19 outbreak</a>. The model estimates global outbreak sizes by probabilistically incorporating the sparking of new local outbreaks across the globe. The model estimates outbreak sizes for best-case, worst-case and average-case scenarios under a range of assumptions, including how fast local containment efforts improve.
 </p>
 <p>
-<a href="news.html#news-finalsize" class="card-link"> Read More <i class="fas fa-arrow-circle-right"></i> </a>
+<a href="news.html#news-finalsize" class="card-link"> More <i class="fas fa-arrow-circle-right"></i> </a>
 </p>
 </div>
 </div>
+</div>
+</div>
+<div class="col-sm-4">
 <!--NEWS ITEM-->
 <div class="card">
 <div class="card-body">
-<div class="card-title">
-<p>Assessing the impact of mass screening and testing</p>
-</div>
+<h3 class="card-title">
+Assessing the impact of mass screening and testing
+</h3>
 <p class="card-text">
 <small class="card-subtitle mb-2 text-muted">February 21, 2020</small><br> The CEID Coronavirus Working Group has released an assessment of the impact of symptom-based <a href="mass_testing.html">mass screening and testing intervention</a> (MSTI) during novel disease outbreaks to help understand how current mass testing and screening may be affecting the COVID-19 outbreak in China.
 </p>
 <p>
-<a href="news.html#news-masstesting" class="card-link"> Read More <i class="fas fa-arrow-circle-right"></i> </a>
+<a href="news.html#news-masstesting" class="card-link"> More <i class="fas fa-arrow-circle-right"></i> </a>
 </p>
 </div>
 </div>
+</div>
+<div class="col-sm-4">
 <!--NEWS ITEM-->
 <div class="card">
 <div class="card-body">
-<div class="card-title">
-<p>Estimates of case fatality rate added</p>
-</div>
+<h3 class="card-title">
+Estimates of case fatality rate added
+</h3>
 <p class="card-text">
 <small class="card-subtitle mb-2 text-muted">February 20, 2020</small><br> Estimates of the case fatality rate <span class="math inline"><em>C</em><em>F</em><em>R</em></span> have been added to the <a href="parameters.html">Epidemic Characteristics</a> page. The <em>case fatality rate</em> is the death rate among those with COVID-19 disease.
 </p>
 <p>
-<a class="card-link" href="news.html#news-cfr"> Read More <i class="fas fa-arrow-circle-right"> </i> </a>
+<a class="card-link" href="news.html#news-cfr"> More <i class="fas fa-arrow-circle-right"> </i> </a>
 </p>
 </div>
 </div>
@@ -560,9 +502,7 @@ Archived News &amp; Updates
 </div>
 <!--bandContent-->
 </div>
-<!--full band-->
-<!--End of Archive-->
-</div>
+<!--End of homepageContent-->
 
 <div id="CeidFooter" class="band full">
 <div class="bandContent">
