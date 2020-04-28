@@ -54,7 +54,7 @@ title: "CEID COVID-19 - Home"
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="stochastic-fitting-georgia-summaryplot.html" allowtransparency="true"></iframe>
 </div>
-<img src="images/scenarios-legend.png" style="width:500px; margin-left:50px;"/>
+<img src="https://github.com/CEIDatUGA/2019nCoV-Dashboard/blob/master/images/scenarios-legend.png" style="width:500px; margin-left:50px;"/>
 </div> 
 <!-- GA MODEL -->
 
