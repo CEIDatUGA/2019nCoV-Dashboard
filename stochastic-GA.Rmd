@@ -14,7 +14,7 @@ knitr::include_url("stochastic-fitting-georgia-web-summary.html")
 <div class="container-frames">
 
 <p>
-  <a href="https://github.com/CEIDatUGA/COVID-stochastic-fitting" target="_blank">
+  <a href="https://github.com/CEIDatUGA/COVID-GA-model" target="_blank">
     <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
     GitHub repository (public)
   </a>

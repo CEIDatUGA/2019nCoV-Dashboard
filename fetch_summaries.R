@@ -28,25 +28,23 @@ fetch_and_fix(
   destfile="early-intervention-web-summary2.html"
 )
 
-# Data Summary - China
+# Maps 
+
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China.html?token=ADVPF4BPDPEGAJVFMYXQ6MS6VVZVK",
-  destfile="nCov-Mapping-China-Web-Summary.html"
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/chinaMap.html?token=ADVPF4HLV74KXA2DGKFPHFC6WE7BU",
+  destfile="maps-china.html"
 )
 
-# https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-China.html?token=ADVPF4F5YXAKG7L3L7D6RL26JC6V2
-
-# Data Summary - World
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-World-Web-Summary.html?token=ADVPF4HU226EMICJANLYL6C6VVZSA",
-  destfile="nCov-Mapping-World-Web-Summary.html"
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/usMap.html?token=ADVPF4CGHKV5MXKZLQB2HR26WE7MG",
+  destfile="maps-us.html"
 )
 
-# # Data Summary - US
-# fetch_and_fix(
-#   url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/nCov-Mapping-US-Web-Summary.html?token=ADVPF4AFLQUPWLHSJWKZSYC6RXLCK",
-#   destfile="nCov-Mapping-US-Web-Summary.html"
-# )
+fetch_and_fix(
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/worldMap.html?token=ADVPF4CWFMG3VRLJGEAMYUK6WE7NU",
+  destfile="maps-world.html"
+)
+
 
 # # Data Summary - Epidemic Curves
 # fetch_and_fix(
@@ -76,17 +74,17 @@ fetch_and_fix(
 
 # Epidemic Characteristics
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4D7RGCFVBZXNOCGWIK6U3KIO",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4HAGCY3BC5CLAYIPRC6WAIEK",
   destfile="parameters-web-summary.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4ASG2KXGUVXAETAGOK6U3KLE",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4FHD4QTZ3XRJWGVAU26WAIHA",
   destfile="parameters-supplement.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/parameters-US.html?token=ADVPF4AYUMBXUAX3JRTZW6S6U3KMQ",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/parameters-US.html?token=ADVPF4E462F3LKUUQN2GB7S6WAII2",
   destfile="parameters-US.html"
 )
 
@@ -116,12 +114,18 @@ fetch_and_fix(
 #   destfile="stochastic-georgia-web-summary.html"
 # )
 
-# Stochastic Model for Georgia (new version)
+# Stochastic Model for Georgia (pomp)
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/COVID-stochastic-fitting/master/web-summary.html",
+  url="https://raw.githubusercontent.com/CEIDatUGA/COVID-GA-model/master/web-summary.html",
   destfile="stochastic-fitting-georgia-web-summary.html"
 )
+
+fetch_and_fix(
+  url="https://raw.githubusercontent.com/CEIDatUGA/COVID-GA-model/master/output/figures/covidtracker-figures/landing-page-fig.html",
+  destfile="stochastic-fitting-georgia-summaryplot.html"
+)
+
 
 # Mass Testing
 fetch_and_fix(
