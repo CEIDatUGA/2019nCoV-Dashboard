@@ -8,11 +8,13 @@ The maps below visualize the spatial spread of the novel coronavirus pandemic th
 
 ## Epidemic Maps {.tabset .tabset-fade}
 
-<!-- ### US -->
+### US
 
-<!-- <div class="embed-responsive embed-responsive-16by9"> -->
-<!-- <iframe class="embed-responsive-item" src="maps-us.html" allowtransparency="true"></iframe> -->
-<!-- </div> -->
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="maps-us.html" allowtransparency="true"></iframe>
+</div>
+
+Outbreak size by county. Data from <a href="https://github.com/nytimes/covid-19-data" target="_blank">*The New York Times* Coronavirus (Covid-19) Data in the United States</a>
 
 ### World
 
