@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2020-04-20" />
+<meta name="date" content="2020-05-04" />
 
 <title>Nowcasting the current size of the COVID-19 outbreak in the United States</title>
 
@@ -1634,7 +1634,7 @@ summary {
 
 
 <h1 class="title toc-ignore">Nowcasting the current size of the COVID-19 outbreak in the United States</h1>
-<h4 class="date">April 20, 2020</h4>
+<h4 class="date">May 04, 2020</h4>
 
 </div>
 
@@ -1661,7 +1661,7 @@ summary {
 </ul>
 <div id="estimating-from-case-reports-informed-by-an-estimate-from-fatalities" class="section level4">
 <h4>Estimating from case reports, informed by an estimate from fatalities</h4>
-<p>Case reports do not include infected persons who are symptomatic but not yet diagnosed, nor individuals with latent infections (those who carry the virus but are not <em>yet</em> symptomatic). If testing were perfect and universal, we would detect 100% of cases. In reality, we miss many because of imperfect surveillance. The ratio of detected cases to the true number of cases is the <strong>ascertainment rate</strong>, which can vary over time. The <strong>ascertainment rate</strong> is the ratio of .</p>
+<p>Case reports do not include infected persons who are symptomatic but not yet diagnosed, nor individuals with latent infections (those who carry the virus but are not <em>yet</em> symptomatic). If testing were perfect and universal, we would detect 100% of cases. In reality, we miss many because of imperfect surveillance. The ratio of detected cases to the true number of cases is the <strong>ascertainment rate</strong>, which can vary over time.</p>
 <p>If we know the ascertainment rate, as well as the distribution of times from infection to symptom onset and from symptom onset to case reporting, we can use case reports to estimate infection times for those cases. That gives us information about the number of latent and symptomatic infections present at some point in the past. We can forecast those curves from that point in the past up to the present to derive an estimate of the number of infections present now. This is the “Nowcast.”</p>
 <p>To estimate the size of the outbreak at any given time from case reports, we first adjust the number of new cases for ascertainment rate, then estimate the number of symptomatic and latent infections in the community from the adjusted new case count. The estimates of symptomatic and latent infections are only valid some time before the present, so we forecast from that point to the present. At any time, the sum of symptomatic and latent infections is our estimate of the total number of unnotified individuals currently infected with SARS-CoV2.</p>
 <p>To find the ascertainment rate, we reasoned that fatal cases are much less likely to be overlooked than non-fatal cases (particularly asymptomatic cases and cases with mild symptoms). The ascertainment rate for fatalities can be assumed to be very high, since individuals who die with COVID-19 like symptoms will inevitably be tested, either during hospitalization or post-mortem. For simplification, we assume the ascertainment rate for fatalities is 100%. We construct a nowcast starting from reports of fatalities instead of cases, using the distribution of time from symptom onset to death instead of symptom onset to case reporting. Nowcasting from fatalities does not require a correction for ascertainment, but does require knowledge about the infection fatality rate (IFR), known with a reasonable degree of precision to be around 0.9%. By comparing the total number of infections in the U.S. estimated from case reports (without correction) to the total number of infections in the U.S. estimated from fatalities, we can determine the ascertainment rate for case reports for the U.S. We can now go back and correct our nowcast from case reports by the ascertainment rate to produce a more accurate nowcast. We can apply the same correction to the Nowcast from states, even if the state has few or no fatalities.</p>
