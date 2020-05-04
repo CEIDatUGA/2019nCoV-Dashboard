@@ -19,12 +19,12 @@ fetch_and_fix <- function(url,destfile) {
 
 # Early Intervention - web summary
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary.html?token=ADVPF4CBRNS246UVFFQUJ6K6V3FDK",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary.html?token=ADVPF4A25RM4U55PS5IBXI26XE7P2",
   destfile="early-intervention-web-summary.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary2.html?token=ADVPF4DFSNGHVUYMVP27UIS6V3FE6",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-early-intervention/master/web-summary2.html?token=ADVPF4BHGKZ7EXHTLZLXTVK6XE7SM",
   destfile="early-intervention-web-summary2.html"
 )
 
@@ -129,7 +129,7 @@ fetch_and_fix(
 
 # Mass Testing
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_summary_html.html?token=ADVPF4DAQ7UFZ5JC5JPZ2IC6V3FJE",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoV_MassTesting/master/COVID19_CEID_summary_html.html?token=ADVPF4CAKQMRYPN7AHWARTK6XE724",
   destfile="mass_testing_summary.html"
 )
 
@@ -145,12 +145,12 @@ fetch_and_fix(
 
 # Nowcast US
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US.html?token=ADVPF4AVWWRETGUMQXWHU5K6V3FNO",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US.html?token=ADVPF4B6ARFQQXCAV3CFGSK6XE76A",
   destfile="nowcast-US.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-cases.html?token=ADVPF4AYQJSRS5ZEG6S6D3S6V3FPM",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/nowcast-US-cases.html?token=ADVPF4GUFMCYYZACQK67AY26XFADY",
   destfile="nowcast-US-cases.html"
 )
 
@@ -160,23 +160,23 @@ fetch_and_fix(
 # )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/under-reporting.html?token=ADVPF4BUTCNIMSDKKIBZPIS6V3FRU",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/under-reporting.html?token=ADVPF4H7H4Z6HRW66I4TMNK6XFAHU",
   destfile="nowcast-US-ascertainment.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/china-nowcast-study.html?token=ADVPF4FRIO5T2V3Z7MO5V6K6V3FVM",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/china-nowcast-study.html?token=ADVPF4DDIY5M536VKT6VSDS6XFAMM",
   destfile="nowcast-validation.html"
 )
 
 # Standalone nowcast plot for front page
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/USnowcast_plot.html?token=ADVPF4F6H57DPQ2SAQDCGZK6V3FYY",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/USnowcast_plot.html?token=ADVPF4G27K4N4PVL6V5TKWS6XFAPU",
   destfile="USnowcast_plot.html"
 )
 
 utils::download.file(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/GAnowcast_plot.html?token=ADVPF4FHSXQV3AGHONNMEPK6V3FXE",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-nowcast/master/GAnowcast_plot.html?token=ADVPF4CCVJVS4VMEVW55GT26XFARU",
   destfile="GAnowcast_plot.html"
 )
 
