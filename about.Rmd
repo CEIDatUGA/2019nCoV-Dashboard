@@ -86,8 +86,8 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <p class="college">Franklin College</p>
   <p class="position">Volunteer Research Assistant</p>
 <!--Personal personal-website btn-sm btn-primarys -->
-  <a class="personal-website btn-sm btn-primary" href="https://www.caes.uga.edu/about/personnel/person.html?pk_id=20393&name=Tommy%20Bui" target="_blank"> more > </a>
-</div></div>
+<!--   <a class="personal-website btn-sm btn-primary" href="https://www.caes.uga.edu/about/personnel/person.html?pk_id=20393&name=Tommy%20Bui" target="_blank"> more > </a> -->
+<!-- </div></div> -->
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/John-Drake.jpg" alt="John Drake">
@@ -185,7 +185,7 @@ Academic Affairs and Provost</p>
   <p class="college">Center for the Ecology of Infectious Diseases</p>
   <p class="position">Project & Communications Manager, Coronavirus Working Group</p>
 <!--Personal personal-website btn-sm btn-primarys -->
-  <a class="personal-website btn-sm btn-primary" href="http://ceid.uga.edu/blog/2020/01/22/culzean-kennedy/" target="_blank"> more > </a>
+  <a class="personal-website btn-sm btn-primary" href="http://ceid.uga.edu/blog/2020/05/05/john-king/" target="_blank"> more > </a>
 </div></div>
 
 </div><!-- end of row--> 
@@ -259,7 +259,7 @@ Academic Affairs and Provost</p>
   <p class="departmentSchool1">Center for the Ecology of Infectious Diseases</p>
   <p class="position">Postdoctoral Associate</p>
 <!--Personal personal-website btn-sm btn-primarys -->
-  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/Eamon-ODea/"> more ></a>
+  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/Eamon-ODea/" target="_blank"> more ></a>
 </div></div>
 
 </div><!-- end of row--> 
@@ -344,7 +344,7 @@ Academic Affairs and Provost</p>
   <p class="college">Center for the Ecology of Infectious Diseases</p>
   <p class="position">Postdoctoral Associate</p>
   <!--Personal personal-website btn-sm btn-primarys -->
-  <a class="personal-website btn-sm btn-primary" href="https://ceciliaasanchez.weebly.com/"> more ></a>
+  <a class="personal-website btn-sm btn-primary" href="https://ceciliaasanchez.weebly.com/" target="_blank"> more ></a>
 </div></div>
 
 <div class="col-sm-4" >
@@ -366,7 +366,7 @@ Academic Affairs and Provost</p>
   <p class="college">College of Education</p>
   <p class="position">Graduate Research Assistant</p>
   <!--Personal personal-website btn-sm btn-primarys -->
-  <a class="personal-website btn-sm btn-primary" href="https://ceciliaasanchez.weebly.com/"> more ></a>
+  <a class="personal-website btn-sm btn-primary" href="https://ceciliaasanchez.weebly.com/" target="_blank"> more ></a>
 </div></div>
 
 </div><!-- end of row--> 
@@ -380,7 +380,7 @@ Academic Affairs and Provost</p>
   <p class="college">Odum School of Ecology</p>
   <p class="position">Lab Manager (Drake Lab)</p>
   <!--Personal personal-website btn-sm btn-primarys -->
-  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/andrea-silletti/"> more ></a>
+  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/andrea-silletti/" target="_blank"> more ></a>
 </div></div>
 
 <div class="col-sm-4" >
