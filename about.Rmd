@@ -75,8 +75,19 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/rebecca-borchering/" target="_blank"> more > </a>
 </div></div>
 
-</div><!-- end of row-->
+</div><!-- end of row--> 
 <div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Tommy-Bui.jpg" alt="Tommy Bui">
+<div class="card-body">
+  <h2 class="card-title name">Tommy Bui</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Franklin College</p>
+  <p class="position">Volunteer Research Assistant</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://www.caes.uga.edu/about/personnel/person.html?pk_id=20393&name=Tommy%20Bui" target="_blank"> more > </a>
+</div></div>
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/John-Drake.jpg" alt="John Drake">
@@ -92,6 +103,32 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Michelle-Evans.jpg" alt="Michelle Evans">
+<div class="card-body">
+  <h2 class="card-title name">Michelle Evans</h2>
+  <p class="Institution">University of Georgia </p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">PhD Student</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/michelle-evans/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row--> 
+<div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Sam-Fahmy.jpg" alt="Sam Fahmy">
+<div class="card-body">
+  <h2 class="card-title name">Sam Fahmy</h2>
+  <p class="Institution">University of Georgia </p>
+  <p class="college">Office of the Senior Vice President for
+Academic Affairs and Provost</p>
+  <p class="position">Director of Public Relations for Academic Affairs</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://provost.uga.edu/about/staff/" target="_blank"> more > </a>
+</div></div>
+
+<div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Yang-Ge.jpg" alt="Yang Ge">
 <div class="card-body">
   <h2 class="card-title name">Yang Ge</h2>
@@ -103,8 +140,6 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <a class="personal-website btn-sm btn-primary" href="https://publichealth.uga.edu/student/yang-ge/" target="_blank"> more > </a>
 </div></div>
 
-
-
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Handel-Andreas.jpg" alt="Andreas Handel">
 <div class="card-body">
@@ -112,7 +147,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <p class="Institution">University of Georgia</p>
   <p class="college">College of Public Health</p>
   <p class="department">Epidemiology & Biostatistics, Health Informatics Institute</p>
-  <p class="position">Associate Department Head and Graduate Coordinator <br> Associate Professor</p>
+  <p class="position">Associate Department Head and Graduate Coordinator<br> Associate Professor</p>
 <!--Personal personal-website btn-sm btn-primarys -->
   <a class="personal-website btn-sm btn-primary" href="https://www.andreashandel.com/" target="_blank"> more > </a>
 </div></div>
@@ -121,14 +156,14 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <div class="row row-people">
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Drew-Kramer.jpg" alt="Drew Kramer">
+  <img class="card-img-top img-circle" src="images/people/Reni-Kaul.jpg" alt="Reni Kaul">
 <div class="card-body">
-  <h2 class="card-title name">Drew Kramer</h2>
-  <p class="Institution">University of South Florida</p>
-  <p class="department">Department of Integrative Biology</p>
-  <p class="position">Assistant Professor</p>
+  <h2 class="card-title name">Reni Kaul</h2>
+  <p class="Institution">University of Georgia </p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">PhD Student</p>
 <!--Personal personal-website btn-sm btn-primarys -->
-  <a class="personal-website btn-sm btn-primary" href="https://kramera3.github.io/" target="_blank"> more > </a>
+  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/Reni-Kaul/" target="_blank"> more > </a>
 </div></div>
 
 <div class="col-sm-4" >
@@ -143,19 +178,29 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 </div></div>
 
 <div class="col-sm-4" >
-  <img class="card-img-top img-circle" src="images/people/Brian-McKay.jpg"  alt="Brian McKay">
+  <img class="card-img-top img-circle" src="images/people/John-King.jpg" alt="John King">
 <div class="card-body">
-  <h2 class="card-title name">Brian McKay</h2>
+  <h2 class="card-title name">John King</h2>
   <p class="Institution">University of Georgia</p>
-  <p class="college">College of Public Health</p>
-  <p class="department">Epidemiology & Biostatistics</p>
-  <p class="position">Lecturer</p>
+  <p class="college">Center for the Ecology of Infectious Diseases</p>
+  <p class="position">Project & Communications Manager, Coronavirus Working Group</p>
 <!--Personal personal-website btn-sm btn-primarys -->
-  <a class="personal-website btn-sm btn-primary" href="https://publichealth.uga.edu/faculty-member/brian-k-mckay/" target="_blank"> more > </a>
+  <a class="personal-website btn-sm btn-primary" href="http://ceid.uga.edu/blog/2020/01/22/culzean-kennedy/" target="_blank"> more > </a>
 </div></div>
 
-</div><!-- end of row-->
+</div><!-- end of row--> 
 <div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Drew-Kramer.jpg" alt="Drew Kramer">
+<div class="card-body">
+  <h2 class="card-title name">Drew Kramer</h2>
+  <p class="Institution">University of South Florida</p>
+  <p class="department">Department of Integrative Biology</p>
+  <p class="position">Assistant Professor</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://kramera3.github.io/" target="_blank"> more > </a>
+</div></div>
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Eric-Marty.jpg"  alt="Eric Marty">
@@ -167,6 +212,21 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <!--Personal personal-website btn-sm btn-primarys -->
   <a class="personal-website btn-sm btn-primary" href="http://www.ericmarty.com/" target="_blank"> more > </a>
 </div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Brian-McKay.jpg"  alt="Brian McKay">
+<div class="card-body">
+  <h2 class="card-title name">Brian McKay</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">College of Public Health</p>
+  <p class="department">Epidemiology & Biostatistics</p>
+  <p class="position">Lecturer</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://publichealth.uga.edu/faculty-member/brian-k-mckay/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row--> 
+<div class="row row-people">
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Rachel-Mercaldo.jpg"  alt="Rachel Mercaldo">
@@ -191,7 +251,18 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/paige-miller/" target="_blank"> more > </a>
 </div></div>
 
-</div><!-- end of row-->
+<div class="col-sm-4">
+<img class="card-img-top img-circle" src="images/people/Eamon-ODea.jpg" alt="Eamon O'Dea">
+<div class="card-body">
+  <h2 class="card-title name">Eamon O'Dea</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="departmentSchool1">Center for the Ecology of Infectious Diseases</p>
+  <p class="position">Postdoctoral Associate</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/Eamon-ODea/"> more ></a>
+</div></div>
+
+</div><!-- end of row--> 
 <div class="row row-people">
 
 <div class="col-sm-4" >
@@ -216,7 +287,6 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <a class="personal-website btn-sm btn-primary" href="https://chloeparker.myportfolio.com/" target="_blank"> more > </a>
 </div></div>
 
-
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Robbie-Richards.jpg" alt="Robbie Richards">
 <div class="card-body">
@@ -228,7 +298,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <a class="personal-website btn-sm btn-primary" href="http://ezenwalab.uga.edu/people/" target="_blank"> more > </a>
 </div></div>
 
-</div><!-- end of row1-->
+</div><!-- end of row--> 
 <div class="row row-people">
 
 <div class="col-sm-4" >
@@ -263,7 +333,7 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <a class="personal-website btn-sm btn-primary" href="https://vet.uga.edu/person/liliana-salvador/" target="_blank"> more > </a>
 </div></div>
 
-</div><!-- end of row-->
+</div><!-- end of row--> 
 <div class="row row-people">
 
 <div class="col-sm-4" >
@@ -288,6 +358,30 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/john-paul-schmidt/" target="_blank"> more > </a>
 </div></div>
 
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Margaret-Schrayer.jpg" alt="Margaret Schrayer">
+<div class="card-body">
+  <h2 class="card-title name">Margaret Schrayer</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">College of Education</p>
+  <p class="position">Graduate Research Assistant</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://ceciliaasanchez.weebly.com/"> more ></a>
+</div></div>
+
+</div><!-- end of row--> 
+<div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Andrea-Silletti.jpg" alt="Andrea Silletti">
+<div class="card-body">
+  <h2 class="card-title name">Andrea-Silletti</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">Lab Manager (Drake Lab)</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/andrea-silletti/"> more ></a>
+</div></div>
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Patrick-Stephens.jpg" alt="Patrick Stephens">
@@ -300,9 +394,6 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <a class="personal-website btn-sm btn-primary" href="https://prstephens.ecology.uga.edu/" target="_blank"> more > </a>
 </div></div>
 
-</div><!-- end of row-->
-<div class="row row-people">
-
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Chao-Song.jpg" alt="Chao Song">
 <div class="card-body">
@@ -313,7 +404,8 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <a class="personal-website btn-sm btn-primary" href="https://songchao1986.github.io/" target="_blank"> more > </a>
 </div></div>
 
-
+</div><!-- end of row--> 
+<div class="row row-people">
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Daniel-Suh.jpg"  alt="Daniel Suh">
@@ -337,8 +429,29 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <a class="personal-website btn-sm btn-primary" href="https://sasakilab.ecology.uga.edu/people/" target="_blank"> more > </a>
 </div></div>
 
-</div><!-- end of row-->
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Olivia-Thomas.jpg" alt="Olivia Thomas">
+<div class="card-body">
+  <h2 class="card-title name">Olivia Thomas</h2>
+  <p class="Institution">University of Georgia</p>
+  <p class="college">Odum School of Ecology</p>
+  <p class="position">Undergraduate Researcher</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://sasakilab.ecology.uga.edu/people/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row--> 
 <div class="row row-people">
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Andrew-Tredennick.jpg" alt="Andrew Tredennick">
+<div class="card-body">
+  <h2 class="card-title name">Andrew Tredennick</h2>
+  <p class="Institution">WEST Environmental and Statistical Consultants</p>
+  <p class="position">Biometrician</p>
+  <!--Personal personal-website btn-sm btn-primarys -->
+  <a class="personal-website btn-sm btn-primary" href="https://atredennick.github.io/" target="_blank"> more > </a>
+</div></div>
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/David-Vasquez.jpg"  alt="David Vasquez">
@@ -351,7 +464,6 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <a class="personal-website btn-sm btn-primary" href="https://davidvasquezjr.wixsite.com/diseaseecology" target="_blank"> more > </a>
 </div></div>
 
-
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Joy-Vaz.jpg"  alt="Joy Vaz">
 <div class="card-body">
@@ -362,6 +474,9 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
   <!--Personal personal-website btn-sm btn-primarys -->
   <a class="personal-website btn-sm btn-primary" href="https://daphnia.ecology.uga.edu/drakelab/" target="_blank"> more > </a>
 </div></div>
+
+</div><!-- end of row--> 
+<div class="row row-people">
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Jessica-Wenclawiak.jpg" alt="Jessica Wenclawiak">
@@ -374,9 +489,6 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <a class="personal-website btn-sm btn-primary" href="https://daphnia.ecology.uga.edu/drakelab/" target="_blank"> more > </a>
 </div></div>
 
-</div><!-- end of row-->
-<div class="row row-people">
-
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Anna-Willoughby.jpg" alt="Anna Willoughby">
 <div class="card-body">
@@ -387,7 +499,6 @@ The **COVID-19 Portal** provides data-driven, information rich situation awarene
 <!--Personal personal-website btn-sm btn-primarys -->
 <a class="personal-website btn-sm btn-primary" href="https://daphnia.ecology.uga.edu/drakelab/" target="_blank"> more > </a>
 </div></div>
-
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Cali-Wilson.jpg" alt="Cali Wilson">

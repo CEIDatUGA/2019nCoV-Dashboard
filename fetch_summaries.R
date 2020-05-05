@@ -31,17 +31,17 @@ fetch_and_fix(
 # Maps 
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/chinaMap.html?token=ADVPF4HLV74KXA2DGKFPHFC6WE7BU",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/chinaMap.html?token=ADVPF4HJ7QHUFN55RZFG6T26XKPH4",
   destfile="maps-china.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/usMap.html?token=ADVPF4CGHKV5MXKZLQB2HR26WE7MG",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/usMap.html?token=ADVPF4EWRULPYS7WODWENY26XKPJ6",
   destfile="maps-us.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/worldMap.html?token=ADVPF4CWFMG3VRLJGEAMYUK6WE7NU",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/worldMap.html?token=ADVPF4HN2FYADD6ATGNJWNC6XKPLO",
   destfile="maps-world.html"
 )
 
@@ -74,17 +74,17 @@ fetch_and_fix(
 
 # Epidemic Characteristics
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4HAGCY3BC5CLAYIPRC6WAIEK",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/web-summary.html?token=ADVPF4FLXTBOM2LYOYPOWHS6XKPTC",
   destfile="parameters-web-summary.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4FHD4QTZ3XRJWGVAU26WAIHA",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/ncov-parameters.html?token=ADVPF4DJNCM47HS4OTCMLVK6XKPVS",
   destfile="parameters-supplement.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/parameters-US.html?token=ADVPF4E462F3LKUUQN2GB7S6WAII2",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-parameters/master/parameters-US.html?token=ADVPF4FOXEW63HT7EEA2D426XKPWY",
   destfile="parameters-US.html"
 )
 
