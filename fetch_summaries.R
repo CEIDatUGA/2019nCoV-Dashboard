@@ -97,12 +97,12 @@ fetch_and_fix(
 
 # Stochastic Model
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/web-summary.html?token=ADVPF4A5SQTXX7T5MMEZ6M26WLCQM",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/web-summary.html?token=ADVPF4BPZSAU7QX54XV3ISS6XU5GK",
   destfile="stochastic-web-summary.html"
 )
 
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model.html?token=ADVPF4HSE2GNDSX2U2TSHVS6WLCS6",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-wuhan-stochastic-model/master/stochastic-model.html?token=ADVPF4H5P4GYH5QPITSKX7S6XU5M4",
   destfile="stochastic-model.html"
 )
 
