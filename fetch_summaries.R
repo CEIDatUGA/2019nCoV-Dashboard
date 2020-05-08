@@ -68,7 +68,7 @@ fetch_and_fix(
 
 # Context
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4FUQVFSA7DF6TS6CAC6WVM3Q",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-context/master/web-summary.html?token=ADVPF4GMYZMNYXBKBOGRAAS6X25D4",
   destfile="context-web-summary.html"
 )
 
@@ -184,13 +184,13 @@ utils::download.file(
 
 # China Spatial Model
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4EKLJSAAYANAXZK2TS6WVNA4",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/web_summary.html?token=ADVPF4CBYEP4UI4NQHPQBES6X25UM",
   destfile="china-spatial-web-summary.html"
 )
 
 # China Spatial Model - links map - UPDATE MANUALLY - FILE NAME CHANGES
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/maps/link-weights-chloropleth-highest-ten-pct-2020-03-22.html?token=ADVPF4CQ26N47AFQPBQ6WL26WVNDU",
+  url="https://raw.githubusercontent.com/CEIDatUGA/CoronavirusSpatial/master/maps/link-weights-chloropleth-highest-ten-pct-2020-03-22.html?token=ADVPF4BBTQTNL5QXV57QMTK6X25XE",
   destfile="china-spatial-link-weights.html"
 )
 
