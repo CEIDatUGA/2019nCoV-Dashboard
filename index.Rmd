@@ -75,7 +75,15 @@ title: "CEID COVID-19 - Home"
 <div class="row">
 <div class="col-sm-8">
 
-### John Drake feature article on [FiveThirtyEight](https://fivethirtyeight.com/features/why-one-expert-is-still-making-covid-19-models-despite-the-uncertainty/)
+### John Drake on Debriefing the Briefing with Major Carrett
+
+May 7, 2020
+
+CEID Director John Drake discusses how COVID-19 modeling informs public policy and mitigation efforts on Debriefing the Briefing with CBS News Washington Correspondent Major Garrett. 
+
+Listen the podcast <a href="https://tinyurl.com/yc7m85ax" target="_blank">here</a>.
+
+### John Drake feature article on FiveThirtyEight
 
 **Why One Expert Is Still Making COVID-19 Models, Despite The Uncertainty**  
 by John M. Drake  

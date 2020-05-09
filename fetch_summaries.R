@@ -202,13 +202,13 @@ fetch_and_fix(
 
 # Final Size - web summary
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSizeSummary.html?token=ADVPF4BZ735NSJERKOI6FZC6WVNJK",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSizeSummary.html?token=ADVPF4CTGW37LMJ4MIUXZR26X7JZY",
   destfile="final-size-web-summary.html"
 )
 
 # Final Size - supp
 fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSize.html?token=ADVPF4BDNYCK6WHAK7GJV5C6WVNM6",
+  url="https://raw.githubusercontent.com/CEIDatUGA/ncov-coupled-outbreaks/master/finalSize.html?token=ADVPF4EKAJ5KEXCXHYJR72S6X7JUE",
   destfile="final-size-supplement.html"
 )
 
