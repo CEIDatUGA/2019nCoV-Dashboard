@@ -287,16 +287,19 @@ Academic Affairs and Provost</p>
   <a class="personal-website btn-sm btn-primary" href="https://chloeparker.myportfolio.com/" target="_blank"> more > </a>
 </div></div>
 
-<!-- <div class="col-sm-4" > -->
-<!--   <img class="card-img-top img-circle" src="images/people/Tom-Pulliam.jpg" alt="Tom Pulliam"> -->
-<!-- <div class="card-body"> -->
-<!--   <h2 class="card-title name">Tom Pulliam</h2> -->
-  <!-- <p class="Institution">University of Georgia</p> -->
-  <!-- <p class="college">Center for the Ecology of Infectious Diseases</p> -->
-  <!-- <p class="position">Consultant</p> -->
-  <!--Personal personal-website btn-sm btn-primarys -->
-  <!-- <a class="personal-website btn-sm btn-primary" href="" target="_blank"> more > </a> -->
-<!-- </div></div> -->
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Tom-Pulliam.jpg" alt="Tom Pulliam">
+<div class="card-body">
+  <h2 class="card-title name">Tom Pulliam</h2>
+<p class="Institution">University of Georgia</p>
+<p class="college">Odum School of Ecology</p>
+<p class="position">Scientific Programmer, Drake Lab</p>
+<!-- Personal personal-website btn-sm btn-primarys -->
+<a class="personal-website btn-sm btn-primary" href="https://daphnia.ecology.uga.edu/drakelab/" target="_blank"> more > </a>
+</div></div>
+
+</div><!-- end of row--> 
+<div class="row row-people">
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Robbie-Richards.jpg" alt="Robbie Richards">
@@ -308,9 +311,6 @@ Academic Affairs and Provost</p>
   <!--Personal personal-website btn-sm btn-primarys -->
   <a class="personal-website btn-sm btn-primary" href="http://ezenwalab.uga.edu/people/" target="_blank"> more > </a>
 </div></div>
-
-</div><!-- end of row--> 
-<div class="row row-people">
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Trippe-Ross.jpg" alt="Trippe Ross">
@@ -332,6 +332,9 @@ Academic Affairs and Provost</p>
   <a class="personal-website btn-sm btn-primary" href="http://ezenwalab.uga.edu/people/" target="_blank"> more > </a>
 </div></div>
 
+</div><!-- end of row--> 
+<div class="row row-people">
+
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Liliana-Salvador.jpg" alt="Liliana Salvador">
 <div class="card-body">
@@ -343,9 +346,6 @@ Academic Affairs and Provost</p>
   <!--Personal personal-website btn-sm btn-primarys -->
   <a class="personal-website btn-sm btn-primary" href="https://vet.uga.edu/person/liliana-salvador/" target="_blank"> more > </a>
 </div></div>
-
-</div><!-- end of row--> 
-<div class="row row-people">
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Cecilia-Sánchez.jpg" alt="Cecilia-Sánchez">
@@ -369,6 +369,9 @@ Academic Affairs and Provost</p>
   <a class="personal-website btn-sm btn-primary" href="https://www.ecology.uga.edu/directory/john-paul-schmidt/" target="_blank"> more > </a>
 </div></div>
 
+</div><!-- end of row--> 
+<div class="row row-people">
+
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Margaret-Schrayer.jpg" alt="Margaret Schrayer">
 <div class="card-body">
@@ -379,9 +382,6 @@ Academic Affairs and Provost</p>
   <!--Personal personal-website btn-sm btn-primarys -->
   <a class="personal-website btn-sm btn-primary" href="https://ceciliaasanchez.weebly.com/" target="_blank"> more ></a>
 </div></div>
-
-</div><!-- end of row--> 
-<div class="row row-people">
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Andrea-Silletti.jpg" alt="Andrea Silletti">
@@ -405,6 +405,9 @@ Academic Affairs and Provost</p>
   <a class="personal-website btn-sm btn-primary" href="https://prstephens.ecology.uga.edu/" target="_blank"> more > </a>
 </div></div>
 
+</div><!-- end of row--> 
+<div class="row row-people">
+
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Chao-Song.jpg" alt="Chao Song">
 <div class="card-body">
@@ -414,9 +417,6 @@ Academic Affairs and Provost</p>
   <!--Personal personal-website btn-sm btn-primarys -->
   <a class="personal-website btn-sm btn-primary" href="https://songchao1986.github.io/" target="_blank"> more > </a>
 </div></div>
-
-</div><!-- end of row--> 
-<div class="row row-people">
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Daniel-Suh.jpg"  alt="Daniel Suh">
@@ -440,6 +440,9 @@ Academic Affairs and Provost</p>
   <a class="personal-website btn-sm btn-primary" href="https://sasakilab.ecology.uga.edu/people/" target="_blank"> more > </a>
 </div></div>
 
+</div><!-- end of row--> 
+<div class="row row-people">
+
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Olivia-Thomas.jpg" alt="Olivia Thomas">
 <div class="card-body">
@@ -450,9 +453,6 @@ Academic Affairs and Provost</p>
   <!--Personal personal-website btn-sm btn-primarys -->
   <a class="personal-website btn-sm btn-primary" href="https://sasakilab.ecology.uga.edu/people/" target="_blank"> more > </a>
 </div></div>
-
-</div><!-- end of row--> 
-<div class="row row-people">
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Andrew-Tredennick.jpg" alt="Andrew Tredennick">
@@ -475,6 +475,9 @@ Academic Affairs and Provost</p>
 <a class="personal-website btn-sm btn-primary" href="https://davidvasquezjr.wixsite.com/diseaseecology" target="_blank"> more > </a>
 </div></div>
 
+</div><!-- end of row--> 
+<div class="row row-people">
+
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Joy-Vaz.jpg"  alt="Joy Vaz">
 <div class="card-body">
@@ -486,9 +489,6 @@ Academic Affairs and Provost</p>
   <a class="personal-website btn-sm btn-primary" href="https://daphnia.ecology.uga.edu/drakelab/" target="_blank"> more > </a>
 </div></div>
 
-</div><!-- end of row--> 
-<div class="row row-people">
-
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Jessica-Wenclawiak.jpg" alt="Jessica Wenclawiak">
 <div class="card-body">
@@ -499,6 +499,21 @@ Academic Affairs and Provost</p>
 <!--Personal personal-website btn-sm btn-primarys -->
 <a class="personal-website btn-sm btn-primary" href="https://daphnia.ecology.uga.edu/drakelab/" target="_blank"> more > </a>
 </div></div>
+
+<div class="col-sm-4" >
+  <img class="card-img-top img-circle" src="images/people/Tim-Wildauer.jpg" alt="Tim Wildauer">
+<div class="card-body">
+  <h2 class="card-title name">Tim Wildauer</h2>
+  <p class="Institution">St. Joseph Mercy Health System</p>
+  <!-- <p class="college"></p> -->
+  <p class="position">Programmer Analyst</p>
+<!--Personal personal-website btn-sm btn-primarys -->
+<a class="personal-website btn-sm btn-primary" href="https://www.linkedin.com/in/timothy-wildauer" target="_blank"> more > </a>
+</div></div>
+
+
+</div><!-- end of row--> 
+<div class="row row-people">
 
 <div class="col-sm-4" >
   <img class="card-img-top img-circle" src="images/people/Anna-Willoughby.jpg" alt="Anna Willoughby">
