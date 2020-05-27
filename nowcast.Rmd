@@ -45,7 +45,7 @@ knitr::include_url("nowcast-validation.html")
   
 <div class="container-frames">
 
-Parameters for the US are on at [2019-coronavirus-tracker.com/parameters](http://2019-coronavirus-tracker.com/parameters)
+Parameters for the US are on at [covid19.uga.edu/parameters](http://covid19.uga.edu/parameters)
 
 
 <!--Preprint: [download]() -->

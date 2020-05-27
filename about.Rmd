@@ -5,7 +5,7 @@ title: "CEID COVID-19 - About"
 
 <div class="jumbotron jumbotron-fluid aboutpagebanner">
 <div class="container">
-  <h2 class="lead">The UGA Center for the Ecology of Infectious Diseases <a href="http://ceid.uga.edu" target="_blank">(CEID)</a> is a research unit housed in the Odum School of Ecology at the University of Georgia. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.</h2>
+  <h2 class="lead">The UGA Center for the Ecology of Infectious Diseases <a href="https://www.ceid.uga.edu" target="_blank">(CEID)</a> is a research unit housed in the Odum School of Ecology at the University of Georgia. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.</h2>
   <h2 class="lead">The **COVID-19 Portal** provides data-driven, information rich situation awareness about the rapidly changing conditions of the current outbreak of **COVID-19**.</h2>
   <a class="btn btn-primary btn-lg" href="#contributors" role="button">Contributors</a>
   </div>
@@ -174,7 +174,7 @@ Academic Affairs and Provost</p>
   <p class="college">MS in Comparative Biomedical Sciences</p>
   <p class="position">Scientific Writing Intern</p>
 <!--Personal personal-website btn-sm btn-primarys -->
-  <a class="personal-website btn-sm btn-primary" href="http://ceid.uga.edu/blog/2020/01/22/culzean-kennedy/" target="_blank"> more > </a>
+  <a class="personal-website btn-sm btn-primary" href="https://www.ceid.uga.edu/blog/2020/01/22/culzean-kennedy/" target="_blank"> more > </a>
 </div></div>
 
 <div class="col-sm-4" >
@@ -185,7 +185,7 @@ Academic Affairs and Provost</p>
   <p class="college">Center for the Ecology of Infectious Diseases</p>
   <p class="position">Project & Communications Manager, Coronavirus Working Group</p>
 <!--Personal personal-website btn-sm btn-primarys -->
-  <a class="personal-website btn-sm btn-primary" href="http://ceid.uga.edu/blog/2020/05/05/john-king/" target="_blank"> more > </a>
+  <a class="personal-website btn-sm btn-primary" href="https://www.ceid.uga.edu/blog/2020/05/05/john-king/" target="_blank"> more > </a>
 </div></div>
 
 </div><!-- end of row--> 

@@ -8,9 +8,9 @@ title: "CEID COVID-19 - Home"
 <div class="container">
   <!--<h1 class="display-3"></h1>-->
   <h2 class="lead">The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID&#8209;19 pandemic.</h2>
-  <h2 class="lead">The&nbsp;UGA&nbsp;Center&nbsp;for&nbsp;the&nbsp;Ecology&nbsp;of Infectious&nbsp;Diseases&nbsp; [(CEID)](http://ceid.uga.edu)<strong> Coronavirus&nbsp;Working&nbsp;Group</strong>&nbsp;&nbsp;
-  <a class="btn btn-primary btn-sm" href="#news" role="button">News &amp; Updates</a></h2>
-  
+  <h2 class="lead">The&nbsp;UGA&nbsp;Center&nbsp;for&nbsp;the&nbsp;Ecology&nbsp;of Infectious&nbsp;Diseases&nbsp; [(CEID)](https://www.ceid.uga.edu)<strong> Coronavirus&nbsp;Working&nbsp;Group</strong>&nbsp;&nbsp;
+  <a class="btn btn-primary btn-sm" href="#news" role="button">News &amp; Updates</a></h2><br>
+  <small>Information for UGA students and staff: <a href="https://www.uga.edu/coronavirus" target="_blank">www.uga.edu/coronavirus</a></small>
   </p>
 </div>
 </div>
@@ -93,7 +93,7 @@ Read the full article on [FiveThirtyEight.com](https://fivethirtyeight.com/featu
 
 ### New Tracker for Cases, Deaths and Hospitalizations
 
-The <a href="http://ceid.uga.edu" target="_blank">Center for the Ecology of Infectious Diseases (CEID)</a> and the <a href="https://publichealth.uga.edu" target="_blank">College of Public Health (CPH)</a> at UGA have created a [new interactive tracker](tracker.html) that allows users to track the spread of COVID-19 both in the US and worldwide. The tracker allows users to explore cases, hospitalizations, deaths and number of tests for every US state, as well as cases and deaths worldwide. Users can adjust the plots by choosing total or daily numbers, absolute or normalized values, and calendar date versus date since a certain number of cases occurred. The data comes from the Covid Tracking Project and the Johns Hopkins University Center for Systems Science and Engineering.
+The <a href="https://www.ceid.uga.edu" target="_blank">Center for the Ecology of Infectious Diseases (CEID)</a> and the <a href="https://publichealth.uga.edu" target="_blank">College of Public Health (CPH)</a> at UGA have created a [new interactive tracker](tracker.html) that allows users to track the spread of COVID-19 both in the US and worldwide. The tracker allows users to explore cases, hospitalizations, deaths and number of tests for every US state, as well as cases and deaths worldwide. Users can adjust the plots by choosing total or daily numbers, absolute or normalized values, and calendar date versus date since a certain number of cases occurred. The data comes from the Covid Tracking Project and the Johns Hopkins University Center for Systems Science and Engineering.
 
 ### Op-ed by CEID Director John Drake
 
@@ -108,7 +108,7 @@ In an op-ed in the *Atlanta Journal-Constitution*, CEID Director Dr. John Drake 
 
 <div class="col-sm-4">
 <div class="card mb-0">
-<!-- <a href="http://ceid.uga.edu/support/" target='_blank'>Support CEID</a> -->
+<!-- <a href="https://www.ceid.uga.edu/support/" target='_blank'>Support CEID</a> -->
 <div class="card-header">
 ### Latest News & Updates
 </div>
@@ -140,7 +140,7 @@ In an op-ed in the *Atlanta Journal-Constitution*, CEID Director Dr. John Drake 
 </div>
 <p class="card-text">
 <small class="card-subtitle mb-2 text-muted">March 27, 2020</small><br>
-The [Nowcast](nowcast.html) of the COVID-19 outbreak size by US state has launched on the 2019 Coronavirus Tracker. The Nowcast is an estimate of the total number of unreported cases by state. Nowcasts are estimated for the 50 states and for the US as a whole, and are calculated from COVID-19 case reports and fatalities. [http://2019-coronavirus-tracker.com/nowcast](nowcast.html)
+The [Nowcast](nowcast.html) of the COVID-19 outbreak size by US state has launched on the 2019 Coronavirus Tracker. The Nowcast is an estimate of the total number of unreported cases by state. Nowcasts are estimated for the 50 states and for the US as a whole, and are calculated from COVID-19 case reports and fatalities. [http://covid19.uga.edu/nowcast](nowcast.html)
 </p>
 <div class="card-link">
 [READ MORE &rarr;](news.html#news-nowcast)
@@ -156,7 +156,7 @@ The [Nowcast](nowcast.html) of the COVID-19 outbreak size by US state has launch
 </div>
 <p class="card-text">
 <small class="card-subtitle mb-2 text-muted">March 15, 2020</small><br>
-The 2019 Coronavirus Tracker now includes a stochastic model for the COVID-19 outbreak in the state of Georgia. [http://2019-coronavirus-tracker.com/stochastic-GA](stochastic-GA.html).
+The 2019 Coronavirus Tracker now includes a stochastic model for the COVID-19 outbreak in the state of Georgia. [http://covid19.uga.edu/stochastic-GA](stochastic-GA.html).
 </p>
 <!-- <div class="card-link"> -->
 <!-- [READ MORE &rarr;](news.html#news-georgia-stochastic) -->
@@ -304,7 +304,7 @@ The disease caused by the 2019 novel coronavirus has received its official name 
 </div>
 <p class="card-text">
 <small class="card-subtitle mb-2 text-muted">February 10, 2020</small><br>
-The [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak.
+The [Center for the Ecology of Infectious Diseases (CEID)](https://www.ceid.uga.edu) launches its new [Coronavirus Tracker](http://covid19.uga.edu) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak.
 </p>
 <div class="card-link">
 [READ MORE &rarr;](news.html#news-announcing-ncov-tracker)
@@ -324,7 +324,7 @@ The [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) 
 </div>
 
 <div class="container">
-<small><a href="http://ceid.uga.edu" target="_blank">The Center for the Ecology of Infectious Diseases (CEID)</a> is a research unit housed in the Odum School of Ecology at the University of Georgia. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.</small>
+<small><a href="https://www.ceid.uga.edu" target="_blank">The Center for the Ecology of Infectious Diseases (CEID)</a> is a research unit housed in the Odum School of Ecology at the University of Georgia. The mission of the CEID is to bring together social and natural scientists through data science, basic biology, and scientific synthesis.</small>
 </div>
 
 </div>

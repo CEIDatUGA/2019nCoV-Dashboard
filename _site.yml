@@ -63,9 +63,9 @@ name: "CEID 2019 nCoV"
 #      href: about.html
 #  right:
 #    - text: "<img id=\"logo\" style=\"width: 30px;\" src=\"dog.gif\" />"
-#    - text: "<a href=\"http://ceid.uga.edu/support/\" target=\"_blank\">Support CEID</a>"
+#    - text: "<a href=\"https://ceid.uga.edu/support/\" target=\"_blank\">Support CEID</a>"
 #     - text: "Support CEID"
-#      href: "http://ceid.uga.edu/support/"
+#      href: "https://ceid.uga.edu/support/"
 output:
   html_document:
     self_contained: false

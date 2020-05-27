@@ -46,12 +46,12 @@ Data are publicly available here:
 
 Data resources used initually by the CEID Coronavirus Working Group include:
 
-[Timeline of key events and case notifications by country](https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit#gid=0) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
-[Case notifications in China by province](https://docs.google.com/spreadsheets/d/1gTj4zFMfXRk92CCQAOwa04ZBhqJ4oSmQFm_nb8-YXbw/edit) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
-[Case notifications in China by prefecture](https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/data/prefecture_master.csv?token=AD7PNRPAXQMS5ZSG6ENOMJ26K74G6) | csv, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
-[First date of infection for Chinese prefectures](https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/data/prefecture_master_binary.csv?token=AD7PNRKJI4L22MWTZBOKL3S6K74TS) | csv, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
-[Interventions in China by prefecture](https://docs.google.com/spreadsheets/d/1aK9Es7x6KReabBRkWiBbiSGsxSC37kPKD-qiPcD50hg/edit#gid=0) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
-[Travel advisories](https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1525027375) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
-[Case notifications in the US by state](https://docs.google.com/spreadsheets/d/10NYNf4UX7R_nNdM-jkbo7A5SGkB8sUVMIiqU7e_-miU/edit#gid=0) | Google sheet, updated daily, maintainer: [CEID](http://ceid.uga.edu)<br>
+[Timeline of key events and case notifications by country](https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit#gid=0) | Google sheet, updated daily, maintainer: [CEID](https://www.ceid.uga.edu)<br>
+[Case notifications in China by province](https://docs.google.com/spreadsheets/d/1gTj4zFMfXRk92CCQAOwa04ZBhqJ4oSmQFm_nb8-YXbw/edit) | Google sheet, updated daily, maintainer: [CEID](https://www.ceid.uga.edu)<br>
+[Case notifications in China by prefecture](https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/data/prefecture_master.csv?token=AD7PNRPAXQMS5ZSG6ENOMJ26K74G6) | csv, updated daily, maintainer: [CEID](https://www.ceid.uga.edu)<br>
+[First date of infection for Chinese prefectures](https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/data/prefecture_master_binary.csv?token=AD7PNRKJI4L22MWTZBOKL3S6K74TS) | csv, updated daily, maintainer: [CEID](https://www.ceid.uga.edu)<br>
+[Interventions in China by prefecture](https://docs.google.com/spreadsheets/d/1aK9Es7x6KReabBRkWiBbiSGsxSC37kPKD-qiPcD50hg/edit#gid=0) | Google sheet, updated daily, maintainer: [CEID](https://www.ceid.uga.edu)<br>
+[Travel advisories](https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1525027375) | Google sheet, updated daily, maintainer: [CEID](https://www.ceid.uga.edu)<br>
+[Case notifications in the US by state](https://docs.google.com/spreadsheets/d/10NYNf4UX7R_nNdM-jkbo7A5SGkB8sUVMIiqU7e_-miU/edit#gid=0) | Google sheet, updated daily, maintainer: [CEID](https://www.ceid.uga.edu)<br>
 
 
