@@ -126,6 +126,17 @@ fetch_and_fix(
   destfile="stochastic-fitting-georgia-summaryplot.html"
 )
 
+# Splinedev Georgia Pomp model
+fetch_and_fix(
+  url="https://raw.githubusercontent.com/CEIDatUGA/COVID-GA-model/splinedev/web-summary.html",
+  destfile="stochastic-fitting-georgia-web-summary.html"
+)
+fetch_and_fix(
+  url="https://raw.githubusercontent.com/CEIDatUGA/COVID-GA-model/splinedev/output/figures/covidtracker-figures/landing-page-fig.html",
+  destfile="stochastic-fitting-georgia-summaryplot.html"
+)
+
+
 
 # Mass Testing
 fetch_and_fix(
