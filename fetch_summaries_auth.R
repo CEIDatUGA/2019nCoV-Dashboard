@@ -146,21 +146,21 @@ fetchGHdata("CEIDatUGA", "ncov-wuhan-stochastic-model", "stochastic-model.html")
 
 # Stochastic Model for Georgia (pomp) ---------------------------------------------------------
 
-# fetchGHdata("CEIDatUGA", "COVID-GA-model", "web-summary.html") %>% insert_tag(resizer) %>% 
-#   writeLines("stochastic-fitting-georgia-web-summary.html")
-# 
-# fetchGHdata("CEIDatUGA", "COVID-GA-model", "output/figures/covidtracker-figures/landing-page-fig.html") %>% insert_tag(resizer) %>% 
-#   writeLines("stochastic-fitting-georgia-summaryplot.html")
+fetchGHdata("CEIDatUGA", "COVID-GA-model", "web-summary.html") %>% insert_tag(resizer) %>%
+  writeLines("stochastic-fitting-georgia-web-summary.html")
 
-## Splinedev branch (temporary)
-fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/COVID-GA-model/splinedev/web-summary.html",
-  destfile="stochastic-fitting-georgia-web-summary.html"
-)
-fetch_and_fix(
-  url="https://raw.githubusercontent.com/CEIDatUGA/COVID-GA-model/splinedev/output/figures/covidtracker-figures/landing-page-fig.html",
-  destfile="stochastic-fitting-georgia-summaryplot.html"
-)
+fetchGHdata("CEIDatUGA", "COVID-GA-model", "output/figures/covidtracker-figures/landing-page-fig.html") %>% insert_tag(resizer) %>%
+  writeLines("stochastic-fitting-georgia-summaryplot.html")
+
+# ## Splinedev branch (temporary)
+# fetch_and_fix(
+#   url="https://raw.githubusercontent.com/CEIDatUGA/COVID-GA-model/splinedev/web-summary.html",
+#   destfile="stochastic-fitting-georgia-web-summary.html"
+# )
+# fetch_and_fix(
+#   url="https://raw.githubusercontent.com/CEIDatUGA/COVID-GA-model/splinedev/output/figures/covidtracker-figures/landing-page-fig.html",
+#   destfile="stochastic-fitting-georgia-summaryplot.html"
+# )
 
 # China Spatial Model -------------------------------------------------------------------------
 
