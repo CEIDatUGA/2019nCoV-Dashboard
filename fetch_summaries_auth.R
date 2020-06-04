@@ -152,6 +152,11 @@ fetchGHdata("CEIDatUGA", "COVID-GA-model", "web-summary.html") %>% insert_tag(re
 fetchGHdata("CEIDatUGA", "COVID-GA-model", "output/figures/covidtracker-figures/landing-page-fig.html") %>% insert_tag(resizer) %>%
   writeLines("stochastic-fitting-georgia-summaryplot.html")
 
+fetchGHdata("CEIDatUGA", "COVID-GA-model", "docs/GA-model.html") %>% insert_tag(resizer) %>%
+  writeLines("stochastic-fitting-georgia-suplement.html")
+
+
+
 # ## Splinedev branch (temporary)
 # fetch_and_fix(
 #   url="https://raw.githubusercontent.com/CEIDatUGA/COVID-GA-model/splinedev/web-summary.html",
