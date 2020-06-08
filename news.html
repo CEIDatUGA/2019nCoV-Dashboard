@@ -13,6 +13,7 @@
 
 <title>CEID COVID-19 - News</title>
 
+<script src="site_libs/header-attrs-2.2/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -304,8 +305,41 @@ summary {
 
 
 <div id="latest-news-and-updates" class="section level2 card-header">
-<h2>Latest News and Updates</h2>
+<h2 class="card-header">Latest News and Updates</h2>
 <hr>
+<!--NEWS ITEM-->
+<div class="news-post card-body">
+<div class="row">
+<figure class="figure text-left col-sm-3">
+<img src="images/GAstochastic.png" class="figure-img img-fluid rounded" alt="Georgia stochastic model" >
+<figcaption class="figure-caption">
+Daily tests for CA, GA, and WA<br>(<a href="http://covid19.uga.edu/tracker.html" class="uri">http://covid19.uga.edu/tracker.html</a>)
+</figcaption>
+</figure>
+<div id="news-georgia-stochastic-spline" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Stochastic model with social distancing for Georgia</h3>
+<div class="news-date text-muted">
+June 2, 2020
+</div>
+<p class="card-text">
+CEID’s <a href="stochastic-GA">stochastic model of the COVID-19 outbreak in Georgia</a> has been updated to reflect how changes in social distancing (as measured by mobility data), combined with hard-to-capture behaviors like wearing a face mask, affect the COVID-19 pandemic in Georgia under a range of scenarios. The new model includes pre-symptomatic and a-symptomatic individuals, undetected infections, confirmed cases, hospitalizations, deaths and recoveries. The model is fit to reported cases and deaths, movement data (anonymized state-wide cell phone data to track movement), and a temporal trend in baseline transmission capturing other human behaviors.
+</p>
+<p class="card-text">
+The model considers three social distancing scenarios, using the mobility data as a measure of social distancing. Specifically, we looked at returning to normal mobility, maintaining mobility at current levels (currently about 85% of normal), and decreasing mobility to 30% of normal.
+</p>
+<p class="card-text">
+The model considers the effect of each scenario on the number of cases, hospitalizations, and deaths, forecasted six weeks into the future. For example, if Georgians cease social distancing and return to normal movement beginning on June 2, by July 12 there will most likely be over 74,000 confirmed cases. However, by the same date, maintaining our current level of mobility (85% of normal) would result in about 9,000 fewer cases. Increasing social distancing and reducing mobility to 30% of normal would result in 22,000 fewer cases as compared to a complete return to normal. These data clearly indicate that social distancing does have a pronounced effect on the COVID-19 epidemic curve.
+</p>
+<p class="card-text">
+The model is updated daily. Future projections are 6-weeks ahead.
+</p>
+<p class="card-text">
+Details: <a href="stochastic-GA.html">http://covid19.uga.edu/stochastic-GA</a>.<br> Questions: Dr. John Drake (<a href="mailto:jdrake@uga.edu" class="email">jdrake@uga.edu</a>).
+</p>
+</div>
+</div>
+<hr>
+<!--END NEWS ITEM-->
 <!--NEWS ITEM-->
 <div class="news-post card-body">
 <div class="row">
@@ -315,8 +349,8 @@ summary {
 (Image credit: Chip Somodevilla / Getty Images)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-538-why" class="card-title">Feature article by John Drake on FiveThirtyEight</h3>
+<div id="news-538-why" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Feature article by John Drake on FiveThirtyEight</h3>
 <div class="news-date text-muted">
 April 17, 2020
 </div>
@@ -336,16 +370,16 @@ Read the full article at <a href="https://fivethirtyeight.com/features/why-one-e
 <figure class="figure text-left col-sm-3">
 <img src="images/tracker.png" class="figure-img img-fluid rounded" alt="daily tests" >
 <figcaption class="figure-caption">
-Daily tests for CA, GA, and WA<br>(<a href="http://2019-coronavirus-tracker.com/tracker.html" class="uri">http://2019-coronavirus-tracker.com/tracker.html</a>)
+Daily tests for CA, GA, and WA<br>(<a href="http://covid19.uga.edu/tracker.html" class="uri">http://covid19.uga.edu/tracker.html</a>)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-tracker" class="card-title">New Tracker for Cases, Deaths and Hospitalizations</h3>
+<div id="news-tracker" class="section level3 card-title col-sm-8">
+<h3 class="card-title">New Tracker for Cases, Deaths and Hospitalizations</h3>
 <div class="news-date text-muted">
 April 7, 2020
 </div>
 <p class="card-text">
-The <a href="http://ceid.uga.edu" target="_blank">Center for the Ecology of Infectious Diseases (CEID)</a> and the <a href="https://publichealth.uga.edu" target="_blank">College of Public Health (CPH)</a> at UGA have created a <a href="tracker.html">new interactive tracker</a> that allows users to visualize the spread of COVID-19 both in the U.S. and worldwide. The tracker allows users to explore cases, hospitalizations, deaths and number of tests for every U.S. state, as well as cases and deaths worldwide. Users can adjust the plots by choosing total or daily numbers, absolute or normalized values, and calendar date versus date since a certain number of cases occurred. The data comes from the Covid Tracking Project and the Johns Hopkins University Center for Systems Science and Engineering.
+The <a href="https://www.ceid.uga.edu" target="_blank">Center for the Ecology of Infectious Diseases (CEID)</a> and the <a href="https://publichealth.uga.edu" target="_blank">College of Public Health (CPH)</a> at UGA have created a <a href="tracker.html">new interactive tracker</a> that allows users to visualize the spread of COVID-19 both in the U.S. and worldwide. The tracker allows users to explore cases, hospitalizations, deaths and number of tests for every U.S. state, as well as cases and deaths worldwide. Users can adjust the plots by choosing total or daily numbers, absolute or normalized values, and calendar date versus date since a certain number of cases occurred. The data comes from the Covid Tracking Project and the Johns Hopkins University Center for Systems Science and Engineering.
 </p>
 </div>
 </div>
@@ -360,13 +394,13 @@ The <a href="http://ceid.uga.edu" target="_blank">Center for the Ecology of Infe
 Stochastic model for Georgia (U.S.)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-georgia-stochastic" class="card-title">Stochastic model for Georgia</h3>
+<div id="news-georgia-stochastic" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Stochastic model for Georgia</h3>
 <div class="news-date text-muted">
 March 15, 2020
 </div>
 <p class="card-text">
-The COVID-19 Portal now includes a stochastic model for the outbreak in the state of Georgia. <a href="stochastic-GA.html">http://2019-coronavirus-tracker.com/stochastic-GA</a>.
+The COVID-19 Portal now includes a stochastic model for the outbreak in the state of Georgia. <a href="stochastic-GA.html">http://covid19.uga.edu/stochastic-GA</a>.
 </p>
 </div>
 </div>
@@ -381,13 +415,13 @@ The COVID-19 Portal now includes a stochastic model for the outbreak in the stat
 Nowcast for the U.S.
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-nowcast" class="card-title">Nowcast of outbreak size</h3>
+<div id="news-nowcast" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Nowcast of outbreak size</h3>
 <div class="news-date text-muted">
 March 27, 2020
 </div>
 <p class="card-text">
-The <a href="nowcast.html">Nowcast</a> of the COVID-19 outbreak size by U.S. state has launched on the UGA CEID COVID-19 Portal. The nowcast is an estimate of the total number of unreported cases by state. Nowcasts are estimated for the 50 states and for the U.S. as a whole, and are calculated from COVID-19 case reports and fatalities. <a href="nowcast.html">http://2019-coronavirus-tracker.com/nowcast</a>
+The <a href="nowcast.html">Nowcast</a> of the COVID-19 outbreak size by U.S. state has launched on the UGA CEID COVID-19 Portal. The nowcast is an estimate of the total number of unreported cases by state. Nowcasts are estimated for the 50 states and for the U.S. as a whole, and are calculated from COVID-19 case reports and fatalities. <a href="nowcast.html">http://covid19.uga.edu/nowcast</a>
 </p>
 <p class="card-text">
 Estimating the number of unreported cases from reports of fatalities requires compensating for the Infection Fatality Rate (IFR), currently estimated at 0.9%. IFR represents the percentage of cases that result in fatalities. During the outbreak, the death rate might appear to be larger because most cases are unreported. But in fact, we can use reports of fatalities and the IFR to estimate the number of actual cases that must have been present in the community dome time before the present. We can then forecast from that point in the past back to the present to derive an estimate of the total number of unreported cases at present.
@@ -406,8 +440,8 @@ Estimating the number of unreported cases from reports of fatalities requires co
 Effect of early intervention in China
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-early-intervention" class="card-title">Effect of early intervention</h3>
+<div id="news-early-intervention" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Effect of early intervention</h3>
 <div class="news-date text-muted">
 March 15, 2020
 </div>
@@ -418,7 +452,7 @@ CEID has released an analysis of the <a href="early-intervention.html">effect of
 Based on a study of government intervention in China following the Initial outbreak of COVID-19 in Wuhan, Dr. Drake found a very strong correlation (90%) between how early a lockdown was imposed in a province and the ultimate severity of the outbreak there. The results show that early action yields critical gains, with every delay of 3.8 days leading to a tenfold increase in cases.
 </p>
 <p class="card-text">
-Details: <a href="early-intervention.html">http://2019-coronavirus-tracker.com/early-intervention</a>.
+Details: <a href="early-intervention.html">http://covid19.uga.edu/early-intervention</a>.
 </p>
 </div>
 </div>
@@ -433,8 +467,8 @@ Details: <a href="early-intervention.html">http://2019-coronavirus-tracker.com/e
 Final outbreak size<br>as a function of learning rate
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-finalsize" class="card-title">Estimating final outbreak size</h3>
+<div id="news-finalsize" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Estimating final outbreak size</h3>
 <div class="news-date text-muted">
 March 3, 2020 (Updated March 4, 2020)
 </div>
@@ -451,7 +485,7 @@ The model is scaled up to the size of a global epidemic by probabilistically inc
 The global model shows how rapid response and limiting sparking are key to preventing pandemic. According to the model, average-case final outbreak sizes can vary over several orders of magnitude as a result of both how quickly local containment is achieved and how likely infectious individuals are to seed new outbreaks elsewhere.
 </p>
 <p class="card-text">
-Model details and estimates are available at <a href="final-size.html">http://2019-coronavirus-tracker.com/final-size</a>.
+Model details and estimates are available at <a href="final-size.html">http://covid19.uga.edu/final-size</a>.
 </p>
 </div>
 </div>
@@ -466,8 +500,8 @@ Model details and estimates are available at <a href="final-size.html">http://20
 Helpfulness of mass testing, by disease
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-masstesting" class="card-title">Assessment of mass screening and testing</h3>
+<div id="news-masstesting" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Assessment of mass screening and testing</h3>
 <div class="news-date text-muted">
 February 21, 2020
 </div>
@@ -493,8 +527,8 @@ Because COVID-19 shows general respiratory symptoms that are similar to common i
 Case Fatality Rate by Chinese province
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-cfr" class="card-title">Estimates of case fatality rate added</h3>
+<div id="news-cfr" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Estimates of case fatality rate added</h3>
 <div class="news-date text-muted">
 February 20, 2020
 </div>
@@ -514,8 +548,8 @@ Estimates of the case fatality rate <span class="math inline"><em>C</em><em>F</e
 Effect of imperfect detection and superspreading<br>on estimates of Effective Reproduction Number
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-reff-updated" class="card-title">Effective reproduction number outside China updated</h3>
+<div id="news-reff-updated" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Effective reproduction number outside China updated</h3>
 <div class="news-date text-muted">
 February 20, 2020
 </div>
@@ -535,8 +569,8 @@ Estimates of the <em>effective reproduction number</em> <span class="math inline
 Artist’s impression: SARS-CoV-2<br>based on micrographs of SARS and MERS.<br>(Credit: Chloe Parker)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-sars-cov-2" class="card-title">Virus causing COVID-19 disease named “SARS-CoV-2”</h3>
+<div id="news-sars-cov-2" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Virus causing COVID-19 disease named “SARS-CoV-2”</h3>
 <div class="news-date text-muted">
 February 17, 2020
 </div>
@@ -562,8 +596,8 @@ The official disease name, COVID-19, which was announced February 11, 2020, shou
 Effect of imperfect detection and superspreading<br>on estimates of Effective Reproduction Number
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-reff-outside" class="card-title">R effective outside China</h3>
+<div id="news-reff-outside" class="section level3 card-title col-sm-8">
+<h3 class="card-title">R effective outside China</h3>
 <div class="news-date text-muted">
 February 17, 2020
 </div>
@@ -585,7 +619,7 @@ In contrast, <span class="math inline"><em>R</em><sub><em>e</em><em>f</em><em>f<
 Because there is relatively little data from secondary transmission chains, it is not possible to estimate the <span class="math inline"><em>R</em><sub><em>e</em><em>f</em><em>f</em></sub></span> directly in these settings. However, the relative number of secondary transmission events may still contain information about the effective reproduction number in these settings.
 </p>
 <p class="card-text">
-CEID has now introduced a method to estimate the average effective reproduction number of cases exported outside China, relying on certain assumptions. The method and first estimates are detailed here: <a href="http://2019-coronavirus-tracker.com/reff-outside.html" class="uri">http://2019-coronavirus-tracker.com/reff-outside.html</a>
+CEID has now introduced a method to estimate the average effective reproduction number of cases exported outside China, relying on certain assumptions. The method and first estimates are detailed here: <a href="http://covid19.uga.edu/reff-outside.html" class="uri">http://covid19.uga.edu/reff-outside.html</a>
 </p>
 </div>
 </div>
@@ -600,8 +634,8 @@ CEID has now introduced a method to estimate the average effective reproduction 
 Artist’s impression of 2019-nCov<br>Based on micrographs of related SARS and MERS coronaviruses. (Image credit: Chloe Parker)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-covid-19" class="card-title">Novel coronavirus disease renamed COVID-19</h3>
+<div id="news-covid-19" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Novel coronavirus disease renamed COVID-19</h3>
 <div class="news-date text-muted">
 February 11, 2020
 </div>
@@ -630,13 +664,13 @@ The novel virus itself is still unnamed, and is being referred to as 2019-nCov. 
 Artist’s impression of 2019-nCov<br>Based on micrographs of related SARS and MERS coronaviruses. (Image credit: Chloe Parker)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-announcing-ncov-tracker" class="card-title">Announcing the Coronavirus Tracker</h3>
+<div id="news-announcing-ncov-tracker" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Announcing the Coronavirus Tracker</h3>
 <div class="news-date text-muted">
 February 10, 2020
 </div>
 <p class="card-text">
-The UGA <a href="http://ceid.uga.edu">Center for the Ecology of Infectious Diseases (CEID)</a> launches its new <a href="http://2019-coronavirus-tracker.com">Coronavirus Tracker</a> today. The tracker is the work of CEID’s Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak.
+The UGA <a href="https://www.ceid.uga.edu">Center for the Ecology of Infectious Diseases (CEID)</a> launches its new <a href="http://2019-coronavirus-tracker.com">Coronavirus Tracker</a> today. The tracker is the work of CEID’s Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak.
 </p>
 <p class="card-text">
 Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the CEID formed the <strong>Coronavirus Working Group</strong>, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.
@@ -655,7 +689,7 @@ The Working Group’s <strong>Coronavirus Tracker</strong> provides data-driven,
 </ul>
 </p>
 <p class="card-text">
-<small>UPDATE: The Coronavirus Tracker was renamed the COVID-19 Portal. The URL remains the same.</small>
+<small>UPDATE: The Coronavirus Tracker was renamed the COVID-19 Portal and has migrated to <a href="http://www.covid19.uga.edu">covid19.uga.edu</a>.</small>
 </p>
 <div class="card-footer text-muted">
 <p class="card-text">
@@ -672,77 +706,77 @@ Contact: <a href="mailto:jdrake@uga.edu" class="card-link">John M. Drake (<a hre
 <!--END NEWS ITEMS-->
 </div>
 
-</iframe> <!-- iframe -->
+<div id="CeidFooter" class="band full">
+<div class="bandContent">
+    <div class="row">
 
-<footer class="container-fluid ceidfooter" id = "pageFooter">
-			<div class="row">
-				<div class='col-sm-6 col-md-4'>
-					<p><a href='http://ceid.uga.edu/' target='_blank'>
-					<img src="images/Screen-CEID-H-FC.png" alt="Center for the Ecology of Infectious Diseases, University of Georgia"/></a></p>
-          <p><small>Contact: <a href="mailto:jdrake@uga.edu">John M. Drake (jdrake@uga.edu)</a></small>
-						<!--
-						<br><small>203&nbsp;D.&nbsp;W.&nbsp;Brooks&nbsp;Drive, Athens,&nbsp;GA&nbsp;30602<br>
-						706&#8209;542&#8209;1930</small>
-						-->
-					<br>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE" crossorigin="anonymous">
+        <div class='col-sm-6 col-md-4'>
 
-						<a class="ceidfooter__social-link" aria-label="ceid on Twitter" href="https://twitter.com/ceid_uga">
-							<i class="fab fa-fw fa-twitter" title="Twitter" aria-hidden></i>
-							<span class="ceidfooter__social-label"><small>Twitter</small></span>
-							</a>
-            </p>
-            <p><a href="http://ceid.uga.edu/support/" target='_blank'>Support CEID</a></p>
-					
-				</div>
-				<div class='col-sm-6 col-md-4'>
-				  <p><small><strong>External Resources:</strong></small><br><br>
-					<small>
-				<!-- LINKS TO EXTERNAL RESOURCES HERE -->
+              <div class="ceidfooter__logo">
+                 <a class="ceidfooter__logo-link" href="http://ceid.uga.edu/">Center for the Ecology of Infectious Diseases at the University of Georgia</a>
+              </div>
+              <div class="ceid-contact">
+                <div class="ceid-contact-item">
+        <strong>Contact:</strong> <a href="mailto:jdrake@uga.edu">John M. Drake (jdrake@uga.edu)</a>
+          <!--
+          <br><small>203&nbsp;D.&nbsp;W.&nbsp;Brooks&nbsp;Drive, Athens,&nbsp;GA&nbsp;30602<br>
+          706&#8209;542&#8209;1930</small>
+          --></div>
 
-				<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target='_blank'>WHO</a>&emsp; 
-				<a href="https://www.cdc.gov/coronavirus/2019-ncov/" target='_blank'>CDC</a>&emsp; 
-				<a href="https://www.mobs-lab.org/2019ncov.html" target='_blank'>Northeastern&nbsp;University</a>&emsp; 
-				<a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target='_blank'>Johns&nbsp;Hopkins&nbsp;University</a>&emsp; 
-				<a href="https://nextstrain.org/ncov" target='_blank'>Nextstrain</a>&emsp; 
-				<a href="https://covid-measures.github.io" target='_blank'>Long&#8209;Term&nbsp;Intervention&nbsp;Strategies</a>&emsp; 
-				<a href="https://covidtracking.com/" target='_blank'>COVID&nbsp;Tracking&nbsp;Project</a>&emsp;
-				<a href="https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html" target='_blank'>NY&nbsp;Times&nbsp;Map&nbsp;&amp;&nbsp;Case&nbsp;Count</a>
-				
-				</small></p>
-				<!--
-				  <p><small><strong>Contributors:</strong></small></p>
-          <p><small>Lewis Bartlett, Ana Bento, Rebecca Borchering, John Drake, Yang Ge, Andreas Handel, Drew Kramer, Culzean Kennedy, Brian McKay, Eric Marty, Rachel Mercaldo, Paige Miller, Tierney O'Sullivan, Chloe Parker, Robbie Richards, Trippe Ross, Kate Sabey, Liliana Salvador, Cecilia Sanchez, JP Schmidt, Patrick Stephens, Chao Song, Daniel Suh, Benjamin Taylor, David Vasquez, Joy Vaz, Jessica Wenclawiak, Anna Willoughby, Cali Wilson</small></p>
-          -->
-					</div>
-				<div class='col-sm-6 col-md-4'>
-				  <p><small><strong>Data Use:</strong></small></p>
-				  <p><small>Content and data on this site are licensed under a 
-				    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target='_blank'>Creative Commons Attribution 4.0 International License</a>.</small><br>
-				    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target='_blank'>
-  					  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
-  					<a href="http://opendefinition.org/" target='_blank'>
-  					  <img src="http://opendefinition.org/assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="This material is Open Content"/></a>
-  					<a href="http://opendefinition.org/" target='_blank'>
-  					  <img src="http://opendefinition.org/assets.okfn.org/images/ok_buttons/od_80x15_blue.png" alt="This material is Open Data"/></a><br>
-  					  <small><a href="https://eits.uga.edu/access_and_security/infosec/pols_regs/policies/privacy/">Privacy Policy</a></small><br>
-  					  <a class="ceidfooter__social-link" aria-label="ceid on github" href="https://github.com/CEIDatUGA/2019nCoV-Dashboard">
-							  <i class="fab fa-fw fa-github" title="Github" aria-hidden></i>
-						    <span class="ceidfooter__social-label"><small>Website code</small></span>
-						  </a>
-						<p><small>
-						<script language="javascript">
-							document.write("Last updated "+document.lastModified);
-						</script>
-					</small></p>
-				</div>
-				<div class='col-sm-6 col-md-12'>
-				
+        <div class="ceid-contact-item">
+          <a class="ceidfooter__social-link" aria-label="ceid on Twitter" href="https://twitter.com/ceid_uga" target="_blank">
+            <i class="fab fa-fw fa-twitter" title="Twitter" aria-hidden></i>
+            <span class="ceidfooter__social-label">Twitter</span>
+            </a>
 
-			</div>
-		</div>
-</footer>
+          <a href="http://ceid.uga.edu/support/" target='_blank' aria-label="support ceid" target="_blank">
+            <i class="glyphicon glyphicon-new-window" title="Support" aria-hidden></i>
+            <span class="ceidfooter__social-label">Support</span></a>
+</div>
+</div>
+</div>
+<div class='col-sm-6 col-md-4 footer-text-sm'>
+        <div class="footer-section-title">External Resources:</div>
+
+      <!-- LINKS TO EXTERNAL RESOURCES HERE -->
+
+      <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target='_blank'>WHO</a>&emsp;
+      <a href="https://www.cdc.gov/coronavirus/2019-ncov/" target='_blank'>CDC</a>&emsp;
+      <a href="https://www.mobs-lab.org/2019ncov.html" target='_blank'>Northeastern&nbsp;University</a>&emsp;
+      <a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target='_blank'>Johns&nbsp;Hopkins&nbsp;University</a>&emsp;
+      <a href="https://nextstrain.org/ncov" target='_blank'>Nextstrain</a>&emsp;
+      <a href="https://covid-measures.github.io" target='_blank'>Long&#8209;Term&nbsp;Intervention&nbsp;Strategies</a>&emsp;
+      <a href="https://covidtracking.com/" target='_blank'>COVID&nbsp;Tracking&nbsp;Project</a>&emsp;
+      <a href="https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html" target='_blank'>NY&nbsp;Times&nbsp;Map&nbsp;&amp;&nbsp;Case&nbsp;Count</a>
+
+
+      <!--
+        <p><small><strong>Contributors:</strong></small></p>
+        <p><small>Lewis Bartlett, Ana Bento, Rebecca Borchering, John Drake, Yang Ge, Andreas Handel, Drew Kramer, Culzean Kennedy, Brian McKay, Eric Marty, Rachel Mercaldo, Paige Miller, Tierney O'Sullivan, Chloe Parker, Robbie Richards, Trippe Ross, Kate Sabey, Liliana Salvador, Cecilia Sanchez, JP Schmidt, Patrick Stephens, Chao Song, Daniel Suh, Benjamin Taylor, David Vasquez, Joy Vaz, Jessica Wenclawiak, Anna Willoughby, Cali Wilson</small></p>
+        -->
+        </div>
+<div class='col-sm-6 col-md-4 footer-text-sm'>
+        <div class="footer-section-title">Data Use:</div>
+        <p>Content and data on this site are licensed under a
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target='_blank'>Creative Commons Attribution 4.0 International License</a>.<br>
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target='_blank'>
+            <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+          <a href="http://opendefinition.org/" target='_blank'>
+            <img src="http://opendefinition.org/assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="This material is Open Content"/></a>
+          <a href="http://opendefinition.org/" target='_blank'>
+            <img src="http://opendefinition.org/assets.okfn.org/images/ok_buttons/od_80x15_blue.png" alt="This material is Open Data"/></a><br>
+            <a href="https://eits.uga.edu/access_and_security/infosec/pols_regs/policies/privacy/">Privacy Policy</a><br>
+            <a class="ceidfooter__social-link" aria-label="ceid on github" href="https://github.com/CEIDatUGA/2019nCoV-Dashboard">
+              <i class="fab fa-fw fa-github" title="Github" aria-hidden></i>
+              <span class="ceidfooter__social-label">Website code</span>
+            </a>
+            <script language="javascript">
+            document.write("Last updated "+document.lastModified);
+          </script>
+
+      </div>
+    </div>
+    </div></div>
 
 
 

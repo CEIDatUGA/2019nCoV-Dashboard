@@ -24,7 +24,10 @@ $(".main-container").removeClass("main-container").removeClass("container-fluid"
 The UGA Center for the Ecology of Infectious Diseases <a href="http://ceid.uga.edu">(CEID)</a><br><strong>Coronavirus Working Group</strong>
 </h2>
 <p class="display-3">
-<strong>The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID-19 pandemic.</strong>
+<strong>The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID‑19 pandemic.</strong>
+</p>
+<p class="display-3">
+Information for UGA students and staff: www.uga.edu/coronavirus
 </p>
 <p>
 <a class="btn btn-primary btn-md" href="news.html" role="button">Updates</a>
@@ -43,10 +46,12 @@ Stochastic model for Georgia
 
 <div class="bandContentText">
 <p>
-To better understand the potential range of epidemic outcomes in the state of Georgia, we developed a model incorporating regionally specific conditions and calibrated to reported cases, hospitalizations, and deaths.
+To better understand the potential range of epidemic outcomes in the state of Georgia, we developed a model incorporating regionally specific conditions and calibrated to reported cases and deaths. 
 </p>
 <p>
-We explore a range of social distancing scenarios ranging from increased social distancing to a complete return to normal.
+We explore three social distancing scenarios ranging from increased social distancing to a complete return to normal.
+</p>
+<p>The model uses social distancing data and also captures hard-to-measure human behaviors such as mask wearing.
 </p>
 </div>
 

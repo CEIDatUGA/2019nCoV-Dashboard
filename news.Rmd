@@ -9,6 +9,35 @@ title: "CEID COVID-19 - News"
 <div class="news-post card-body">
 <div class="row">
 <figure class="figure text-left col-sm-3">
+<img src="images/GAstochastic.png" class="figure-img img-fluid rounded" alt="Georgia stochastic model" >
+<figcaption class="figure-caption">
+Daily tests for CA, GA, and WA<br>(http://covid19.uga.edu/tracker.html)
+</figcaption>
+</figure>
+<div class="col-sm-8">
+### Stochastic model with social distancing for Georgia {.card-title #news-georgia-stochastic-spline}
+
+<div class="news-date text-muted">June 2, 2020</div>
+
+<p class="card-text">
+CEID’s [stochastic model of the COVID-19 outbreak in Georgia](stochastic-GA) has been updated to reflect how changes in social distancing (as measured by mobility data), combined with hard-to-capture behaviors like wearing a face mask, affect the COVID-19 pandemic in Georgia under a range of scenarios. The new model includes pre-symptomatic and a-symptomatic individuals, undetected infections, confirmed cases, hospitalizations, deaths and recoveries. The model is fit to reported cases and deaths, movement data (anonymized state-wide cell phone data to track movement), and a temporal trend in baseline transmission capturing other human behaviors.</p>
+<p class="card-text">
+The model considers three social distancing scenarios, using the mobility data as a measure of social distancing. Specifically, we looked at returning to normal mobility, maintaining mobility at current levels (currently about 85% of normal), and decreasing mobility to 30% of normal.</p>
+<p class="card-text">
+The model considers the effect of each scenario on the number of cases, hospitalizations, and deaths, forecasted six weeks into the future.  For example, if Georgians cease social distancing and return to normal movement beginning on June 2, by July 12 there will most likely be over 74,000 confirmed cases. However, by the same date, maintaining our current level of mobility (85% of normal) would result in about 9,000 fewer cases. Increasing social distancing and reducing mobility to 30% of normal would result in 22,000 fewer cases as compared to a complete return to normal. These data clearly indicate that social distancing does have a pronounced effect on the COVID-19 epidemic curve.</p>
+<p class="card-text">
+The model is updated daily. Future projections are 6-weeks ahead.</p>
+<p class="card-text">Details: [http://covid19.uga.edu/stochastic-GA](stochastic-GA.html).<br>
+Questions: Dr. John Drake (jdrake@uga.edu). 
+</p>
+</div>
+</div><hr>
+<!--END NEWS ITEM-->
+
+<!--NEWS ITEM-->
+<div class="news-post card-body">
+<div class="row">
+<figure class="figure text-left col-sm-3">
 <img src="https://fivethirtyeight.com/wp-content/uploads/2020/04/GettyImages-1219201731-4x3-1.jpg?w=1150" class="figure-img img-fluid rounded" alt="Image credit: Chip Somodevilla / Getty Images" >
 <figcaption class="figure-caption">
 (Image credit: Chip Somodevilla / Getty Images)</figcaption>
@@ -33,13 +62,13 @@ Read the full article at <a href="https://fivethirtyeight.com/features/why-one-e
 <div class="row">
 <figure class="figure text-left col-sm-3">
 <img src="images/tracker.png" class="figure-img img-fluid rounded" alt="daily tests" >
-<figcaption class="figure-caption">Daily tests for CA, GA, and WA<br>(http://2019-coronavirus-tracker.com/tracker.html)</figcaption>
+<figcaption class="figure-caption">Daily tests for CA, GA, and WA<br>(http://covid19.uga.edu/tracker.html)</figcaption>
 </figure>
 <div class="col-sm-8">
 ### New Tracker for Cases, Deaths and Hospitalizations {.card-title #news-tracker}
 <div class="news-date text-muted">April 7, 2020</div>
 
-<p class="card-text">The <a href="http://ceid.uga.edu" target="_blank">Center for the Ecology of Infectious Diseases (CEID)</a> and the <a href="https://publichealth.uga.edu" target="_blank">College of Public Health (CPH)</a> at UGA have created a [new interactive tracker](tracker.html) that allows users to visualize the spread of COVID-19 both in the U.S. and worldwide. The tracker allows users to explore cases, hospitalizations, deaths and number of tests for every U.S. state, as well as cases and deaths worldwide. Users can adjust the plots by choosing total or daily numbers, absolute or normalized values, and calendar date versus date since a certain number of cases occurred. The data comes from the Covid Tracking Project and the Johns Hopkins University Center for Systems Science and Engineering.</p>
+<p class="card-text">The <a href="https://www.ceid.uga.edu" target="_blank">Center for the Ecology of Infectious Diseases (CEID)</a> and the <a href="https://publichealth.uga.edu" target="_blank">College of Public Health (CPH)</a> at UGA have created a [new interactive tracker](tracker.html) that allows users to visualize the spread of COVID-19 both in the U.S. and worldwide. The tracker allows users to explore cases, hospitalizations, deaths and number of tests for every U.S. state, as well as cases and deaths worldwide. Users can adjust the plots by choosing total or daily numbers, absolute or normalized values, and calendar date versus date since a certain number of cases occurred. The data comes from the Covid Tracking Project and the Johns Hopkins University Center for Systems Science and Engineering.</p>
 </div>
 </div><hr>
 <!--END NEWS ITEM-->
@@ -55,7 +84,7 @@ Read the full article at <a href="https://fivethirtyeight.com/features/why-one-e
 ### Stochastic model for Georgia {.card-title #news-georgia-stochastic}
 <div class="news-date text-muted">March 15, 2020</div>
 
-<p class="card-text">The COVID-19 Portal now includes a stochastic model for the outbreak in the state of Georgia. [http://2019-coronavirus-tracker.com/stochastic-GA](stochastic-GA.html).</p>
+<p class="card-text">The COVID-19 Portal now includes a stochastic model for the outbreak in the state of Georgia. [http://covid19.uga.edu/stochastic-GA](stochastic-GA.html).</p>
 
 </div></div><hr>
 <!--END NEWS ITEM-->
@@ -71,7 +100,7 @@ Read the full article at <a href="https://fivethirtyeight.com/features/why-one-e
 ### Nowcast of outbreak size {.card-title #news-nowcast}
 <div class="news-date text-muted">March 27, 2020</div>
 
-<p class="card-text">The [Nowcast](nowcast.html) of the COVID-19 outbreak size by U.S. state has launched on the UGA CEID COVID-19 Portal. The nowcast is an estimate of the total number of unreported cases by state. Nowcasts are estimated for the 50 states and for the U.S. as a whole, and are calculated from COVID-19 case reports and fatalities. [http://2019-coronavirus-tracker.com/nowcast](nowcast.html)</p>
+<p class="card-text">The [Nowcast](nowcast.html) of the COVID-19 outbreak size by U.S. state has launched on the UGA CEID COVID-19 Portal. The nowcast is an estimate of the total number of unreported cases by state. Nowcasts are estimated for the 50 states and for the U.S. as a whole, and are calculated from COVID-19 case reports and fatalities. [http://covid19.uga.edu/nowcast](nowcast.html)</p>
 
 <p class="card-text">Estimating the number of unreported cases from reports of fatalities requires compensating for the Infection Fatality Rate (IFR), currently estimated at 0.9%.  IFR represents the percentage of cases that result in fatalities. During the outbreak, the death rate might appear to be larger because most cases are unreported. But in fact, we can use reports of fatalities and the IFR to estimate the number of actual cases that must have been present in the community dome time before the present. We can then forecast from that point in the past back to the present to derive an estimate of the total number of unreported cases at present.</p>
 
@@ -95,7 +124,7 @@ Read the full article at <a href="https://fivethirtyeight.com/features/why-one-e
 
 <p class="card-text">Based on a study of government intervention in China following the Initial outbreak of COVID-19 in Wuhan, Dr. Drake found a very strong correlation (90%) between how early a lockdown was imposed in a province and the ultimate severity of the outbreak there.  The results show that early action yields critical gains, with every delay of 3.8 days leading to a tenfold increase in cases.</p>
 
-<p class="card-text">Details: [http://2019-coronavirus-tracker.com/early-intervention](early-intervention.html).</p>
+<p class="card-text">Details: [http://covid19.uga.edu/early-intervention](early-intervention.html).</p>
 
 </div></div><hr>
 <!--END NEWS ITEM-->
@@ -120,7 +149,7 @@ The CEID Coronavirus Working Group has developed a model to provide insight into
 
 <p class="card-text">The global model shows how rapid response and limiting sparking are key to preventing pandemic. According to the model, average-case final outbreak sizes can vary over several orders of magnitude as a result of both how quickly local containment is achieved and how likely infectious individuals are to seed new outbreaks elsewhere.</p>
 
-<p class="card-text">Model details and estimates are available at [http://2019-coronavirus-tracker.com/final-size](final-size.html).</p>
+<p class="card-text">Model details and estimates are available at [http://covid19.uga.edu/final-size](final-size.html).</p>
 
 </div></div><hr>
 <!--END NEWS ITEM-->
@@ -232,7 +261,7 @@ As of February 16, 2020, a number of cases of COVID-19 have been exported outsid
 
 Because there is relatively little data from secondary transmission chains, it is not possible to estimate the $R_{eff}$ directly in these settings. However, the relative number of secondary transmission events may still contain information about the effective reproduction number in these settings.</p>
 <p class="card-text">
-CEID has now introduced a method to estimate the average effective reproduction number of cases exported outside China, relying on certain assumptions. The method and first estimates are detailed here: <http://2019-coronavirus-tracker.com/reff-outside.html> </p>
+CEID has now introduced a method to estimate the average effective reproduction number of cases exported outside China, relying on certain assumptions. The method and first estimates are detailed here: <http://covid19.uga.edu/reff-outside.html> </p>
 
 </div></div><hr>
 <!--END NEWS ITEM-->
@@ -275,7 +304,7 @@ Artist's impression of 2019-nCov<br>Based on micrographs of related SARS and MER
 <div class="news-date text-muted">February 10, 2020</div>
 
 <p class="card-text">
-The UGA [Center for the Ecology of Infectious Diseases (CEID)](http://ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak.</p>
+The UGA [Center for the Ecology of Infectious Diseases (CEID)](https://www.ceid.uga.edu) launches its new [Coronavirus Tracker](http://2019-coronavirus-tracker.com) today. The tracker is the work of CEID's Coronavirus Working Group, convened to provide timely, data-driven situation awareness about the 2019 novel coronavirus outbreak.</p>
 
 <p class="card-text">
 Due to the lack of prior data during the emergence of a novel pathogen, the ability to respond quickly and effectively depends on the timely assessment of information collected in real time. On January 24, 2020, the CEID formed the **Coronavirus Working Group**, a group of about 20 scientists with data science expertise in data manipulation and interpretation, visualization, GIS, machine learning, computational statistics, and dynamical modeling.</p>
@@ -294,7 +323,7 @@ Activities include:
 </p>
 
 <p class="card-text">
-<small>UPDATE: The Coronavirus Tracker was renamed the COVID-19 Portal. The URL remains the same.</small></p>
+<small>UPDATE: The Coronavirus Tracker was renamed the COVID-19 Portal and has migrated to [covid19.uga.edu](http://www.covid19.uga.edu).</small></p>
 
 <div class="card-footer text-muted">
 <p class="card-text">
