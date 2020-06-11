@@ -9,9 +9,38 @@ title: "CEID COVID-19 - News"
 <div class="news-post card-body">
 <div class="row">
 <figure class="figure text-left col-sm-3">
-<img src="images/GAstochastic.png" class="figure-img img-fluid rounded" alt="Georgia stochastic model" >
+<img src="images/tracker-county.png" class="figure-img img-fluid rounded" alt="Coutry level tracker" >
 <figcaption class="figure-caption">
 Daily tests for CA, GA, and WA<br>(http://covid19.uga.edu/tracker.html)
+</figcaption>
+</figure>
+<div class="col-sm-8">
+### Coronavirus Tracker updated with county-levek COVID-19 cases and deaths {.card-title #news-tracker-county}
+
+<div class="news-date text-muted">June 11, 2020</div>
+
+<p class="card-text">
+CEID's [COVID-19 Tracker](tracker.html) has been tracking hospitalizations, deaths, and tests, for all countries and US states. The tracker has now been updated to include cases and deaths at the county level for each US state. </p>
+<p class="card-text">
+The tracker allows users to investigate the data in multiple ways. For instance, through June 7, by exploring cases per 100K, the data show that Dougherty County, GA (Albany, GA), with a population of ~94,000, reported 169 total deaths per 100K. Bigger counties, such as  Fulton (~1 million residents), Gwinnett (~20,000 residents), Cobb (~755,000 residents), and Dekalb (~753,000 residents), which are part of metropolitan Atlanta, report similar total deaths but lower numbers per 100K (Fulton – 23; Gwinnett – 14; Cobb – 25; Dekalb – 16).</p>
+<p class="card-text">
+This updated visualization tool provides public health professionals and the general public additional insight into the spread of the SARS-CoV-2 virus.</p>
+<p class="card-text">
+The COVID-19 Tracker was developed in partnership with the University of Georgia's <a href = "https://publichealth.uga.edu/" target = "_blank">https://publichealth.uga.edu/<\a> and is updated daily.</p>
+<p class="card-text">Details: [http://covid19.uga.edu/tracker](tracker.html).<br>
+Questions: Dr. John Drake (jdrake@uga.edu). 
+</p>
+</div>
+</div><hr>
+<!--END NEWS ITEM-->
+
+<!--NEWS ITEM-->
+<div class="news-post card-body">
+<div class="row">
+<figure class="figure text-left col-sm-3">
+<img src="images/GAstochastic.png" class="figure-img img-fluid rounded" alt="Georgia stochastic model" >
+<figcaption class="figure-caption">
+Daily tests for CA, GA, and WA<br>(http://covid19.uga.edu/stochastic-GA.html)
 </figcaption>
 </figure>
 <div class="col-sm-8">

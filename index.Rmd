@@ -135,6 +135,21 @@ In an op-ed in the *Atlanta Journal-Constitution*, CEID Director Dr. John Drake 
 <div class="card">
 <div class="card-body">
 <div class="card-title">
+#### Tracking US county-levek COVID-19 cases and deaths
+</div>
+<p class="card-text">
+<small class="card-subtitle mb-2 text-muted">June 11, 2020</small><br>
+CEID's [COVID-19 Tracker](tracker.html) has been updated to include cases and deaths at the county level for each US state. [http://covid19.uga.edu/stochastic-GA](stochastic-GA.html).</p>
+<div class="card-link">
+[READ MORE &rarr;](news.html#news-tracker-county)
+</div>
+</div>
+</div>
+
+<!--NEWS ITEM-->
+<div class="card">
+<div class="card-body">
+<div class="card-title">
 #### Behavioral stochastic model for Georgia
 </div>
 <p class="card-text">
