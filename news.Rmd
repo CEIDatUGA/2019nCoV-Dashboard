@@ -15,7 +15,7 @@ Daily tests for CA, GA, and WA<br>(http://covid19.uga.edu/tracker.html)
 </figcaption>
 </figure>
 <div class="col-sm-8">
-### Coronavirus Tracker updated with county-levek COVID-19 cases and deaths {.card-title #news-tracker-county}
+### Coronavirus Tracker updated with county-level COVID-19 cases and deaths {.card-title #news-tracker-county}
 
 <div class="news-date text-muted">June 11, 2020</div>
 
