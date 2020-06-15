@@ -93,4 +93,7 @@ rsconnect/
 .Rproj.user
 #------------- OSX -------------#
 .Rproj.user
-
+#------------- PROJECT -------------#
+twitter/
+*.psd
+Rplot.*
