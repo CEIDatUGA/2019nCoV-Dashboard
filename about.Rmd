@@ -550,7 +550,6 @@ Academic Affairs and Provost</p>
 
 </div><!-- end of row-->
 
--
 <!--End of People -->
 
 
