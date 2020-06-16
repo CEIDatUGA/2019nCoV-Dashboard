@@ -10,11 +10,17 @@ library(httr)
 library(rlist)
 library(jsonlite)
 
+# on MacOS environmental variable must be hard coded. Find with Sys.getenv("GITHUB_PAT")
+source("local/credentials.R")
+Sys.setenv(GITHUB_PAT = GITHUB_PAT)
+
 fetchGHdata <- function(account, repo, path) {
   
   # Store a personal access token in .Renviron
   # See https://blog.exploratory.io/extract-data-from-private-github-repository-with-rest-api-db804fa43d84
   auth <- authenticate(Sys.getenv("GITHUB_PAT"), "")
+  
+  # auth <- authenticate(auth)
   
   # Seperate the filename from the directory
   match <- regexpr("^(.*[\\/])", path)
