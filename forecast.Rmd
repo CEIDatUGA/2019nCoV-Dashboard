@@ -1,0 +1,37 @@
+---
+title: "CEID COVID-19 - Stochastic Model for the US"
+---
+
+
+<p id="disclaimer"></p>
+
+# Scenario analysis for the transmission of COVID‑19 in the US by State
+<strong>`r format(Sys.time(), '%B %d, %Y')`</strong>
+
+<!-- ## {.tabset .tabset-fade} -->
+
+
+
+```{r echo=FALSE, out.extra='id="nCov-tracker" scrolling="no" width="100%"'}
+knitr::include_url("https://shiny.ovpr.uga.edu/csf/")
+```
+<!-- <script>iFrameResize({ log: false }, '#nCov-tracker')</script> -->
+
+
+
+## Supplemental Information
+
+<div class="container-frames">
+
+<!-- Supplemental information: [html]() -->
+
+<!-- Preprint: [download]() -->
+
+<!-- <p> -->
+<!--   <a href="https://github.com/CEIDatUGA/COVID-shiny-tracker" target="_blank"> -->
+<!--     <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/> -->
+<!--     GitHub repository -->
+<!--   </a> -->
+<!-- </p> -->
+
+</div>
