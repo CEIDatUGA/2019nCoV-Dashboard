@@ -15,6 +15,8 @@ knitr::include_url("forecast-overview.html")
 ```
 <script>iFrameResize({ log: false }, '#forecast-overview')</script>
 
+To explore forecasts for every state in detail, go to the [State Forecasts](#state-forecasts) tab.
+
 ### State Forecasts {#state-forecasts}
 
 #### Scenarios
