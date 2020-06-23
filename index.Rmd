@@ -75,6 +75,16 @@ title: "CEID COVID-19 - Home"
 <div class="row">
 <div class="col-sm-8">
 
+### Op-ed in The Hill by CEID Director John Drake 
+
+**America needs a national center for infectious disease intelligence**  
+by John M. Drake  
+June 21, 2020  
+
+In an opinion piece published in The Hill, CEID Director John Drake made the case that the time is now to establish a national center for infectious disease intelligence to monitor trends and provide real-time interpretation of outbreak data through modeling, biostatistics, and data science. 
+
+Read the complete opinion at <a href="https://thehill.com/opinion/healthcare/503793-america-needs-a-national-center-for-infectious-disease-intelligence" target="_blank">TheHill.com</a>.
+
 ### John Drake on Debriefing the Briefing with Major Garrett
 
 May 7, 2020
@@ -87,7 +97,7 @@ Listen the podcast <a href="https://tinyurl.com/yc7m85ax" target="_blank">here</
 
 **Why One Expert Is Still Making COVID-19 Models, Despite The Uncertainty**  
 by John M. Drake  
-APR. 17, 2020
+April 17, 2020
 
 Read the full article on [FiveThirtyEight.com](https://fivethirtyeight.com/features/why-one-expert-is-still-making-covid-19-models-despite-the-uncertainty/).
 
