@@ -310,24 +310,17 @@ summary {
 <p><strong>June 23, 2020</strong></p>
 <div id="overview" class="section level3">
 <h3>Overview</h3>
-<p>Here we present a model for the transmission of SARS-CoV-2 from March 2020 through the present in all states of the United States of America. The model builds on previous work, where we developed the model for Georgia, USA only.</p>
-<p>This model takes into account the effect of human mobility on transmission (i.e., social distancing), as well as hard to quantify human behaviors and environemntal factors, and is calibrated to the history of incident case and death reports.</p>
-<p>For each state, the model forecasts reported cases, deaths, and total number of infections (including unreported infections) four weeks into the future, under three scenarios:</p>
-<ol style="list-style-type: decimal">
-<li><strong>Increasing social distancing.</strong> Increasing social distancing reduces human movements from the current level to 30% of normal, which is the reduction observed in New York City that enabled transmission to decline there.</li>
-<li><strong>Maintain social distancing (status quo).</strong> Maintaining social distancing at the level last observed in the Unacast mobility data.</li>
-<li><strong>Return to normal.</strong> Ending social distancing increases human movements from the current level to 100% of normal.</li>
-</ol>
-<p>{insert overview figure and text}</p>
-<p>changing mobility has effetc fo changing transmission rates… we could change other things…. text about latent trend.</p>
+<iframe src="forecast-overview.html" width="672" height="400px" id="forecast-overview" scrolling="no" width="100%">
+</iframe>
+<script>iFrameResize({ log: false }, '#forecast-overview')</script>
 </div>
-<div id="scenarios-forecasts" class="section level3">
-<h3>Scenarios &amp; Forecasts</h3>
+<div id="state-forecasts" class="section level3">
+<h3>State Forecasts</h3>
 <div id="scenarios" class="section level4">
 <h4>Scenarios</h4>
 <ol style="list-style-type: decimal">
 <li><strong>Increasing social distancing.</strong> Increasing social distancing reduces human movements from the current level to 30% of normal, which is the reduction observed in New York City that enabled transmission to decline there.</li>
-<li><strong>Maintain social distancing (status quo).</strong> Maintaining social distancing at the level last observed in the Unacast mobility data (varies by state).</li>
+<li><strong>Maintain social distancing (status quo).</strong> Maintaining social distancing at the level last observed in mobility data (varies by state).</li>
 <li><strong>Return to normal.</strong> Ending social distancing increases human movements from the current level to 100% of normal.</li>
 </ol>
 </div>
@@ -338,67 +331,20 @@ summary {
 <!-- <script>iFrameResize({ log: false }, '#nCov-tracker')</script> -->
 </div>
 </div>
-<div id="model-details" class="section level3">
-<h3>Model Details</h3>
-<p>To date, the primary intervention has been the adoption of social distancing behaviors and improved hygiene. We measure social distancing using aggregated, anonymized locations recorded by location-based mobile phone apps, colected by <a href="https://www.unacast.com/covid19/social-distancing-scoreboard" target="_blank">Unacast</a>. We summarize the effectiveness of social distancing behaviors as the average deviation from baseline, a statistic ranging from 0% (complete cessation of movements) to 100% (no difference from baseline).</p>
+<div id="model" class="section level3">
+<h3>Model</h3>
 <!-- <img src='output/figures/scenarios-legend.png' style='width:700px'/> -->
-<p><img src="output/figures/scenarios-legend-simple.png" width="350" /></p>
-<p>Key features of this model include:</p>
-<ol style="list-style-type: decimal">
-<li>Stochastic transmission process with a realistic level of <strong>random variation</strong>.</li>
-<li>Realistic distributions of <strong>presymptomatic and symptomatic periods</strong>.</li>
-<li>Different <strong>transmission rates for asymptomatic, presymptomatic, and symptomatic individuals</strong>.</li>
-<li>Time varying <strong>rates of case detection, isolation, and case notification</strong>.</li>
-<li>Accounting for the effect on transmission of <strong>human mobility</strong> (i.e., <strong>social distancing</strong>), as measured by data.</li>
-<li>A “latent” process that captures the effect of <strong>environmental factors and other behaviors</strong> that can reduce transmission but are difficult to quantify with data (e.g., hand washing or face masks).</li>
-</ol>
-<p>This model comprises susceptible, pre-symptomatic, asymptomatic, symptomatic, diagnosed, hospitalized, deceased, and recovered persons. The following compartments are included:</p>
-<ul>
-<li><span class="math inline"><strong>S</strong></span> - Uninfected and <em>susceptible</em> individuals. Susceptible individuals can become infected by individuals in the <span class="math inline"><em>E</em></span>, <span class="math inline"><em>I</em><sub><em>a</em></sub></span>, <span class="math inline"><em>I</em><sub><em>s</em><em>u</em></sub></span>, <span class="math inline"><em>I</em><sub><em>s</em><em>d</em></sub></span>, <span class="math inline"><em>C</em></span>, and <span class="math inline"><em>H</em></span> stages. Rates of transmission from these stages can be adjusted individually.</li>
-<li><span class="math inline"><strong>L</strong></span> - Individuals with <em>latent</em> infections who do not yet show symptoms. Those individuals can be infectious. At the end of the <span class="math inline"><em>L</em></span> stage, a fraction moves into the <span class="math inline"><em>I</em><sub><em>a</em></sub></span> stage, another fraction moves into the <span class="math inline"><em>I</em><sub><em>s</em><em>u</em></sub></span> stage, and the remainder into the <span class="math inline"><em>I</em><sub><em>s</em><em>d</em></sub></span> stage.</li>
-<li><span class="math inline"><strong>I</strong><sub><strong>a</strong></sub></span> - Individuals who are infected and <em>asymptomatic</em>. Those individuals are likely infectious, but the model allows to adjust this.</li>
-<li><span class="math inline"><strong>I</strong><sub><strong>s</strong><strong>u</strong></sub></span> - Individuals who are infected and <em>symptomatic</em>, but are <em>undetected</em>. Those individuals are likely infectious. Individuals in this compartment never get diagnosed, and are assumed to recover.</li>
-<li><span class="math inline"><strong>I</strong><sub><strong>s</strong><strong>d</strong></sub></span> - Individuals who are infected and <em>symptomatic</em>, and are <em>detected</em>. Those individuals are likely infectious. Individuals in this compartment will get diagnosed and move to <span class="math inline"><em>C</em></span>.</li>
-<li><span class="math inline"><strong>C</strong></span> - Individuals who have been diagnosed as <em>cases</em>. Those individuals are likely isolated and not infectious, but the model allows to adjust this. A fraction of individuals in the <span class="math inline"><em>C</em></span> stage will naturally recover, without the need for hospitalization. The remainder moves into the <span class="math inline"><em>H</em></span> stage.</li>
-<li><span class="math inline"><strong>H</strong></span> - Individuals who have been <em>hospitalized</em>. Those individuals are likely isolated and not infectious, but the model allows to adjust this. A fraction of individuals in the <span class="math inline"><em>H</em></span> stage will recover, the remainder will die.</li>
-<li><span class="math inline"><strong>R</strong></span> - <em>Recovered/removed</em> individuals. Those individuals have recovered and are immune.</li>
-<li><span class="math inline"><strong>D</strong></span> - Individuals who <em>died</em> from the infection.</li>
-</ul>
-<p>To allow more realistic distributions of movement through compartments, several of these compartments are internally split into multiple stages using the <em>linear chain trick</em>.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
-<ul>
-<li><span class="math inline"><strong>L</strong></span> - 4 compartments</li>
-<li><span class="math inline"><strong>I</strong><sub><strong>a</strong></sub></span> - 4 compartments</li>
-<li><span class="math inline"><strong>I</strong><sub><strong>s</strong><strong>u</strong></sub></span> - 4 compartments</li>
-<li><span class="math inline"><strong>I</strong><sub><strong>s</strong><strong>d</strong></sub></span> - 4 compartments</li>
-<li><span class="math inline"><strong>C</strong></span> - 4 compartments</li>
-<li><span class="math inline"><strong>H</strong></span> - 4 compartments</li>
-</ul>
-<p>The flow diagram for this model shown below.</p>
-<p><img src="images/pomp-model.png" /></p>
-<div id="interventions" class="section level4">
-<h4>Interventions</h4>
-<p>The following interventions are implemented:</p>
-<ul>
-<li>Social distancing is assumed to reduce all transmission rates by some factor. This is provided as a covariate based on mobility data.</li>
-<li>Improving detection, which is assumed to increase sigmoidally up to a maximum value.</li>
-<li>Improving detection, which is assumed to increase the fraction of symptomatic individuals that move into the <span class="math inline"><em>I</em><sub><em>s</em><em>d</em></sub></span> compartment and will eventually be diagnosed. It is assumed to increase sigmoidally up to a maximum value.</li>
-</ul>
-</div>
-<div id="parameterization" class="section level4">
-<h4>Parameterization</h4>
-<p>This model was initially parameterized using clinical outcome reports from the epidemic in Hubei province, China and further calibrated with information about COVID-19 elsewhere in China and the United States.</p>
-<p>The model is created for a population of 10.6 million people, approximately the population size of Georgia, and simulated forward from March 1. Transmissibility of the virus is assumed to be proportional to the level of human movement.</p>
-<p>Key parameters estimated using maximum likelihood by iterated filtering (MIF)<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> include baseline transmissibility (<span class="math inline"><em>β</em><sub>0</sub></span>), maximum ascertainment (i.e. maximum fraction of cases detected), fraction of known cases that are hospitalized, fatality rate among hospitalized cases, and observation errors. Auxiliary parameters estimated using MIF include the intensity of the parameter random walk and dispersion parameters for observables.</p>
-<p>For full model details, see J.M. Drake, A. Handel, E.B. O’Dea, A.T. Tredennick. <a href="stochastic-fitting-georgia-suplement.html" target="_blank">A stochastic model for the transmission of SARS-CoV-2 in Georgia, USA</a></p>
-<p>All model code is available in the <a href='https://github.com/CEIDatUGA/COVID-stochastic-fitting' target='_blank'>public GitHub repository</a></p>
-</div>
+<!-- ![](output/figures/scenarios-legend-simple.png){ width=350px } -->
+<iframe src="forecast-model-details.html" width="672" height="400px" id="forecast-model" scrolling="no" width="100%">
+</iframe>
+<script>iFrameResize({ log: false }, '#forecast-model')</script>
 </div>
 </div>
 <div id="supplemental-information" class="section level2">
 <h2>Supplemental Information</h2>
 <div class="container-frames">
 <p>
-Model details:<br> <a href="forecast-suplement.html" target="_blank"> J.M. Drake, A. Handel, A.T. Tredennick. A stochastic model for the state-level transmission of SARS-CoV-2 in the USA</a> (html)
+Detailed model information:<br> <a href="forecast-suplement.html" target="_blank"> J.M. Drake, A. Handel, A.T. Tredennick. A stochastic model for the state-level transmission of SARS-CoV-2 in the USA</a> (html)
 </p>
 <!-- Preprint: [download]() -->
 <p>GitHub repositories:</p>
@@ -409,13 +355,6 @@ Model details:<br> <a href="forecast-suplement.html" target="_blank"> J.M. Drake
 <a href="https://github.com/CEIDatUGA/COVID-shiny-forecast" target="_blank"> <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/> This repository </a> contains code used to generate the visualization dashboard on the “Scenarios &amp; Forecasts” tab.
 </p>
 </div>
-</div>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p><a href="https://link.springer.com/article/10.1007/s00285-019-01412-w">Hurtado &amp; Kirosingh 2019</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p><a href="https://www.pnas.org/content/103/49/18438">Ionides et al. 2006</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
-</ol>
 </div>
 
 </iframe> <!-- iframe -->

@@ -161,8 +161,6 @@ fetchGHdata("CEIDatUGA", "COVID-GA-model", "output/figures/covidtracker-figures/
 fetchGHdata("CEIDatUGA", "COVID-GA-model", "docs/GA-model.html") %>% insert_tag(resizer) %>%
   writeLines("stochastic-fitting-georgia-suplement.html")
 
-
-
 # ## Splinedev branch (temporary)
 # fetch_and_fix(
 #   url="https://raw.githubusercontent.com/CEIDatUGA/COVID-GA-model/splinedev/web-summary.html",
@@ -172,6 +170,21 @@ fetchGHdata("CEIDatUGA", "COVID-GA-model", "docs/GA-model.html") %>% insert_tag(
 #   url="https://raw.githubusercontent.com/CEIDatUGA/COVID-GA-model/splinedev/output/figures/covidtracker-figures/landing-page-fig.html",
 #   destfile="stochastic-fitting-georgia-summaryplot.html"
 # )
+
+# Stochastic Model for All States (pomp) ---------------------------------------------------------
+
+fetchGHdata("CEIDatUGA", "COVID-stochastic-fitting", "docs/overview.html") %>% insert_tag(resizer) %>%
+  writeLines("forecast-overview.html")
+
+fetchGHdata("CEIDatUGA", "COVID-stochastic-fitting", "docs/model-details.html") %>% insert_tag(resizer) %>%
+  writeLines("forecast-model-details.html")
+
+fetchGHdata("CEIDatUGA", "COVID-stochastic-fitting", "output/figures/topstates.html") %>% insert_tag(resizer) %>%
+  writeLines("forecast-summaryplot.html")
+
+fetchGHdata("CEIDatUGA", "COVID-stochastic-fitting", "docs/states-model.html") %>% insert_tag(resizer) %>%
+  writeLines("forecast-suplement.html")
+
 
 # China Spatial Model -------------------------------------------------------------------------
 
