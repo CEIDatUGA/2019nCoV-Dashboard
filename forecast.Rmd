@@ -32,7 +32,8 @@ knitr::include_url("https://shiny.ovpr.uga.edu/csf/")
 ```
 <!-- <script>iFrameResize({ log: false }, '#nCov-tracker')</script> -->
 
-### Model
+### Model {.hiddentab}
+.hiddentab {visibility: hidden; height: 1px; overflow: hidden; position: absolute; top:-1px}
 
 <!-- <img src='output/figures/scenarios-legend.png' style='width:700px'/> -->
 
