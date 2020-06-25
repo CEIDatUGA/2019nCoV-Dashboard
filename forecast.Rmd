@@ -32,8 +32,7 @@ knitr::include_url("https://shiny.ovpr.uga.edu/csf/")
 ```
 <!-- <script>iFrameResize({ log: false }, '#nCov-tracker')</script> -->
 
-### Model {.hiddentab}
-.hiddentab {visibility: hidden; height: 1px; overflow: hidden; position: absolute; top:-1px}
+### Model
 
 <!-- <img src='output/figures/scenarios-legend.png' style='width:700px'/> -->
 
@@ -43,7 +42,7 @@ knitr::include_url("https://shiny.ovpr.uga.edu/csf/")
 knitr::include_url("forecast-model-details.html")
 ```
 <script>iFrameResize({ log: false }, '#forecast-model')</script>
-
+<script>reloadOnVisible('forecast-model')</script>
 
 ## Supplemental Information
 
