@@ -21,6 +21,7 @@ knitr::include_url("china-spatial-link-weights.html")
 <!--
   <script>iFrameResize({ log: false }, '#china-spatial-link-map-weights')</script>
   -->
+<script>reloadOnVisible('china-spatial-link-map-weights')</script>
 
 
 ## Supplemental Information

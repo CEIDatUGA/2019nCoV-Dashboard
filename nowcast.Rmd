@@ -27,6 +27,7 @@ knitr::include_url("nowcast-US-cases.html")
 knitr::include_url("nowcast-US.html")
 ```
 <script>iFrameResize({ log: false }, '#nowcast-algorithm')</script>
+<script>reloadOnVisible('nowcast-algorithm')</script>
 
 ### US Ascertainment Rate
 
@@ -34,12 +35,14 @@ knitr::include_url("nowcast-US.html")
 knitr::include_url("nowcast-US-ascertainment.html")
 ```
 <script>iFrameResize({ log: false }, '#nowcast-ascertainment')</script>
+<script>reloadOnVisible('nowcast-ascertainment')</script>
 
 ### Validation with data from China
 ```{r echo=FALSE, out.extra='id="nowcast-validation" scrolling="no" width="100%"'}
 knitr::include_url("nowcast-validation.html")
 ```
 <script>iFrameResize({ log: false }, '#nowcast-validation')</script>
+<script>reloadOnVisible('nowcast-validation')</script>
 
 ## Supplemental Information
   

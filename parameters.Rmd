@@ -19,6 +19,7 @@ knitr::include_url("parameters-web-summary.html")
 knitr::include_url("parameters-US.html")
 ```
 <script>iFrameResize({ log: false }, '#parameters-US')</script>
+<script>reloadOnVisible('parameters-US')</script>
 
 ## Supplemental Information
 

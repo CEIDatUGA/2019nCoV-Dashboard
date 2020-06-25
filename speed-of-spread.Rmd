@@ -18,7 +18,7 @@ knitr::include_url("epi-curve-by-us-state-web-summary.html")
 knitr::include_url("epi-curve-by-country-web-summary.html")
 ```
 <script>iFrameResize({ log: false }, '#epi-curve-by-country')</script>
-
+<script>reloadOnVisible('epi-curve-by-country')</script>
 
 ## Supplemental Information
 

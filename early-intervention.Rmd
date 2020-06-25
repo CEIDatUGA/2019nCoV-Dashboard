@@ -16,6 +16,7 @@ knitr::include_url("early-intervention-web-summary.html")
 knitr::include_url("early-intervention-web-summary2.html")
 ```
 <script>iFrameResize({ log: false }, '#early-intervention-web-summary2')</script>
+<script>reloadOnVisible('early-intervention-web-summary2')</script>
 
 
 
