@@ -182,6 +182,9 @@ fetchGHdata("CEIDatUGA", "COVID-stochastic-fitting", "docs/model-details.html") 
 fetchGHdata("CEIDatUGA", "COVID-stochastic-fitting", "output/figures/topstates.html") %>% insert_tag(resizer) %>%
   writeLines("forecast-summaryplot.html")
 
+fetchGHdata("CEIDatUGA", "COVID-stochastic-fitting", "output/figures/landing_page_fig.html") %>% insert_tag(resizer) %>%
+  writeLines("forecast-landing_page_fig.html")
+
 fetchGHdata("CEIDatUGA", "COVID-stochastic-fitting", "docs/states-model.html") %>% insert_tag(resizer) %>%
   writeLines("forecast-suplement.html")
 
