@@ -16,15 +16,10 @@ title: "CEID COVID-19 - Home"
 </div>
 
 <!-- Dashboard -->
+<!-- NOWCAST -->
+
 <!-- <div class="container centered"><h2>Nowcasts: Estimates of current outbreak size</h2></div> -->
-<div class="container centered">
-<h2>Stochastic model for Georgia</h2>
-</div>
-
-<!-- <div class="jumbotron jumbotron-fluid"> -->
-
-<div class="row">
-
+<!-- <div class="row"> -->
 
 <!-- US NOWCAST -->
 <!-- <div class="col-sm-6"> -->
@@ -48,25 +43,55 @@ title: "CEID COVID-19 - Home"
 <!-- <a class="btn btn-primary btn-sm" href="nowcast.html" role="button">Nowcasts for all states &#8594;</a> -->
 <!-- </div>  -->
 
+<!-- ALL STATES MODEL -->
 
-<!-- GA MODEL -->
+<!-- ALL STATES Figure -->
+<div class="container centered"><h2>Forecast for U.S. States</h2></div>
+<div class="row">
+
 <div class="col-sm-8"> 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="stochastic-fitting-georgia-summaryplot.html" allowtransparency="true"></iframe>
+<iframe class="embed-responsive-item" src="forecast-landing_page_fig.html" allowtransparency="true"></iframe>
 </div>
-<img src="images/scenarios-legend-simple.png" style="width:350px; margin-left:50px;"/>
+<img src="images/legend-scens-fit.png" style="width:350px; margin-left:50px;"/>
 </div> 
-<!-- GA MODEL -->
+<!-- end GA MODEL figure -->
 
-<!-- GA MODEL legend + button -->
+<!-- ALL STATES legend + button -->
 <div class="col-sm-3">
-<p style="color:black; font-size:medium;">To better understand the potential range of epidemic outcomes in the state of Georgia, we developed a model incorporating regionally specific conditions and calibrated to reported cases and deaths. <br><br>We explore three social distancing scenarios ranging from increased social distancing to a complete return to normal.<br><br>The model uses social distancing data and also captures hard-to-measure human behaviors such as mask wearing.</p><br>
-<a class="btn btn-primary btn-sm" href="stochastic-GA.html" role="button">Stochastic Model for Georgia &#8594;</a>
+<p style="color:black; font-size:medium;">To better understand the potential range of epidemic outcomes in each U.S. State, we developed a stochastic model incorporating regionally specific conditions and calibrated to reported cases and deaths. We explore three social distancing scenarios ranging from increased social distancing to a complete return to normal.<br><br>The model uses social distancing data and also captures hard-to-measure human behaviors such as wearing facemasks in public.<br><br>The figure shown here compares three scenarios in four states.</p><br>
+<a class="btn btn-primary btn-sm" href="forecast.html" role="button">Explore all U.S. States &#8594;</a>
 </div> 
-<!-- end GA MODEL legend + button -->
+<!-- end ALL STATES legend + button -->
 
 </div> <!-- end row -->
 </div> <!-- end jumbotron -->
+
+<!-- GA Model -->
+
+<!-- GA MODEL Figure -->
+<!-- <div class="container centered"><h2>Stochastic model for Georgia</h2></div> -->
+<!-- <div class="row"> -->
+
+<!-- <div class="col-sm-8">  -->
+<!-- <div class="embed-responsive embed-responsive-16by9"> -->
+<!-- <iframe class="embed-responsive-item" src="stochastic-fitting-georgia-summaryplot.html" allowtransparency="true"></iframe> -->
+<!-- </div> -->
+<!-- <img src="images/scenarios-legend-simple.png" style="width:350px; margin-left:50px;"/> -->
+<!-- </div>  -->
+<!-- end GA MODEL figure -->
+
+<!-- GA MODEL legend + button -->
+<!-- <div class="col-sm-3"> -->
+<!-- <p style="color:black; font-size:medium;">Our previous stochasitc model developed for the state of Georgia explores the same three social distancing scenarios ranging from increased social distancing to a complete return to normal.<br><br>The plot shows how scenarios are defined in terms of changing human mobility.<br><br>Our model for Georgia has now been adapted to all U.S. 50 states.</p><br> -->
+<!-- <a class="btn btn-primary btn-sm" href="stochastic-GA.html" role="button">Stochastic Model for Georgia &#8594;</a> -->
+<!-- </div>  -->
+<!-- end GA MODEL legend + button -->
+
+<!-- </div> --> <!-- end row --> 
+<!-- </div> --> <!-- end jumbotron --> 
+
+
 
 <hr>
 
