@@ -75,6 +75,20 @@ title: "CEID COVID-19 - Home"
 <div class="row">
 <div class="col-sm-8">
 
+### Four Reasons Why Coronavirus Cases Are Increasing<br>But Deaths Aren’t—Yet
+by John M. Drake  
+July 8, 2020  
+Forbes.com
+
+John Drake discusses the discrepancy between numbers of COVID-19 cases and deaths in the current resurgence of COVID-19. Drake explores four possible explanations: time lag, improved treatment, increased testing, and changing age distribution. Read the complete column at <a href="https://www.forbes.com/sites/johndrake/2020/07/08/four-theories-about-why-americas-second-covid-wave-isnt-quite-as-deadly-as-the-first-yet/" target="_blank">Forbes.com</a>.
+
+### John Drake joins Forbes.com as a contributor 
+
+July 7, 2020  
+
+CEID director John Drake has <a href="https://www.forbes.com/sites/johndrake/2020/07/07/why-ecologists-study-infectious-diseases-and-what-we-can-learn-about-public-health-by-studying-nature/" target="_blank">joined Forbes.com as a contributor</a>. His column will address general infectious disease ecology and epidemiology, as well as COVID-19. Read his introductory column: 
+<a href="https://www.forbes.com/sites/johndrake/2020/07/07/why-ecologists-study-infectious-diseases-and-what-we-can-learn-about-public-health-by-studying-nature/" target="_blank">Why Ecologists Study Infectious Diseases And What We Can Learn About Public Health By Studying Nature</a>, published July 7.
+
 ### Op-ed in The Hill by CEID Director John Drake 
 
 **America needs a national center for infectious disease intelligence**  
