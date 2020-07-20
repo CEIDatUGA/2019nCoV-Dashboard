@@ -75,6 +75,13 @@ title: "CEID COVID-19 - Home"
 <div class="row">
 <div class="col-sm-8">
 
+### Surge in Deaths Associated with COVID-19
+by John M. Drake  
+July 18, 2020  
+Forbes.com
+
+COVID-19 deaths have now begun to surge following the earlier surge in case reports. John Drake discusses the ten-day average lag between case reporting and deaths and what it means for predicting daily deaths in the near future. Using the **lagged Case Fatality Rate** (deaths today over cases reported ten days ago), the number of of deaths over the next ten days can be estimated from daily case reports over the **previous** ten days. For the US, Drake predicts new deaths will hover around 1000 per day, ±500. Read the complete column at <a href="https://www.forbes.com/sites/johndrake/2020/07/18/surge-in-deaths-associated-with-covid-19/#5e6cb1dd79d0" target="_blank">Forbes.com</a>.
+
 ### Four Reasons Why Coronavirus Cases Are Increasing<br>But Deaths Aren’t—Yet
 by John M. Drake  
 July 8, 2020  
