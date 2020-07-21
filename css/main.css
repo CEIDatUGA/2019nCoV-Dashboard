@@ -11,6 +11,10 @@ html, body {
   height: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .section h2{
   padding-top:0px;
 }
