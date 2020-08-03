@@ -75,6 +75,16 @@ title: "CEID COVID-19 - Home"
 <div class="row">
 <div class="col-sm-8">
 
+
+### Five approaches to the suppression of SARS&#8209;CoV&#8209;2<br>without intensive social distancing
+August 3, 2020  
+
+![](images/suppression-outreach.png)
+
+CEID researchers have [modeled](suppression.html) the effectiveness of generalized and targeted non-pharmaceutical interventions in controling the spread of SARS&#8209;CoV&#8209;2. Generalized policies include limiting large gatherings, wearing face masks, hand washing, enhanced sick leave policies, limiting large gatherings, and other behavioral changes not involving intensive social distancing or shelter-in-place orders. Targeted methods include active case finding, contact tracing, immunity certification, and quarantine. Because non-pharmaceutical policies have disrupted local and state economies, understanding the effectiveness of less disruptive interventions to control SARS&#8209;CoV&#8209;2 is increasingly important. Researchers developed two modeling frameworks to study the effectiveness of targeted strategies in combination with generalized interventions. Results indicated that the four targeted interventions studied are effective. However, generalized methods such as wearing a face mask and reduced densities were determined to significantly improve the effectiveness of targeted interventions.
+
+See [covid19.uga.edu/supression](suppression.html) for complete details and a link to the preprint.
+
 ### Surge in Deaths Associated with COVID-19
 by John M. Drake  
 July 18, 2020  
