@@ -11,7 +11,7 @@
 
 
 
-<title>CEID COVID-19 - Maps</title>
+<title>CEID COVID-19 - Suppression without intensive social distancing</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -344,59 +344,25 @@ summary {
 
 
 
-<h1 class="title toc-ignore">CEID COVID-19 - Maps</h1>
+<h1 class="title toc-ignore">CEID COVID-19 - Suppression without intensive social distancing</h1>
 
 </div>
 
 
 <p id="disclaimer">
 </p>
-<div id="data-sources" class="section level2">
-<h2>Data Sources</h2>
-<p>CEID now maintains a public repository of datasets used in our COVID-19 projects. The datasets in the repository were compiled by members of the CEID COVID-19 working group. The data have been formated to be used ‘as-is’ and are updated often. Data sets were either created from html scraping or manually entered. In the case of the automated web scraping, the raw data and scripts are included.</p>
-Data are publicly available here:
+<iframe src="suppression-without-distancing-web-summary.html" width="672" height="400px" id="normalcy" scrolling="no" width="100%">
+</iframe>
+<script>iFrameResize({ log: false }, '#normalcy')</script>
+<script>reloadOnVisible('normalcy')</script>
+<div id="supplemental-information" class="section level2">
+<h2>Supplemental Information</h2>
+<div class="container-frames">
+<p>Preprint: [Drake, J.M., P. Rohani, K. Dahlin, A. Handel. Five approaches to the suppression of SARS-CoV-2 without intensive social distancing. July 30, 2020. <em>medRxiv</em>. <a href="https://www.medrxiv.org/content/10.1101/2020.07.30.20165159v1">www.medrxiv.org/content/10.1101/2020.07.30.20165159v1</a></p>
 <p>
-<a href="https://github.com/CEIDatUGA/COVID-19-DATA" target="_blank"> <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/> GitHub repository </a>
+<a href="https://github.com/CEIDatUGA/ncov-nowcast" taget="_blank"> <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/> GitHub repository (private) </a>
 </p>
-<div id="china-data" class="section level3">
-<h3>China data</h3>
-<ul>
-<li><em>China_casedata</em></li>
-<li><em>China_TA</em>: Travel advisories or restrictions within China.</li>
-<li><em>Hubei_Evacuation_Repatriation</em>: Reports of evacuations from Hubei province.</li>
-</ul>
 </div>
-<div id="us-data" class="section level3">
-<h3>US data</h3>
-<ul>
-<li><em>UScases_by_state_wikipedia.csv</em>: Number of new cases in a state by day.</li>
-<li><em>USfatalities_by_state_wikipedia.csv</em>: Number of new case fatalities in a state by day.</li>
-<li><em>us-state-intervention-data/stateInterventionTimeSeries.csv</em>: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily.</li>
-<li><em>us-state-intervention-data/longFormStateInterventions.csv</em>: Running summary of interventions at the state level taken from reports and wikipedia</li>
-</ul>
-</div>
-<div id="state-of-georgia-data" class="section level3">
-<h3>State of Georgia data</h3>
-<ul>
-<li><em>ga-county-intervention-data/countyInterventionTimeSeries.csv</em>: Reshaped version of longFormStateInterventions.csv that includes the intervention status of all US states on each date since the beginning of the outbreak. Updated daily.</li>
-<li><em>ga-county-intervention-data/longFormCountyInterventions.csv</em>: Running summary of interventions at the state level taken from reports and wikipedia</li>
-</ul>
-</div>
-<div id="global-data" class="section level3">
-<h3>Global data</h3>
-<ul>
-<li><em>worldCases.csv</em>: Number of new cases in a country by day.</li>
-<li><em>Internation_TA</em>: Travel advisories announced by county.</li>
-<li><em>Global Health Security Index</em>: Index of epidemic preparedness and underlying data</li>
-<li><em>Epidemiological characteristics of COVID-19 and other zoonotics</em></li>
-<li><em>Canada COVID-19 Case Data</em>: Includes cases, fatalities, recovered, and tested for Canada</li>
-</ul>
-</div>
-</div>
-<div id="legacy-data" class="section level2">
-<h2>Legacy Data</h2>
-<p>Data resources used initually by the CEID Coronavirus Working Group include:</p>
-<p><a href="https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit#gid=0">Timeline of key events and case notifications by country</a> | Google sheet, updated daily, maintainer: <a href="https://www.ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/1gTj4zFMfXRk92CCQAOwa04ZBhqJ4oSmQFm_nb8-YXbw/edit">Case notifications in China by province</a> | Google sheet, updated daily, maintainer: <a href="https://www.ceid.uga.edu">CEID</a><br> <a href="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/data/prefecture_master.csv?token=AD7PNRPAXQMS5ZSG6ENOMJ26K74G6">Case notifications in China by prefecture</a> | csv, updated daily, maintainer: <a href="https://www.ceid.uga.edu">CEID</a><br> <a href="https://raw.githubusercontent.com/CEIDatUGA/ncov-data-summary/master/data/prefecture_master_binary.csv?token=AD7PNRKJI4L22MWTZBOKL3S6K74TS">First date of infection for Chinese prefectures</a> | csv, updated daily, maintainer: <a href="https://www.ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/1aK9Es7x6KReabBRkWiBbiSGsxSC37kPKD-qiPcD50hg/edit#gid=0">Interventions in China by prefecture</a> | Google sheet, updated daily, maintainer: <a href="https://www.ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/1cYqkGOy4ZjHSIeRqyfyi7UvYnG6-UlBAJWD8GMFZA7I/edit#gid=1525027375">Travel advisories</a> | Google sheet, updated daily, maintainer: <a href="https://www.ceid.uga.edu">CEID</a><br> <a href="https://docs.google.com/spreadsheets/d/10NYNf4UX7R_nNdM-jkbo7A5SGkB8sUVMIiqU7e_-miU/edit#gid=0">Case notifications in the US by state</a> | Google sheet, updated daily, maintainer: <a href="https://www.ceid.uga.edu">CEID</a><br></p>
 </div>
 
 </iframe> <!-- iframe -->

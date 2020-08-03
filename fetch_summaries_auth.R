@@ -189,6 +189,11 @@ fetchGHdata("CEIDatUGA", "COVID-stochastic-fitting", "docs/states-model.html") %
   writeLines("forecast-suplement.html")
 
 
+# Normalcy ------------------------------------------------------------------------------------
+
+fetchGHdata("CEIDatUGA", "covid-five-approaches", "web-summary.html") %>% insert_tag(resizer) %>%
+  writeLines("suppression-without-distancing-web-summary.html")
+
 # China Spatial Model -------------------------------------------------------------------------
 
 fetchGHdata("CEIDatUGA", "CoronavirusSpatial", "web_summary.html") %>% insert_tag(resizer) %>% 

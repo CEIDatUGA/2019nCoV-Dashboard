@@ -1,0 +1,30 @@
+---
+title: "CEID COVID-19 - Suppression without intensive social distancing"
+---
+<p id="disclaimer"></p>
+
+
+```{r echo=FALSE, out.extra='id="normalcy" scrolling="no" width="100%"'}
+knitr::include_url("suppression-without-distancing-web-summary.html")
+```
+<script>iFrameResize({ log: false }, '#normalcy')</script>
+<script>reloadOnVisible('normalcy')</script>
+
+## Supplemental Information
+  
+<div class="container-frames">
+
+Preprint: [Drake, J.M., P. Rohani, K. Dahlin, A. Handel. Five approaches to the suppression of SARS-CoV-2
+without intensive social distancing. July 30, 2020. *medRxiv*. [www.medrxiv.org/content/10.1101/2020.07.30.20165159v1](https://www.medrxiv.org/content/10.1101/2020.07.30.20165159v1)
+  
+<p>
+  <a href="https://github.com/CEIDatUGA/ncov-nowcast" taget="_blank">
+  <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
+  GitHub repository (private)
+  </a>
+</p>
+  
+</div>
+  
+  
+  
