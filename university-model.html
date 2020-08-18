@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>CEID COVID-19 - Final Outbreak Size</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<meta name="application-name" content="CEID 2019 nCoV"/>
+<!-- Chrome for Android -->
+<meta name="theme-color" content="#ba0c2f" />
+<!-- Web App -->
+<link rel="manifest" href="manifest.json" />
+<!-- iOS icons -->
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="icons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="icons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="icons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="icons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="icons/apple-touch-icon-152x152.png" />
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="icons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="icons/favicon-192.png" sizes="192x192" />
+<link rel="icon" type="image/png" href="icons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="icons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="icons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="icons/favicon-128.png" sizes="128x128" />
+<!-- IE 11+ -->
+<meta name="msapplication-config" content="ieconfig.xml" />
+<!-- scripts -->
+<script type="text/javascript" src="js/iframeResizer.min.js"></script>
+<script type="text/javascript" src="js/ga-analytics.js"></script>
+<script type="text/javascript" src="js/reload-iframe.js"></script>
+<script type="application/ld+json">
+	{
+		"@context": "http://www.schema.org",
+		"@type": "CollegeOrUniversity",
+		"name": "Center for the Ecology of Infectious Diseases",
+		"alternatename": "CEID",
+		"url": "https://www.covid19.uga.edu/",
+		"logo": "https://www.uga.edu/_resources/images/GEORGIA-V-FC.png",
+		"description": "The UGA Center for the Ecology of Infectious Diseases (CEID) Coronavirus tracker provides timely, data-driven situation awareness about the 2019 novel coronavirus outbreak.",
+		"location": {
+			"@type": "PostalAddress",
+			"addressLocality": "Athens",
+			"addressRegion": "GA",
+			"postalCode": "30602",
+			"addressCountry": "US"
+		},
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"telephone": "+1-706-542-1930",
+			"contactType": "Customer Service"
+		},
+		"sameAs" : [ 
+			"https://twitter.com/ceid_uga"
+		]
+	}
+</script>
+
+<meta name="description" content="The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID‑19 pandemic."/>
+<meta name="twitter:title" content="CEID Covid-19 tracker"/>
+<meta name="twitter:description" content="The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID‑19 pandemic."/>
+<meta name="twitter:url" content="https://www.covid19.uga.edu/"/>
+<meta name="twitter:image:src" content="https://www.covid19.uga.edu/images/home_olympic.jpg"/>
+<meta name="twitter:image:alt" content="Coronavirus CEID image"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:creator" content="@ceid_uga"/>
+<meta name="twitter:site" content="@ceid_uga"/>
+<meta property="og:title" content="CEID Covid-19 tracker"/>
+<meta property="og:description" content="The COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID‑19 pandemic."/>
+<meta property="og:url" content="https://www.covid19.uga.edu/"/>
+<meta property="og:image" content="https://www.covid19.uga.edu/images/home_olympic.jpg"/>
+<meta property="og:image:alt" content="Coronavirus CEID image"/>
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="en_US"/>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+          <a class="navbar-brand" href="index.html">COVID-19 Portal <span class="d-none d-md-inline"><span class="divider"> | </span><span class="subtext-brand">Center for the Ecology of Infectious Diseases</span></span><span class="subtext-brand d-md-none"> | (CEID)</span><span class="subtext-brand d-none d-md-inline">, University of Georgia</span></a>
+    <div class="navbar-header active">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active">
+  <a href="index.html">
+    <svg class="bi bi-house-door-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6.5 10.995V14.5a.5.5 0 01-.5.5H2a.5.5 0 01-.5-.5v-7a.5.5 0 01.146-.354l6-6a.5.5 0 01.708 0l6 6a.5.5 0 01.146.354v7a.5.5 0 01-.5.5h-4a.5.5 0 01-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+  <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5z" clip-rule="evenodd"/>
+</svg>
+
+  </a>
+</li>
+<li>
+  <a href="tracker.html">Tracker</a>
+</li>
+<li>
+  <a href="maps.html">Maps</a>
+</li>
+<!--<li>
+  <a href="forecast.html">Forecast</a>
+</li>-->
+<li>
+  <a href="nowcast.html">Nowcast</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Epidemic Characteristics
+
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="context.html">COVID-19 in Context</a>
+    </li>
+    <li>
+      <a href="parameters.html">Epidemic Characteristics (Global &amp; US)</a>
+    </li>
+    <li>
+      <a href="reff-outside.html">Effective Reproduction Number outside China</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Models &amp; Research
+
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="stochastic.html">Stochastic Model for Wuhan (China)</a>
+    </li>
+    <li>
+      <a href="stochastic-GA.html">Stochastic Model for Georgia (USA)</a>
+    </li>
+    <li>
+      <a href="spatial-china.html">Spatial Model for China</a>
+    </li>
+    <li>
+      <a href="final-size.html">Probability of Widespread Transmission</a>
+    </li>
+    <li>
+      <a href="early-intervention.html">Effect of Early Intervention</a>
+    </li>
+    <li>
+      <a href="mass_testing.html">Effect of Mass Testing</a>
+    </li>
+    <li>
+      <a href="suppression.html">Suppression without Distancing</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="news.html">News</a>
+</li>
+<li>
+  <a href="data.html">Data</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div>
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">CEID COVID-19 - Final Outbreak Size</h1>
+
+</div>
+
+
+<p id="disclaimer">
+</p>
+<iframe src="university-model-final-size-web-summary.html" width="672" height="400px" id="university-model" scrolling="no" width="100%">
+</iframe>
+<script>iFrameResize({ log: false }, '#university-model')</script>
+<div id="supplemental-information" class="section level2">
+<h2>Supplemental Information</h2>
+<div class="container-frames">
+<p>
+Preprint:<br> <a href="https://github.com/CEIDatUGA/covid-university-reopening/raw/master/manuscript.pdf" target="_blank"> J.M. Drake. Scenario analysis for an outbreak of COVID-19 on a university campus. August 15, 2020.</a> (html)
+</p>
+<p>
+<a href="https://github.com/CEIDatUGA/covid-university-reopening" target="_blank"> <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/> GitHub repository (public) </a>
+</p>
+</div>
+</div>
+
+</iframe> <!-- iframe -->
+
+<footer class="container-fluid ceidfooter" id = "pageFooter">
+			<div class="row">
+				<div class='col-sm-6 col-md-4'>
+					<p><a href='https://www.ceid.uga.edu/' target='_blank'>
+					<img src="images/Screen-CEID-H-FC.png" alt="Center for the Ecology of Infectious Diseases, University of Georgia"/></a></p>
+          <p><small>Contact: <a href="mailto:jdrake@uga.edu">John M. Drake (jdrake@uga.edu)</a></small>
+						<!--
+						<br><small>203&nbsp;D.&nbsp;W.&nbsp;Brooks&nbsp;Drive, Athens,&nbsp;GA&nbsp;30602<br>
+						706&#8209;542&#8209;1930</small>
+						-->
+					<br>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css" integrity="sha384-HbmWTHay9psM8qyzEKPc8odH4DsOuzdejtnr+OFtDmOcIVnhgReQ4GZBH7uwcjf6" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE" crossorigin="anonymous">
+
+						<a class="ceidfooter__social-link" aria-label="ceid on Twitter" href="https://twitter.com/ceid_uga">
+							<i class="fab fa-fw fa-twitter" title="Twitter" aria-hidden></i>
+							<span class="ceidfooter__social-label"><small>Twitter</small></span>
+							</a>
+            </p>
+            <p><a href="https://www.ceid.uga.edu/support/" target='_blank'>Support CEID</a></p>
+					
+				</div>
+				<div class='col-sm-6 col-md-4'>
+				  <p><small><strong>External Resources:</strong></small><br><br>
+					<small>
+				<!-- LINKS TO EXTERNAL RESOURCES HERE -->
+
+				<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target='_blank'>WHO</a>&emsp; 
+				<a href="https://www.cdc.gov/coronavirus/2019-ncov/" target='_blank'>CDC</a>&emsp; 
+				<a href="https://www.mobs-lab.org/2019ncov.html" target='_blank'>Northeastern&nbsp;University</a>&emsp; 
+				<a href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target='_blank'>Johns&nbsp;Hopkins&nbsp;University</a>&emsp; 
+				<a href="https://nextstrain.org/ncov" target='_blank'>Nextstrain</a>&emsp; 
+				<a href="https://covid-measures.github.io" target='_blank'>Long&#8209;Term&nbsp;Intervention&nbsp;Strategies</a>&emsp; 
+				<a href="https://covidtracking.com/" target='_blank'>COVID&nbsp;Tracking&nbsp;Project</a>&emsp;
+				<a href="https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html" target='_blank'>NY&nbsp;Times&nbsp;Map&nbsp;&amp;&nbsp;Case&nbsp;Count</a>
+				
+				</small></p>
+				<!--
+				  <p><small><strong>Contributors:</strong></small></p>
+          <p><small>Lewis Bartlett, Ana Bento, Rebecca Borchering, John Drake, Yang Ge, Andreas Handel, Drew Kramer, Culzean Kennedy, Brian McKay, Eric Marty, Rachel Mercaldo, Paige Miller, Tierney O'Sullivan, Chloe Parker, Robbie Richards, Trippe Ross, Kate Sabey, Liliana Salvador, Cecilia Sanchez, JP Schmidt, Patrick Stephens, Chao Song, Daniel Suh, Benjamin Taylor, David Vasquez, Joy Vaz, Jessica Wenclawiak, Anna Willoughby, Cali Wilson</small></p>
+          -->
+					</div>
+				<div class='col-sm-6 col-md-4'>
+				  <p><small><strong>Data Use:</strong></small></p>
+				  <p><small>Content and data on this site are licensed under a 
+				    <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target='_blank'>Creative Commons Attribution 4.0 International License</a>.</small><br>
+				    <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target='_blank'>
+  					  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+  					<a href="https://opendefinition.org/" target='_blank'>
+  					  <img src="https://opendefinition.org/assets.okfn.org/images/ok_buttons/oc_80x15_blue.png" alt="This material is Open Content"/></a>
+  					<a href="https://opendefinition.org/" target='_blank'>
+  					  <img src="https://opendefinition.org/assets.okfn.org/images/ok_buttons/od_80x15_blue.png" alt="This material is Open Data"/></a><br>
+  					  <small><a href="https://eits.uga.edu/access_and_security/infosec/pols_regs/policies/privacy/">Privacy Policy</a></small><br>
+  					  <a class="ceidfooter__social-link" aria-label="ceid on github" href="https://github.com/CEIDatUGA/2019nCoV-Dashboard">
+							  <i class="fab fa-fw fa-github" title="Github" aria-hidden></i>
+						    <span class="ceidfooter__social-label"><small>Website code</small></span>
+						  </a>
+						<p><small>
+						<script language="javascript">
+							document.write("Last updated "+document.lastModified);
+						</script>
+					</small></p>
+				</div>
+				<div class='col-sm-6 col-md-12'>
+				
+
+			</div>
+		</div>
+</footer>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>

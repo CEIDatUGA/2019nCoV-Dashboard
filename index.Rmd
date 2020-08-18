@@ -75,6 +75,12 @@ title: "CEID COVID-19 - Home"
 <div class="row">
 <div class="col-sm-8">
 
+### The science of reopening: Can testing students work?
+by John M. Drake  
+August 17, 2020  
+Forbes.com
+
+As universities across the nation reopen, CEID Director John Drake discusses testing programs instituted by various universities, as well as models developped at Yale and elsewhere to assess the effectiveness of these programs. Read the complete column at <a href="https://www.forbes.com/sites/johndrake/2020/08/17/the-science-of-campus-reopening-can-testing-students-work/#6c08a3502c7a" target="_blank">Forbes.com</a>.
 
 ### Five approaches to the suppression of SARS&#8209;CoV&#8209;2<br>without intensive social distancing
 August 3, 2020  
