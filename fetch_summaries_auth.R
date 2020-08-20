@@ -224,6 +224,11 @@ fetchGHdata("CEIDatUGA", "ncov-early-intervention", "web-summary.html") %>% inse
 fetchGHdata("CEIDatUGA", "ncov-early-intervention", "web-summary2.html") %>% insert_tag(resizer) %>% 
   writeLines("early-intervention-web-summary2.html")
 
+
+# University Model -----------------------------------------------------------------------------
+
+fetchGHdata("CEIDatUGA", "covid-university-reopening", "web_summary.html") %>% insert_tag(resizer) %>%
+  writeLines("university-model-web-summary.html")
 # Mass Testing --------------------------------------------------------------------------------
 
 fetchGHdata("CEIDatUGA", "CoV_MassTesting", "COVID19_CEID_summary_html.html") %>% insert_tag(resizer) %>% 
