@@ -14,7 +14,7 @@ knitr::include_url("university-model-web-summary.html")
 
 <p>Preprint:<br>
   <a href="https://github.com/CEIDatUGA/covid-university-reopening/raw/master/manuscript.pdf" target="_blank">
-  J.M. Drake. Scenario analysis for an outbreak of COVID-19 on a university campus. August 15, 2020.</a> (html)
+  J.M. Drake. Scenario analysis for an outbreak of COVID-19 on a university campus. August 15, 2020.</a> (pdf)
 </p>
 
 <p>
