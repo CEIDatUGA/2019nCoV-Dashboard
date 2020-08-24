@@ -240,3 +240,13 @@ fetchGHdata("CEIDatUGA", "CoV_MassTesting", "COVID19_CEID_summary_html.html") %>
 
 
 
+
+
+# Lipp Lab Wastewater Surveillance
+
+fetchGHdata("lipplab-uga", "covid_wastewater_lipplab_athens", "index.html") %>% insert_tag(resizer) %>%
+  writeLines("wastewater-athens-web-summary.html")
+
+
+
+
