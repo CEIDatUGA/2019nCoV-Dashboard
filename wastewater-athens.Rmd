@@ -1,0 +1,27 @@
+---
+title: "CEID COVID-19 - Wastewater Surveillance in Athens, GA"
+---
+<p id="disclaimer"></p>
+
+```{r echo=FALSE, out.extra='id="wastewater-athens" scrolling="no" width="100%"'}
+knitr::include_url("wastewater-athens-web-summary.html")
+```
+<script>iFrameResize({ log: false }, '#wastewater-athens')</script>
+
+## Supplemental Information
+
+<div class="container-frames">
+
+<!-- <p>Preprint:<br> -->
+<!--   <a href="" target="_blank"> -->
+<!--   Eric. Lipp. Title. August xx, 2020.</a> (pdf) -->
+<!-- </p> -->
+
+<p>
+  <a href="https://github.com/lipplab-uga/covid_wastewater_lipplab_athens" target="_blank">
+    <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
+    GitHub repository (public)
+  </a>
+</p>
+
+</div>
