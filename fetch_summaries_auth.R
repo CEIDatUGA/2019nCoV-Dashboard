@@ -247,6 +247,5 @@ fetchGHdata("CEIDatUGA", "CoV_MassTesting", "COVID19_CEID_summary_html.html") %>
 fetchGHdata("lipplab-uga", "covid_wastewater_lipplab_athens", "index.html") %>% insert_tag(resizer) %>%
   writeLines("wastewater-athens-web-summary.html")
 
-
-
-
+fetchGHdata("lipplab-uga", "covid_wastewater_lipplab_athens", "plotly_fig.html") %>% insert_tag(resizer) %>%
+  writeLines("wastewater-athens-plot.html")
