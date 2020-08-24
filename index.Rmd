@@ -18,9 +18,9 @@ title: "CEID COVID-19 - Home"
 
 <!-- Dashboard -->
 <!-- <div class="container centered"><h2>Nowcasts: Estimates of current outbreak size</h2></div> -->
-<div class="container centered">
-<h2>Stochastic model for Georgia</h2>
-</div>
+<!-- <div class="container centered"> -->
+<!-- <h2>Stochastic model for Georgia</h2> -->
+<!-- </div> -->
 
 <!-- <div class="jumbotron jumbotron-fluid"> -->
 
@@ -50,18 +50,48 @@ title: "CEID COVID-19 - Home"
 <!-- </div>  -->
 
 
+<!-- Wastewater plot + legend-->
+<div class="col-sm-12"> 
+<div class="container centered"><h2>Wastewater surveillance in Athens, GA</h2></div>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="wastewater-athens-plot.html" allowtransparency="true"></iframe>
+</div> <!-- end 16by9 -->
+</div> <!-- end col -->
+</div> <!-- end row -->
+<!-- end Wastewater plot + legend-->
+
+<!-- Wastewater caption + button -->
+<div class="row">
+<div class="col-sm-8">
+<img src="https://raw.githubusercontent.com/lipplab-uga/covid_wastewater_lipplab_athens/master/good_legend.png" style="width:450px; margin-left:50px;"/>
+</div> <!-- end col -->
+<div class="col-sm-4">
+<a class="btn btn-primary btn-sm" href="wastewater-athens.html" role="button">Full Details &#8594;</a>
+</div> <!-- end col -->
+</div> <!-- end row -->
+<div class="row">
+<div class="col-sm-8"><div class="container centered">
+<p style="color:black; font-size:medium;"><small>To better understand the outbreak of COVID&#8209;19 on a local level, we are monitoring wastewater samples from water reclamation facilities in Athens, Georgia. Wastewater surveillance is an emerging tool for monitoring disease outbreaks. Coupled with clinical surveillance, it can be used to estimate the level of viruses circulating in local population. Samples are collected weekly and tested to detect the disease-causing virus, SARS&#8209;CoV&#8209;2. Taken together with clinical surveillance, wastewater surveillance is intended to inform public health decisions.</small></p>
+</div> </div> 
+<!-- end Wastewater caption + button -->
+
+</div> <!-- end row -->
+<hr>
+<div class="row">
+
 <!-- GA MODEL -->
+<div class="container centered"><h2>Stochastic model for Georgia</h2></div>
 <div class="col-sm-8"> 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="stochastic-fitting-georgia-summaryplot.html" allowtransparency="true"></iframe>
 </div>
 <img src="images/scenarios-legend-simple.png" style="width:350px; margin-left:50px;"/>
 </div> 
-<!-- GA MODEL -->
+<!-- end GA MODEL -->
 
 <!-- GA MODEL legend + button -->
 <div class="col-sm-3">
-<p style="color:black; font-size:medium;">To better understand the potential range of epidemic outcomes in the state of Georgia, we developed a model incorporating regionally specific conditions and calibrated to reported cases and deaths. <br><br>We explore three social distancing scenarios ranging from increased social distancing to a complete return to normal.<br><br>The model uses social distancing data and also captures hard-to-measure human behaviors such as mask wearing.</p><br>
+<p style="color:black; font-size:medium;"><small>To better understand the potential range of epidemic outcomes in the state of Georgia, we developed a model incorporating regionally specific conditions and calibrated to reported cases and deaths. <br><br>We explore three social distancing scenarios ranging from increased social distancing to a complete return to normal.<br><br>The model uses social distancing data and also captures hard-to-measure human behaviors such as mask wearing.</small></p><br>
 <a class="btn btn-primary btn-sm" href="stochastic-GA.html" role="button">Stochastic Model for Georgia &#8594;</a>
 </div> 
 <!-- end GA MODEL legend + button -->

@@ -58,7 +58,7 @@
 		"alternatename": "CEID",
 		"url": "https://www.covid19.uga.edu/",
 		"logo": "https://www.uga.edu/_resources/images/GEORGIA-V-FC.png",
-		"description": "The UGA Center for the Ecology of Infectious Diseases (CEID) Coronavirus tracker provides timely, data-driven situation awareness about the 2019 novel coronavirus outbreak.",
+		"description": "The UGA Center for the Ecology of Infectious Diseases (CEID) COVID-19 Portal is a resource for researchers, policymakers, and the public that provides tracking, modeling, and analysis of the ongoing COVID‑19 pandemic.",
 		"location": {
 			"@type": "PostalAddress",
 			"addressLocality": "Athens",
@@ -264,12 +264,34 @@ summary {
 
   </a>
 </li>
-<li>
+
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Tracking
+    
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="tracker.html">Tracker: Cases, Deaths & Hospitalizations (World, US states, US counties)</a>
+    </li>
+    <li>
+      <a href="maps.html">Maps of Spread (World, US, China)</a>
+    </li>
+    <li>
+      <a href="wastewater-athens.html">Wastewater Surveillance in Athens, GA</a>
+    </li>
+  </ul>
+</li>
+
+
+
+<!--<li>
   <a href="tracker.html">Tracker</a>
 </li>
 <li>
   <a href="maps.html">Maps</a>
-</li>
+</li>-->
 <!--<li>
   <a href="forecast.html">Forecast</a>
 </li>-->
@@ -370,11 +392,9 @@ Center for the Ecology of Infectious Diseases  <a href="https://www.ceid.u
 </div>
 <!-- Dashboard -->
 <!-- <div class="container centered"><h2>Nowcasts: Estimates of current outbreak size</h2></div> -->
-<div class="container centered">
-<h2>
-Stochastic model for Georgia
-</h2>
-</div>
+<!-- <div class="container centered"> -->
+<!-- <h2>Stochastic model for Georgia</h2> -->
+<!-- </div> -->
 <!-- <div class="jumbotron jumbotron-fluid"> -->
 <div class="row">
 <!-- US NOWCAST -->
@@ -396,7 +416,53 @@ Stochastic model for Georgia
 <!-- <div class="col-sm-6 text-center"> -->
 <!-- <a class="btn btn-primary btn-sm" href="nowcast.html" role="button">Nowcasts for all states &#8594;</a> -->
 <!-- </div>  -->
+<!-- Wastewater plot + legend-->
+<div class="col-sm-12">
+<div class="container centered">
+<h2>
+Wastewater surveillance in Athens, GA
+</h2>
+</div>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="wastewater-athens-plot.html" allowtransparency="true">
+</iframe>
+</div>
+<p><!-- end 16by9 --></p>
+</div>
+<p><!-- end col --></p>
+</div>
+<p><!-- end row --> <!-- end Wastewater plot + legend--></p>
+<!-- Wastewater caption + button -->
+<div class="row">
+<div class="col-sm-8">
+<p><img src="https://raw.githubusercontent.com/lipplab-uga/covid_wastewater_lipplab_athens/master/good_legend.png" style="width:450px; margin-left:50px;"/></p>
+</div>
+<!-- end col -->
+<div class="col-sm-4">
+<p><a class="btn btn-primary btn-sm" href="wastewater-athens.html" role="button">Full Details →</a></p>
+</div>
+<p><!-- end col --></p>
+</div>
+<!-- end row -->
+<div class="row">
+<div class="col-sm-8">
+<div class="container centered">
+<p style="color:black; font-size:medium;">
+<small>To better understand the outbreak of COVID‑19 on a local level, we are monitoring wastewater samples from water reclamation facilities in Athens, Georgia. Wastewater surveillance is an emerging tool for monitoring disease outbreaks. Coupled with clinical surveillance, it can be used to estimate the level of viruses circulating in local population. Samples are collected weekly and tested to detect the disease-causing virus, SARS‑CoV‑2. Taken together with clinical surveillance, wastewater surveillance is intended to inform public health decisions.</small>
+</p>
+</div>
+</div>
+<!-- end Wastewater caption + button -->
+</div>
+<!-- end row -->
+<hr>
+<div class="row">
 <!-- GA MODEL -->
+<div class="container centered">
+<h2>
+Stochastic model for Georgia
+</h2>
+</div>
 <div class="col-sm-8">
 <div class="embed-responsive embed-responsive-16by9">
 <iframe class="embed-responsive-item" src="stochastic-fitting-georgia-summaryplot.html" allowtransparency="true">
@@ -404,11 +470,11 @@ Stochastic model for Georgia
 </div>
 <p><img src="images/scenarios-legend-simple.png" style="width:350px; margin-left:50px;"/></p>
 </div>
-<!-- GA MODEL -->
+<!-- end GA MODEL -->
 <!-- GA MODEL legend + button -->
 <div class="col-sm-3">
 <p style="color:black; font-size:medium;">
-To better understand the potential range of epidemic outcomes in the state of Georgia, we developed a model incorporating regionally specific conditions and calibrated to reported cases and deaths. <br><br>We explore three social distancing scenarios ranging from increased social distancing to a complete return to normal.<br><br>The model uses social distancing data and also captures hard-to-measure human behaviors such as mask wearing.
+<small>To better understand the potential range of epidemic outcomes in the state of Georgia, we developed a model incorporating regionally specific conditions and calibrated to reported cases and deaths. <br><br>We explore three social distancing scenarios ranging from increased social distancing to a complete return to normal.<br><br>The model uses social distancing data and also captures hard-to-measure human behaviors such as mask wearing.</small>
 </p>
 <p><br> <a class="btn btn-primary btn-sm" href="stochastic-GA.html" role="button">Stochastic Model for Georgia →</a></p>
 </div>
