@@ -11,7 +11,7 @@ title: "CEID COVID-19 - Home"
   <h4 class="lead">Center&nbsp;for&nbsp;the&nbsp;Ecology&nbsp;of Infectious&nbsp;Diseases&nbsp; <a href="https://www.ceid.uga.edu" target="_blank">(CEID)</a> Coronavirus&nbsp;Working&nbsp;Group<br>in partnership with the <a href="https://publichealth.uga.edu/" target="_blank">College&nbsp;of &nbsp;Public&nbsp;Health</a><br>
   University&nbsp;of&nbsp;Georgia</h3>
   <!-- <a class="btn btn-primary btn-sm" href="#news" role="button">News &amp; Updates</a></h2><br> -->
-  <small>Information for UGA students and staff: <a href="https://www.uga.edu/coronavirus" target="_blank">www.uga.edu/coronavirus</a></small>
+  <small>Information for UGA students and staff: <a href="https://www.uga.edu/coronavirus" target="_blank">coronavirus.uga.edu</a></small>
   </p>
 </div>
 </div>
