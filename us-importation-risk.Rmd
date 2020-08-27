@@ -1,0 +1,28 @@
+---
+title: "CEID COVID-19 - Importation Network Model for the US"
+---
+<p id="disclaimer"></p>
+
+```{r echo=FALSE, out.extra='id="us-importation-risk" scrolling="no" width="100%"'}
+knitr::include_url("us-importation-risk-web-summary.html")
+```
+<script>iFrameResize({ log: false }, '#us-importation-risk')</script>
+
+## Supplemental Information
+
+<div class="container-frames">
+
+<!-- <p>Preprint:<br> -->
+<!--   <a href="" target="_blank"> -->
+<!--   Eric. Lipp. Title. August xx, 2020.</a> (pdf) -->
+<!-- </p> -->
+
+<p>
+  <a href="https://github.com/CEIDatUGA/ncov-importations-us" target="_blank">
+    <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
+    GitHub repository (private)
+  </a>
+</p>
+
+
+</div>

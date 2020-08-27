@@ -199,7 +199,8 @@ fetchGHdata("CEIDatUGA", "covid-five-approaches", "web-summary.html") %>% insert
 fetchGHdata("CEIDatUGA", "CoronavirusSpatial", "web_summary.html") %>% insert_tag(resizer) %>% 
   writeLines("china-spatial-web-summary.html")
 
-fetchGHdata("CEIDatUGA", "CoronavirusSpatial", "maps/link-weights-chloropleth-highest-ten-pct-2020-03-22.html") %>% insert_tag(resizer) %>% 
+fetchGHdata("CEIDatUGA", "CoronavirusSpatial", "maps/link-weights-chloropleth-highest-ten-pct-2020-03-22.html") %>% 
+  insert_tag(resizer) %>% 
   writeLines("china-spatial-link-weights.html")
 
 # World Spatial Model -------------------------------------------------------------------------
@@ -207,6 +208,14 @@ fetchGHdata("CEIDatUGA", "CoronavirusSpatial", "maps/link-weights-chloropleth-hi
 # fetchGHdata("CEIDatUGA", repo = "", path = "") %>% insert_tag(resizer) %>% 
 #   writeLines("world-spatial-link-weights.html")
 
+
+
+
+# US Importation Risk -------------------------------------------------------------------------
+
+fetchGHdata("CEIDatUGA", "ncov-importations-us", "us-importation-risk-web-summary.html") %>% 
+  insert_tag(resizer) %>% 
+  writeLines("us-importation-risk-web-summary.html")
 
 # Final Size (Probability of Widespread Transmission) -----------------------------------------
 
