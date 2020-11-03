@@ -209,7 +209,15 @@ fetchGHdata("CEIDatUGA", "CoronavirusSpatial", "maps/link-weights-chloropleth-hi
 #   writeLines("world-spatial-link-weights.html")
 
 
+# US County Spatial ---------------------------------------------------------------------------
 
+fetchGHdata("CEIDatUGA", repo = "covid19-spatial-us", path = "summary/us-county-web-summary.html") %>% 
+  insert_tag(resizer) %>%
+  writeLines("us-county-web-summary.html")
+
+fetchGHdata("CEIDatUGA", repo = "covid19-spatial-us", path = "summary/map.html") %>% 
+  insert_tag(resizer) %>%
+  writeLines("map.html")
 
 # US Importation Risk -------------------------------------------------------------------------
 
@@ -238,20 +246,14 @@ fetchGHdata("CEIDatUGA", "ncov-early-intervention", "web-summary2.html") %>% ins
 
 fetchGHdata("CEIDatUGA", "covid-university-reopening", "web_summary.html") %>% insert_tag(resizer) %>%
   writeLines("university-model-web-summary.html")
+
 # Mass Testing --------------------------------------------------------------------------------
 
 fetchGHdata("CEIDatUGA", "CoV_MassTesting", "COVID19_CEID_summary_html.html") %>% insert_tag(resizer) %>% 
   writeLines("mass_testing_summary.html")
 
 
-
-
-
-
-
-
-
-# Lipp Lab Wastewater Surveillance
+# Wastewater ----------------------------------------------------------------------------------
 
 fetchGHdata("lipplab-uga", "covid_wastewater_lipplab_athens", "index.html") %>% insert_tag(resizer) %>%
   writeLines("wastewater-athens-web-summary.html")
