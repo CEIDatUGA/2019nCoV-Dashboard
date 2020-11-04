@@ -219,9 +219,9 @@ fetchGHdata("CEIDatUGA", repo = "covid19-spatial-us", path = "summary/map.html")
   insert_tag(resizer) %>%
   writeLines("map.html")
 
-fetchGHdata("CEIDatUGA", repo = "covid19-spatial-us", path = "summary/local-counties.geojson") %>% 
-  insert_tag(resizer) %>%
-  writeLines("local-counties.geojson")
+# fetchGHdata("CEIDatUGA", repo = "covid19-spatial-us", path = "summary/local-counties.geojson") %>% 
+#   insert_tag(resizer) %>%
+#   writeLines("local-counties.geojson")
 
 
 # US Importation Risk -------------------------------------------------------------------------

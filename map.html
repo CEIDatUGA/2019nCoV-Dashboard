@@ -75,17 +75,17 @@
       mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JpZ2hpIiwiYSI6ImNrZjJ2anZ3cDI1Y3Yyc3A5aHE1cnF1bjQifQ.ZXsOWkIVBsLb6s7r4fHztg';
       var map = new mapboxgl.Map({
           container: 'map',
-          style: 'mapbox://styles/mapbox/basic-v9',  
+          style: 'mapbox://styles/grighi/ckh254qp11pcj19mpqkui0g18',  
           //style option: light-v10
 	        //style option: streets-v11
-          center: [31.4606, 20.7927],
-          zoom: 0.5
+          center: [-92.6, 40],
+          zoom: 2
       });
       
 	  /*
       function filterSt(state) {
           var filters = ['==', 'STATE', state];
-          map.setFilter('counties-join', filters);
+          map.setFilter('original', filters);
           
           // Set the label to the day
           document.getElementById('day').textContent = state;
@@ -94,13 +94,13 @@
 
        
       map.on('load', function () { 
+	  
+	  /*
 	  d3.json(
-	      //'https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json',
-	      //'https://raw.githubusercontent.com/grighi/tmp/master/local-counties.geojson?token=ACSP5OA3QEMOPNMAUXUFQUS7NQ35O',
-	      'local-counties.geojson', 
+	      'local-counties-small.geojson', 
 	      function (err, data) {
 		  if (err) throw err;
-		  
+		  */
 
 		  //initialize map on day 1
 		  var day = 1;
@@ -113,7 +113,8 @@
 		    return([
 			      'interpolate',
 			      ['linear'],
-			      ['get', String(d), ['at', 0, ['get', 'p']]],
+			      //['get', String(d), ['at', 0, ['get', 'p']]],
+			      ['get', 'p' + String(d)],
 			 	  0, '#440154',
 				  0.04, '#3B528B',
 				  0.08, '#21908C',
@@ -122,14 +123,14 @@
 				  1, '#696969'
 			  ])};
 			  
-
+     /*
   		  map.addSource('county-data', {
 		      type: 'geojson',
 		      data: data
 		  });		  
 		  
 		  map.addLayer({
-			  'id': 'counties-join',
+			  'id': 'original',
 			  'type': 'fill',
 			  'source': 'county-data',
 		      'paint': {
@@ -138,24 +139,19 @@
 			  }
 		      }, //'waterway-label'   // FOR STYLE light-v10: ensures polygons are rendered above waterway-labels
 	      ); 
-
-      //--------------------------------------------------------
-      // this javascript code remains aspirational because 
-      // queryRenderedFeatures cannot return Arrays in its 
-      // properties.
-      //--------------------------------------------------------
-
+      */
+      
 		  //update overlay box when hovering over a county
 		  map.on('mousemove', function(e) {
 		      var county = map.queryRenderedFeatures(e.point, {
-			     layers: ['counties-join']
+			     layers: ['original']
 		      });
 
 		      if (county.length > 0) {	  
 			  document.getElementById('pd').innerHTML = '<h3><strong>' +
 			      county[0].properties.lsad + '</strong></h3>' + 
 			      '<p>Estimated probability of first report: ' + 
-			      JSON.parse(county[0].properties.p)[0][day] + '</p>' + 			      '<p>Actual day of first report: ' +
+			      county[0].properties['p'+String(day)] + '</p>' + 			      '<p>Actual day of first report: ' +
 			      county[0].properties['First_Inf_Date'] + '</p>';
 		      } else {
 			  document.getElementById('pd').innerHTML = '<br><p>Hover over a county!</p>';
@@ -169,12 +165,12 @@
 		      .addEventListener('input', function (e) {
 			  day = parseInt(e.target.value, 10);
 
-			  map.setPaintProperty('counties-join', 'fill-color', makeColorScale(day));
+			  map.setPaintProperty('original', 'fill-color', makeColorScale(day));
 			  
 			  document.getElementById('day').textContent = day;
 		     });
 	  
-              });
+             // });
               
               
               /*
@@ -284,7 +280,7 @@
                         .attr("x", x(day))
                         .text(day);
 
- 				map.setPaintProperty('counties-join', 'fill-color', makeColorScale(day));
+ 				map.setPaintProperty('original', 'fill-color', makeColorScale(day));
                  }
 
         */
@@ -295,9 +291,9 @@
       map.getCanvas().style.cursor = 'default';
 
 
-      map.fitBounds(
-          [[-170, 50], 
-           [ -40, 20]]);
+      //map.fitBounds(
+      //    [[-170, 50], 
+      //     [ -40, 20]]);
     </script>
   <script type="text/javascript" src="js/iframeResizer.contentWindow.min.js"></script>
 </body>
