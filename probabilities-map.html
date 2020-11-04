@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Create a time slider</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+    <style>
+      body { margin: 0; padding: 0; }
+      #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+  </head>
+  <body>
+    <style>
+      .map-overlay {
+          font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	  position: absolute;
+          width: 25%;
+          right: 10px;
+	  bottom: 10px;
+          /*top: 0;
+	  left: 0;*/
+          padding: 10px;
+      }
+      .map-overlay .map-overlay-inner {
+          background-color: #fff;
+          /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);*/
+          border-radius: 3px;
+          padding: 10px;
+          margin-bottom: 10px;
+      }
+      .map-overlay h2 {
+          line-height: 24px;
+          display: block;
+          margin: 0 0 10px;
+      }
+      .map-overlay .legend .bar {
+          height: 10px;
+          width: 100%;
+          background: linear-gradient(to right, #440154FF, #3B528BFF, #21908CFF, #5DC863FF, #FDE725FF);
+      }
+      .map-overlay input {
+          background-color: transparent;
+          display: inline-block;
+          width: 100%;
+          position: relative;
+          margin: 0;
+          cursor: ew-resize;
+      }
+    </style>
+    <div id="map"></div>
+    <div class="map-overlay top">
+      <div class="map-overlay-inner">
+        <h2>Seeding Probability</h2>
+        <div id='pd'><br>
+        
+          <p>Hover over a county!</p>
+        </div>
+        Day: <label id="day"></label>
+        <input id="slider" type="range" min="1" max="111" step="1" value="0" />
+        <!--button id="play-button">Play</button-->
+      </div>
+      <div class="map-overlay-inner">
+        <div id="legend" class="legend">
+          <div class="bar"></div>
+          <div><span style="text-align:left;"> 0    
+          <span style="float:right;"> 1
+          </span></span><br><center>Probability</center></div>
+        </div>
+      </div>
+    </div>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoiZ3JpZ2hpIiwiYSI6ImNrZjJ2anZ3cDI1Y3Yyc3A5aHE1cnF1bjQifQ.ZXsOWkIVBsLb6s7r4fHztg';
+      var map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/grighi/ckh254qp11pcj19mpqkui0g18',  
+          //style option: light-v10
+	        //style option: streets-v11
+          center: [-92.6, 40],
+          zoom: 2,
+          minZoom: 2
+      });
+      
+	  /*
+      function filterSt(state) {
+          var filters = ['==', 'STATE', state];
+          map.setFilter('original', filters);
+          
+          // Set the label to the day
+          document.getElementById('day').textContent = state;
+      }
+      */
+
+       
+      map.on('load', function () { 
+	  
+	  /*
+	  d3.json(
+	      'local-counties-small.geojson', 
+	      function (err, data) {
+		  if (err) throw err;
+		  */
+
+		  //initialize map on day 1
+		  var day = 1;
+
+		  //set Day: label to 1
+		  document.getElementById('day').textContent = day;
+		  
+		  //prepare color scale
+		  function makeColorScale(d) {
+		    return([
+			      'interpolate',
+			      ['linear'],
+			      //['get', String(d), ['at', 0, ['get', 'p']]],
+			      ['get', 'p' + String(d)],
+			 	  0, '#440154',
+				  0.04, '#3B528B',
+				  0.08, '#21908C',
+				  0.25, '#5DC863',
+				  0.4, '#FDE725',
+				  1, '#696969'
+			  ])};
+			  
+     /*
+  		  map.addSource('county-data', {
+		      type: 'geojson',
+		      data: data
+		  });		  
+		  
+		  map.addLayer({
+			  'id': 'original',
+			  'type': 'fill',
+			  'source': 'county-data',
+		      'paint': {
+			    'fill-opacity': 0.3,
+			    'fill-color': makeColorScale(day) 
+			  }
+		      }, //'waterway-label'   // FOR STYLE light-v10: ensures polygons are rendered above waterway-labels
+	      ); 
+      */
+      
+      var clicked = false;
+      var clickedCounty = null;
+      
+      map.on('click', function(e) {
+        if (!clicked) {
+          clicked = true;
+
+          var county = map.queryRenderedFeatures(e.point, {
+			     layers: ['original']
+		      });
+		      clickedCounty = county;
+		      
+		      if (county.length > 0) {	  
+			  document.getElementById('pd').innerHTML = 
+			        '<h3><strong>' +
+			      county[0].properties.lsad + '</strong></h3>' + 
+			        '<p>Estimated probability of having a case by the next day: ' + 
+			      county[0].properties['p'+String(day)] + '</p>' + 			      
+			        '<p>True date of first case: ' +
+			      county[0].properties['First_Inf_Date'] + '</p>';
+		      } else {
+			  document.getElementById('pd').innerHTML = '<br><p>Hover over a county!</p>';
+			  clicked = false;
+        clickedCounty = null;
+		      }
+		      
+        } else {
+          clicked = false;
+          clickedCounty = null;
+        };
+      });
+
+		  
+		  //update overlay box when hovering over a county
+		  map.on('mousemove', function(e) {
+		    if (!clicked) {
+		      var county = map.queryRenderedFeatures(e.point, {
+			     layers: ['original']
+		      });
+
+		      if (county.length > 0) {	  
+			      document.getElementById('pd').innerHTML = 
+			        '<h3><strong>' +
+			      county[0].properties.lsad + '</strong></h3>' + 
+			        '<p>Estimated probability of having a case by the next day: ' + 
+			      county[0].properties['p'+String(day)] + '</p>' + 			      
+			        '<p>True date of first case: ' +
+			      county[0].properties['First_Inf_Date'] + '</p>';
+		      
+		    } else {
+			  document.getElementById('pd').innerHTML = '<br><p>Hover over a county!</p>';
+		    }};
+		  });
+		  
+      
+		  //update map according to slider position
+		  document.getElementById('slider')
+		      .addEventListener('input', function (e) {
+		        day = parseInt(e.target.value, 10);
+		        
+		        map.setPaintProperty('original', 'fill-color', makeColorScale(day));
+		        document.getElementById('day').textContent = day;
+		        
+		        if(clickedCounty) {
+            if (clickedCounty.length > 0) {	  
+			  document.getElementById('pd').innerHTML = 
+			        '<h3><strong>' +
+			      clickedCounty[0].properties.lsad + '</strong></h3>' + 
+			        '<p>Estimated probability of having a case by the next day: ' + 
+			      clickedCounty[0].properties['p'+String(day)] + '</p>' + 			      
+			        '<p>True date of first case: ' +
+			      clickedCounty[0].properties['First_Inf_Date'] + '</p>';
+          };
+		        
+		      }});
+	  
+             // });
+              
+              
+              /*
+              
+              //wish list: move slider with shift+scroll
+              
+              */
+              
+              
+              /*
+              
+              //code to potentially add a play button, not working
+              
+                var moving = false;
+                var currentValue = 0;
+                var targetValue = width;
+                console.log(targetValue);
+                var slider = d3.select("#slider")
+                    .append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .attr("transform", "translate(" + 0 + "," + height + ")");
+
+                var playButton = d3.select("#play-button");
+                var x = d3.scaleLinear()//建立映射关系
+                    .domain([0, 111])
+                    .range([0, targetValue])
+                    .clamp(true);
+
+                slider.append("line")
+                    .attr("class", "track")
+                    .attr("x1", x.range()[0])
+                    .attr("x2", x.range()[1])
+                    .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
+                    .attr("class", "track-inset")
+                    .select(function () { return this.parentNode.appendChild(this.cloneNode(true)); })
+                    .attr("class", "track-overlay")
+                    .call(d3.drag()
+                        .on("start.interrupt", function () { slider.interrupt(); })
+                        .on("start drag", function () {
+                            currentValue = d3.event.x;
+                            console.log(currentValue)
+                            update(x.invert(currentValue));
+                        })
+                    );
+
+                slider.insert("g", ".track-overlay")
+                    .attr("class", "ticks")
+                    .attr("transform", "translate(0," + 18 + ")")
+                    .selectAll("text")
+                    .data(x.ticks(10))
+                    .enter()
+                    .append("text")
+                    .attr("x", x)
+                    .attr("y", 10)
+                    .attr("text-anchor", "middle")
+                    .text(function (d) {
+                        return (d + 1);
+                    });
+
+                var handle = slider.insert("circle", ".track-overlay")
+                    .attr("class", "handle")
+                    .attr("r", 9);
+
+                var labels = slider.append("g").append("text")
+                    .attr("class", "labels")
+                    .attr("text-anchor", "middle")
+                    .text('1')
+                    .attr("transform", "translate(0," + (-15) + ")")
+                    .style("fill", "#4F442B")
+
+                playButton
+                    .on("click", function () {
+                        var button = d3.select(this);
+                        if (button.text() == "Pause") {
+                            moving = false;
+                            clearInterval(timer);
+                            // timer = 0;
+                            button.text("Play");
+                        } else {
+                            moving = true;
+                            timer = setInterval(step, 1000);//调用interval周期函数
+                            button.text("Pause");
+                        }
+                        console.log("Slider moving: " + moving);//判定是否在运动
+                    })
+
+                function step() {
+                    update(x.invert(currentValue));
+                    currentValue = currentValue + (targetValue / (111));
+                    if (currentValue > targetValue) {
+                        moving = false;
+                        currentValue = 0;
+                        clearInterval(timer);
+                        // timer = 0;
+                        playButton.text("Play");
+                        // console.log("Slider moving: " + moving);
+                    }
+                }
+
+                function update(day) {
+                    var day = parseInt(day, 10);
+                    console.log(day)
+                    handle.attr("cx", x(day));
+
+                    labels
+                        .attr("x", x(day))
+                        .text(day);
+
+ 				map.setPaintProperty('original', 'fill-color', makeColorScale(day));
+                 }
+
+        */
+         
+
+      });
+      
+      map.getCanvas().style.cursor = 'default';
+
+
+      //map.fitBounds(
+      //    [[-170, 50], 
+      //     [ -40, 20]]);
+    </script>
+  <script type="text/javascript" src="js/iframeResizer.contentWindow.min.js"></script>
+</body>
+</html>
+

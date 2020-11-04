@@ -5,11 +5,11 @@ title: "CEID COVID-19 - US County Level Spatial Model"
 
 
 ```{r echo=FALSE, out.extra='id="us-county-spatial-model" scrolling="no" width="100%"'}
-knitr::include_url("china-spatial-web-summary.html")
+knitr::include_url("us-county-web-summary.html")
 ```
 <script>iFrameResize({ log: false }, '#us-county-spatial-model')</script>
 
-<!-- <script>reloadOnVisible('china-spatial-link-map-weights')</script> -->
+<!-- <script>reloadOnVisible('us-county-spatial-model')</script> -->
 
 
 ## Supplemental Information
@@ -21,9 +21,9 @@ knitr::include_url("china-spatial-web-summary.html")
 <!-- Preprint: [download]() -->
 
 <p>
-  <a href="https://github.com/CEIDatUGA/CoronavirusSpatial" target="_blank">
+  <a href="https://github.com/CEIDatUGA/covid19-spatial-us" target="_blank">
     <img src="images/GitHub-Mark-64px.png" id="github-icon" alt="GitHub repository"/>
-    GitHub repository (private)
+    GitHub repository (public)
   </a>
 </p>
 

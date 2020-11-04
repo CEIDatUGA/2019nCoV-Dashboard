@@ -215,9 +215,9 @@ fetchGHdata("CEIDatUGA", repo = "covid19-spatial-us", path = "summary/us-county-
   insert_tag(resizer) %>%
   writeLines("us-county-web-summary.html")
 
-fetchGHdata("CEIDatUGA", repo = "covid19-spatial-us", path = "summary/map.html") %>% 
+fetchGHdata("CEIDatUGA", repo = "covid19-spatial-us", path = "summary/probabilities-map.html") %>% 
   insert_tag(resizer) %>%
-  writeLines("map.html")
+  writeLines("probabilities-map.html")
 
 # fetchGHdata("CEIDatUGA", repo = "covid19-spatial-us", path = "summary/local-counties.geojson") %>% 
 #   insert_tag(resizer) %>%
