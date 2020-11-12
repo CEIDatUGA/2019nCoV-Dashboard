@@ -8,12 +8,12 @@ title: "CEID COVID-19 - US Nowcast"
 <small>The Nowcast provides an estimate of the total number of COVID-19 cases circulating in the community and not known to us. The Nowcast estimates uses the current case and death notifications to estimate the number of infections present at an earlier time, then forecasts forward to the present. Forecasting is automated and dependent on changing data. Close to the present, the Nowcast provides a rough estimated range for the current outbreak size. The Nowcast includes a correction for underreporting of cases based on reports of fatalities, which are considered much more reliable than case reports. The Nowcast provides insight into the current size of the COVID-19 pandemic as well as the trend in the size. </small>
 
 ### US Nowcast
-
+<small>Please be patient while the nowcasts load.</small>
 ```{r echo=FALSE, out.extra='id="nowcast-case-reports" scrolling="no" width="100%"'}
 knitr::include_url("nowcast-US-cases.html")
 ```
 <script>iFrameResize({ log: false }, '#nowcast-case-reports')</script>
-
+<!-- <script>reloadOnVisible('nowcast-case-reports')</script> -->
 <!-- ### US Nowcast from fatalities -->
 
 <!-- ```{r echo=FALSE, out.extra='id="nowcast-fatalities" scrolling="no" width="100%"'} -->
