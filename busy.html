@@ -1,0 +1,32 @@
+<style>
+  .busy { 
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -50px;
+    display: none;
+    background-color: rgba(230,230,230,.8);
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    border-radius: 5px;
+  }
+</style>
+
+<script>
+  $(document).ready(function(){
+    $("#plot").on("shiny:recalculating", function(e){
+      $(".busy").show();
+    }).on("shiny:recalculated", function(e){
+      $(".busy").hide();
+    });
+  });
+</script>
+
+<div class = "busy">
+  <img src = "https://loading.io/spinners/comets/lg.comet-spinner.gif"/>
+</div>
