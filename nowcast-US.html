@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2020-06-10" />
+<meta name="date" content="2020-12-16" />
 
 <title>Nowcasting the current size of the COVID-19 outbreak in the United States</title>
 
@@ -1634,7 +1634,7 @@ summary {
 
 
 <h1 class="title toc-ignore">Nowcasting the current size of the COVID-19 outbreak in the United States</h1>
-<h4 class="date">June 10, 2020</h4>
+<h4 class="date">December 16, 2020</h4>
 
 </div>
 
@@ -1703,8 +1703,12 @@ R_t = \frac{\frac{\Delta E_+}{\Delta t}}{I_t} \frac{1}{\gamma_t}
 <div id="data-sources" class="section level3">
 <h3>Data sources</h3>
 <p><strong>U.S. case and fatality reports by state</strong></p>
-<p>We compile daily case and fatality reports for U.S. states and territories from <a href="https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases" class="uri">https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases</a>, which is updated by anonymous contributors.</p>
-<p>Data from the Wikipedia tables are downloaded and cleaned daily and made publicly available in CSV format at <a href="https://github.com/CEIDatUGA/COVID-19-DATA" target="_blank">https://github.com/CEIDatUGA/COVID-19-DATA</a></p>
+<p>On December 17, 2020, we switched our data source for the US nowcast to the COVID-19 Data Repository maintained by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>.</p>
+<p>We use the following times series of confirmed cases:</p>
+<p><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv" target="_blank">time_series_covid19_confirmed_US.csv</a></p>
+<p>We use the following time series of reported deaths:</p>
+<p><a href="https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv" target="_blank">time_series_covid19_deaths_US.csv</a></p>
+<p>Prior to December 17, 2020, we used daily case and fatality reports for U.S. states and territories compiled from <a href="https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases" class="uri">https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases</a>, which is updated by anonymous contributors. Data from the Wikipedia tables are downloaded and cleaned daily and made publicly available in CSV format at <a href="https://github.com/CEIDatUGA/COVID-19-DATA" target="_blank">https://github.com/CEIDatUGA/COVID-19-DATA</a>. We continue to update daily.</p>
 <!-- **Fatalities by Country** -->
 <!-- Country level fatality data are maintained by [CEID](http://ceid.uga.edu) and available -->
 <!-- [here](https://docs.google.com/spreadsheets/d/1SC28cM52m6s1gTJutpvFxadT9GGu-li90tsqkGuaM48/edit#gid=219891324) on the tab called "Cumulative fatalities reported by country." -->
@@ -1720,6 +1724,7 @@ R_t = \frac{\frac{\Delta E_+}{\Delta t}}{I_t} \frac{1}{\gamma_t}
 <li id="fn3"><p>Kenji Mizumoto, Gerardo Chowell. “Estimating the risk of 2019 Novel Coronavirus death during the course of the outbreak in China, 2020” medRxiv preprint. <a href="https://doi.org/10.1101/2020.02.19.20025163" class="uri">https://doi.org/10.1101/2020.02.19.20025163</a><a href="#fnref3" class="footnote-back">↩</a></p></li>
 <li id="fn4"><p>Neil M Ferguson, <em>et al</em>. Impact of non-pharmaceutical interventions (NPIs) to reduce COVID19 mortality and healthcare demand. March 16, 2020, Imperial College COVID-19 Response Team. <a href="https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf" class="uri">https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf</a><a href="#fnref4" class="footnote-back">↩</a></p></li>
 <li id="fn5"><p>Analysis by the Center for the Ecology of Infectious Diseases of U.S. data. Parameters updated periodically. See supplemental information.<a href="#fnref5" class="footnote-back">↩</a></p></li>
+<li id="fn6"><p>Dong, E. et al. An interactive web-based dashboard to track COVID-19 in real time. Correction to Lancet Infect Dis. February 19, 2020. <a href="https://doi.org/10.1016/S1473-3099(20)30120-1" class="uri">https://doi.org/10.1016/S1473-3099(20)30120-1</a><a href="#fnref6" class="footnote-back">↩</a></p></li>
 </ol>
 </div>
 
