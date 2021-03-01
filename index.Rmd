@@ -130,6 +130,27 @@ title: "CEID COVID-19 - Home"
 <div class="col-sm-8">
 
 
+### Webinar
+
+<img src="images/InfectousDiseases_Twitter.jpg"/ 
+alt="Webinar: Infectious Disease Intelligence: Predicting the Next Pandemic. John Drake, Presenter">
+
+Infectious Disease Intelligence: Predicting the Next Pandemic  
+John Drake
+
+UIDP (University Industry Dempostration Partnership)  
+March 10, 2021, 12:00 PM-1:00 PM ET (Free)  
+<a  class="btn btn-primary btn-sm" role="button" href="https://web.cvent.com/event/58f4cdcd-c52e-4cac-90a6-b65f2a7a9b81/summary" target="_blank">Register</a>
+
+Can we predict the emergence and spillover of infectious diseases like Ebola or COVID-19? Can we develop an infectious disease warning system that is analogous to weather forecasts, that pinpoints the origin and path of disease spread?
+
+In this free webinar presented by UIDP, John Drake will describe the surveillance tools used to understand how interactions between humans and pathogenic reservoir-species may lead to spillover events. He’ll also discuss the dynamical models that researchers use once an outbreak has been reported to understand how an infectious disease spatially spreads.
+
+<img src="images/GIDIC_horizontal_FC.png" alt="Global Infectious Disease Intelligence Consortium (GIDIC)" width="50%" style="float:right;"/>
+
+Drake will also introduce the Global Infectious Disease Intelligence Consortium (GIDIC), which brings together leaders in academia, federal agencies, industry, and NGOs to discuss the challenges that pandemics create and how they can be collectively solved.
+
+
 ### Op-ed by CEID Director John Drake and Jonathan M. Davis
 
 **Act now to prevent overwhelming hospitals**
