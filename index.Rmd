@@ -139,7 +139,7 @@ Infectious Disease Intelligence: Predicting the Next Pandemic
 John Drake
 
 UIDP (University Industry Dempostration Partnership)  
-~~March 10~~ <span style="color:'red';">March 24</span>, 2021, 12:00 PM-1:00 PM ET (Free)  
+March 24, 2021, 12:00 PM-1:00 PM ET (Free)  
 <a  class="btn btn-primary btn-sm" role="button" href="https://web.cvent.com/event/58f4cdcd-c52e-4cac-90a6-b65f2a7a9b81/summary" target="_blank">Register</a>
 
 Can we predict the emergence and spillover of infectious diseases like Ebola or COVID-19? Can we develop an infectious disease warning system that is analogous to weather forecasts, that pinpoints the origin and path of disease spread?
