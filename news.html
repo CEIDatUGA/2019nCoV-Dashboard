@@ -13,12 +13,22 @@
 
 <title>CEID COVID-19 - News</title>
 
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -93,12 +103,17 @@
 <meta property="og:type" content="website"/>
 <meta property="og:locale" content="en_US"/>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -111,32 +126,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 <link rel="stylesheet" href="css/main.css" type="text/css" />
 
@@ -147,10 +137,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -167,6 +153,9 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
@@ -179,7 +168,6 @@ summary {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -364,7 +352,7 @@ summary {
   </div><!--/.container -->
 </div>
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -374,7 +362,7 @@ summary {
 
 
 <div id="latest-news-and-updates" class="section level2 card-header">
-<h2>Latest News and Updates</h2>
+<h2 class="card-header">Latest News and Updates</h2>
 <hr>
 <!--NEWS ITEM-->
 <div class="news-post card-body">
@@ -385,8 +373,8 @@ summary {
 Daily tests for CA, GA, and WA<br>(<a href="http://covid19.uga.edu/tracker.html" class="uri">http://covid19.uga.edu/tracker.html</a>)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-tracker-county" class="card-title">Coronavirus Tracker updated with county-level COVID-19 cases and deaths</h3>
+<div id="news-tracker-county" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Coronavirus Tracker updated with county-level COVID-19 cases and deaths</h3>
 <div class="news-date text-muted">
 June 11, 2020
 </div>
@@ -418,8 +406,8 @@ Details: <a href="tracker.html">http://covid19.uga.edu/tracker</a>.<br> Question
 Daily tests for CA, GA, and WA<br>(<a href="http://covid19.uga.edu/stochastic-GA.html" class="uri">http://covid19.uga.edu/stochastic-GA.html</a>)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-georgia-stochastic-spline" class="card-title">Stochastic model with social distancing for Georgia</h3>
+<div id="news-georgia-stochastic-spline" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Stochastic model with social distancing for Georgia</h3>
 <div class="news-date text-muted">
 June 2, 2020
 </div>
@@ -451,8 +439,8 @@ Details: <a href="stochastic-GA.html">http://covid19.uga.edu/stochastic-GA</a>.<
 (Image credit: Chip Somodevilla / Getty Images)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-538-why" class="card-title">Feature article by John Drake on FiveThirtyEight</h3>
+<div id="news-538-why" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Feature article by John Drake on FiveThirtyEight</h3>
 <div class="news-date text-muted">
 April 17, 2020
 </div>
@@ -475,8 +463,8 @@ Read the full article at <a href="https://fivethirtyeight.com/features/why-one-e
 Daily tests for CA, GA, and WA<br>(<a href="http://covid19.uga.edu/tracker.html" class="uri">http://covid19.uga.edu/tracker.html</a>)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-tracker" class="card-title">New Tracker for Cases, Deaths and Hospitalizations</h3>
+<div id="news-tracker" class="section level3 card-title col-sm-8">
+<h3 class="card-title">New Tracker for Cases, Deaths and Hospitalizations</h3>
 <div class="news-date text-muted">
 April 7, 2020
 </div>
@@ -496,8 +484,8 @@ The <a href="https://www.ceid.uga.edu" target="_blank">Center for the Ecology of
 Stochastic model for Georgia (U.S.)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-georgia-stochastic" class="card-title">Stochastic model for Georgia</h3>
+<div id="news-georgia-stochastic" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Stochastic model for Georgia</h3>
 <div class="news-date text-muted">
 March 15, 2020
 </div>
@@ -517,8 +505,8 @@ The COVID-19 Portal now includes a stochastic model for the outbreak in the stat
 Nowcast for the U.S.
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-nowcast" class="card-title">Nowcast of outbreak size</h3>
+<div id="news-nowcast" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Nowcast of outbreak size</h3>
 <div class="news-date text-muted">
 March 27, 2020
 </div>
@@ -542,8 +530,8 @@ Estimating the number of unreported cases from reports of fatalities requires co
 Effect of early intervention in China
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-early-intervention" class="card-title">Effect of early intervention</h3>
+<div id="news-early-intervention" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Effect of early intervention</h3>
 <div class="news-date text-muted">
 March 15, 2020
 </div>
@@ -569,8 +557,8 @@ Details: <a href="early-intervention.html">http://covid19.uga.edu/early-interven
 Final outbreak size<br>as a function of learning rate
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-finalsize" class="card-title">Estimating final outbreak size</h3>
+<div id="news-finalsize" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Estimating final outbreak size</h3>
 <div class="news-date text-muted">
 March 3, 2020 (Updated March 4, 2020)
 </div>
@@ -602,8 +590,8 @@ Model details and estimates are available at <a href="final-size.html">http://co
 Helpfulness of mass testing, by disease
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-masstesting" class="card-title">Assessment of mass screening and testing</h3>
+<div id="news-masstesting" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Assessment of mass screening and testing</h3>
 <div class="news-date text-muted">
 February 21, 2020
 </div>
@@ -629,8 +617,8 @@ Because COVID-19 shows general respiratory symptoms that are similar to common i
 Case Fatality Rate by Chinese province
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-cfr" class="card-title">Estimates of case fatality rate added</h3>
+<div id="news-cfr" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Estimates of case fatality rate added</h3>
 <div class="news-date text-muted">
 February 20, 2020
 </div>
@@ -650,8 +638,8 @@ Estimates of the case fatality rate <span class="math inline"><em>C</em><em>F</e
 Effect of imperfect detection and superspreading<br>on estimates of Effective Reproduction Number
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-reff-updated" class="card-title">Effective reproduction number outside China updated</h3>
+<div id="news-reff-updated" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Effective reproduction number outside China updated</h3>
 <div class="news-date text-muted">
 February 20, 2020
 </div>
@@ -671,8 +659,8 @@ Estimates of the <em>effective reproduction number</em> <span class="math inline
 Artist’s impression: SARS-CoV-2<br>based on micrographs of SARS and MERS.<br>(Credit: Chloe Parker)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-sars-cov-2" class="card-title">Virus causing COVID-19 disease named “SARS-CoV-2”</h3>
+<div id="news-sars-cov-2" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Virus causing COVID-19 disease named “SARS-CoV-2”</h3>
 <div class="news-date text-muted">
 February 17, 2020
 </div>
@@ -698,8 +686,8 @@ The official disease name, COVID-19, which was announced February 11, 2020, shou
 Effect of imperfect detection and superspreading<br>on estimates of Effective Reproduction Number
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-reff-outside" class="card-title">R effective outside China</h3>
+<div id="news-reff-outside" class="section level3 card-title col-sm-8">
+<h3 class="card-title">R effective outside China</h3>
 <div class="news-date text-muted">
 February 17, 2020
 </div>
@@ -736,8 +724,8 @@ CEID has now introduced a method to estimate the average effective reproduction 
 Artist’s impression of 2019-nCov<br>Based on micrographs of related SARS and MERS coronaviruses. (Image credit: Chloe Parker)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-covid-19" class="card-title">Novel coronavirus disease renamed COVID-19</h3>
+<div id="news-covid-19" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Novel coronavirus disease renamed COVID-19</h3>
 <div class="news-date text-muted">
 February 11, 2020
 </div>
@@ -766,8 +754,8 @@ The novel virus itself is still unnamed, and is being referred to as 2019-nCov. 
 Artist’s impression of 2019-nCov<br>Based on micrographs of related SARS and MERS coronaviruses. (Image credit: Chloe Parker)
 </figcaption>
 </figure>
-<div class="col-sm-8">
-<h3 id="news-announcing-ncov-tracker" class="card-title">Announcing the Coronavirus Tracker</h3>
+<div id="news-announcing-ncov-tracker" class="section level3 card-title col-sm-8">
+<h3 class="card-title">Announcing the Coronavirus Tracker</h3>
 <div class="news-date text-muted">
 February 10, 2020
 </div>
@@ -890,7 +878,7 @@ Contact: <a href="mailto:jdrake@uga.edu" class="card-link">John M. Drake (<a hre
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -908,7 +896,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
