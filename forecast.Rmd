@@ -6,7 +6,9 @@ title: "CEID COVID-19 - Stochastic Model for the US"
 <p id="disclaimer"></p>
 
 ## COVID‑19 forecasts for the US by State {.tabset .tabset-fade}
-<strong>`r format(Sys.time(), '%B %d, %Y')`</strong>
+Please note, CEID ceased updating its forecasts based on the model presented here on <strong>July 12, 2021.</strong>
+<small>This model does not account for the effects of vaccination, and as such has been discontinued. Forecasts here will soon be replaced with forecasts from CEID's new semi-parametric, state-space compartmental model with vaccination and mobility.</small>
+<!-- <strong>`r format(Sys.time(), '%B %d, %Y')`</strong> -->
 
 ### Overview
 
