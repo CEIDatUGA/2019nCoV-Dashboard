@@ -102,23 +102,36 @@ fetchGHdata("CEIDatUGA", "ncov-data-summary", "worldMap.html") %>% insert_tag(re
 
 # Nowcast -------------------------------------------------------------------------------------
 
-fetchGHdata("CEIDatUGA", "ncov-nowcast", "nowcast-US.html") %>% insert_tag(resizer) %>% 
+# fetchGHdata("CEIDatUGA", "ncov-nowcast", "nowcast-US.html") %>% insert_tag(resizer) %>% 
+#   writeLines("nowcast-US.html")
+# 
+# fetchGHdata("CEIDatUGA", "ncov-nowcast", "nowcast-US-cases.html") %>% insert_tag(resizer) %>% 
+#   writeLines("nowcast-US-cases.html")
+# 
+# fetchGHdata("CEIDatUGA", "ncov-nowcast", "under-reporting.html") %>% insert_tag(resizer) %>% 
+#   writeLines("nowcast-US-ascertainment.html")
+# 
+# fetchGHdata("CEIDatUGA", "ncov-nowcast", "china-nowcast-study.html") %>% insert_tag(resizer) %>% 
+#   writeLines("nowcast-validation.html")
+# 
+# fetchGHdata("CEIDatUGA", "ncov-nowcast", "USnowcast_plot.html") %>% insert_tag(resizer) %>% 
+#   writeLines("USnowcast_plot.html")
+# 
+# fetchGHdata("CEIDatUGA", "ncov-nowcast", "GAnowcast_plot.html") %>% insert_tag(resizer) %>% 
+#   writeLines("GAnowcast_plot.html")
+
+readLines("local/nowcast-US-cases.html") %>% insert_tag(resizer) %>% 
   writeLines("nowcast-US.html")
 
-fetchGHdata("CEIDatUGA", "ncov-nowcast", "nowcast-US-cases.html") %>% insert_tag(resizer) %>% 
-  writeLines("nowcast-US-cases.html")
-
-fetchGHdata("CEIDatUGA", "ncov-nowcast", "under-reporting.html") %>% insert_tag(resizer) %>% 
+readLines("local/under-reporting.html") %>% insert_tag(resizer) %>% 
   writeLines("nowcast-US-ascertainment.html")
 
-fetchGHdata("CEIDatUGA", "ncov-nowcast", "china-nowcast-study.html") %>% insert_tag(resizer) %>% 
-  writeLines("nowcast-validation.html")
-
-fetchGHdata("CEIDatUGA", "ncov-nowcast", "USnowcast_plot.html") %>% insert_tag(resizer) %>% 
+readLines("local/USnowcast_plot.html") %>% insert_tag(resizer) %>% 
   writeLines("USnowcast_plot.html")
 
-fetchGHdata("CEIDatUGA", "ncov-nowcast", "GAnowcast_plot.html") %>% insert_tag(resizer) %>% 
+readLines("local/GAnowcast_plot.html") %>% insert_tag(resizer) %>% 
   writeLines("GAnowcast_plot.html")
+
 
 # Context -------------------------------------------------------------------------------------
 
