@@ -27,25 +27,28 @@ title: "CEID COVID-19 - Home"
 <!-- ALL STATES MODEL -->
 
 <!-- ALL STATES Figure -->
-<div class="container centered"><h2>Forecast for U.S. States</h2></div>
-<div class="row">
+<!-- <div class="container centered"><h2>Forecast for U.S. States</h2></div> -->
+<!-- <div class="row"> -->
 
-<div class="col-sm-8"> 
-<div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="forecast-landing_page_fig.html" allowtransparency="true"></iframe>
-</div><!--end embed-->
-<img src="images/legend-scens-fit.png" style="width:350px; margin-left:50px;"/>
-</div><!--end col-->
+<!-- <div class="col-sm-8">  -->
+<!-- <div class="embed-responsive embed-responsive-16by9"> -->
+<!-- <iframe class="embed-responsive-item" src="forecast-landing_page_fig.html" allowtransparency="true"></iframe> -->
+<!-- </div> -->
+<!--end embed-->
+<!-- <img src="images/legend-scens-fit.png" style="width:350px; margin-left:50px;"/> -->
+<!-- </div> -->
+<!--end col-->
 <!-- end GA MODEL figure -->
 
 <!-- ALL STATES legend + button -->
-<div class="col-sm-3">
-<p style="color:black; font-size:medium;"><small>To better understand the potential range of epidemic outcomes in each U.S. State, we developed a stochastic model incorporating regionally specific conditions and calibrated to reported cases and deaths. We explore three social distancing scenarios ranging from increased social distancing to a complete return to normal. The model uses social distancing data and also captures hard-to-measure human behaviors such as wearing facemasks in public. The figure shown here compares three scenarios in four states.</small></p><br>
-<a class="btn btn-primary btn-sm" href="forecast.html" role="button">Explore all U.S. States &#8594;</a>
-</div> <!--end col-->
+<!-- <div class="col-sm-3"> -->
+<!-- <p style="color:black; font-size:medium;"><small>To better understand the potential range of epidemic outcomes in each U.S. State, we developed a stochastic model incorporating regionally specific conditions and calibrated to reported cases and deaths. We explore three social distancing scenarios ranging from increased social distancing to a complete return to normal. The model uses social distancing data and also captures hard-to-measure human behaviors such as wearing facemasks in public. The figure shown here compares three scenarios in four states.</small></p><br> -->
+<!-- <a class="btn btn-primary btn-sm" href="forecast.html" role="button">Explore all U.S. States &#8594;</a> -->
+<!-- </div>  -->
+<!--end col-->
 <!-- end ALL STATES legend + button -->
-
-</div> <!-- end row -->
+<!-- </div>  -->
+<!-- end row -->
 
 <div class="row">
 
