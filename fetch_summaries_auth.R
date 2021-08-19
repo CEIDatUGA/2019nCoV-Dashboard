@@ -102,8 +102,8 @@ fetchGHdata("CEIDatUGA", "ncov-data-summary", "worldMap.html") %>% insert_tag(re
 
 # Nowcast -------------------------------------------------------------------------------------
 
-# fetchGHdata("CEIDatUGA", "ncov-nowcast", "nowcast-US.html") %>% insert_tag(resizer) %>% 
-#   writeLines("nowcast-US.html")
+fetchGHdata("CEIDatUGA", "ncov-nowcast", "nowcast-US.html") %>% insert_tag(resizer) %>%
+  writeLines("nowcast-US.html")
 # 
 # fetchGHdata("CEIDatUGA", "ncov-nowcast", "nowcast-US-cases.html") %>% insert_tag(resizer) %>% 
 #   writeLines("nowcast-US-cases.html")
@@ -121,7 +121,7 @@ fetchGHdata("CEIDatUGA", "ncov-data-summary", "worldMap.html") %>% insert_tag(re
 #   writeLines("GAnowcast_plot.html")
 
 readLines("local/nowcast-US-cases.html") %>% insert_tag(resizer) %>% 
-  writeLines("nowcast-US.html")
+  writeLines("nowcast-US-cases.html")
 
 readLines("local/under-reporting.html") %>% insert_tag(resizer) %>% 
   writeLines("nowcast-US-ascertainment.html")
