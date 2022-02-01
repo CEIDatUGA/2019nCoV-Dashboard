@@ -7,9 +7,10 @@ title: "CEID COVID-19 - Case & Fatality Tracker"
 
 <br><br><br>The COVID-19 Tracker provides up-to-date information on documented cases, hospitalizations, and fatalities. Information can be displayed geographically by country or U.S. state.
 
+<div id="preloader"></div>
 
 ```{r echo=FALSE, out.extra='id="nCov-tracker" scrolling="no" width="100%"'}
-knitr::include_url("https://shiny.ovpr.uga.edu/yact/")
+knitr::include_url("https://shiny.ovpr.uga.edu/yactv2/")
 ```
 <!-- <script>iFrameResize({ log: false }, '#nCov-tracker')</script> -->
 
@@ -31,3 +32,12 @@ knitr::include_url("https://shiny.ovpr.uga.edu/yact/")
 </p>
 
 </div>
+
+<!--Preloader code:-->
+```{js, echo=FALSE}
+$(function() {
+  $(window).load(function() {
+    $('#preloader').fadeOut('slow',function(){$(this).remove();});
+  });
+});
+```
