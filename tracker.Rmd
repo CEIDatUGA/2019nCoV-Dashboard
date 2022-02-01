@@ -10,10 +10,9 @@ title: "CEID COVID-19 - Case & Fatality Tracker"
 <div id="preloader"></div>
 
 ```{r echo=FALSE, out.extra='id="nCov-tracker" scrolling="no" width="100%"'}
-knitr::include_url("https://shiny.ovpr.uga.edu/yactv2/")
+knitr::include_url("https://shiny.ovpr.uga.edu/yact/")
 ```
 <!-- <script>iFrameResize({ log: false }, '#nCov-tracker')</script> -->
-
 
 
 ## Supplemental Information
