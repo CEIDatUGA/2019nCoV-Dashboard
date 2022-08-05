@@ -13,8 +13,8 @@
 
 <title>CEID COVID-19 - Mass Testing</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -128,6 +128,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="css/main.css" type="text/css" />
 
 
@@ -152,6 +153,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -363,7 +367,7 @@ pre code {
 
 <p id="disclaimer">
 </p>
-<iframe src="mass_testing_summary.html" width="672" height="400px" id="mass-testing" scrolling="no" width="100%">
+<iframe src="mass_testing_summary.html" width="672" height="400px" data-external="1" id="mass-testing" scrolling="no" width="100%">
 </iframe>
 <script>iFrameResize({ log: false }, '#mass-testing')</script>
 <div id="supplemental-information" class="section level2">

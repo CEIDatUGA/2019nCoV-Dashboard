@@ -13,8 +13,8 @@
 
 <title>CEID COVID-19 - Stochastic Model for the US</title>
 
-<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -128,6 +128,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="css/main.css" type="text/css" />
 
 
@@ -152,6 +153,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -368,7 +372,7 @@ pre code {
 <p>Please note, CEID ceased updating its forecasts based on the model presented here on <strong>July 12, 2021.</strong> <small>This model does not account for the effects of vaccination, and as such has been discontinued. Forecasts here will soon be replaced with forecasts from CEID’s new semi-parametric, state-space compartmental model with vaccination and mobility.</small></p>
 <div id="overview" class="section level3">
 <h3>Overview</h3>
-<iframe src="forecast-overview.html" width="672" height="400px" id="forecast-overview" scrolling="no" width="100%">
+<iframe src="forecast-overview.html" width="672" height="400px" data-external="1" id="forecast-overview" scrolling="no" width="100%">
 </iframe>
 <script>iFrameResize({ log: false }, '#forecast-overview')</script>
 <p>To explore forecasts for every state in detail, go to the <a href="#state-forecasts">State Forecasts</a> tab.</p>
@@ -385,7 +389,7 @@ pre code {
 </div>
 <div id="forecasts" class="section level4">
 <h4>Forecasts</h4>
-<iframe src="https://shiny.ovpr.uga.edu/csf/" width="672" height="400px" id="nCov-tracker" scrolling="no" width="100%">
+<iframe src="https://shiny.ovpr.uga.edu/csf/" width="672" height="400px" data-external="1" id="nCov-tracker" scrolling="no" width="100%">
 </iframe>
 <!-- <script>iFrameResize({ log: false }, '#nCov-tracker')</script> -->
 </div>
@@ -394,7 +398,7 @@ pre code {
 <h3>Model</h3>
 <!-- <img src='output/figures/scenarios-legend.png' style='width:700px'/> -->
 <!-- ![](output/figures/scenarios-legend-simple.png){ width=350px } -->
-<iframe src="forecast-model-details.html" width="672" height="400px" id="forecast-model" scrolling="no" width="100%">
+<iframe src="forecast-model-details.html" width="672" height="400px" data-external="1" id="forecast-model" scrolling="no" width="100%">
 </iframe>
 <script>iFrameResize({ log: false }, '#forecast-model')</script>
 <script>reloadOnVisible('forecast-model')</script>
