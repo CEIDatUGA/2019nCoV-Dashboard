@@ -93,8 +93,9 @@ resizer <- '<script type="text/javascript" src="js/iframeResizer.contentWindow.m
 fetchGHdata("CEIDatUGA", "ncov-data-summary", "chinaMap.html") %>% insert_tag(resizer) %>% 
   writeLines("maps-china.html")
 
-fetchGHdata("CEIDatUGA", "ncov-data-summary", "usMap.html") %>% insert_tag(resizer) %>% 
-  writeLines("maps-us.html")
+# not working
+# fetchGHdata("CEIDatUGA", "ncov-data-summary", "usMap.html") %>% insert_tag(resizer) %>% 
+#   writeLines("maps-us.html")
 
 fetchGHdata("CEIDatUGA", "ncov-data-summary", "worldMap.html") %>% insert_tag(resizer) %>% 
   writeLines("maps-world.html")
